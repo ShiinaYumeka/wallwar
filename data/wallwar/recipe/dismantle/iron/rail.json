@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "#rails",
+        "#rails",
+        "#rails",
+        "#rails"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:iron_ingot"
+    }
+}

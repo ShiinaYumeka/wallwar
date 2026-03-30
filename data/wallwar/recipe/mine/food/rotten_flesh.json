@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    
+    "ingredients": [
+        "minecraft:copper_ingot",
+        "#minecraft:stone_tool_materials"
+    ],
+    "result": {
+        "id": "minecraft:stone",
+        "count": 3,
+        "components": {"minecraft:item_name":{"translate":"香辣豆嘴干","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"4饱食 2饱和","italic": false,"color": "yellow"},{"translate":"看到没有","italic": false,"color": "gray"},{"translate":"这是我今天刚买的一大袋零食","italic": false,"color": "gray"},{"translate":"香辣豆嘴干","italic": false,"color": "gray"},{"translate":"(撕开)（啃一口）","italic": false,"color": "gray"},{"translate":"太香了","italic": false,"color": "gray"},{"translate":"（靠近）（额头对额头旋转摩擦）","italic": false,"color": "gray"},{"translate":"太香了！太香了！","italic": false,"color": "gray"},{"translate":"你没吃过吧","italic": false,"color": "gray"},{"translate":"太香了香死了你没吃过吧","italic": false,"color": "gray"},{"translate":"（跳起疯狂的舞蹈）","italic": false,"color": "gray"},{"translate":"-可以堆叠64个","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"food": {"can_always_eat": false,"nutrition": 4,"saturation": 2},"consumable": {"animation":"eat","consume_seconds": 4,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "hunger","duration": 200,"amplifier": 1}]}]}
+    }
+  }
+}

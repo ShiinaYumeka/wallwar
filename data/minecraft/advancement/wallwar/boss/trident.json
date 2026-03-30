@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:wallwar/boss/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:boss/chain/trident"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作霆契\n奖励：河豚x64+潜水药水（水下呼吸）"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:trident",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": {
+      "translate": "霆契"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:boss/trident"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

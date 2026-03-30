@@ -1,0 +1,83 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "节流"
+  },
+  "effects": {
+    "minecraft:ammo_use": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 0.0
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": {
+                "type": "minecraft:enchantment_level",
+                "amount": {
+                "type": "minecraft:linear",
+                "base": 0.25,
+                "per_level_above_first": 0.25
+                }
+              }
+            },
+            {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": ["minecraft:arrow","minecraft:spectral_arrow"]
+          }
+        }
+          ]
+        }
+      },
+      
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 0.0
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": {
+                "type": "minecraft:enchantment_level",
+                "amount": {
+                "type": "minecraft:linear",
+                "base": 0.15,
+                "per_level_above_first": 0.15
+                }
+              }
+            },
+            {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:tipped_arrow"
+          }
+        }
+          ]
+        }
+      }
+    
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/bow",
+  "max_cost": {
+    "base": 55,
+    "per_level_above_first": 30
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 30
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "weight": 2
+}

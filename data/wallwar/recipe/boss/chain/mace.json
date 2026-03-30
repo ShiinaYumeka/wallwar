@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:breeze_rod",
+        "2":"minecraft:diamond_block",
+        "3":"minecraft:chain_command_block"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:mace",
+        "components": {"minecraft:custom_name":{"translate":"坠星","italic": false,"color": "light_purple","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*天穹陨灭时凝淬，撼地金戈裂空鸣","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 7 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 0.8 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"-100% 爆炸击退抗性","italic": false,"color": "red"}],"enchantments": {"breach": 2,"density": 2,"heavy": 10,"vanishing_ench": 1},"attribute_modifiers": [{"id": "mace","type": "attack_damage","amount": 6,"operation": "add_value","slot": "mainhand"},{"id": "mace","type": "attack_speed","amount": -3.2,"operation": "add_value","slot": "mainhand"},{"id": "mace","type": "explosion_knockback_resistance","amount": -1,"operation": "add_multiplied_total","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

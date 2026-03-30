@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:wallwar/dig/shovel",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:build/shovel/diamond_shovel"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作现代挖掘助手2000型\n奖励：工具包"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_shovel",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": {
+      "translate": "现代工程"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "loot": [
+      "wallwar:dig/box"
+    ],
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

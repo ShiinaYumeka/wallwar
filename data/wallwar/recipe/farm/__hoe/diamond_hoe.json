@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"iron_ingot",
+        "2":"#crop",
+        "3":"#minecraft:cropblock"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:diamond_hoe",
+        "components": {"minecraft:item_name":{"translate":"专业农耕锄","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"休养生息，备战待敌。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 4 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.8 攻击速度","italic": false,"color": "dark_green"},{"translate":" 3.5 攻击距离","italic": false,"color": "dark_green"}],"enchantments": {"fortune": 5,"efficiency": 2},"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"attribute_modifiers": [{"id": "diamond_hoe","type": "attack_speed","amount": -2.2,"operation": "add_value","slot": "mainhand"},{"id": "diamond_hoe","type": "attack_damage","amount": 3,"operation": "add_value","slot": "mainhand"},{"id": "diamond_hoe","type": "entity_interaction_range","amount": 0.5,"operation": "add_value","slot": "mainhand"}]}
+    }
+}

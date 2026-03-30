@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:wallwar/misc/smoker",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:fish/fish"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "用高速烟熏炉烧制一条热带鱼"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:tropical_fish"
+    },
+    "title": {
+      "translate": "珍惜食材"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

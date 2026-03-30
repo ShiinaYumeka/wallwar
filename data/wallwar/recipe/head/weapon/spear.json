@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:arrow",
+        "2":"minecraft:string",
+        "3":"minecraft:iron_sword",
+        "4":"#minecraft:heads3",
+        "5":"minecraft:stick"
+    },
+    "pattern": [" 21","43 ","5  "],
+    "result": {
+        "id": "minecraft:iron_spear",
+        "components": {"minecraft:item_name":{"translate":"简易长矛","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"耐久上限为5","italic": false,"color": "white"},{"translate":"*对气球造成十倍伤害","italic": false,"color": "gray"}],"enchantments": {"lunge": 3,"expensive_curse2": 1},"repair_cost": 99,"max_damage": 5}
+    }
+}

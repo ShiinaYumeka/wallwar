@@ -1,0 +1,68 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "攻坚"
+  },
+    "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.65,
+            "per_level_above_first": 0.65
+          }
+        },
+        "requirements": {
+            "condition":"any_of",
+                "terms":[{
+                "condition": "entity_properties",
+                "entity":"this",
+                "predicate": {
+                "equipment": {
+                    "head": {"predicates": {"enchantments": [{"enchantments": "protection","levels": 5}]}}
+                }
+            }},{
+                "condition": "entity_properties",
+                "entity":"this",
+                "predicate": {
+                "equipment": {
+                    "chest": {"predicates": {"enchantments": [{"enchantments": "protection","levels": 5}]}}
+                }
+            }},{
+                "condition": "entity_properties",
+                "entity":"this",
+                "predicate": {
+                "equipment": {
+                    "legs": {"predicates": {"enchantments": [{"enchantments": "protection","levels": 5}]}}
+                }
+            }},{
+                "condition": "entity_properties",
+                "entity":"this",
+                "predicate": {
+                "equipment": {
+                    "feet": {"predicates": {"enchantments": [{"enchantments": "protection","levels": 5}]}}
+                }
+            }}
+        ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/noench",
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:axes",
+  "weight": 2
+}

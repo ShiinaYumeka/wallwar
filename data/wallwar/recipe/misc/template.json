@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:leather",
+        "2":"minecraft:copper_block",
+        "3":"minecraft:diamond"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:netherite_upgrade_smithing_template",
+        "components": {"minecraft:item_name":{"translate":"锻造模板","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"锻造……强化……进步……","italic": false,"color": "gray"},{"translate":"*只能堆叠1个","italic": false,"color": "gray"}]}
+    }
+}

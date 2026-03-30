@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "smoker"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作高速烟熏炉"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:smoker"
+    },
+    "title": {
+      "translate": "《高烤》"
+    },
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+    "type": "entity",
+    "pools": [        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "red_bundle",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:item_name":{"translate":"战功","italic": false,"color": "red"},"bundle_contents": [
+                                {
+                                    "id": "player_head",
+                                    "count": 2
+                                },
+                                {
+                                    "id": "golden_apple",
+                                    "components": {"minecraft:item_name":{"translate":"速食金苹果","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"4饱食 10饱和","italic": false,"color": "yellow"},{"translate":"食用速度极快","italic": false,"color": "gray"},{"translate":"*我很庆幸他真的是素的，并且没有藏奇怪的东西","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 4,"saturation": 10},"consumable": {"animation":"eat","consume_seconds": 0.05,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "absorption","duration": 2400,"amplifier": 0},{"id": "regeneration","duration": 100,"amplifier": 1}]}]},"max_stack_size": 64},
+                                    "count": 2
+                                }
+                            ]}
+                        },
+                        {
+                            "function": "modify_contents",
+                            "component": "bundle_contents",
+                            "modifier": {
+                                "function": "fill_player_head",
+                                "entity": "this"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

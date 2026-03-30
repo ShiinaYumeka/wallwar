@@ -1,0 +1,155 @@
+{
+    "type": "command",
+    "pools": [{
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"渔者之心","italic": false,"color": "aqua"},"minecraft:lore":[
+                {"translate":"建筑范围：无限制","italic": false,"color": "green"},{"translate":"放置于物品展示框中并站在上面","italic": false,"color": "white"},{"translate":"复活一个附近旁观的队友","italic": false,"color": "red"},{"translate":"每次复活需要额外的一个复生之星","italic": false,"color": "red"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“轮回”","italic": false,"color": "gray"},{"translate":"-阶段切换时，将至多两个死亡的祭品复活","italic": false,"color": "gray"},{"translate":"-复活的祭品将作为“凋灵骷髅”参加战斗","italic": false,"color": "gray"},{"translate":"*在世之人，或苟且求活，或慷慨赴死。","italic": false,"color": "gray"}],"custom_data": {"respawn_star":1,"wallwar_item":1,"wither_skill_item_player":1},"max_stack_size": 64}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"虎纹鲨鱼","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"20饱食 20饱和","italic": false,"color": "yellow"},{"translate":"只需要一半的食用时间。","italic": false,"color": "gray"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“三牲祭”","italic": false,"color": "gray"},{"translate":"-每隔一段时间，在死斗场地刷新大量动物祭品","italic": false,"color": "gray"},{"translate":"*鱼~好大的鱼~虎纹鲨鱼~","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 20,"saturation": 20},"consumable": {"animation":"eat","consume_seconds": 0.8,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "regeneration","duration": 200,"amplifier": 0}]}]},"max_stack_size": 64,"custom_data": {"wither_skill_item_pig":1}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:skull_banner_pattern",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"启封的秘籍","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"弹射物保护 V","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 钻石及以上盔甲","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"锋利 III","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 铁及以上武器","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“毁灭”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在自身位置释放一个信标","italic": false,"color": "gray"},{"translate":"-十秒后对最近的敌人造成大量伤害和负面效果","italic": false,"color": "gray"},{"translate":"*真正的力量，从不拘泥于既定的规则。","italic": false,"color": "gray"}],"custom_data": {"wither_skill_item_explode":1}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:creeper_banner_pattern",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"启封的秘籍","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"爆炸保护 V","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 钻石及以上盔甲","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"锋利 III","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 铁及以上武器","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“毁灭”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在自身位置释放一个信标","italic": false,"color": "gray"},{"translate":"-十秒后对最近的敌人造成大量伤害和负面效果","italic": false,"color": "gray"},{"translate":"*真正的力量，从不拘泥于既定的规则。","italic": false,"color": "gray"}],"custom_data": {"wither_skill_item_explode":1}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:flower_banner_pattern",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"启封的秘典","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"火焰保护 IV","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 钻石及以上盔甲","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"锋利 III","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 铁及以上武器","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“毁灭”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在自身位置释放一个信标","italic": false,"color": "gray"},{"translate":"-十秒后对最近的敌人造成大量伤害和负面效果","italic": false,"color": "gray"},{"translate":"*真正的力量，从不拘泥于既定的规则。","italic": false,"color": "gray"}],"custom_data": {"wither_skill_item_explode":1}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:mojang_banner_pattern",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"启封的秘典","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"破甲 IV","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 钻石及以上盔甲","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“毁灭”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在自身位置释放一个信标","italic": false,"color": "gray"},{"translate":"-十秒后对最近的敌人造成大量伤害和负面效果","italic": false,"color": "gray"},{"translate":"*真正的力量，从不拘泥于既定的规则。","italic": false,"color": "gray"}],"custom_data": {"wither_skill_item_explode":1}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"有点神奇之靴","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“清算”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在每个敌人正上方召唤一个凋零头","italic": false,"color": "gray"},{"translate":"*脚步能丈量大地，但魔法能跨越次元。","italic": false,"color": "gray"}],"max_damage":400,"attribute_modifiers": [{"id": "sp_shoe","type": "movement_speed","amount": 0.2,"operation": "add_multiplied_base","slot": "feet"},{"id": "sp_shoe","type": "armor","amount": 3,"operation": "add_value","slot": "feet"}],"custom_data": {"wither_skill_item_fall":1}}
+            }
+          ],
+          "name": "minecraft:leather_boots",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.6
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"灵犀众魂","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“清算”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在每个敌人正上方召唤一个凋零头","italic": false,"color": "gray"},{"translate":"*将坎坷化为通途","italic": false,"color": "gray"}],"max_damage":999,"attribute_modifiers": [{"id": "sp2_shoe","type": "step_height","amount": 0.6,"operation": "add_value","slot": "feet"},{"id": "sp2_shoe","type": "armor","amount": 3,"operation": "add_value","slot": "feet"}],"custom_data": {"wither_skill_item_fall":1}}
+            }
+          ],
+          "name": "minecraft:chainmail_boots",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_axe",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"异木收集者","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为大祭司增加以下效果：","italic": false,"color": "gray"},{"translate":"当你击杀一名玩家后，清除自身所有效果","italic": false,"color": "gray"},{"translate":"获得1s无敌,瞬间治疗I,60s伤害吸收,3s速度III,5s生命恢复II","italic": false,"color": "gray"},{"translate":"并生成一只自己队伍的凋灵骷髅","italic": false,"color": "gray"},{"translate":"*吾族传世之宝器，迎神之物。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 9 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"looting": 3,"cooking": 1},"tool": {"default_mining_speed": 1,"damage_per_block": 1,"rules": [{"blocks": "#mineable/axe","correct_for_drops": true,"speed": 65}]},"attribute_modifiers": [{"id": "gold_axe","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"},{"id": "gold_axe","type": "attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"}],"custom_data": {"wither_player_kill":1},"max_damage": 1500}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"贪婪者的褒奖","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"只能且可以挖掘所有矿物。","italic": false,"color": "gray"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为大祭司增加以下效果：","italic": false,"color": "gray"},{"translate":"当你本局游戏第一次死亡后，在你死亡的位置触发一次“大轮回”","italic": false,"color": "gray"},{"translate":"*成功的机会将属于贪婪者","italic": false,"color": "gray"}],"tool": {"damage_per_block": 1,"default_mining_speed": 0,"rules": [{"blocks": "#silk_pickaxe","correct_for_drops":true,"speed": 30}]},"enchantments": {"fortune": 4,"expensive_curse2": 1},"minecraft:custom_data":{"wither_player_respawn":1},"max_damage": 26,"repair_cost": 99}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:wither_skeleton_skull"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stone_hoe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"凋零灵魂权杖","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为仪式祭坛上之人增加以下效果：","italic": false,"color": "gray"},{"translate":"当你因凋灵献祭而死亡时，你为凋灵额外增加1点护甲值与10点生命值。","italic": false,"color": "gray"},{"translate":"你的基础生命值改为24。","italic": false,"color": "gray"},{"translate":"*我受到了召唤，我必须如此","italic": false,"color": "dark_gray"}],"custom_data": {"wither_hoe":1}}
+            }
+          ]
+        }
+        ]
+    }
+    ]
+}

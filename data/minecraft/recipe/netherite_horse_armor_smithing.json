@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "netherite_ingot",
+  "base": "minecraft:diamond_horse_armor",
+  "result": {
+        "id": "minecraft:netherite_horse_armor",
+        "components": {"minecraft:item_name":{"translate":"下界合金马铠","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"南征北伐，誓还旧都，二十四代王业，不偏安一隅。","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "horse","amount": 20,"operation": "add_value","type": "armor","slot": "armor"},{"id": "horse","amount": 16,"operation": "add_value","type": "armor_toughness","slot": "armor"},{"id": "horse","amount": 0.5,"operation": "add_value","type": "water_movement_efficiency","slot": "armor"},{"id": "horse","amount": 0.1,"operation": "add_multiplied_base","type": "movement_speed","slot": "armor"},{"id": "horse","amount": 0.5,"operation": "add_value","type": "water_movement_efficiency","slot": "armor"},{"id": "horse","amount": 0.4,"operation": "add_value","type": "knockback_resistance","slot": "armor"}],"enchantments": {"protection": 7,"blast_protection": 7}}
+    },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "2":"minecraft:dirt",
+        "3":"minecraft:sand"
+    },
+    "pattern": ["232","323","232"],
+    "result": {
+        "id":"polished_blackstone",
+        "count": 1
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:iron_nugget",
+        "2":"minecraft:soul_sand",
+        "3":"minecraft:iron_ingot"
+    },
+    "pattern": [" 1 ","121","313"],
+    "result": {
+        "id": "minecraft:lantern",
+        "components": {"minecraft:item_name":{"translate":"引魂灯","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"当你杀死一名玩家时，此物品消失并提供生命吸收I","italic": false,"color": "gray"},{"translate":"*将已亡之魂引至正轨","italic": false,"color": "gray"}],"custom_data": {"lantern_remove":1}},
+        "count": 2
+    }
+}

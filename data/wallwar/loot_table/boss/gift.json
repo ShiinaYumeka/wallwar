@@ -1,0 +1,228 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"杀戮","italic": false,"color": "dark_red","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*星芒一闪身随至，铁幕未落首已飞。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 8 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.8 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+10% 总移动速度","italic": false,"color": "blue"}],"enchantments": {"sharpness": 5,"bigkiller": 3,"conquer": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "diamond_sword","type": "attack_damage","amount": 7,"operation": "add_value","slot": "mainhand"},{"id": "diamond_sword","type": "attack_speed","amount": -2.2,"operation": "add_value","slot": "mainhand"},{"id": "diamond_sword","type": "movement_speed","amount": 0.1,"operation": "add_multiplied_base","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"裂焱","italic": false,"color": "red","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*裂金焚云百甲烬，灼痕三距燎空痕。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 8 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.8 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+0.5 全交互距离","italic": false,"color": "blue"}],"enchantments": {"breaker": 5,"stun": 2,"sweeping_edge": 5,"fire_aspect": 5,"vanishing_ench": 1},"attribute_modifiers": [{"id": "diamond_sword2","type": "attack_damage","amount": 7,"operation": "add_value","slot": "mainhand"},{"id": "diamond_sword2","type": "attack_speed","amount": -2.2,"operation": "add_value","slot": "mainhand"},{"id": "diamond_sword2","type": "entity_interaction_range","amount": 0.5,"operation": "add_value","slot": "hand"},{"id": "diamond_sword2","type": "block_interaction_range","amount": 0.5,"operation": "add_value","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"溯流","italic": false,"color": "aqua","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*箭出无痕，似江河奔涌无穷尽","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+70% 跳跃力度","italic": false,"color": "blue"},{"translate":"+10 安全摔落高度","italic": false,"color": "blue"}],"enchantments": {"power": 7,"focus": 3,"hunter": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "bow_boss","type": "minecraft:jump_strength","amount": 0.7,"operation": "add_multiplied_base","slot": "hand"},{"id": "bow_boss","type": "safe_fall_distance","amount": 10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 32767}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"燎原","italic": false,"color": "red","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*箭燃有迹，似星火迸空万俱寂","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+0.5 最大行走高度","italic": false,"color": "blue"}],"enchantments": {"pervade": 5,"multishot": 2,"punch": 3,"flame": 1,"vanishing_ench": 1},"attribute_modifiers": [{"id": "bow_boss","type": "minecraft:step_height","amount": 0.5,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 32767}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"海啸","italic": false,"color": "dark_aqua","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*敌手唯见潮痕掠，箭雨已穿云而至。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+2 近战击退力度","italic": false,"color": "blue"}],"enchantments": {"piercing": 5,"nopower": 1,"quick_charge": 2,"multishot": 4,"vanishing_ench": 1},"attribute_modifiers": [{"id": "crossbow_boss","type": "minecraft:attack_knockback","amount": 2,"operation": "add_value","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"穿光","italic": false,"color": "yellow","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*远敌未觉光影逝，流光已破晦暝归。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+10 爆炸击退抗性","italic": false,"color": "blue"}],"enchantments": {"piercing": 1,"power": 3,"focus": 4,"heavy": 3,"expensive_curse2": 1,"nogravity": 1,"vanishing_ench": 1},"attribute_modifiers": [{"id": "crossbow_boss","type": "minecraft:explosion_knockback_resistance","amount": 1,"operation": "add_value","slot": "hand"}],"repair_cost": 99,"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"因果","italic": false,"color": "red","bold": true},"item_model": "diamond_axe","minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*斩宿命之链如断苇，裂宙始因茧见真渊","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 9 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 0.9 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+4 盔甲韧性","italic": false,"color": "blue"}],"enchantments": {"noench_pro3": 5,"noench_pro4": 5,"cutdown": 3,"heavy": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "netherite_axe","type": "attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"},{"id": "netherite_axe","type": "attack_speed","amount": -3.1,"operation": "add_value","slot": "mainhand"},{"id": "netherite_axe","type": "armor_toughness","amount": 4,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 32767}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"坠星","italic": false,"color": "light_purple","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*天穹陨灭时凝淬，撼地金戈裂空鸣","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 7 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 0.8 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"-100% 爆炸击退抗性","italic": false,"color": "red"}],"enchantments": {"breach": 2,"density": 2,"heavy": 10,"vanishing_ench": 1},"attribute_modifiers": [{"id": "mace","type": "attack_damage","amount": 6,"operation": "add_value","slot": "mainhand"},{"id": "mace","type": "attack_speed","amount": -3.2,"operation": "add_value","slot": "mainhand"},{"id": "mace","type": "explosion_knockback_resistance","amount": -1,"operation": "add_multiplied_total","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"罡旋","italic": false,"color": "light_purple","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*罡风化骨千钧舞，雷链缠身九霄游。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 7 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 0.8 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"-50% 摔落伤害倍数","italic": false,"color": "blue"},{"translate":"+0.1 跳跃力度","italic": false,"color": "blue"}],"enchantments": {"wind_burst": 4,"density": 1,"vanishing_ench": 1},"attribute_modifiers": [{"id": "mace","type": "attack_damage","amount": 6,"operation": "add_value","slot": "mainhand"},{"id": "mace","type": "attack_speed","amount": -3.2,"operation": "add_value","slot": "mainhand"},{"id": "mace","type": "fall_damage_multiplier","amount": -0.5,"operation": "add_multiplied_total","slot": "hand"},{"id": "mace","type": "jump_strength","amount": 0.1,"operation": "add_value","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:banner_patterns":[{"color":"gray","pattern":"minecraft:bricks"},{"color":"orange","pattern":"minecraft:half_horizontal"},{"color":"red","pattern":"minecraft:gradient"},{"color":"orange","pattern":"minecraft:flower"},{"color":"yellow","pattern":"minecraft:circle"},{"color":"red","pattern":"minecraft:triangles_bottom"}],"tooltip_display": {"hidden_components": ["banner_patterns","attribute_modifiers"]},"minecraft:base_color":"orange","minecraft:custom_name":{"color":"gold","italic":false,"bold":true,"translate":"余晖"},"minecraft:enchantments":{"minecraft:thorns":5,"shield_fire": 10,"minecraft:vanishing_ench":1},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*城垣凝血铸永誓，万代英魂立斜阳。","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "shield_boss","type": "minecraft:armor","amount": 1,"operation": "add_value","slot": "hand"},{"id": "shield_boss","type": "knockback_resistance","amount": 0.3,"operation": "add_value","slot": "hand"}],"unbreakable": {}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"霆契","italic": false,"color": "light_purple","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*裂穹引雷贯九渊，血契同归破永夜。","italic": false,"color": "dark_red"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 9 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.1 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+3 额外氧气","italic": false,"color": "blue"}],"enchantments": {"impaling": 5,"channeling": 1,"boss_trident": 1,"loyalty": 10,"vanishing_ench": 1},"attribute_modifiers": [{"id": "trident_boss","type": "minecraft:attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"},{"id": "trident_boss","type": "minecraft:attack_speed","amount": -2.9,"operation": "add_value","slot": "mainhand"},{"id": "trident_boss","type": "minecraft:oxygen_bonus","amount": 3,"operation": "add_value","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"漩枢","italic": false,"color": "light_purple","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*万涡归心驭沧溟，一戟定涛裂渊极。","italic": false,"color": "dark_aqua"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 9 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.1 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+1 水下移动速率 ","italic": false,"color": "blue"}],"enchantments": {"impaling": 3,"riptide": 2,"heavy": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "trident_boss2","type": "minecraft:attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"},{"id": "trident_boss2","type": "minecraft:attack_speed","amount": -2.9,"operation": "add_value","slot": "mainhand"},{"id": "trident_boss2","type": "minecraft:water_movement_efficiency","amount": 1,"operation": "add_value","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_spear",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"镇魂","italic": false,"color": "gold","bold": true},"item_model": "diamond_spear","minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*碎骨裂魂凭劲摧，崩山断脉恃威临。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 5 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+8 最大生命值","italic": false,"color": "blue"}],"enchantments": {"sharpness": 5,"impaling": 5,"smite": 5,"bane_of_arthropods": 5,"summkill": 5,"knockback": 1,"vanishing_ench": 1},"attribute_modifiers": [{"id": "netherite_spear","type": "attack_damage","amount": 4,"operation": "add_value","slot": "mainhand"},{"id": "netherite_spear","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"},{"id": "netherite_spear","type": "max_health","amount": 8,"operation": "add_value","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_spear",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"逐影","italic": false,"color": "gray","bold": true},"item_model": "diamond_spear","minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*流光掠野无踪迹，电步穿云存影痕。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 5 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+128 路径点接收距离","italic": false,"color": "blue"}],"enchantments": {"lunge": 2,"vanishing_ench": 1},"attribute_modifiers": [{"id": "netherite_spear","type": "attack_damage","amount": 4,"operation": "add_value","slot": "mainhand"},{"id": "netherite_spear","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"},{"id": "netherite_spear","type": "waypoint_receive_range","amount": 128,"operation": "add_value","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+            }
+          ]
+        }
+        ]
+    },{
+      "bonus_rolls": 0.0,
+      "rolls": 3.0,
+      "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"potion_contents": {"potion": "long_swiftness"}}
+                        }
+                    ]
+                }
+        ]
+    },{
+      "bonus_rolls": 0.0,
+      "rolls": 2.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_head"
+        }
+        ]
+    },{
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"profile": {"name": "_IceBlueCrystal_"}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"profile": {"name": "Taj_77"}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"profile": {"name": "ShiinaYumeka"}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"profile": {"name": "goldblock"}}
+            }
+          ]
+        }
+        ]
+    }
+  ]
+}

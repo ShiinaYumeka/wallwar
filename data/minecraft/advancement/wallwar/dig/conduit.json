@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_1": {
+      "conditions": {
+        "recipe_id": "conduit"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作潮涌核心\n奖励：深海之力（力量II）"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "深流暗涌"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot": [
+        "wallwar:misc/strength"
+    ],
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    ["get_1"]
+  ],
+  "sends_telemetry_event": true
+}

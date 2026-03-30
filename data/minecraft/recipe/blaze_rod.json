@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "2":"minecraft:lightning_rod",
+        "1":"minecraft:lava_bucket"
+    },
+    "pattern": ["111","121","111"],
+    "result": {
+        "id": "minecraft:blaze_rod"
+    }
+}

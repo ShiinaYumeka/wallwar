@@ -1,0 +1,41 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    "show_notification": false,
+    "key": {
+        "1": "minecraft:ink_sac",
+        "3": "minecraft:warped_hyphae",
+        "2": "minecraft:feather"
+    },
+    "pattern": [
+        " 1 ",
+        "232",
+        " 1 "
+    ],
+    "result": {
+        "id": "minecraft:writable_book",
+        "components": {
+            "minecraft:custom_name":{"translate":"修辞","italic": false,"color": "aqua"},
+            "minecraft:lore": [
+                {"translate":"在此书的第一页详细地书写下你的愿望并署名","italic": false,"color": "white"},
+                {"translate":"字符数为你的获取附魔等级，灵魂数量取决于你击杀的生物数","italic": false,"color": "white"},
+                {"translate":"当你将可附魔且未附魔的物品放置副手后，开启此书为你的物品附魔","italic": false,"color": "white"},
+                {"translate":"-当你的灵魂数小于写下的字符数时无法使用","italic": false,"color": "gray"},
+                {"translate":"-当附魔完成后，消耗33%的灵魂数量","italic": false,"color": "gray"},
+                {"translate":"--------------------------------------------","italic": false,"color": "gray"},
+                {"translate":"当你将已经拥有附魔的物品放置副手后，开启此书为你的物品强化","italic": false,"color": "white"},
+                {"translate":"修辞会为你随机提供以下三项中其中一项","italic": false,"color": "gray"},
+                {"translate":"1.使你已经拥有的一个主要附魔提升一级（如锋利，力量，致密等）","italic": false,"color": "gray"},
+                {"translate":"2.使你随机新增一个未拥有的次要附魔（无视冲突）","italic": false,"color": "gray"},
+                {"translate":"3.清空你的灵魂数量","italic": false,"color": "gray"},
+                {"translate":"-当附魔完成后，为你的物品增加一级磨损附魔并消耗50%的灵魂数量","italic": false,"color": "gray"},
+                {"translate":"-修辞时灵魂数量会影响出现负面附魔的概率，数量越高出现概率越低","italic": false,"color": "gray"},
+                {"translate":"-在使用修辞进行强化时，大部分附魔可以突破一级上限","italic": false,"color": "gray"},
+                {"translate":"*愤懑者尚未安息，我依旧能捕获遥远彼处的哭泣……终有一日，死者亦可安眠。","italic": false,"color": "dark_red"}
+            ],
+            "custom_data": {
+                "command_book": 1
+            }
+        }
+    }
+}

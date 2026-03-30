@@ -1,0 +1,14 @@
+{
+
+    "type": "crafting_shapeless",
+    "category":"equipment",
+    
+    "ingredients": [
+        "copper_pickaxe",
+        "command_block"
+    ],
+    "result": {
+        "id": "minecraft:golden_pickaxe",
+        "components": {"minecraft:item_name":{"translate":"公正","italic": false,"color": "red","bold":true},"minecraft:lore":[{"translate":"只能且可以挖掘所有矿物。","italic": false,"color": "gray"},{"translate":"BOSS专属工具","italic": false,"color": "gray"},{"translate":"*诸君且看这公平秤，秤杆翘得越高，本官压箱底的公道便越沉呐！","italic": false,"color": "gold"}],"tool": {"damage_per_block": 1,"default_mining_speed": 1,"rules": [{"blocks": "#silk_pickaxe","correct_for_drops":true,"speed": 30}]},"enchantments": {"fortune": 10,"vanishing_ench": 1,"expensive_curse2": 1},"max_damage": 32,"repair_cost": 99}
+    }
+}

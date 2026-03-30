@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:iron_ingot",
+        "2": "minecraft:player_head",
+        "3":"minecraft:diamond"
+    },
+    "pattern": ["11 ","12 ","  3"],
+    "result": {
+        "id": "minecraft:trident",
+        "components": {"minecraft:custom_name":{"translate":"三叉戟-天劫","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"最忠诚的伙伴","italic": false,"color": "gray"}],"enchantments": {"loyalty": 3,"channeling": 1,"impaling": 3,"unbreaking": 4,"expensive_curse": 1},"repair_cost": 20,"max_damage": 32}
+    }
+}

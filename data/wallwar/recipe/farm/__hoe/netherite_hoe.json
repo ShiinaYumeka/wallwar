@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"sugar",
+        "2":"#cropblock",
+        "3":"minecraft:apple"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:netherite_hoe",
+        "components": {"minecraft:custom_name":{"translate":"大师农耕锄","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"粮粟一季，可供三年所需。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 5 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 2 攻击速度","italic": false,"color": "dark_green"},{"translate":" 3.5 攻击距离","italic": false,"color": "dark_green"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"enchantments": {"fortune": 7,"efficiency": 2},"attribute_modifiers": [{"id": "iron_hoe","type": "attack_speed","amount": -2,"operation": "add_value","slot": "mainhand"},{"id": "iron_hoe","type": "attack_damage","amount": 4,"operation": "add_value","slot": "mainhand"},{"id": "iron_hoe","type": "entity_interaction_range","amount": 0.5,"operation": "add_value","slot": "mainhand"}]}
+    }
+}

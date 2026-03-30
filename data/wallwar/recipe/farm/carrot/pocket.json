@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:flow_pottery_sherd"
+    },
+    "pattern": ["111","111","111"],
+    "result": {
+        "id": "minecraft:blade_pottery_sherd",
+        "components": {"minecraft:item_name":{"translate":"一袋胡萝卜","italic": false,"color": "white"},"minecraft:lore":[{"translate":"内含81个胡萝卜","italic": false,"color": "gray"}]}
+    }
+}

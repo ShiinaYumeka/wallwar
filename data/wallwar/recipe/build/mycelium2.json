@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category":"redstone",
+    
+    "ingredients": [
+        "minecraft:mycelium"
+    ],
+    "result": {
+        "id": "minecraft:podzol",
+        "count": 3
+    }
+}

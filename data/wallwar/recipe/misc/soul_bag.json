@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "3":"minecraft:soul_soil",
+        "2":"minecraft:soul_campfire",
+        "4":"minecraft:experience_bottle"
+    },
+    "pattern": ["424","232","424"],
+    "result": {
+            "id": "minecraft:echo_shard",
+            "components": {"minecraft:custom_name":{"translate":"灵魂储囊","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"丢出后获得二十点灵魂并消耗此物品。","italic": false,"color": "gray"},{"translate":"*放在耳边时可以听到灵魂的悲惨尖叫","italic": false,"color": "dark_red"}],"custom_data": {"soul_bag":1,"wallwar_item":1}},
+            "count": 4
+        }
+}

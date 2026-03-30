@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:polished_blackstone_bricks",
+        "2":"minecraft:podzol",
+        "3":"minecraft:diamond"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:chiseled_polished_blackstone",
+        "components": {"minecraft:custom_name":{"translate":"“地下领主的祭坛”核心","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"建筑范围：Y<90","italic": false,"color": "green"},{"translate":"放置于地下领主的祭坛中心的物品展示框中激活此奇观","italic": false,"color": "gray"},{"translate":"八柱中摆放对应祭品获得强化，最多获得其中四个。","italic": false,"color": "gray"},{"translate":"祭品会在每个阶段开始时消耗，一次最多消耗一个祭品","italic": false,"color": "gray"},{"translate":"如果祭坛上拥有多个祭品，则随机消耗其中的一个。","italic": false,"color": "gray"},{"translate":"队伍模块：使效果只生效于对应颜色队伍。","italic": false,"color": "gray"},{"translate":"-除队伍外的其他模块均对此奇观无效","italic": false,"color": "gray"},{"translate":"-当场上出现“神降祭坛”且封锁等级后，“领主之助”的效果削弱为抗性提升I","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "gray"},{"translate":"坚韧表皮（皮革）：如果你未穿戴任何护甲，你的护甲值被设置为20点并将盔甲韧性设置为8","italic": false,"color": "gray"},{"translate":"领主之助（燧石）：如果你身上的所有护甲都未拥有附魔，你获得抗性提升II并获得2盔甲韧性","italic": false,"color": "gray"},{"translate":"血脉（水桶）：当你的护甲值等于20点时，你获得额外1点护甲值","italic": false,"color": "gray"},{"translate":"地底的传说（铁锭）：你的地底安全范围向下增加20格，在范围内时获得发光并将生命值上限减少40%；敌人在安全范围内只会受到凋灵I","italic": false,"color": "gray"},{"translate":"恐惧之力（腐肉）：当你生命值低于4时，对周围的玩家造成失明以及虚弱效果影响且你也获得虚弱（每名玩家触发一次）","italic": false,"color": "gray"},{"translate":"永恒的诅咒（骨头）：当你被玩家击杀后，击杀你的玩家减少2点体力上限。(最多减少4）","italic": false,"color": "gray"},{"translate":"侵入感应（线）：每十秒，当你周围24格内有其他玩家时，其获得发光。","italic": false,"color": "gray"},{"translate":"远古的呼唤（苹果）：你获得伤害吸收V","italic": false,"color": "gray"},{"translate":"*伟大的慈父保证了所有物种生存的权力，生物将自行进化而非被强权所迫","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"custom_data": {"building_battle":1}}
+    }
+}

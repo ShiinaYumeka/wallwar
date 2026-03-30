@@ -1,0 +1,96 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "light_gray_shulker_box",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "工具包",
+                                    "italic": false,
+                                    "bold": false,
+                                    "color": "aqua"
+                                },
+                                "container": [
+                                    {
+                                        "item": {
+                                            "id": "minecraft:gray_bed",
+                                            "count": 1
+                                        },
+                                        "slot": 0
+                                    },
+                                    {
+                                        "item": {
+                                            "id": "minecraft:bread",
+                                            "count": 16
+                                        },
+                                        "slot": 1
+                                    },
+                                    {
+                                        "item": {
+                                            "id": "minecraft:gold_nugget",
+                                            "count": 64
+                                        },
+                                        "slot": 2
+                                    },
+                                    {
+                                        "item": {
+                                            "id": "minecraft:copper_ingot",
+                                            "count": 32
+                                        },
+                                        "slot": 3
+                                    },
+                                    {
+                                        "item": {
+                                            "id": "minecraft:iron_ingot",
+                                            "count": 12
+                                        },
+                                        "slot": 4
+                                    },
+                                    {
+                                        "item": {
+                                            "id": "minecraft:coal",
+                                            "count": 16
+                                        },
+                                        "slot": 5
+                                    },
+                                    {
+                                        "item": {
+                                            "id": "minecraft:redstone",
+                                            "count": 32
+                                        },
+                                        "slot": 6
+                                    },
+                                    {
+                                        "item": {
+                                            "id": "minecraft:gravel",
+                                            "count": 32
+                                        },
+                                        "slot": 7
+                                    },
+                                    {
+                                        "item": {
+                                            "id": "minecraft:smoker",
+                                            "count": 1
+                                        },
+                                        "slot": 8
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "wallwar:prison",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 31412411,
+    "frequency": 0.7,
+    "frequency_reduction_method": "default",
+    "spread_type": "linear",
+    "spacing": 6,
+    "separation": 4
+  }
+}

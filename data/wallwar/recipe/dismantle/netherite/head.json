@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:netherite_helmet"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:netherite_ingot"
+    }
+}

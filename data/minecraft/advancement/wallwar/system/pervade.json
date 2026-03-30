@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "shot_arrow": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "#minecraft:arrows",
+              "nbt": {"Tags":["pervade"]}
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          }
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "display": {
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "description": {
+      "translate": "使用贯穿箭矢命中敌人"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "贯穿"
+    }
+  },
+  "rewards": {
+    "function": "wallwar:ench/pervade/hit"
+  },
+  "requirements": [
+    [
+      "shot_arrow"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

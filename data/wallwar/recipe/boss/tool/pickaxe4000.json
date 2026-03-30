@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "2":"glowstone_dust",
+        "4":"command_block"
+    },
+    "pattern": [" 2 ","242"," 2 "],
+    "result": {
+        "id": "minecraft:netherite_pickaxe",
+        "components": {"minecraft:custom_name":{"translate":"重构","italic": false,"bold": true,"color": "red"},"minecraft:lore":[{"translate":"挖掘任何方块时均会大幅加快","italic": false,"color": "blue"},{"translate":"BOSS专属工具","italic": false,"color": "gray"},{"translate":"解构，然后重组","italic": false,"color": "red"}],"enchantments": {"fortune": 3,"noefficiency": 1,"melt": 1,"vanishing_ench": 1},"tool": {"damage_per_block": 1,"default_mining_speed": 8,"rules": [{"blocks": "tuff","correct_for_drops":true,"speed": 100},{"blocks": "#mineable/pickaxe","correct_for_drops":true,"speed": 40}]},"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"unbreakable": {}}
+    }
+}

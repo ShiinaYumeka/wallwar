@@ -1,0 +1,20 @@
+{
+  "values": [
+    "#minecraft:foot_armor",
+    "#minecraft:leg_armor",
+    "#minecraft:chest_armor",
+    "#minecraft:head_armor",
+    "minecraft:elytra",
+    "#minecraft:spears",
+    "#minecraft:swords",
+    "#minecraft:axes",
+    "#minecraft:pickaxes",
+    "#minecraft:shovels",
+    "#minecraft:hoes",
+    "minecraft:trident",
+    "minecraft:bow",
+    "minecraft:crossbow",
+    "minecraft:mace",
+    "minecraft:fishing_rod"
+  ]
+}

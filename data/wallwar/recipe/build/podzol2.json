@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category":"redstone",
+    
+    "ingredients": [
+        "minecraft:podzol"
+    ],
+    "result": {
+        "id": "minecraft:grass_block",
+        "count": 6
+    }
+}

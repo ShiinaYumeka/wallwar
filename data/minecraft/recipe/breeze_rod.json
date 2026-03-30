@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:feather",
+        "2":"minecraft:blaze_rod",
+        "3":"minecraft:water_bucket",
+        "4":"minecraft:ice",
+        "5":"minecraft:potion"
+    },
+    "pattern": ["555","424","313"],
+    "result": {
+        "id": "minecraft:breeze_rod",
+        "count": 1
+    }
+}

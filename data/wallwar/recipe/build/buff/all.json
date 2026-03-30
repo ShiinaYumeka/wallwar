@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:mycelium",
+        "2":"minecraft:diamond",
+        "3":"minecraft:hopper",
+        "4":"minecraft:redstone"
+    },
+    "pattern": [" 1 ","323","444"],
+    "result": {
+        "id": "minecraft:light_gray_glazed_terracotta",
+        "components": {"minecraft:custom_name":{"translate":"扩散模块","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"取消部分建筑的生效范围","italic": false,"color": "gray"},{"translate":"*扩散模块生于辽宁省朝阳市，","italic": false,"color": "gray"},{"translate":"从小就被亲戚朋友教会了","italic": false,"color": "gray"},{"translate":"优秀的侦查以及说闲话技巧，","italic": false,"color": "gray"},{"translate":"目前在村委会担当播音员一职。","italic": false,"color": "gray"}],"custom_data": {"building_update_all":1},"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

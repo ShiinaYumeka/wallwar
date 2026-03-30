@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond",
+        "2": "amethyst_shard",
+        "3":"minecraft:stick"
+    },
+    "pattern": ["212","131"," 3 "],
+    "result": {
+        "id": "minecraft:diamond_pickaxe",
+        "components": {"custom_model_data": {"floats": [1]},"minecraft:item_name":{"translate":"Pickonimbus 2000","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"挖掘速度大幅度增加","italic": false,"color": "blue"},{"translate":"*还在诋毁我们P2000大人！","italic": false,"color": "gray"}],"enchantments": {"fortune": 1,"noefficiency": 1},"tool": {"damage_per_block": 1,"default_mining_speed": 1,"rules": [{"blocks": "#mineable/pickaxe","correct_for_drops":true,"speed": 35},{"blocks": "gravel","correct_for_drops":true,"speed": 3}]},"repair_cost": 5,"max_damage": 2000}
+    }
+}

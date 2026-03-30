@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:heartbreak_pottery_sherd"
+    ],
+    "result": {
+        "id": "minecraft:potato",
+        "count": 9
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:fishing_rod",
+        "3":"#fishes"
+    },
+    "pattern": [" 3 ","313"," 3 "],
+    "result": {
+        "id": "minecraft:fishing_rod",
+        "components": {"minecraft:item_name":{"translate":"䲆竿","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"一次钓上两条鱼","italic": false,"color": "blue"},{"translate":"*此字为sū或者xiān。同“稣”或同“鲜”。","italic": false,"color": "blue"},{"translate":"*不要叫他鱼鱼杆了，他有自己的名字","italic": false,"color": "gray"}],"enchantments": {"luck_of_the_sea": 5,"lure": 3},"max_damage": 64}
+    }
+}

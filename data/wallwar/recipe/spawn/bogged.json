@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:skeleton_spawn_egg",
+        "2":"minecraft:vine",
+        "3":"minecraft:slime_block",
+        "4":"minecraft:brown_mushroom",
+        "5":"minecraft:red_mushroom"
+    },
+    "pattern": ["323","415","323"],
+    "result": {
+        "id": "minecraft:bogged_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-沼骸","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个沼骸","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：48","italic": false,"color": "gray"},{"translate":"持续时间：180s","italic": false,"color": "gray"},{"translate":"武器：穿透附魔弓","italic": false,"color": "gray"}],"entity_data": {"id": "bogged","PersistenceRequired": true,"Health": 48,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-沼骸"},"Tags": ["summoner","summoner_death"],"PortalCooldown": 3600,"equipment":{"head":{"id":"iron_helmet","count": 1,"components": {"unbreakable": {}}},"mainhand":{"id":"bow","components": {"enchantments":{"piercing": 1}},"count": 1}},"CanPickUpLoot": true,"drop_chances": {"head": 0,"chest": 0,"legs": 0,"feet": 0,"mainhand": 0,"offhand": 0},"attributes": [{"id": "max_health","base": 48},{"id": "follow_range","base": 64},{"id": "movement_speed","base": 0.35}]},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 16}
+    }
+}

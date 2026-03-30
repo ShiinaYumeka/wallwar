@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:compass",
+        "2":"minecraft:quartz",
+        "3":"minecraft:soul_soil"
+    },
+    "pattern": ["212","131","212"],
+    "result": {
+        "id": "minecraft:nether_star",
+        "components": {"minecraft:item_name":{"translate":"复生之星","italic": false,"color": "aqua"},"minecraft:lore":[
+                {"translate":"建筑范围：无限制","italic": false,"color": "green"},{"translate":"放置于物品展示框中并站在上面","italic": false,"color": "white"},{"translate":"复活一个附近旁观的队友","italic": false,"color": "red"},{"translate":"每次复活需要额外的一个复生之星","italic": false,"color": "red"},{"translate":"*在世之人，或苟且求活，或慷慨赴死。","italic": false,"color": "gray"}],"custom_data": {"respawn_star":1,"wallwar_item":1},"max_stack_size": 64}
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "type": "crafting_shapeless",
+    "category":"equipment",
+    
+    "ingredients": [
+        "copper_shovel",
+        "command_block"
+    ],
+    "result": {
+        "id": "minecraft:red_shulker_box",
+        "components": {"minecraft:item_name":{"translate":"建筑套装","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"container": [{"item": {
+            "id": "minecraft:diamond_shovel",
+            "components": {"minecraft:custom_name":{"translate":"撼岳掘尘","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"*取山精之魄，含幽壤之华","italic": false,"color": "gray"},{"translate":"BOSS专属工具","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 8 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"efficiency": 10,"vanishing_ench": 1,"knockback": 3,"fortune": 3},"attribute_modifiers": [{"id": "golden_shominecraft:golden_shovel_shovel","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"},{"id": "golden_shominecraft:golden_shovel_shovel","type": "attack_damage","amount": 7,"operation": "add_value","slot": "mainhand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"unbreakable": {}}
+        },"slot": 0},{"item": {
+            "id": "minecraft:light_gray_glazed_terracotta",
+            "components": {"minecraft:custom_name":{"translate":"扩散模块","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"取消部分建筑的生效范围","italic": false,"color": "gray"},{"translate":"*扩散模块生于辽宁省朝阳市，","italic": false,"color": "gray"},{"translate":"从小就被亲戚朋友教会了","italic": false,"color": "gray"},{"translate":"优秀的侦查以及说闲话技巧，","italic": false,"color": "gray"},{"translate":"目前在村委会担当播音员一职。","italic": false,"color": "gray"}],"custom_data": {"building_update_all":1}},"count": 2
+        },"slot": 1},
+        {
+            "item": {
+        "id": "minecraft:beacon",
+        "components": {"minecraft:item_name":{"translate":"承枢台","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"建筑物的枢中承梁","italic": false,"color": "gray"},{"translate":"*千年不塌，因为掺了秦始皇的午餐？","italic": false,"color": "gray"}]},"count": 2
+    },"slot": 2
+        },
+         {"item": {"id":"ink_sac","count": 32},"slot": 4},
+        {"item": {
+        "id": "minecraft:suspicious_gravel",
+        "components": {"minecraft:custom_name":{"translate":"远古沙砾","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"可以探寻出更多矿物","italic": false,"color": "gray"},{"translate":"*使用刷子发现其中的宝藏","italic": false,"color": "gray"}],"block_entity_data": {"id": "brushable_block","LootTable": "archaeology/shovel/rare"}},
+        "count": 64
+    },"slot": 3},
+         {"item": {"id":"item_frame","count": 32},"slot": 5},
+         {"item": {"id":"brush","count": 1},"slot": 6},
+         {"item": {"id":"oak_log","count": 64},"slot": 7},
+         {"item": {"id":"oak_log","count": 64},"slot": 8},
+         {"item": {"id":"stone_bricks","count": 64},"slot": 9},
+         {"item": {"id":"stone_bricks","count": 64},"slot": 10},
+         {"item": {"id":"rooted_dirt","count": 64},"slot": 11},
+         {"item": {"id":"mossy_cobblestone","count": 64},"slot": 12},
+         {"item": {"id":"mossy_cobblestone","count": 64},"slot": 13},
+         {"item": {"id":"diorite","count": 64},"slot": 14},
+         {"item": {"id":"diorite","count": 64},"slot": 15},
+         {"item": {"id":"glass","count": 64},"slot": 16},
+         {"item": {"id":"glass","count": 64},"slot": 17},
+         {"item": {"id":"smooth_stone","count": 64},"slot": 18},
+         {"item": {"id":"smooth_stone","count": 64},"slot": 19}]}
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:redstone",
+        "2":"#minecraft:coals"
+    },
+    "pattern": ["111","121","111"],
+
+    "result": {
+        "id": "minecraft:quartz",
+        "count": 2
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:gilded_blackstone",
+        "2":"minecraft:grass_block"
+    },
+    "pattern": [" 1 ","121"," 1 "],
+    "result": {
+        "id": "minecraft:gray_glazed_terracotta",
+        "components": {"minecraft:custom_name":{"translate":"仪式祭坛","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：无限制","italic": false,"color": "green"},{"translate":"放置于仪式祭坛内的物品展示框中激活此建筑，仪式祭坛不受高度限制。","italic": false,"color": "gray"},{"translate":"你可以将对应物品在此处献祭并获得对应强化。","italic": false,"color": "gray"},{"translate":"-此建筑无法在资源阶段建筑","italic": false,"color": "gray"},{"translate":"-献祭以下物品对应强化凋零数值方面强化（凋零灵魂权杖，凋零仪式匕首，黑石蚀刻之证，仪式灵魂核心）","italic": false,"color": "gray"},{"translate":"-献祭以下物品对应强化凋零技能方面强化（启封的秘籍/启封的秘典，渔者之心，虎纹鲨鱼，有点神奇之靴/灵犀众魂/命令方块）","italic": false,"color": "gray"},{"translate":"-献祭以下物品对应强化大祭司方面强化（异木收集者，虚无之书+3阻献之触，贪婪者的褒奖）","italic": false,"color": "gray"},{"translate":"-当你献祭玩家头颅，为最近的“血祭品”晋升。（被晋升者将视为被献祭且获得防御提升）","italic": false,"color": "gray"},{"translate":"-当你献祭凋零骷髅头颅，为最近的“狂信徒”晋升。（被晋升者将视为被献祭且获得防御提升）","italic": false,"color": "gray"},{"translate":"-献祭以下物品可以使用玩家头颅来获得凋零技能方面强化（红石块-轮回，皮革-三牲祭，钻石剑-毁灭，山羊角-清算）","italic": false,"color": "gray"},{"translate":"*这些只是开始，我会找到更多有价值的灵魂","italic": false,"color": "dark_gray"}],"custom_data": {"wither_craft":1}}
+    }
+}

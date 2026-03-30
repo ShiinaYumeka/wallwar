@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:gilded_blackstone",
+        "2":"minecraft:mycelium"
+    },
+    "pattern": ["111","121","111"],
+    "result": {
+        "id": "minecraft:black_glazed_terracotta",
+        "components": {"minecraft:custom_name":{"translate":"神降祭坛","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"建筑范围：无限制","italic": false,"color": "green"},{"translate":"放置于神降祭坛内的物品展示框中激活此奇观。","italic": false,"color": "gray"},{"translate":"当死斗开始时，召唤一只生命值为300的凋灵并将难度难度修改为普通","italic": false,"color": "gray"},{"translate":"强化1：凋灵在死斗开始时会尝试杀死对应队伍的（血祭品，狂信徒，信徒）并获得强化","italic": false,"color": "gray"},{"translate":"强化2：使所有建筑（包括时钟，复活等）的物品展示框失效","italic": false,"color": "gray"},{"translate":"队伍模块：将凋灵设置为对应队伍。","italic": false,"color": "gray"},{"translate":"扩散模块：将大祭司的基础护甲值设置为1，且有概率杀死经验球","italic": false,"color": "gray"},{"translate":"BOSS模式调整：杀死经验瓶的效果在资源收集阶段无效，额外给予血祭品和狂信徒抗性提升效果","italic": false,"color": "gray"},{"translate":""},{"translate":"神降祭坛拥有额外的四个献祭槽位，可以放置对应物品来获得相应强化，每个强化仅能使用一次。","italic": false,"color": "red"},{"translate":"大师农耕锄：将距离献祭槽位最近的玩家添加大祭司身份。","italic": false,"color": "gray"},{"translate":"群英荟萃：在死斗开始时召唤与敌人人数相等数量的凋零骷髅。","italic": false,"color": "gray"},{"translate":"热土豆书：在死斗开始时给与所有玩家10s的失明与虚弱X。","italic": false,"color": "gray"},{"translate":"幻梦时钟：在死斗开始时将难度修改为困难并将凋灵的基础生命值设置为200。","italic": false,"color": "gray"},{"translate":"*我们都是阴沟里的虫子，但总还是得有人仰望星空 --------《三体》","italic": false,"color": "dark_purple"}],"custom_data": {"building_wither":1}}
+    }
+}

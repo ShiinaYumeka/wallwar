@@ -1,0 +1,61 @@
+{
+  "anvil_cost": 40,
+  "description": {
+    "translate": "岿然",
+    "color": "gold"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "change_item_damage",
+              "amount": 20.0
+            }
+          ]
+        },
+        "enchanted": "victim",
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_player_attack"
+              },
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "id": "ench_autodamage",
+        "amount": 0.8,
+        "operation": "add_value",
+        "attribute": "knockback_resistance"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 20
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 60,
+    "per_level_above_first": 20
+  },
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:enchantable/durability",
+  "weight": 1
+}

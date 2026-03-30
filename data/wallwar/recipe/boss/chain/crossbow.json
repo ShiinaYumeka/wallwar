@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "3":"minecraft:chain_command_block",
+        "4":"minecraft:diamond"
+    },
+    "pattern": ["414","131"," 1 "],
+    "result": {
+        "id": "minecraft:crossbow",
+        "components": {"minecraft:custom_name":{"translate":"海啸","italic": false,"color": "dark_aqua","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*敌手唯见潮痕掠，箭雨已穿云而至。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+2 近战击退力度","italic": false,"color": "blue"}],"enchantments": {"piercing": 5,"nopower": 1,"quick_charge": 2,"multishot": 4,"vanishing_ench": 1},"attribute_modifiers": [{"id": "crossbow_boss","type": "minecraft:attack_knockback","amount": 2,"operation": "add_value","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+        }
+}

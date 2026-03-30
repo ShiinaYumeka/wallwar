@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    
+    "ingredients": [
+        "minecraft:dragon_breath",
+        "minecraft:diamond",
+        "minecraft:copper_ingot"
+    ],
+    "result": {
+        "id": "minecraft:honey_bottle",
+        "count": 1,
+        "components": {"minecraft:item_name":{"translate":"自来水","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"5饱食 10饱和","italic": false,"color": "yellow"},{"translate":"获得短暂的伤害吸收与失明","italic": false,"color": "white"},{"translate":"我破产了兄弟","italic": false,"color": "gray"},{"translate":"我都喝不起自来水","italic": false,"color": "gray"},{"translate":"（桂投特写）","italic": false,"color": "gray"},{"translate":"我连从山上流下来的水我都喝不起","italic": false,"color": "gray"},{"translate":"（桂投特写）","italic": false,"color": "gray"},{"translate":"我现在喝都喝不起这种水（倒水）","italic": false,"color": "gray"},{"translate":"我连从山上流下来的水我都喝不起","italic": false,"color": "gray"},{"translate":"（桂投特写）","italic": false,"color": "gray"}],"minecraft:profile":{"name":"goldblock"},"food": {"can_always_eat": false,"nutrition": 5,"saturation": 10},"consumable": {"animation":"eat","consume_seconds": 2,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "blindness","duration": 100,"amplifier": 0},{"id": "absorption","duration": 100,"amplifier": 0}]}]},"max_stack_size": 1}
+    }
+}

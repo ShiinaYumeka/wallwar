@@ -1,0 +1,39 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"potion_contents": {"potion": "long_swiftness"}}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components","components": {"food": {"can_always_eat": true,"nutrition": 4,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 1.4,"on_consume_effects":[{"type": "apply_effects","effects":[{"id": "absorption","duration": 2400,"amplifier": 0},{"id": "regeneration","duration": 140,"amplifier": 1}]}]}}
+            }
+          ]
+        }
+            ]
+        }
+    ]
+}

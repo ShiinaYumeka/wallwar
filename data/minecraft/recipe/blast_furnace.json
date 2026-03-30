@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:copper_ingot",
+        "2":"minecraft:furnace",
+        "3":"minecraft:coal_block",
+        "4":"minecraft:coal"
+    },
+    "pattern": ["111","121","434"],
+    "result": {
+        "id": "minecraft:blast_furnace",
+        "components": {"minecraft:item_name":{"translate":"高速熔炉","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"极速烧炼矿物","italic": false,"color": "gray"},{"translate":"*在熔炉边上的每一天都是浪费。","italic": false,"color": "gray"}]}
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:flow_pottery_sherd",
+        "2":"blade_pottery_sherd"
+    },
+    "pattern": [" 2 ","111"],
+    "result": {
+        "id": "minecraft:golden_carrot",
+        "components": {"minecraft:item_name":{"translate":"群英荟萃","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"3饱食 3.6饱和","italic": false,"color": "yellow"},{"translate":"极快食用，获得爆发性移动速度","italic": false,"color": "gray"},{"translate":"*包含了108个形态各异的胡萝卜","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 3,"saturation": 3.6},"consumable": {"animation":"eat","consume_seconds": 0.2,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "speed","duration": 50,"amplifier": 6}]}]}}
+    }
+}

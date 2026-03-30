@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:wallwar/mine/tool",
+  "criteria": {
+    "mine_stone": {
+      "conditions": {
+        "item": {
+            "items": "golden_pickaxe",
+            "components": {"minecraft:item_name":{"translate":"贪婪者的褒奖","italic": false,"color": "aqua"}}
+          },
+        "durability": 0,
+        "delta": -1
+      },
+      "trigger": "minecraft:item_durability_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "用完一把贪婪者的褒奖"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "translate": "生财有道"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "mine_stone"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

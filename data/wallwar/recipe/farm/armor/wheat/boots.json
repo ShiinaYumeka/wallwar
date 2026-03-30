@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:chorus_fruit"
+    },
+    "pattern": ["1 1","1 1"],
+    "result": {
+        "id": "minecraft:leather_boots",
+        "components": {"minecraft:item_name":{"translate":"紫颂鞋子","italic": false,"color": "aqua"},"dyed_color": 8913151,"minecraft:lore":[{"translate":"套装奖励：速度I","italic": false,"color": "white"},{"translate":"末路的尽头是……","italic": false,"color": "gray"}],"enchantments": {"gardon": 1,"protection": 1},"attribute_modifiers": [{"id": "chorus_boots","type": "armor","amount": 3,"operation": "add_value","slot": "feet"},{"id": "chorus_boots","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "feet"},{"id": "chorus_boots","type": "attack_damage","amount": -0.2,"operation": "add_multiplied_base","slot": "feet"}],"max_damage": 500,"custom_data": {"chorus_armor":1}}
+    }
+}

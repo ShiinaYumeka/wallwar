@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:wallwar/dig/shovel",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:build/shovel/netherite_shovel"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作太虚量天\n奖励：承枢台"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_shovel",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": {
+      "translate": "世界奇迹"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot": [
+      "wallwar:dig/beacon"
+    ],
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

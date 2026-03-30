@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:soul_sand",
+        "2":"minecraft:wheat",
+        "3":"minecraft:redstone",
+        "4":"minecraft:slime_ball"
+    },
+    "pattern": ["323","414","323"],
+    "result": {
+        "id": "minecraft:horse_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-马","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个马","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：30","italic": false,"color": "gray"},{"translate":"持续时间：无限","italic": false,"color": "gray"},{"translate":"能力：随机","italic": false,"color": "gray"}],"entity_data": {"id": "horse","PersistenceRequired": true,"Health": 30,"attributes": [{"id": "max_health","base": 30},{"id": "safe_fall_distance","base": 10}],"Tags": ["summoner"],"CustomNameVisible": true,"CustomName": {"translate":"唤灵-马"},"CanPickUpLoot": false},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 16}
+    }
+}

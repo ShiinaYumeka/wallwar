@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:player_head",
+        "3":"#minecraft:planks"
+    },
+    "pattern": ["313","333"," 3 "],
+    "result": {
+        "id": "minecraft:shield",
+        "components": {"custom_name": {"translate": "永恒坚盾","italic": false,"color": "dark_purple"},"enchantments": {"mending": 1,"breaking": 5},"lore":[{"translate": "*当你发现你无坚不摧，必有人为你负重前行","italic": false,"color": "gray"}],"minecraft:banner_patterns": [{"pattern": "minecraft:base","color": "white"},{"pattern":"minecraft:gradient_up","color": "gray"},{"pattern": "minecraft:gradient","color": "gray"},{"pattern": "minecraft:bricks","color": "light_gray"}],"attribute_modifiers":[{"id": "shield","type": "armor","amount": 1,"operation": "add_value","slot": "offhand"}],"tooltip_display": {"hidden_components": ["banner_patterns"]}}
+    }
+}

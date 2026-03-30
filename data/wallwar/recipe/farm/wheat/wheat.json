@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:wheat_seeds",
+        "minecraft:wheat_seeds",
+        "minecraft:wheat_seeds",
+        "minecraft:wheat_seeds"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:wheat"
+    }
+}

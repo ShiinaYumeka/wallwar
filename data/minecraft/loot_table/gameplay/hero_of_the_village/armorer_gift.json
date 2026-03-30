@@ -1,0 +1,68 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"attribute_modifiers": [{"id": "chainmail_helmet","amount": 3,"operation": "add_value","type": "armor","slot": "head"}]}
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 35.0
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"attribute_modifiers": [{"id": "chainmail_chestplate","amount": 8,"operation": "add_value","type": "armor","slot": "chest"}]}
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 35.0
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"attribute_modifiers": [{"id": "chainmail_leggings","amount": 6,"operation": "add_value","type": "armor","slot": "legs"}]}
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 35.0
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"attribute_modifiers": [{"id": "chainmail_boots","amount": 3,"operation": "add_value","type": "armor","slot": "feet"}]}
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 35.0
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/armorer_gift"
+}

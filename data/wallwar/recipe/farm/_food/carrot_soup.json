@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:flow_pottery_sherd",
+        "2":"bowl"
+    },
+    "pattern": ["111"," 2 "],
+    "result": {
+        "id": "minecraft:beetroot_soup",
+        "components": {"minecraft:item_name":{"translate":"萝卜炖汤","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"6饱食 2.4饱和","italic": false,"color": "yellow"},{"translate":"获得极短的跳跃提升","italic": false,"color": "gray"},{"translate":"*素食爱好者","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 6,"saturation": 2.4},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "jump_boost","duration": 20,"amplifier": 4}]}]},"max_stack_size": 8}
+    }
+}

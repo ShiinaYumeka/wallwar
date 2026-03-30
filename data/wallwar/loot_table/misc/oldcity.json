@@ -1,0 +1,26 @@
+{
+    "type": "chest",
+    "pools": [        
+        {
+            "rolls": 1,
+            "entries": [
+                        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_components","components": {"food": {"can_always_eat": true,"nutrition": 4,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 1.4,"on_consume_effects":[{"type": "apply_effects","effects":[{"id": "absorption","duration": 2400,"amplifier": 0},{"id": "regeneration","duration": 140,"amplifier": 1}]}]}}
+            },
+            {
+                "function": "set_count",
+                "count": {
+                    "min": 2,
+                    "max": 3
+                }
+            }
+          ]
+        }
+            ]
+        }
+    ]
+}

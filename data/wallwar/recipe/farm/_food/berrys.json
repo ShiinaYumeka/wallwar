@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:shelter_pottery_sherd",
+        "2":"minecraft:egg",
+        "3":"minecraft:sugar"
+    },
+    "pattern": ["3 3","323","111"],
+    "result": {
+        "id": "minecraft:pumpkin_pie",
+        "components": {"minecraft:item_name":{"translate":"树莓派","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 5饱和","italic": false,"color": "yellow"},{"translate":"获得抗性提升II","italic": false,"color": "gray"},{"translate":"*树莓炒蛋","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 8,"saturation": 5},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "resistance","duration": 300,"amplifier": 1}]}]}}
+    }
+}

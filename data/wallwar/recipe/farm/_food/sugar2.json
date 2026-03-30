@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:sugar"
+    },
+    "pattern": ["11","11"],
+    "result": {
+        "id": "minecraft:white_concrete_powder",
+        "components": {"minecraft:item_name":{"translate":"聚合糖块","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"0饱食 5饱和","italic": false,"color": "yellow"},{"translate":"食用时间只有四分之一","italic": false,"color": "gray"},{"translate":"*甜口爱好者","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"food": {"can_always_eat": false,"nutrition": 0,"saturation": 5},"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"consumable": {"animation":"eat","consume_seconds": 0.4}}
+    }
+}

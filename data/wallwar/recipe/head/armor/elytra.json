@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"amethyst_block",
+        "2":"minecraft:iron_block",
+        "3":"#heads",
+        "4": "minecraft:shield",
+        "5": "minecraft:netherite_scrap"
+    },
+    "pattern": ["212","434","5 5"],
+    "result": {
+        "id": "minecraft:elytra",
+        "components": {"minecraft:item_name":{"translate":"钢铁之翼","italic": false,"color": "dark_purple"},"minecraft:lore":[{"translate":"最大耐久值为2","italic": false,"color": "white"},{"translate":"*若想解决纷争，必先陷入纷争","italic": false,"color": "gray"}],"enchantments": {"expensive_curse2": 1},"attribute_modifiers": [{"id": "elytra","type": "armor","amount": 8,"operation": "add_value","slot": "chest"},{"id": "elytra","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "chest"}],"max_damage": 2,"repair_cost": 99}
+    }
+}

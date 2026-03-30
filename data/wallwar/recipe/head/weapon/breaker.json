@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:crimson_hyphae",
+        "2":"#minecraft:heads3",
+        "3":"minecraft:bone",
+        "4":"minecraft:iron_ingot"
+    },
+    "pattern": [" 21"," 34"," 3 "],
+    "result": {
+        "id": "minecraft:wooden_spear",
+        "components": {"minecraft:custom_name":{"translate":"破舰者","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"攻击命中敌人盾牌后，使其禁用70秒。","italic": false,"color": "white"},{"translate":"最大耐久值为1","italic": false,"color": "white"},{"translate":"-需要蓄力满才可以进行攻击","italic": false,"color": "white"},{"translate":"-攻击未命中时也会损坏","italic": false,"color": "white"},{"translate":"*你不会永远地安全，不会永远的逃脱","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 1 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 2 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"expensive_curse2": 1,"breaking": 10},"kinetic_weapon":{"delay_ticks": 9999999},"item_model": "wooden_axe","attack_range": {"max_reach": 3,"min_reach": 0,"mob_factor": 0},"attribute_modifiers": [{"id": "golden_sword","type": "attack_speed","amount": -2,"operation": "add_value","slot": "mainhand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"weapon": {"disable_blocking_for_seconds": 70,"item_damage_per_attack": 1},"repair_cost": 99,"max_damage": 1}
+    }
+}

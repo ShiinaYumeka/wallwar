@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:wallwar/fish/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "rod": {
+          "components": {"minecraft:item_name":{"translate":"传说鱼竿","italic": false,"color": "yellow"}}
+        },
+        "player": [
+          {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "fish": {
+                "min": 16
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "使用传说鱼竿垂钓获得16条鱼\n奖励：两个睡莲"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lily_pad"
+    },
+    "title": {
+      "translate": "最棒的废品"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:fish/lilipad"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

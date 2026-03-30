@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "2":"minecraft:stick",
+        "3":"minecraft:chain_command_block",
+        "4":"minecraft:diamond"
+    },
+    "pattern": [" 14","131","21 "],
+    "result": {
+        "id": "minecraft:netherite_sword",
+        "components": {"minecraft:custom_name":{"translate":"杀戮","italic": false,"color": "dark_red","bold": true},"item_model": "diamond_sword","minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*星芒一闪身随至，铁幕未落首已飞。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 8 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.8 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+10% 总移动速度","italic": false,"color": "blue"}],"enchantments": {"sharpness": 5,"bigkiller": 3,"conquer": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "netherite_sword","type": "attack_damage","amount": 7,"operation": "add_value","slot": "mainhand"},{"id": "netherite_sword","type": "attack_speed","amount": -2.2,"operation": "add_value","slot": "mainhand"},{"id": "netherite_sword","type": "movement_speed","amount": 0.2,"operation": "add_multiplied_total","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

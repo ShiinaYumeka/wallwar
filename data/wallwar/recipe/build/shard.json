@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "2":"minecraft:dirt",
+        "3":"minecraft:sand"
+    },
+    "pattern": ["23","32"],
+    "result": {
+        "id":"prismarine_shard",
+        "count": 1
+    }
+}

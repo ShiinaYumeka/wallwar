@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#minecraft:heads3",
+        "2":"minecraft:stick",
+        "3":"minecraft:copper_ingot"
+    },
+    "pattern": ["1","2","3"],
+    "result": {
+        "id": "minecraft:spectral_arrow",
+        "components": {"minecraft:item_name":{"translate":"光灵箭","italic": false},"minecraft:lore":[{"translate":"*使命中的敌人发光","italic": false,"color": "gray"}]},
+        "count": 64
+    }
+}

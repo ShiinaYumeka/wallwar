@@ -1,0 +1,12 @@
+{
+    "type": "smoking",
+    "experience": 5,
+    "cookingtime": 10,
+    "ingredient":[
+        "minecraft:rotten_flesh",
+        "minecraft:spider_eye"
+    ],
+    "result": {
+        "id": "minecraft:leather"
+    }
+}

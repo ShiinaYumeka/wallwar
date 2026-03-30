@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "1":"gold_block",
+        "2":"#diamond_ores",
+        "3":"quartz_block"
+    },
+    "pattern": ["313","121","313"],
+    "result": {
+        "id": "minecraft:gold_nugget",
+        "count": 64,
+        "components": {"minecraft:item_name":{"translate":"附魔小零食","italic": false,"color": "light_purple"},"enchantment_glint_override": true,"minecraft:lore":[{"translate":"10饱食 12饱和","italic": false,"color": "yellow"},{"translate":"你肯定没吃过！穷鬼！","italic": false,"color": "gray"},{"translate":"（愤怒的呐喊）","italic": false,"color": "gray"},{"translate":"穷光蛋你连小零食都吃不起啊你","italic": false,"color": "gray"},{"translate":"大穷光蛋一个!","italic": false,"color": "gray"},{"translate":"你太穷了（拖长音）","italic": false,"color": "gray"},{"translate":"你实在是太穷了！！","italic": false,"color": "gray"},{"translate":"穷光蛋你连小零食都吃不起啊你","italic": false,"color": "gray"},{"translate":"(疯狂的颤抖)","italic": false,"color": "gray"},{"translate":"食用时间减少0.4秒","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 10,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.2},"max_stack_size": 64}
+    }
+}

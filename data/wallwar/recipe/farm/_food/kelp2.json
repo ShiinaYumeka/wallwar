@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"kelp",
+        "2":"wheat_seeds"
+    },
+    "pattern": ["111","222","111"],
+    "result": {
+        "id": "minecraft:dried_kelp",
+        "components": {"minecraft:item_name":{"translate":"波利海苔","italic": false,"color": "white"},"minecraft:lore":[{"translate":"5饱食 6饱和","italic": false,"color": "yellow"},{"translate":"海的味道，我知道！","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 5,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 1.6}}
+    }
+}

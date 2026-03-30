@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:copper_block",
+        "minecraft:water_bucket",
+        "minecraft:iron_nugget",
+        "minecraft:ender_pearl"
+    ],
+    "result": {
+        "id": "minecraft:ghast_tear"
+    }
+}

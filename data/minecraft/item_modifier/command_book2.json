@@ -1,0 +1,10 @@
+{
+  "function": "enchant_with_levels",
+  "options": "#command_book/empty",
+  "levels": {
+    "scale": 1,
+    "type": "score",
+    "target": "this",
+    "score": "temp"
+  }
+}

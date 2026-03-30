@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:golden_boots"
+    ],
+    "result": {
+        "count": 3,
+        "id": "minecraft:gold_ingot"
+    }
+}

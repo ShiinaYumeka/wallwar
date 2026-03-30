@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:wallwar/misc/ender_chest",
+  "criteria": {
+    "get_item": {
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "将伊甸之果置入末影箱\n奖励：神秘传送门x11"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "别样的抗毒大赛"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:misc/ender2"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

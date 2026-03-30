@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:amethyst_shard",
+        "2":"copper_block",
+        "3":"#shield_block",
+        "4":"#coals",
+        "5":"gunpowder"
+    },
+    "pattern": ["323","515"," 4 "],
+    "result": {
+        "id": "minecraft:shield",
+        "components": {"minecraft:item_name":{"translate":"灰烬征服者","italic": false,"color": "aqua"},"minecraft:custom_name":{"translate":"灰烬征服者","italic": false,"color": "aqua"},"dyed_color": 0,"minecraft:lore":[{"translate":"最大耐久值为444","italic": false,"color": "white"},{"translate":"*要将质疑与武力朝向强者，而非将其施加与黎民","italic": false,"color": "gray"}],"enchantments": {"shield_blast": 10,"unprotection5": 1,"expensive_curse2": 1},"banner_patterns": [{"color":"magenta","pattern":"minecraft:circle"},{"color":"magenta","pattern":"minecraft:curly_border"},{"color":"black","pattern":"minecraft:border"},{"color":"black","pattern":"minecraft:straight_cross"},{"color":"magenta","pattern":"minecraft:flower"}],"tooltip_display": {"hidden_components": ["banner_patterns","dyed_color"]},"base_color": "black","max_damage": 444,"repair_cost": 99}
+    }
+}

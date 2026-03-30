@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_hoe",
+        "2":"#cropblock_",
+        "3":"minecraft:sugar_cane"
+    },
+    "pattern": [" 3 ","212"," 3 "],
+    "result": {
+        "id": "minecraft:beetroot_seeds",
+        "count": 4
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:flow_pottery_sherd"
+    ],
+    "result": {
+        "id": "minecraft:carrot",
+        "count": 9
+    }
+}

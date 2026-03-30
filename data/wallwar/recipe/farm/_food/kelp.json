@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"kelp"
+    },
+    "pattern": ["111","111","111"],
+    "result": {
+        "id": "minecraft:dried_kelp",
+        "components": {"minecraft:item_name":{"translate":"海苔","italic": false,"color": "white"},"minecraft:lore":[{"translate":"6饱食 0饱和","italic": false,"color": "yellow"},{"translate":"*没有波利老师的代言","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 6,"saturation": 0},"consumable": {"animation":"eat","consume_seconds": 1.6}}
+    }
+}

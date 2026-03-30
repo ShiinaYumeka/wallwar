@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#leaves",
+        "2":"crimson_hyphae"
+    },
+    "pattern": [" 2 ","212"," 2 "],
+    "result": {
+        "id": "minecraft:cow_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-牛","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个牛","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：20","italic": false,"color": "gray"},{"translate":"持续时间：无限","italic": false,"color": "gray"},{"translate":"武器：无","italic": false,"color": "gray"}],"entity_data": {"id": "cow","PersistenceRequired": true,"Health": 20,"attributes": [{"id": "max_health","base": 20}],"CustomNameVisible": true,"CustomName": {"translate":"唤灵-牛"},"Tags": ["summoner"],"CanPickUpLoot": false},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 16}
+    }
+}

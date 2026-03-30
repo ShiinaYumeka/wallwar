@@ -1,0 +1,15 @@
+{
+  "name": "wallwar:respawn",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "wallwar:respawn",
+        "processors": "wallwar:respawn",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

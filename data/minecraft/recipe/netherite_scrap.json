@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:amethyst_block",
+        "2":"minecraft:diamond",
+        "3":"minecraft:quartz_block",
+        "4":"minecraft:deepslate_coal_ore"
+    },
+    "pattern": ["123","242","321"],
+    "result": {
+        "id": "minecraft:netherite_scrap"
+    }
+}

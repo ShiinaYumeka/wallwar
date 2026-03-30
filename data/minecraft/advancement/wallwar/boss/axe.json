@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:wallwar/boss/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:boss/chain/axe"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作因果\n奖励：长效生命回复药水"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_axe",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": {
+      "translate": "因果"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:boss/axe"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

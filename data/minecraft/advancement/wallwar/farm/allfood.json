@@ -1,0 +1,145 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_1": {
+      "conditions": {
+        "recipe_id": "golden_apple"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_2": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/bread"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_3": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/bread_"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_4": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/carrot"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_5": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/fish"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_6": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/golden_apple"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_7": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/meat"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_8": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/mixfood"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_9": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/potato"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_10": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/pufferfish"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_11": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/sugar2"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_12": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/kelp2"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_13": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/carrot_soup"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_14": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/cloud"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "get_15": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/meat2"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "biome_1": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_food/berrys"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "biome_2": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/coco/chocolate"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作16种不同的战墙料理\n（树莓派、巧克力选一即可）\n奖励：可以瞬间食用的强力金苹果（吃完后返还一个玩家头颅）"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_golden_apple"
+    },
+    "title": {
+      "translate": "十六星大厨"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot": [
+        "wallwar:misc/golden_apple"
+    ],
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    ["get_1"],
+    ["get_2"],
+    ["get_3"],
+    ["get_4"],
+    ["get_5"],
+    ["get_6"],
+    ["get_7"],
+    ["get_8"],
+    ["get_9"],
+    ["get_10"],
+    ["get_11"],
+    ["get_12"],
+    ["get_13"],
+    ["get_14"],
+    ["get_15"],
+    ["biome_1","biome_2"]
+  ],
+  "sends_telemetry_event": true
+}

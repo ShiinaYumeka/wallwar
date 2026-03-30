@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:experience_bottle",
+        "2":"player_head"
+    },
+    "pattern": [" 1 ","121"," 1 "],
+    "result": {
+            "id": "minecraft:book",
+            "components": {"minecraft:custom_name":{"translate":"远古学识","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"-丢出后将副手护甲保护类附魔增加1级（至多为V）","italic": false,"color": "white"},{"translate":"*知识没有时代，这是巨人的肩膀","italic": false,"color": "aqua"}],"custom_data": {"protection_bag":1,"wallwar_item":1}},
+            "count": 3
+        }
+    }

@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"slime_block",
+        "2":"honey_bottle"
+    },
+    "pattern": ["111","121","111"],
+    "result": {
+        "id": "minecraft:honey_block",
+        "count": 8
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "crafting_shapeless",
+    "category":"equipment",
+    
+    "ingredients": [
+        "#heads"
+    ],
+    "result": {"id": "minecraft:ender_pearl","count": 2}
+}

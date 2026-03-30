@@ -1,0 +1,10 @@
+{
+  "type": "smithing_transform",
+  "template":  "flower_banner_pattern",
+  "base": "minecraft:diamond_chestplate",
+  "addition": ["lapis_lazuli"],
+  "result": {
+    "id": "minecraft:diamond_chestplate",
+    "components": {"enchantments": {"fire_protection": 4}}
+  }
+}

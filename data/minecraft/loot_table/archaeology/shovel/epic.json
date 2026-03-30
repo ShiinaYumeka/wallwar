@@ -1,0 +1,141 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:skeleton_skull",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {"enchantments": {"protection": 7}}
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:purpur_block",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 32.0,
+                  "max": 64.0
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:polished_blackstone",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 32.0,
+                  "max": 64.0
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sandstone",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 64
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:basalt",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 32.0,
+                  "max": 64.0
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:prismarine",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 32.0,
+                  "max": 64.0
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:melon_seeds",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 4.0,
+                  "max": 8.0
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:pumpkin_seeds",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 4.0,
+                  "max": 8.0
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sweet_berries",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 4.0,
+                  "max": 8.0
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cocoa_beans",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 4.0,
+                  "max": 8.0
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "archaeology/shovel/epic2",
+            "weight": 15
+          }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "minecraft:archaeology/shovel/epic"
+  }

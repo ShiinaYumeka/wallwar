@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:anvil",
+        "2":"minecraft:copper_bulb",
+        "3":"minecraft:gold_ingot"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:recovery_compass",
+        "components": {"minecraft:item_name":{"translate":"追溯指针","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"丢出后使所有其他队伍玩家发光30s。","italic": false,"color": "gray"},{"translate":"*为你指名生命的道路…","italic": false,"color": "gray"}],"custom_data": {"observer":1,"wallwar_item":1},"max_stack_size": 64}
+    }
+}

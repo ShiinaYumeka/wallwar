@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "netherite_ingot",
+  "base": "minecraft:diamond_chestplate",
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_chestplate",
+    "components": {"attribute_modifiers": [{"id": "netherite_chestplate","amount": 8,"operation": "add_value","type": "armor","slot": "chest"},{"id": "netherite_chestplate","amount": 4,"operation": "add_value","type": "armor_toughness","slot": "chest"},{"id": "netherite_chestplate","amount": 0.1,"operation": "add_value","type": "knockback_resistance","slot": "chest"}],"max_damage": 792}
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

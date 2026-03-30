@@ -1,0 +1,15 @@
+{
+  "name": "wallwar:tower",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "wallwar:tower",
+        "processors": "wallwar:tower",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

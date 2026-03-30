@@ -1,0 +1,24 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:snowball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:item_name":{"translate":"火球术","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"召唤一个可以被打出的火球","italic": false,"color": "red"}],"minecraft:custom_data":{"is_snowball":2},"max_stack_size": 64}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

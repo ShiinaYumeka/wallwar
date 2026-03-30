@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:iron_nugget",
+        "2":"minecraft:redstone_block",
+        "3":"minecraft:quartz"
+    },
+    "pattern": ["212","131","212"],
+    "result": {
+        "id": "minecraft:compass"
+    }
+}

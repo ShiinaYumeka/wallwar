@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:wallwar/dig/shovel2",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:build/fireball/small"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作火焰冲击"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:blaze_powder"
+    },
+    "title": {
+      "translate": "见习法师"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "2":"minecraft:iron_block",
+        "3":"minecraft:redstone_block",
+        "4":"soul_sand"
+    },
+    "pattern": ["343","222","323"],
+    "result": {
+        "id": "minecraft:iron_golem_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-铁傀儡","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个铁傀儡","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：100","italic": false,"color": "gray"},{"translate":"持续时间：240s","italic": false,"color": "gray"},{"translate":"武器：铁臂","italic": false,"color": "gray"}],"entity_data": {"id": "iron_golem","PersistenceRequired": true,"Health": 100,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-铁傀儡"},"Tags": ["summoner","summoner_death"],"PortalCooldown": 4800,"CanPickUpLoot": false,"attributes": [{"id": "max_health","base": 100}]},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 64}
+    }
+}

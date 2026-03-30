@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "2":"minecraft:diamond_hoe",
+        "3":"minecraft:copper_block"
+    },
+    "pattern": ["333","121","333"],
+    "result": {
+        "id": "minecraft:stone_hoe",
+        "components": {"minecraft:custom_name":{"translate":"凋零灵魂权杖","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为仪式祭坛上之人增加以下效果：","italic": false,"color": "gray"},{"translate":"当你因凋灵献祭而死亡时，你为凋灵额外增加1点护甲值与10点生命值。","italic": false,"color": "gray"},{"translate":"你的基础生命值改为24。","italic": false,"color": "gray"},{"translate":"*我受到了召唤，我必须如此","italic": false,"color": "dark_gray"}],"custom_data": {"wither_hoe":1}}
+    }
+}

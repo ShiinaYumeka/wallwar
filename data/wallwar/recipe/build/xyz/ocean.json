@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:prismarine",
+        "2":"minecraft:diamond",
+        "4":"minecraft:copper_block",
+        "3":"minecraft:podzol"
+    },
+    "pattern": ["121","131","444"],
+    "result": {
+        "id": "minecraft:sea_lantern",
+        "components": {"minecraft:custom_name":{"translate":"海神祭坛核心","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"建筑范围：Y>60","italic": false,"color": "green"},{"translate":"放置于海神祭坛内的物品展示框中激活此奇观","italic": false,"color": "gray"},{"translate":"为所有玩家赋予霉运15并将天气锁定为雨。","italic": false,"color": "gray"},{"translate":"强化1：将天气锁定为雷雨，给与64格内的所有玩家赋予幸运15。","italic": false,"color": "gray"},{"translate":"强化2：每10s给予64格内所有水中的玩家缓慢与挖掘疲劳10s，于死斗中失效","italic": false,"color": "gray"},{"translate":"队伍模块：使正面效果只生效对应颜色队伍，并使负面效果只生效于其他队伍。","italic": false,"color": "gray"},{"translate":"扩散模块：将范围从64格扩散至全图。","italic": false,"color": "gray"},{"translate":"特殊状态：阶段切换时，在海神祭坛附件刷新两个“海神的盛宴”","italic": false,"color": "gray"},{"translate":"-海神祭坛每拥有一个强化模块便多刷新一个“海神的盛宴”","italic": false,"color": "gray"},{"translate":"满配效果：当死斗开始时，则将地图变为一片汪洋。","italic": false,"color": "gray"},{"translate":"*年轻的渔夫呦，你掉的是这个金鹦鹉螺壳还是这个银命名牌还是这个普普通通的海洋之心呢？","italic": false,"color": "dark_aqua"}],"custom_data": {"building_ocean":1},"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

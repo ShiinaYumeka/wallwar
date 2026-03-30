@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:chorus_fruit"
+    },
+    "pattern": ["1 1","111","111"],
+    "result": {
+        "id": "minecraft:leather_chestplate",
+        "components": {"minecraft:item_name":{"translate":"紫颂衣服","italic": false,"color": "aqua"},"dyed_color": 8913151,"minecraft:lore":[{"translate":"套装奖励：速度I","italic": false,"color": "white"},{"translate":"末路的尽头是……","italic": false,"color": "gray"}],"enchantments": {"protection": 2},"attribute_modifiers": [{"id": "chorus_cminecraft:leather_chestplate","type": "armor","amount": 8,"operation": "add_value","slot": "chest"},{"id": "chorus_cminecraft:leather_chestplate","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "chest"}],"max_damage": 500,"custom_data": {"chorus_armor":1}}
+    }
+}

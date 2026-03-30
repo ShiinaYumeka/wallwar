@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#soul_block",
+        "2":"minecraft:bone",
+        "3":"minecraft:rotten_flesh",
+        "4":"minecraft:gunpowder"
+    },
+    "pattern": ["131","242","131"],
+    "result": {
+        "id": "minecraft:soul_soil"
+    }
+}

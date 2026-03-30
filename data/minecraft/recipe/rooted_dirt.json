@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#minecraft:dirt_block"
+    },
+    "pattern": ["111","111","111"],
+    "result": {
+        "id": "minecraft:rooted_dirt"
+    }
+}

@@ -1,0 +1,69 @@
+{
+  "anvil_cost": 20,
+  "description": {
+    "translate": "传说之刃","color": "dark_purple"
+  },
+  "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 0.5
+          }
+        }
+      }
+    ],
+    
+    "minecraft:armor_effectiveness": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -0.08,
+            "per_level_above_first": -0.05
+          }
+        },
+        "requirements": [
+          {
+            "condition": "all_of",
+            "terms": [
+               {
+                "condition": "all_of",
+                "terms": [{
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "HP": {
+                "max": 3
+              }
+            }
+          }
+            ]
+          }
+           ]
+            }
+          
+        ]
+      }
+    ]
+  },
+  "exclusive_set": ["smite","breach","auto_damage","bane_of_arthropods","bigkiller","breaker","breaking","conquer","cooking","wither_","vanishing_ench","unsharpness","unbreaking","expensive_curse","expensive_curse2","fire_aspect","heavy","haku","rokan","knockback","looting","mending","stun","sweeping_edge","summkill"],
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 30
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 38,
+    "per_level_above_first": 30
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:swords",
+  "weight": 10
+}

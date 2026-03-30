@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#cropblock"
+    },
+    "pattern": ["111"],
+    "result": {
+        "id": "minecraft:paper",
+        "count": 1
+    }
+}

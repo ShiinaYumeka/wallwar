@@ -1,0 +1,21 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "排斥诅咒-效率","color": "red"
+  },
+  "max_cost": {
+    "base": 90,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 65,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#pickaxes",
+  "exclusive_set": "efficiency",
+  "weight": 2
+}

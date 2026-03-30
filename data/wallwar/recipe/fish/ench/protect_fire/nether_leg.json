@@ -1,0 +1,10 @@
+{
+  "type": "smithing_transform",
+  "template":  "flower_banner_pattern",
+  "base": "minecraft:netherite_leggings",
+  "addition": ["lapis_lazuli"],
+  "result": {
+    "id": "minecraft:netherite_leggings",
+    "components": {"enchantments": {"fire_protection": 4}}
+  }
+}

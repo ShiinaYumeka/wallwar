@@ -1,0 +1,262 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.5
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 50.0,
+              "options": "#fishing_command"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30.0,
+              "options": "#minecraft:fishing_command"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:netherite_scrap",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+            ]
+
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:nether_star",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"渔者之心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"放置于物品展示框中并站在上面","italic": false,"color": "white"},{"translate":"复活一个附近旁观的队友","italic": false,"color": "red"},{"translate":"每次复活需要额外的一个复生之星","italic": false,"color": "red"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“轮回”","italic": false,"color": "gray"},{"translate":"-阶段切换时，将至多两个死亡的祭品复活","italic": false,"color": "gray"},{"translate":"-复活的祭品将作为“凋灵骷髅”参加战斗","italic": false,"color": "gray"},{"translate":"*在世之人，或苟且求活，或慷慨赴死。","italic": false,"color": "gray"}],"custom_data": {"respawn_star":1,"wallwar_item":1,"wither_skill_item_player":1},"max_stack_size": 64}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"虚妄幻影","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"必定钓出宝藏","italic": false,"color": "yellow"},{"translate":"虚妄宝藏的概率极大幅度提升","italic": false,"color": "light_purple"},{"translate":"*海神的馈赠","italic": false,"color": "gray"}],"enchantments": {"lure": 5,"luck_of_the_sea": 10,"expensive_curse2": 1},"repair_cost": 99,"max_damage": 2}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:drowned_spawn_egg",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"海神仆从召唤石","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出召唤一个超强小溺尸。","italic": false,"color": "white"},{"translate":"*海神原来喜欢小的…","italic": false,"color": "red"},{"translate":"等等…你怎么看到这行字的？！","italic": false,"color": "dark_red"}],"custom_data": {"fishing_zombie":1,"wallwar_item":1}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cyan_shulker_box",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "name": "gameplay/fish/chest2",
+              "type": "shulker_box"
+            },
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"italic":false,"translate":"海神的盛宴","color":"light_purple"},"lore":[{"italic":false,"translate":"*瞥见天宫一角，却未成天宫之人","color":"gray"}]}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:tropical_fish",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"虎纹鲨鱼","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"20饱食 20饱和","italic": false,"color": "yellow"},{"translate":"只需要一半的食用时间。","italic": false,"color": "gray"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“三牲祭”","italic": false,"color": "gray"},{"translate":"-每隔一段时间，在死斗场地刷新大量动物祭品","italic": false,"color": "gray"},{"translate":"*鱼~好大的鱼~虎纹鲨鱼~","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 20,"saturation": 20},"consumable": {"animation":"eat","consume_seconds": 0.8,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "regeneration","duration": 200,"amplifier": 0}]}]},"max_stack_size": 64,"custom_data": {"wither_skill_item_pig":1}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:wet_sponge",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+            ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "weight": 40,
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "name": "gameplay/fish/chest",
+              "type": "barrel"
+            },
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"italic":false,"translate":"箍旧漂流桶","color":"aqua"},"lore":[{"italic":false,"translate":"*落难者的遗物","color":"white"}]}
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:skull_banner_pattern",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"启封的秘籍","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"弹射物保护 V","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 钻石及以上盔甲","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"锋利 III","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 铁及以上武器","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“毁灭”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在自身位置释放一个信标","italic": false,"color": "gray"},{"translate":"-十秒后对最近的敌人造成大量伤害和负面效果","italic": false,"color": "gray"},{"translate":"*真正的力量，从不拘泥于既定的规则。","italic": false,"color": "gray"}],"custom_data": {"wither_skill_item_explode":1}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:creeper_banner_pattern",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"启封的秘籍","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"爆炸保护 V","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 钻石及以上盔甲","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"锋利 III","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 铁及以上武器","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“毁灭”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在自身位置释放一个信标","italic": false,"color": "gray"},{"translate":"-十秒后对最近的敌人造成大量伤害和负面效果","italic": false,"color": "gray"},{"translate":"*真正的力量，从不拘泥于既定的规则。","italic": false,"color": "gray"}],"custom_data": {"wither_skill_item_explode":1}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:flower_banner_pattern",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"启封的秘典","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"火焰保护 IV","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 钻石及以上盔甲","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"锋利 III","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 铁及以上武器","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“毁灭”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在自身位置释放一个信标","italic": false,"color": "gray"},{"translate":"-十秒后对最近的敌人造成大量伤害和负面效果","italic": false,"color": "gray"},{"translate":"*真正的力量，从不拘泥于既定的规则。","italic": false,"color": "gray"}],"custom_data": {"wither_skill_item_explode":1}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:mojang_banner_pattern",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"启封的秘典","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"破甲 IV","italic": false,"color": "light_purple"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 钻石及以上盔甲","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 青金石","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“毁灭”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在自身位置释放一个信标","italic": false,"color": "gray"},{"translate":"-十秒后对最近的敌人造成大量伤害和负面效果","italic": false,"color": "gray"},{"translate":"*真正的力量，从不拘泥于既定的规则。","italic": false,"color": "gray"}],"custom_data": {"wither_skill_item_explode":1}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"有点神奇之靴","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“清算”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在每个敌人正上方召唤一个凋零头","italic": false,"color": "gray"},{"translate":"*脚步能丈量大地，但魔法能跨越次元。","italic": false,"color": "gray"}],"max_damage":400,"attribute_modifiers": [{"id": "sp_shoe","type": "movement_speed","amount": 0.2,"operation": "add_multiplied_base","slot": "feet"},{"id": "sp_shoe","type": "armor","amount": 3,"operation": "add_value","slot": "feet"}],"custom_data": {"wither_skill_item_fall":1}}
+            }
+          ],
+          "name": "minecraft:leather_boots",
+          "weight": 5
+        },
+
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.9,
+                "min": 0.6
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"灵犀众魂","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"凋灵将解锁技能“清算”","italic": false,"color": "gray"},{"translate":"-每隔一段时间在每个敌人正上方召唤一个凋零头","italic": false,"color": "gray"},{"translate":"*将坎坷化为通途","italic": false,"color": "gray"}],"max_damage":999,"attribute_modifiers": [{"id": "sp2_shoe","type": "step_height","amount": 0.6,"operation": "add_value","slot": "feet"},{"id": "sp2_shoe","type": "armor","amount": 3,"operation": "add_value","slot": "feet"}],"custom_data": {"wither_skill_item_fall":1}}
+            }
+          ],
+          "name": "minecraft:chainmail_boots",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "command_block",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "match_tool",
+              "predicate": {"components": {"minecraft:max_damage": 8}}
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/command"
+}

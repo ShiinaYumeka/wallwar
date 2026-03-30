@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:piglin_head",
+        "2":"minecraft:stick",
+        "3":"#minecraft:planks"
+    },
+    "pattern": ["232","313","232"],
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "components": {"minecraft:custom_name":{"translate":"“小帮手”","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"*无论在多么猛烈的暴风雨中回头，都能看到那盏不灭的灯火。","italic": false,"color": "red"}],"stored_enchantments": {"mending": 1,"cooking": 1,"fortune": 1,"melt": 1,"unbreaking": 4,"efficiency": 3}}
+    }
+}

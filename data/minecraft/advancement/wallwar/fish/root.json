@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:fish/rodoflegend"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作传说鱼竿"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:fishing_rod"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "宗师级钓鱼训练师"
+    }
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,10 @@
+{
+    "type": "smithing_transform",
+    "template": "#patterns",
+    "base": "minecraft:netherite_shovel",
+    "addition": ["lapis_lazuli"],
+    "result": {
+      "id": "minecraft:netherite_shovel",
+      "components": {"enchantments": {"sharpness": 5,"efficiency": 3}}
+    }
+}

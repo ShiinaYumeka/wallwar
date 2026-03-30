@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:hay_block"
+    },
+    "pattern": ["111"],
+    "result": {
+        "id": "minecraft:bread",
+        "components": {"minecraft:item_name":{"translate":"全麦面包","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"10饱食 12饱和","italic": false,"color": "yellow"},{"translate":"回复大量饱食度并获得短暂的吸收","italic": false,"color": "gray"},{"translate":"*1000%纯小麦","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 10,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.7,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "absorption","duration": 36,"amplifier": 0}]}]},"custom_data": {"full_bread":1}}
+    }
+}

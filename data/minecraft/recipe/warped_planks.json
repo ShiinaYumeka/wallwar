@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category":"redstone",
+    
+    "ingredients": [
+        "minecraft:warped_hyphae"
+    ],
+    "result": {
+        "id": "minecraft:crimson_hyphae",
+        "count": 9
+    }
+}

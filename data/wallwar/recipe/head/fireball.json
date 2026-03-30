@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "show_notification": false,
+    "key": {
+        "2":"minecraft:gunpowder",
+        "3":"#minecraft:heads3"
+    },
+    "pattern": ["232"],
+    "result": {
+        "id": "minecraft:snowball",
+        "components": {"minecraft:item_name":{"translate":"火焰冲击","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"召唤一个可以被打出的小火球","italic": false,"color": "red"}],"minecraft:custom_data":{"is_snowball":1},"max_stack_size": 64},
+        "count": 8
+    }
+}

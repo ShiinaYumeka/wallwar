@@ -1,0 +1,31 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:copper_bulb",
+        "2":"player_head",
+        "3":"minecraft:anvil"
+    },
+    "pattern": ["1","2","3"],
+    "result": {
+        "id": "minecraft:black_shulker_box",
+        "components": {"minecraft:item_name":{"translate":"合金组件","italic": false,"color": "aqua"},"container": [{"item": {
+            "id": "minecraft:netherite_ingot",
+            "count": 1
+        },"slot": 0},
+        {"item": {
+            "id": "minecraft:netherite_upgrade_smithing_template",
+            "count": 1
+        },"slot": 1},
+        {"item": {
+            "id": "minecraft:smithing_table",
+            "count": 1
+        },"slot": 2},
+        {"item": {
+            "id": "minecraft:gold_ingot",
+            "count": 8
+        },"slot": 3}]}
+    }
+    }

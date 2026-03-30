@@ -1,0 +1,23 @@
+{
+    "anvil_cost": 8,
+    "description": {
+      "translate": "熔炼"
+    },
+    "effects": {
+    },
+    "max_cost": {
+      "base": 30,
+      "per_level_above_first": 9
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 21,
+      "per_level_above_first": 9
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#pickaxes",
+    "exclusive_set": "#exclusive_set/mining",
+    "weight": 4
+}

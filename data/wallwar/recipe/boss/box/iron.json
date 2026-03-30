@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shapeless",
+    "category":"equipment",
+    
+    "ingredients": [
+        "dirt",
+        "#command"
+    ],
+
+    "result": {
+        "id": "minecraft:yellow_shulker_box",
+        "components": {"minecraft:item_name":{"translate":"矿物套装","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"container": [ {"item": {"id":"iron_ingot","count": 64},"slot": 2}, {"item": {"id":"gold_ingot","count": 32},"slot": 1}, {"item": {"id":"copper_block","count": 16},"slot": 5}, {"item": {"id":"lapis_block","count": 16},"slot": 3}, {"item": {"id":"redstone_block","count": 16},"slot": 4}, {"item": {"id":"diamond","count": 16},"slot": 0}],"max_stack_size": 2},
+        "count": 2
+    }
+}

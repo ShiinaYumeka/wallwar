@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:pumpkin_seeds",
+        "2":"#minecraft:cropblock"
+    },
+    "pattern": ["2 2","1 1"],
+    "result": {
+        "id": "minecraft:leather_boots",
+        "components": {"minecraft:item_name":{"translate":"南瓜鞋子","italic": false,"color": "aqua"},"dyed_color": 13746176,"minecraft:lore":[{"translate":"套装奖励：生命提升II","italic": false,"color": "white"},{"translate":"有效的在万圣节要糖","italic": false,"color": "gray"}],"enchantments": {"protection":2},"attribute_modifiers": [{"id": "pumpkin_boots","type": "armor","amount": 3,"operation": "add_value","slot": "feet"},{"id": "pumpkin_boots","type": "armor_toughness","amount":2,"operation": "add_value","slot": "feet"},{"id": "pumpkin_boots","type": "attack_damage","amount": -0.1,"operation": "add_multiplied_total","slot": "feet"}],"max_damage": 300,"custom_data": {"pumpkin_armor":1}}
+    }
+}

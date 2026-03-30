@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "item": {
+          "items": ["command_block"],
+          "count": 1
+        }
+      },
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "通过垂钓获得命令方块\n奖励：200经验值与命令方块道具配方"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:command_block"
+    },
+    "title": {
+      "translate": "不可能完成的任务"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "experience": 200,
+    "function": "wallwar:boss/enable"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

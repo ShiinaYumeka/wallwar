@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:wallwar/boss/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:boss/chain/command"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作存续\n奖励：鸡、牛刷怪蛋x4"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:repeating_command_block",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": {
+      "translate": "存续"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "function": "wallwar:boss/command/make",
+    "loot": ["wallwar:boss/command"]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

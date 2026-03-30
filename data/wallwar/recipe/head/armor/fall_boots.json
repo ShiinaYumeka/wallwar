@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:copper_block",
+        "2":"minecraft:copper_ingot",
+        "3":"#minecraft:heads3"
+    },
+    "pattern": ["132","1 2"," 22"],
+    "result": {
+        "id": "minecraft:leather_boots",
+        "components": {"minecraft:item_name":{"translate":"耐摔鞋","italic": false,"color": "dark_purple"},"dyed_color": 11042304,"minecraft:lore":[{"translate":"防止你坠机","italic": false,"color": "white"},{"translate":"*Man! What can I say","italic": false,"color": "gray"}],"enchantments": {"protection": 3,"expensive_curse2": 1},"attribute_modifiers": [{"id": "fall_boots","type": "fall_damage_multiplier","amount": -0.75,"operation": "add_multiplied_base","slot": "feet"},{"id": "fall_boots","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "feet"},{"id": "fall_boots","type": "armor","amount": 3,"operation": "add_value","slot": "feet"}],"repair_cost": 99,"max_damage": 824}
+    }
+}

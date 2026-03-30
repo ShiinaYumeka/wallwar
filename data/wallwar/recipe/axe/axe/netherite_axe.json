@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:warped_hyphae",
+        "2":"minecraft:soul_soil"
+    },
+    "pattern": ["111","121","111"],
+    "result": {
+        "id": "minecraft:netherite_axe",
+        "components": {"minecraft:custom_name":{"translate":"审判之日","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"*吾之先民穷尽万世，方才窥见神明一隅","italic": false,"color": "gray"},{"translate":"*愿汝以此利刃，反抗族群被压迫的命运","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 10 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.1 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"looting": 5,"cutdown": 1,"cooking": 1},"tool": {"default_mining_speed": 1,"damage_per_block": 1,"rules": [{"blocks": "#mineable/axe","correct_for_drops": true,"speed": 100}]},"attribute_modifiers": [{"id": "gold_axe","type": "attack_speed","amount": -2.9,"operation": "add_value","slot": "mainhand"},{"id": "gold_axe","type": "attack_damage","amount": 9,"operation": "add_value","slot": "mainhand"}],"unbreakable": {},"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 9999}
+    }
+}

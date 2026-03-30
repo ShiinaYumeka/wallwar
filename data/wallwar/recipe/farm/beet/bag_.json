@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:brewer_pottery_sherd"
+    ],
+    "result": {
+        "id": "minecraft:beetroot",
+        "count": 9
+    }
+}

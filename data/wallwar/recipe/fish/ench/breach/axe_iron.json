@@ -1,0 +1,10 @@
+{
+    "type": "smithing_transform",
+    "template":  "mojang_banner_pattern",
+    "base": "minecraft:iron_axe",
+    "addition": ["lapis_lazuli"],
+    "result": {
+      "id": "minecraft:iron_axe",
+      "components": {"enchantments": {"breach": 4}}
+    }
+}

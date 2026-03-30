@@ -1,0 +1,74 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "急速"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1,
+              "min_amplifier": 1,
+              "max_duration": 1,
+              "min_duration": 1,
+              "to_apply": "speed"
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [{
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "feet": {
+                "predicates": {
+              "damage": {
+                "durability": {
+                  "max": 215,
+                  "min": 0
+                }
+              }
+            }
+              }
+            }
+          }
+        },
+      {
+          "chance": {
+            "type": "minecraft:enchantment_level",
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 0.05,
+              "per_level_above_first": 0.1
+            }
+          },
+          "condition": "random_chance"
+      }
+      ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 11
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 8
+}

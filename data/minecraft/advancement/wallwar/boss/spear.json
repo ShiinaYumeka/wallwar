@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:wallwar/boss/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:boss/chain/spear"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作镇魂\n奖励：灵驹"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_spear",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": {
+      "translate": "镇魂"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:boss/spear"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

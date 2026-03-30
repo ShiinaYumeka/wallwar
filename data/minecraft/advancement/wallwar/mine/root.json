@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_seed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "获得一个铜锭"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:copper_ingot"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "废物利用"
+    }
+  },
+  "requirements": [
+    [
+      "get_seed"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

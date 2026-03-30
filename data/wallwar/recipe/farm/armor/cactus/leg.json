@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:cactus",
+        "2":"#minecraft:cropblock"
+    },
+    "pattern": ["121","1 1","1 1"],
+    "result": {
+        "id": "minecraft:leather_leggings",
+        "components": {"minecraft:item_name":{"translate":"仙人掌裤子","italic": false,"color": "aqua"},"dyed_color": 917248,"minecraft:lore":[{"translate":"套装奖励：抗性提升I","italic": false,"color": "white"},{"translate":"对自己0%反伤","italic": false,"color": "gray"}],"enchantments": {"thorns": 3,"protection":2},"attribute_modifiers": [{"id": "cactus_leggings","type": "armor","amount": 6,"operation": "add_value","slot": "legs"},{"id": "cactus_leggings","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "legs"},{"id": "cactus_leggings","type": "attack_damage","amount": -0.05,"operation": "add_multiplied_total","slot": "legs"}],"max_damage": 500,"custom_data": {"cactus_armor":1}}
+    }
+}

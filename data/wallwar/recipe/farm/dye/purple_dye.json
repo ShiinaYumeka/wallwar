@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:redstone",
+        "minecraft:lapis_lazuli"
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:purple_dye"
+    }
+}

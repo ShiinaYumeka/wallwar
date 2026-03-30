@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:melon",
+        "2":"#minecraft:cropblock"
+    },
+    "pattern": ["121","1 1","1 1"],
+    "result": {
+        "id": "minecraft:leather_leggings",
+        "components": {"minecraft:item_name":{"translate":"西瓜裤子","italic": false,"color": "aqua"},"dyed_color": 5941248,"minecraft:lore":[{"translate":"套装奖励：每5s回复生命值","italic": false,"color": "white"},{"translate":"家人们，谁懂啊！","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "melon_leggings","type": "armor","amount": 6,"operation": "add_value","slot": "legs"},{"id": "melon_leggings","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "legs"},{"id": "melon_leggings","type": "attack_damage","amount": -0.0,"operation": "add_multiplied_total","slot": "legs"}],"max_damage": 500,"enchantments": {"protection":2},"custom_data": {"melon_armor":1}}
+    }
+}

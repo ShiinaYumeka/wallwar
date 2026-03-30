@@ -1,0 +1,56 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "复苏","color": "light_purple"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "victim",
+        "effect": {
+              "type": "minecraft:apply_mob_effect",
+              "min_amplifier": 0,
+              "max_amplifier": 0,
+              "max_duration": {
+                "type": "linear",
+                "base": 3,
+                "per_level_above_first": 2
+              },
+              "min_duration": {
+                "type": "linear",
+                "base": 3,
+                "per_level_above_first": 2
+              },
+              "to_apply": "regeneration"
+            },
+        "requirements": {
+          "chance": {
+            "type": "minecraft:enchantment_level",
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 0.05,
+              "per_level_above_first": 0.1
+            }
+          },
+          "condition": "minecraft:random_chance"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 29,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "armor"
+  ],
+  "primary_items": "#minecraft:enchantable/leg_armor",
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1
+}

@@ -1,0 +1,68 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#banners",
+        "2":"#doors",
+        "4":"#command"
+
+    },
+    "pattern": [" 1 ","242"," 2 "],
+    "result": {
+        "id": "minecraft:gray_shulker_box",
+        "components": {"minecraft:item_name":{"translate":"村庄守卫套装","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"container": [{"item": {
+        "id": "minecraft:turtle_egg",
+        "components": {"minecraft:item_name":{"translate":"精灵球","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出后抓捕碰到的实体","italic": false,"color": "white"},{"translate":"再次丢出释放抓捕的实体","italic": false,"color": "white"},{"translate":"-使抓捕的实体失去【唤灵】标签","italic": false,"color": "gray"},{"translate":"*这可不是宝可梦决斗","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"custom_data": {"pokemon_ball":1,"wallwar_item":1},"max_stack_size": 64},"count": 1
+    },"slot": 2},{"item": {
+        "id": "minecraft:turtle_egg",
+        "components": {"minecraft:item_name":{"translate":"精灵球","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出后抓捕碰到的实体","italic": false,"color": "white"},{"translate":"再次丢出释放抓捕的实体","italic": false,"color": "white"},{"translate":"-使抓捕的实体失去【唤灵】标签","italic": false,"color": "gray"},{"translate":"*这可不是宝可梦决斗","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"custom_data": {"pokemon_ball":1,"wallwar_item":1},"max_stack_size": 64},"count": 1
+    },"slot": 6},{"item": {
+        "id": "minecraft:turtle_egg",
+        "components": {"minecraft:item_name":{"translate":"精灵球","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出后抓捕碰到的实体","italic": false,"color": "white"},{"translate":"再次丢出释放抓捕的实体","italic": false,"color": "white"},{"translate":"-使抓捕的实体失去【唤灵】标签","italic": false,"color": "gray"},{"translate":"*这可不是宝可梦决斗","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"custom_data": {"pokemon_ball":1,"wallwar_item":1},"max_stack_size": 64},"count": 1
+    },"slot": 11},{"item": {
+        "id": "minecraft:turtle_egg",
+        "components": {"minecraft:item_name":{"translate":"精灵球","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出后抓捕碰到的实体","italic": false,"color": "white"},{"translate":"再次丢出释放抓捕的实体","italic": false,"color": "white"},{"translate":"-使抓捕的实体失去【唤灵】标签","italic": false,"color": "gray"},{"translate":"*这可不是宝可梦决斗","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"custom_data": {"pokemon_ball":1,"wallwar_item":1},"max_stack_size": 64},"count": 1
+    },"slot": 15},{"item": {
+        "id": "minecraft:turtle_egg",
+        "components": {"minecraft:item_name":{"translate":"精灵球","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出后抓捕碰到的实体","italic": false,"color": "white"},{"translate":"再次丢出释放抓捕的实体","italic": false,"color": "white"},{"translate":"-使抓捕的实体失去【唤灵】标签","italic": false,"color": "gray"},{"translate":"*这可不是宝可梦决斗","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"custom_data": {"pokemon_ball":1,"wallwar_item":1},"max_stack_size": 64},"count": 1
+    },"slot": 20},{"item": {
+        "id": "minecraft:turtle_egg",
+        "components": {"minecraft:item_name":{"translate":"精灵球","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出后抓捕碰到的实体","italic": false,"color": "white"},{"translate":"再次丢出释放抓捕的实体","italic": false,"color": "white"},{"translate":"-使抓捕的实体失去【唤灵】标签","italic": false,"color": "gray"},{"translate":"*这可不是宝可梦决斗","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"custom_data": {"pokemon_ball":1,"wallwar_item":1},"max_stack_size": 64},"count": 1
+    },"slot": 24},
+        {"item": {
+        "id": "minecraft:red_bed","components": {"max_stack_size": 2},"count": 2
+    },"slot": 21},
+        {"item": {
+        "id": "minecraft:oak_door","count": 2
+    },"slot": 23},
+        {"item": {
+        "id": "minecraft:villager_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-村民","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个村民","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：20","italic": false,"color": "gray"},{"translate":"持续时间：无限","italic": false,"color": "gray"},{"translate":"武器：鼻子","italic": false,"color": "gray"}],"entity_data": {"id": "villager","Tags": ["summoner"],"PersistenceRequired": true,"AbsorptionAmount": 20,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-村民"},"CanPickUpLoot": true},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 16},"count": 2
+    },"slot": 3},
+        {"item": {
+        "id": "minecraft:ominous_bottle","components": {"ominous_bottle_amplifier": 4},"count": 2
+    },"slot": 5},
+        {"item": {
+        "id": "minecraft:iron_golem_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-铁傀儡","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个更加强大的铁傀儡","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：150","italic": false,"color": "gray"},{"translate":"持续时间：无限","italic": false,"color": "gray"},{"translate":"武器：铁臂","italic": false,"color": "gray"}],"entity_data": {"id": "iron_golem","PersistenceRequired": true,"Health": 150,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-铁傀儡"},"Tags": ["summoner"],"CanPickUpLoot": false,"attributes": [{"id": "max_health","base": 150}]},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 64}
+    },"slot": 4},
+        {"item": {
+        "id": "minecraft:iron_golem_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-铁傀儡","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个更加强大的铁傀儡","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：150","italic": false,"color": "gray"},{"translate":"持续时间：无限","italic": false,"color": "gray"},{"translate":"武器：铁臂","italic": false,"color": "gray"}],"entity_data": {"id": "iron_golem","PersistenceRequired": true,"Health": 150,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-铁傀儡"},"Tags": ["summoner"],"CanPickUpLoot": false,"attributes": [{"id": "max_health","base": 150}]},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 64}
+    },"slot": 12},
+        {"item": {
+        "id": "minecraft:iron_golem_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-铁傀儡","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个更加强大的铁傀儡","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：150","italic": false,"color": "gray"},{"translate":"持续时间：无限","italic": false,"color": "gray"},{"translate":"武器：铁臂","italic": false,"color": "gray"}],"entity_data": {"id": "iron_golem","PersistenceRequired": true,"Health": 150,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-铁傀儡"},"Tags": ["summoner"],"CanPickUpLoot": false,"attributes": [{"id": "max_health","base": 150}]},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 64}
+    },"slot": 13},
+        {"item": {
+        "id": "minecraft:iron_golem_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-铁傀儡","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个更加强大的铁傀儡","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：150","italic": false,"color": "gray"},{"translate":"持续时间：无限","italic": false,"color": "gray"},{"translate":"武器：铁臂","italic": false,"color": "gray"}],"entity_data": {"id": "iron_golem","PersistenceRequired": true,"Health": 150,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-铁傀儡"},"Tags": ["summoner"],"CanPickUpLoot": false,"attributes": [{"id": "max_health","base": 150}]},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 64}
+    },"slot": 14},
+        {"item": {
+        "id": "minecraft:iron_golem_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-铁傀儡","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个更加强大的铁傀儡","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：150","italic": false,"color": "gray"},{"translate":"持续时间：无限","italic": false,"color": "gray"},{"translate":"武器：铁臂","italic": false,"color": "gray"}],"entity_data": {"id": "iron_golem","PersistenceRequired": true,"Health": 150,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-铁傀儡"},"Tags": ["summoner"],"CanPickUpLoot": false,"attributes": [{"id": "max_health","base": 150}]},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 64}
+    },"slot": 22}]}
+    }
+}

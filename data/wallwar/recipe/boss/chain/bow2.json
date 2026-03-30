@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "3":"minecraft:chain_command_block",
+        "4":"minecraft:diamond"
+    },
+    "pattern": [" 1 ","434","111"],
+    "result": {
+        "id": "minecraft:bow",
+        "components": {"minecraft:custom_name":{"translate":"燎原","italic": false,"color": "red","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*箭燃有迹，似星火迸空万俱寂","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+0.5 最大行走高度","italic": false,"color": "blue"}],"enchantments": {"pervade": 5,"multishot": 2,"punch": 3,"flame": 1,"vanishing_ench": 1},"attribute_modifiers": [{"id": "bow_boss","type": "minecraft:step_height","amount": 0.5,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 32767}
+        }
+    }

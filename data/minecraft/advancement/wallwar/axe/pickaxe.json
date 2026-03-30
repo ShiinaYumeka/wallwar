@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:wallwar/axe/axe2",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:mine/a/power"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作贪婪者的褒奖"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_pickaxe",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": {
+      "translate": "贪得无厌"
+    },
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

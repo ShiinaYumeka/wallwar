@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:rooted_dirt",
+        "2":"minecraft:yellow_wool"
+    },
+    "pattern": ["111","121","111"],
+    "result": {
+        "id": "minecraft:yellow_concrete",
+        "components": {"minecraft:custom_name":{"translate":"队伍限定模块-黄","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"使部分建筑只能对范围内的黄队生效。","italic": false,"color": "gray"},{"translate":"*贝贝们，黄队又双叒叕出场啦！这次黄队又做了很多的准备哦~，让我们快来看看吧~","italic": false,"color": "gray"}],"custom_data": {"building_update_yellow":1,"building_update_team":1},"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

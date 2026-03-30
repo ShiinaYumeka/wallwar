@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:pumpkin",
+        "3":"minecraft:pumpkin_seeds",
+        "2":"#minecraft:cropblock"
+    },
+    "pattern": ["323","1 1"],
+    "result": {
+        "id": "minecraft:leather_helmet",
+        "components": {"minecraft:item_name":{"translate":"南瓜帽子","italic": false,"color": "aqua"},"dyed_color": 13746176,"minecraft:lore":[{"translate":"套装奖励：生命提升II","italic": false,"color": "white"},{"translate":"有效的在万圣节要糖","italic": false,"color": "gray"}],"enchantments": {"protection":2},"attribute_modifiers": [{"id": "pumpkin_cminecraft:leather_helmet","type": "armor","amount": 3,"operation": "add_value","slot": "head"},{"id": "pumpkin_cminecraft:leather_helmet","type": "armor_toughness","amount":2,"operation": "add_value","slot": "head"},{"id": "pumpkin_cminecraft:leather_helmet","type": "attack_damage","amount": -0.1,"operation": "add_multiplied_total","slot": "head"}],"max_damage": 300,"custom_data": {"pumpkin_armor":1}}
+    }
+}

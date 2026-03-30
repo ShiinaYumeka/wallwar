@@ -1,0 +1,33 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    "show_notification": false,
+    "key": {
+        "1": "wheat_seeds",
+        "2": "diamond_hoe"
+    },
+    "pattern": [
+        "111",
+        "121",
+        "111"
+    ],
+    "result": {
+        "id": "minecraft:wheat",
+        "components": {
+            "minecraft:custom_name":{"translate":"粮屯核心","italic": false,"color": "aqua"},
+            "minecraft:lore": [
+                {"translate":"建筑范围：Y>60","italic": false,"color": "green"},
+                {"translate":"放置于平放5x5x1的干草块北方的物品展示框中激活此建筑","italic": false,"color": "gray"},
+                {"translate":"每10秒有50%/67%/40%概率在前方生成一个普通/法式/全麦面包","italic": false,"color": "gray"},
+                {"translate":"-当此干草块堆不存在至少两层5x5干草块时生产普通面包","italic": false,"color": "gray"},
+                {"translate":"-当此干草块堆上方存在至少两层5x5干草块时改为法式面包","italic": false,"color": "gray"},
+                {"translate":"-当此干草块堆上方存在至少四层5x5干草块时改为全麦面包","italic": false,"color": "gray"},
+                {"translate":"[!] 10格内存在其他粮屯核心时无法工作","italic": false,"color": "dark_red"},
+                {"translate":"*兵马未动，粮草先行","italic": false,"color": "dark_gray"}
+            ],
+            "custom_data": {
+                "building_farm": 1
+            }
+        }
+    }
+}

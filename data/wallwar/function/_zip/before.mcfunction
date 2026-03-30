@@ -1,0 +1,2 @@
+
+give @s yellow_shulker_box[container=[ {"item": {"id":"iron_ingot","count": 64},"slot": 2}, {"item": {"id":"gold_ingot","count": 32},"slot": 1}, {"item": {"id":"copper_block","count": 16},"slot": 5}, {"item": {"id":"lapis_block","count": 16},"slot": 3}, {"item": {"id":"redstone_block","count": 16},"slot": 4}, {"item": {"id":"diamond","count": 16},"slot": 0}, {"item": {"id":"wither_skeleton_skull","count": 1},"slot": 6}]]

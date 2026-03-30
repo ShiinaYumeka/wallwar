@@ -1,0 +1,36 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:gunpowder",
+        "2":"minecraft:command_block"
+    },
+    "pattern": [" 1 ","121"," 1 "],
+    "result": {
+        "id": "minecraft:pink_shulker_box",
+        "components": {"minecraft:item_name":{"translate":"爆炸物套装","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"container": [
+         {"item": {"id": "minecraft:crying_obsidian","count":3},"slot": 0},
+        {"item": {
+        "id": "minecraft:creeper_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-点燃的苦力怕","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个点燃的苦力怕","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：40","italic": false,"color": "gray"},{"translate":"持续时间：60s","italic": false,"color": "gray"},{"translate":"武器：立即自爆","italic": false,"color": "gray"}],"entity_data": {"id": "creeper","PersistenceRequired": true,"Health": 40,"powered": false,"attributes": [{"id": "max_health","base": 40}],"Tags": ["summoner","summoner_death"],"PortalCooldown": 1200,"Fuse": 15,"ignited": true,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-点燃的苦力怕"},"CanPickUpLoot": false},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 16},"count": 8
+    },"slot": 1},
+         {"item": {"id": "minecraft:tnt_minecart","components": {"max_stack_size": 4},"count":1},"slot": 2},
+         {"item": {"id": "minecraft:ender_pearl"},"slot": 3},
+         {"item": {"id": "firework_rocket","components":{"fireworks":{"explosions":[{"shape":"small_ball","colors":[6719955]},{"shape":"small_ball","colors":[6719955]},{"shape":"small_ball","colors":[6719955]},{"shape":"small_ball","colors":[6719955]},{"shape":"small_ball","colors":[6719955]},{"shape":"small_ball","colors":[6719955]},{"shape":"small_ball","colors":[6719955]}],"flight_duration":3}},"count": 64},"slot": 6},
+        {"item": {
+        "id": "minecraft:snowball",
+        "components": {"minecraft:item_name":{"translate":"火球术","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"召唤一个可以被打出的火球","italic": false,"color": "red"}],"minecraft:custom_data":{"is_snowball":2},"max_stack_size": 64},
+        "count": 4
+    },"slot": 4},
+    {
+        "item": {
+        "id": "minecraft:snowball",
+        "components": {"minecraft:item_name":{"translate":"火焰冲击","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"召唤一个可以被打出的小火球","italic": false,"color": "red"}],"minecraft:custom_data":{"is_snowball":1},"max_stack_size": 64},
+        "count": 32
+    },"slot": 5
+    }
+        ]}
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#minecraft:logs_that_burn",
+        "3":"minecraft:bone_meal",
+        "2":"#minecraft:leaves"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:stone_hoe",
+        "components": {"minecraft:item_name":{"translate":"林业镰刀","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"*森林管理员的剪刀坏掉时的替代品。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 2 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 2 攻击速度","italic": false,"color": "dark_green"}],"tool": {"default_mining_speed": 1,"damage_per_block": 1,"rules": [{"blocks": "#leaves","correct_for_drops": true,"speed": 30}]},"attribute_modifiers": [{"id": "stone_hoe","type": "attack_speed","amount": -2,"operation": "add_value","slot": "mainhand"},{"id": "stone_hoe","type": "attack_damage","amount": 1,"operation": "add_value","slot": "mainhand"}],"max_damage": 1000,"enchantments": {"fortune": 2},"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

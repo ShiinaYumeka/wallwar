@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:grass_block",
+        "2":"glass"
+    },
+    "pattern": ["212","121","212"],
+    "result": {
+        "id": "minecraft:spyglass",
+        "components": {"minecraft:custom_name":{"translate":"哨塔核心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：Y>60","italic": false,"color": "green"},{"translate":"若拥有队伍模块，放置于哨塔顶端的物品展示框中激活此建筑","italic": false,"color": "gray"},{"translate":"每10秒检测96格内的其他队伍玩家，给予己方队伍左下角播报警告。","italic": false,"color": "gray"},{"translate":"-检测范围为以哨塔底为中心向上11格向下20格。","italic": false,"color": "gray"},{"translate":"-当哨塔触发时哨塔核心获得发光","italic": false,"color": "gray"},{"translate":"-具有“隐身”效果的玩家发光时间减少90%","italic": false,"color": "gray"},{"translate":"-当哨塔检测到敌人时给予其10s发光与缓慢效果","italic": false,"color": "gray"},{"translate":"*科技改变生活，我们有属于自己的摄像头","italic": false,"color": "aqua"}],"custom_data": {"building_tower":1}}
+    }
+}

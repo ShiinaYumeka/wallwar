@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category":"redstone",
+    
+    "ingredients": [
+        "minecraft:rooted_dirt"
+    ],
+    "result": {
+        "id": "minecraft:dirt",
+        "count": 9
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:heart_of_the_sea",
+        "#minecraft:stone_tool_materials"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:nautilus_shell"
+    }
+}

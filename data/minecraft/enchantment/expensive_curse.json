@@ -1,0 +1,20 @@
+{
+  "anvil_cost": 20,
+  "description": {
+    "translate": "昂贵诅咒","color": "red"
+  },
+  "max_cost": {
+    "base": 99,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 99,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/vanishing",
+  "weight": 1
+}

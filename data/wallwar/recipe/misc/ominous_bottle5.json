@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:glass_bottle",
+        "2":"minecraft:black_dye",
+        "3":"minecraft:spider_eye",
+        "4":"minecraft:netherite_scrap"
+    },
+    "pattern": ["222","343","212"],
+    "result": {
+        "id": "minecraft:ominous_bottle",
+        "components": {"ominous_bottle_amplifier": 4}
+    }
+}

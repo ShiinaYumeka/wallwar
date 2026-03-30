@@ -1,0 +1,43 @@
+{
+  "values": [
+
+    "minecraft:feather_falling",
+    "minecraft:respiration",
+    "minecraft:aqua_affinity",
+    "minecraft:thorns",
+    "minecraft:depth_strider",
+    "minecraft:smite",
+    "minecraft:bane_of_arthropods",
+    "minecraft:knockback",
+    "minecraft:fire_aspect",
+    "minecraft:looting",
+    "minecraft:sweeping_edge",
+    "minecraft:unbreaking",
+    "minecraft:punch",
+    "minecraft:flame",
+    "minecraft:infinity",
+    "minecraft:luck_of_the_sea",
+    "minecraft:loyalty",
+    "minecraft:riptide",
+    "minecraft:channeling",
+    "minecraft:quick_charge",
+
+    "cooking",
+    "melt",
+    "hunter",
+    "low_damage",
+    "low_damage1",
+    "low_damage4",
+    "noench_pro3",
+    "noench_pro4",
+    "bigkiller",
+    "cutdown",
+    "regenerate",
+
+
+    "armor_fire",
+    "armor_ice",
+    "stun",
+    "nogravity"
+  ]
+}

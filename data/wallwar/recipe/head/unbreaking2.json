@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:dirt",
+        "2":"player_head"
+    },
+    "pattern": [" 1 ","121"," 1 "],
+    "result": {
+            "id": "minecraft:white_dye",
+            "components": {"minecraft:custom_name":{"translate":"便携式临时粘合剂","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"-丢出后将身上护甲耐久恢复至最大值，然后为增加一级磨损","italic": false,"color": "white"},{"translate":"*旧梦可重温，破镜难重圆","italic": false,"color": "light_purple"}],"custom_data": {"fix_bag":1,"wallwar_item":1}},
+            "count": 1
+        }
+    }

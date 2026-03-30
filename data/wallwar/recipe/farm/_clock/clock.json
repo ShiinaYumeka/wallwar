@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "2":"#crop",
+        "1":"minecraft:copper_ingot",
+        "3":"minecraft:apple"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:clock",
+        "components": {"minecraft:custom_name":{"translate":"时钟","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"建筑范围：Y<150","italic": false,"color": "green"},{"translate":"放置于面向天空的物品展示框中","italic": false,"color": "white"},{"translate":"可以小幅度增加下方一格为中心的5x5耕地作物生长速度","italic": false,"color": "gray"},{"translate":"（约20秒生长一次）","italic": false,"color": "gray"},{"translate":"站在物品展示框上方以消耗时钟用于调整时间","italic": false,"color": "white"},{"translate":"-面朝天空消耗时：改变至清晨","italic": false,"color": "gray"},{"translate":"-面朝地面消耗时：改变至傍晚","italic": false,"color": "gray"},{"translate":"-当此时钟的生效范围内每有一个其他时钟或农耕时钟时，效率降低33%","italic": false,"color": "gray"},{"translate":"*种植作物的必备品","italic": false,"color": "green"}],"custom_data": {"clock":1}}
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:wallwar/farm/hoe2",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/__hoe/netherite_hoe"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作大师农耕锄\n奖励：200经验值"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_hoe"
+    },
+    "title": {
+      "translate": "终极奉献"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

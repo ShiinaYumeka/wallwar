@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:gunpowder",
+        "2":"minecraft:redstone_block",
+        "3":"minecraft:grass_block"
+    },
+    "pattern": ["333","212","333"],
+    "result": {
+        "id": "minecraft:snowball",
+        "components": {"minecraft:item_name":{"translate":"火焰冲击","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"召唤一个可以被打出的小火球","italic": false,"color": "red"}],"minecraft:custom_data":{"is_snowball":1},"max_stack_size": 64},
+        "count": 8
+    }
+}

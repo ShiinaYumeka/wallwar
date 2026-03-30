@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "2":"minecraft:gold_block",
+        "1":"minecraft:copper_block",
+        "3":"minecraft:stick"
+    },
+    "pattern": ["121"," 3 "," 3 "],
+    "result": {
+        "id": "minecraft:golden_pickaxe",
+        "components": {"custom_model_data": {"floats": [1]},"minecraft:item_name":{"translate":"掘石思洞客","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"挖掘石头的最佳选择","italic": false,"color": "gray"},{"translate":"能且只能破坏各种石头","italic": false,"color": "gray"},{"translate":"*当你做出这个之后你就只能挖到石头了","italic": false,"color": "gray"}],"enchantments": {"noefficiency": 1},"tool": {"damage_per_block": 1,"default_mining_speed": 1,"rules": [{"blocks": "#base_stone_overworld","correct_for_drops":true,"speed": 42},{"blocks": "#base_stone_nether","correct_for_drops":true,"speed": 42}]},"max_damage": 1000}
+    }
+}

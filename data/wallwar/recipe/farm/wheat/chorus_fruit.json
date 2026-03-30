@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:hay_block",
+        "2":"minecraft:purple_dye",
+        "3":"minecraft:wheat"
+    },
+    "pattern": ["313","121","313"],
+    "result": {
+        "id": "minecraft:chorus_fruit"
+    }
+}

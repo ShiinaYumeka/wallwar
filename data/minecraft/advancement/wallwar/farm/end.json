@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:husbandry/obtain_netherite_hoe",
+  "criteria": {
+    "get_seed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bread",
+            "components": {"custom_data": {"full_bread":1}},
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "获得一组全麦面包\n奖励：300经验值"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:experience_bottle"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "title": {
+      "translate": "良田万顷"
+    }
+  },
+  "rewards": {
+    "experience": 300,
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    [
+      "get_seed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

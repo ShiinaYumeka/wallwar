@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "#minecraft:non_treasure",
+    "regenerate",
+    "legend_edge",
+    "multishot"
+  ]
+}

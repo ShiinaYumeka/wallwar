@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:heart_pottery_sherd"
+    ],
+    "result": {
+        "id": "minecraft:heartbreak_pottery_sherd",
+        "components": {"minecraft:item_name":{"translate":"一包土豆","italic": false,"color": "white"},"minecraft:lore":[{"translate":"内含9个土豆","italic": false,"color": "gray"}]},
+        "count": 9
+    }
+}

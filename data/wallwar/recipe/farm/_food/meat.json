@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#cookmeat",
+        "2":"#coals",
+        "3":"sugar"
+    },
+    "pattern": ["131","222"],
+    "result": {
+        "id": "minecraft:rabbit_stew",
+        "components": {"minecraft:item_name":{"translate":"果木烤肉","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"16饱食 16饱和","italic": false,"color": "yellow"},{"translate":"只需要一半的食用时间","italic": false,"color": "gray"},{"translate":"*起源于哈尔滨的美国韩式烤肉","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 16,"saturation": 16},"consumable": {"animation":"eat","consume_seconds": 0.8},"max_stack_size": 64}
+    }
+}

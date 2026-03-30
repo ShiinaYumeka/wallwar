@@ -1,0 +1,24 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"custom_name": {"translate": "深海之力","italic": false,"color": "gold","bold": true},"potion_contents": {"potion": "minecraft:long_water_breathing","custom_effects": [{"id": "strength","duration": 9600,"amplifier": 1}]}}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

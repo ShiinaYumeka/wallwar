@@ -1,0 +1,19 @@
+{
+    "values": [
+        
+    "minecraft:protection",
+    "minecraft:fire_protection",
+    "minecraft:blast_protection",
+    "minecraft:projectile_protection",
+    "minecraft:sharpness",
+    "breaker",
+    "minecraft:efficiency",
+    "minecraft:power",
+    "minecraft:lure",
+    "minecraft:impaling",
+    "minecraft:piercing",
+    "minecraft:density",
+    "minecraft:breach"
+
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:blackstone"
+    ],
+    "result": {
+        "id": "minecraft:charcoal",
+        "count": 9
+    }
+}

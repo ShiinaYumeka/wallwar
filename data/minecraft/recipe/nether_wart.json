@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:copper_block",
+        "minecraft:string",
+        "minecraft:bone",
+        "minecraft:rotten_flesh",
+        "minecraft:gunpowder",
+        "minecraft:spider_eye",
+        "minecraft:pufferfish",
+        "minecraft:wheat_seeds",
+        "minecraft:ender_pearl"
+    ],
+    "result": {
+        "id": "minecraft:nether_wart"
+    }
+}

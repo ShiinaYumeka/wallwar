@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#minecraft:logs_that_burn",
+        "2":"#minecraft:stone_tool_materials",
+        "3":"#minecraft:leaves"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:stone_axe",
+        "components": {"minecraft:item_name":{"translate":"伐木斧","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"*要致富，先砍树。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 9 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 0.8 攻击速度","italic": false,"color": "dark_green"}],"tool": {"default_mining_speed": 1,"damage_per_block": 1,"rules": [{"blocks": "#mineable/axe","correct_for_drops": true,"speed": 12}]},"attribute_modifiers": [{"id": "stone_axe","type": "attack_speed","amount": -3.2,"operation": "add_value","slot": "mainhand"},{"id": "stone_axe","type": "attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

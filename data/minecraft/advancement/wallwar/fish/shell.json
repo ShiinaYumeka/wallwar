@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:wallwar/fish/rod2",
+  "criteria": {
+    "get_item1": {
+      "conditions": {
+        "rod": {
+          "components": {"minecraft:item_name":{"translate":"海洋钓竿","italic": false,"color": "aqua"}}
+        },
+        "player": [
+          {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "fish": {
+                "min": 56
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "通过海洋钓竿垂钓获得56条鱼\n奖励：随机虚妄材料"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "一等奖！"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:fish/treasure"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item1"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

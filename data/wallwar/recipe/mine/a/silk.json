@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "2":"minecraft:coal_block",
+        "1":"minecraft:copper_block",
+        "3":"minecraft:stick"
+    },
+    "pattern": ["121"," 3 "," 3 "],
+    "result": {
+        "id": "minecraft:stone_pickaxe",
+        "components": {"custom_model_data": {"floats": [1]},"minecraft:item_name":{"translate":"稳健者的褒奖","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"只能且可以挖掘所有矿物。","italic": false,"color": "gray"},{"translate":"*温柔的抚摸每一块矿石","italic": false,"color": "gray"}],"tool": {"damage_per_block": 1,"default_mining_speed": 0,"rules": [{"blocks": "#silk_pickaxe","correct_for_drops":true,"speed": 20},{"blocks": "#ice","correct_for_drops":true,"speed": 1}]},"enchantments": {"silk_touch": 1,"expensive_curse2": 1},"repair_cost": 99,"max_damage": 256}
+    }
+}

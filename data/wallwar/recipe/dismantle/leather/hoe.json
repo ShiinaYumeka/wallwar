@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:stone_hoe"
+    ],
+    "result": {
+        "count": 2,
+        "id": "minecraft:cobblestone"
+    }
+}

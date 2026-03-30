@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:grass_block",
+        "2":"flint",
+        "3":"redstone",
+        "4":"redstone_torch",
+        "5":"copper_ingot"
+    },
+    "pattern": ["212","353","414"],
+    "result": {
+        "id": "minecraft:lightning_rod",
+        "components": {"minecraft:custom_name":{"translate":"特斯拉塔核心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：Y>60","italic": false,"color": "green"},{"translate":"放置于特斯拉塔顶端的物品展示框中激活此建筑","italic": false,"color": "gray"},{"translate":"每10秒检测最近的一名玩家给予蓄风，如果其已有蓄风则受到电击。","italic": false,"color": "gray"},{"translate":"-检测范围为以特斯拉塔底端为中心圆形12格","italic": false,"color": "gray"},{"translate":"-如果周围48格内有其他特斯拉塔，则检测范围扩大到24格","italic": false,"color": "gray"},{"translate":"-放置队伍模块在核心周围，特斯拉塔会排除对应队伍玩家","italic": false,"color": "gray"},{"translate":"-电击：16雷电伤害，缓慢、挖掘疲劳II3s，虚弱10s","italic": false,"color": "gray"},{"translate":"*便民工程的前身是杀人如麻的机器","italic": false,"color": "aqua"}],"custom_data": {"building_electric":1},"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:melon",
+        "3":"minecraft:melon_slice",
+        "2":"#minecraft:cropblock"
+    },
+    "pattern": ["323","1 1"],
+    "result": {
+        "id": "minecraft:leather_helmet",
+        "components": {"minecraft:item_name":{"translate":"西瓜帽子","italic": false,"color": "aqua"},"dyed_color": 5941248,"minecraft:lore":[{"translate":"套装奖励：每5s回复生命值","italic": false,"color": "white"},{"translate":"家人们，谁懂啊！","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "melon_cminecraft:leather_helmet","type": "armor","amount": 3,"operation": "add_value","slot": "head"},{"id": "melon_cminecraft:leather_helmet","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "head"},{"id": "melon_cminecraft:leather_helmet","type": "attack_damage","amount": -0.05,"operation": "add_multiplied_total","slot": "head"}],"enchantments": {"protection":2},"max_damage": 500,"custom_data": {"melon_armor":1}}
+    }
+}

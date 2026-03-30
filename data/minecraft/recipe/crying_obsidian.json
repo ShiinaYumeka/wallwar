@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:crying_obsidian",
+        "2":"minecraft:ghast_tear",
+        "3":"minecraft:obsidian"
+    },
+    "pattern": [" 1 "," 2 "," 3 "],
+    "result": {
+        "id": "minecraft:crying_obsidian",
+        "count": 2
+    }
+}

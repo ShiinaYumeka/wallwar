@@ -1,0 +1,74 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "狂怒"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "max_amplifier": 1,
+              "min_amplifier": 1,
+              "max_duration": 1,
+              "min_duration": 1,
+              "to_apply": "conduit_power"
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [{
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "legs": {
+                "predicates": {
+              "damage": {
+                "durability": {
+                  "max": 248,
+                  "min": 0
+                }
+              }
+            }
+              }
+            }
+          }
+        },
+      {
+          "chance": {
+            "type": "minecraft:enchantment_level",
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 0.04,
+              "per_level_above_first": 0.03
+            }
+          },
+          "condition": "random_chance"
+      }
+      ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 11
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 11
+  },
+  "slots": [
+    "armor"
+  ],
+  "supported_items": "#minecraft:enchantable/leg_armor",
+  "weight": 8
+}

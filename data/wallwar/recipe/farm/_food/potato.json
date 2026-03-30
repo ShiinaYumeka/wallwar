@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:heart_pottery_sherd",
+        "2":"minecraft:paper"
+    },
+    "pattern": [" 2 ","111"],
+    "result": {
+        "id": "minecraft:book",
+        "components": {"minecraft:item_name":{"translate":"热土豆书","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"5饱食 6饱和","italic": false,"color": "yellow"},{"translate":"获得生命吸收","italic": false,"color": "gray"},{"translate":"*曾打响了土豆战争","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 5,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 3.2,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "absorption","duration": 12000,"amplifier": 2},{"id": "blindness","duration": 200,"amplifier": 1}]}]}},
+        "count": 1
+    }
+}

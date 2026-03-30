@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:grass_block",
+        "2":"minecraft:wheat_seeds"
+    },
+    "pattern": ["222","111","111"],
+    "result": {
+        "id": "minecraft:podzol"
+    }
+}

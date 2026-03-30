@@ -1,0 +1,65 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "征服"
+  },
+  "effects": {
+    "minecraft:armor_effectiveness": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -0.05,
+            "per_level_above_first": -0.05
+          }
+        },
+        "requirements": [
+          {
+            "condition": "all_of",
+            "terms": [
+               {
+                "condition": "all_of",
+                "terms": [{
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "HP": {
+                "max": 10
+              }
+            }
+          },
+          {
+            "condition": "entity_scores",
+            "entity": "attacker",
+            "scores": {
+              "HP": {
+                "max": 12
+              }
+            }
+          }
+            ]
+          }
+           ]
+            }
+          
+        ]
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/noench",
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 20
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 20
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:swords",
+  "weight": 3
+}

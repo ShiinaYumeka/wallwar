@@ -1,0 +1,32 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    "show_notification": false,
+    "key": {
+        "1": "#dirt_block",
+        "2": "#planks"
+    },
+    "pattern": [
+        "111",
+        "121",
+        "111"
+    ],
+    "result": {
+        "id": "minecraft:powered_rail",
+        "components": {
+            "minecraft:custom_name":{"translate":"UDP源端口核心","italic": false,"color": "aqua"},
+            "minecraft:lore": [
+                {"translate":"建筑范围：无限制","italic": false,"color": "green"},
+                {"translate":"放置于传输密钥方块一侧的物品展示框中激活此建筑","italic": false,"color": "gray"},
+                {"translate":"每10秒将传输密钥方块上方储存方块的物品传输向目的端口","italic": false,"color": "gray"},
+                {"translate":"-物品只会传输至拥有对应传输密钥方块的目的端口中","italic": false,"color": "gray"},
+                {"translate":"（例：若此建筑的传输密钥方块为红色羊毛，","italic": false,"color": "gray"},
+                {"translate":"则会接收所有传输密钥为红色羊毛的源端口）","italic": false,"color": "gray"},
+                {"translate":"*跨向信息时代的一大步","italic": false,"color": "aqua"}
+            ],
+            "custom_data": {
+                "building_trans": 2
+            }
+        }
+    }
+}

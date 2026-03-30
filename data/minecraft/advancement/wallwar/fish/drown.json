@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:wallwar/fish/rod3",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "item": {
+          "items": ["drowned_spawn_egg"],
+          "count": 1
+        }
+      },
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "通过垂钓召唤海神仆从"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "沉入悲伤之海的她"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

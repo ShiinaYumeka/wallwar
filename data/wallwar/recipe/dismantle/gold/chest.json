@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:golden_chestplate"
+    ],
+    "result": {
+        "count": 7,
+        "id": "minecraft:gold_ingot"
+    }
+}

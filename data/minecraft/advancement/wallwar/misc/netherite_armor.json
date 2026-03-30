@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "netherite_armor1": {
+      "conditions": {
+        "recipe_id": "netherite_helmet_smithing"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "netherite_armor2": {
+      "conditions": {
+        "recipe_id": "netherite_chestplate_smithing"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "netherite_armor3": {
+      "conditions": {
+        "recipe_id": "netherite_leggings_smithing"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "netherite_armor4": {
+      "conditions": {
+        "recipe_id": "netherite_boots_smithing"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "使用锻造台打造一整套下界合金护甲\n奖励：+1护甲值与+2盔甲韧性"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "translate": "盔甲锻造大师"
+    }
+  },
+  "requirements": [
+    [
+      "netherite_armor1"
+    ],
+    [
+      "netherite_armor2"
+    ],
+    [
+      "netherite_armor3"
+    ],
+    [
+      "netherite_armor4"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:armor/netherite"
+  },
+  "sends_telemetry_event": true
+}

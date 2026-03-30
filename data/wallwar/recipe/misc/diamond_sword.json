@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "2":"minecraft:stick"
+    },
+    "pattern": ["  1"," 1 ","2  "],
+    "result": {
+        "id": "minecraft:diamond_sword",
+        "components": {"minecraft:custom_name":{"translate":"钻石重剑","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"*十分沉重且珍贵的武器","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 8 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.2 攻击速度","italic": false,"color": "dark_green"},{"translate":" 3.5 攻击距离","italic": false,"color": "dark_green"},{"translate":"-15% 移动速度","italic": false,"color": "red"}],"attribute_modifiers": [{"id": "diamond_sword","type": "attack_speed","amount": -2.8,"operation": "add_value","slot": "mainhand"},{"id": "diamond_sword","type": "attack_damage","amount": 7,"operation": "add_value","slot": "mainhand"},{"id": "diamond_sword","type": "movement_speed","amount": -0.15,"operation": "add_multiplied_base","slot": "hand"},{"id": "diamond_sword","type": "entity_interaction_range","amount": 0.5,"operation": "add_value","slot": "mainhand"}],"enchantments": {"auto_damage": 1,"sharpness": 3,"expensive_curse": 1},"max_damage": 2000,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

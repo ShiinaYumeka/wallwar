@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#minecraft:logs_that_burn",
+        "2":"minecraft:bookshelf",
+        "3":"minecraft:command_block"
+    },
+    "pattern": ["111","232","111"],
+    "result": {"id": "minecraft:bookshelf","count": 16}
+}

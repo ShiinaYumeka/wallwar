@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:command_block",
+        "2":"minecraft:diamond_leggings"
+    },
+    "pattern": [" 1 "," 2 ","   "],
+    "result": {
+        "id": "minecraft:chainmail_leggings",
+        "components": {"minecraft:item_name":{"translate":"潮踪","italic": false,"bold": true,"color": "blue"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"enchantments": {"protection": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "chainmail_leggings","amount": 6,"operation": "add_value","type": "armor","slot": "legs"},{"id": "chainmail_leggings","amount": 3,"operation": "add_value","type": "armor_toughness","slot": "legs"},{"id": "chainmail_leggings","amount": -0.6,"operation": "add_multiplied_total","type": "fall_damage_multiplier","slot": "legs"},{"id": "chainmail_leggings","amount": 5,"operation": "add_value","type": "safe_fall_distance","slot": "legs"},{"id": "chainmail_leggings","amount": 0.5,"operation": "add_value","type": "water_movement_efficiency","slot": "legs"}],"max_damage": 2000}
+    }
+}

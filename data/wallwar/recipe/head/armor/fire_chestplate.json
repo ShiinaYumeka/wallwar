@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#grass",
+        "2":"#minecraft:heads3"
+    },
+    "pattern": ["1 1","121","111"],
+    "result": {
+        "id": "minecraft:leather_chestplate",
+        "components": {"minecraft:item_name":{"translate":"藤甲","italic": false,"color": "dark_purple"},"dyed_color": 13421772,"minecraft:lore":[{"translate":"极强的防御效果","italic": false,"color": "white"},{"translate":"*烈火燃尽英雄胆","italic": false,"color": "gray"}],"enchantments": {"projectile_protection":5},"attribute_modifiers": [{"id": "fire_chestplate","type": "armor","amount": 8,"operation": "add_value","slot": "chest"},{"id": "fire_chestplate","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "chest"},{"id": "fire_chestplate","type": "burning_time","amount": 4,"operation": "add_multiplied_base","slot": "chest"}],"max_damage": 444}
+    }
+}

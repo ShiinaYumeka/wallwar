@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "hit_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team":"waiting"
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:wither_immune_to"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "wallwar:system/random_teamup/choose/adv"
+  }
+}

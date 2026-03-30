@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:pumpkin",
+        "2":"#minecraft:cropblock"
+    },
+    "pattern": ["121","1 1","1 1"],
+    "result": {
+        "id": "minecraft:leather_leggings",
+        "components": {"minecraft:item_name":{"translate":"南瓜裤子","italic": false,"color": "aqua"},"dyed_color": 13746176,"minecraft:lore":[{"translate":"套装奖励：生命提升II","italic": false,"color": "white"},{"translate":"有效的在万圣节要糖","italic": false,"color": "gray"}],"enchantments": {"protection":2},"attribute_modifiers": [{"id": "pumpkin_leggings","type": "armor","amount": 6,"operation": "add_value","slot": "legs"},{"id": "pumpkin_leggings","type": "armor_toughness","amount":2,"operation": "add_value","slot": "legs"},{"id": "pumpkin_leggings","type": "attack_damage","amount": -0.0,"operation": "add_multiplied_total","slot": "legs"}],"max_damage": 300,"custom_data": {"pumpkin_armor":1}}
+    }
+}

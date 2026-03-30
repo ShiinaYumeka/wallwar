@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:wallwar/dig/shovel3",
+  "criteria": {
+    "get_seed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:grass_block",
+            "count": {
+              "min": 32
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "获得32个草方块\n奖励：300经验值"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:rooted_dirt"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "title": {
+      "translate": "愚公移山"
+    }
+  },
+  "rewards": {
+    "experience": 300,
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    [
+      "get_seed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

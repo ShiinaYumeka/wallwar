@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:podzol",
+        "2":"minecraft:grass_block",
+        "3":"minecraft:nether_gold_ore"
+    },
+    "pattern": ["221","232","222"],
+    "result": {
+        "id": "minecraft:diamond_shovel",
+        "components": {"minecraft:custom_name":{"translate":"现代挖掘助手2000型","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"-此物品视为所有方块的特定工具","italic": false,"color": "white"},{"translate":"*本产品拥有铲，挖，切菜，锅，烧烤板等三十六种使用场景","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 7 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"efficiency": 5,"knockback": 2,"fortune": 1},"tool": {"default_mining_speed": 1,"damage_per_block": 1,"rules": [{"blocks": "#minecraft:mineable/pickaxe","correct_for_drops": true,"speed": 2},{"blocks": "#minecraft:mineable/shovel","correct_for_drops": true,"speed": 5},{"blocks": "#minecraft:mineable/axe","correct_for_drops": true,"speed": 2}]},"attribute_modifiers": [{"id": "minecraft:golden_shovel_shovel","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"},{"id": "minecraft:golden_shovel_shovel","type": "attack_damage","amount": 6,"operation": "add_value","slot": "mainhand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 8888}
+    }
+}

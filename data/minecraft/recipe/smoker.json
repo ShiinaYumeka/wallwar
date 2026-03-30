@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:copper_ingot",
+        "2":"minecraft:furnace",
+        "3":"minecraft:blackstone",
+        "4":"minecraft:charcoal"
+    },
+    "pattern": ["111","121","434"],
+    "result": {
+        "id": "minecraft:smoker",
+        "components": {"minecraft:item_name":{"translate":"高速烟熏炉","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"极速烘烤食物或烧制木炭和皮革","italic": false,"color": "white"},{"translate":"-使烧制获得的经验值翻10倍到50倍！","italic": false,"color": "white"},{"translate":"在营火边上的每一天都是浪费。","italic": false,"color": "gray"}]}
+    }
+}

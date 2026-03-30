@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:wallwar/mine/tool2_",
+  "criteria": {
+    "mine_stone": {
+      "conditions": {
+        "item": {
+            "items": "golden_pickaxe",
+            "components": {"minecraft:item_name":{"translate":"掘石思洞客","italic": false,"color": "aqua"}}
+          },
+        "durability": 0,
+        "delta": -1
+      },
+      "trigger": "minecraft:item_durability_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "用完一把掘石思洞客\n奖励：4紫水晶"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": {
+      "translate": "蚁巢思维"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot": [
+      "wallwar:stonk_rew2"
+    ],
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    [
+      "mine_stone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

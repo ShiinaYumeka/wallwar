@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:dirt",
+        "2":"#crop",
+        "3":"minecraft:apple"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:iron_hoe",
+        "components": {"minecraft:item_name":{"translate":"基础农耕锄","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"成为农夫的第一步","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 3 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.6 攻击速度","italic": false,"color": "dark_green"},{"translate":" 3 攻击距离","italic": false,"color": "dark_green"}],"enchantments": {"fortune": 3,"efficiency": 1},"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"attribute_modifiers": [{"id": "iron_hoe","type": "attack_speed","amount": -2.4,"operation": "add_value","slot": "mainhand"},{"id": "iron_hoe","type": "attack_damage","amount": 2,"operation": "add_value","slot": "mainhand"},{"id": "iron_hoe","type": "entity_interaction_range","amount": 0,"operation": "add_value","slot": "mainhand"}]}
+    }
+}

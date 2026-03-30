@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"半麦面包","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"10饱食 12饱和","italic": false,"color": "yellow"},{"translate":"回复大量饱食度","italic": false,"color": "gray"},{"translate":"*500%纯小麦","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 10,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.6}}
+            },
+            {
+              "function": "set_count",
+              "count": 8.0
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8.0
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:melon",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 8.0
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/farmer_gift"
+}

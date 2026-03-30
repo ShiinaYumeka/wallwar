@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:basalt",
+        "2":"minecraft:glowstone"
+
+    },
+    "pattern": ["212","111","212"],
+    "result": {
+        "id": "minecraft:shroomlight"
+    }
+}

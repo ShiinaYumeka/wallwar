@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#logs_that_burn",
+        "2":"minecraft:copper_ingot"
+    },
+    "pattern": [" 2 ","212"," 2 "],
+    "result": {
+        "id":"jungle_sapling",
+        "count": 4
+    }
+}

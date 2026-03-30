@@ -1,0 +1,10 @@
+{
+    "type": "smithing_transform",
+    "template": "#patterns",
+    "base": "minecraft:diamond_sword",
+    "addition": ["lapis_lazuli"],
+    "result": {
+      "id": "minecraft:diamond_sword",
+      "components": {"enchantments": {"sharpness": 3}}
+    }
+}

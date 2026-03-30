@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:book",
+        "2":"minecraft:bookshelf",
+        "3":"#minecraft:wooden_slabs"
+    },
+    "pattern": ["333","121","131"],
+    "result": {
+        "id": "minecraft:lectern"
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "minecraft:wallwar/fish/shell",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "fish": {
+                "min": 128
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:fishing_rod_hooked"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "通过垂钓获得128条鱼\n奖励：熟鲑鱼x32"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cooked_salmon"
+    },
+    "title": {
+      "translate": "大丰收"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:fish/salmon"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

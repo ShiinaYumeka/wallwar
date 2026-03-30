@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "wallwar:gift",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 123456789,
+    "frequency": 1,
+    "frequency_reduction_method": "default",
+    "spread_type": "linear",
+    "spacing": 4,
+    "separation": 2
+  }
+}

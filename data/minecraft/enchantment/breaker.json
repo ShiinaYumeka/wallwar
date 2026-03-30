@@ -1,0 +1,125 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "撕裂"
+  },
+  "effects": {
+    "post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "wallwar:ench/breaker/hit"
+        }
+      }
+    ],
+    "damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.0,
+            "per_level_above_first": 0.5
+          }
+        },
+        "requirements": [
+          {
+            "condition": "any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "head": {
+                          "predicates": {
+                            "damage": {
+                              "durability": {
+                                "max": 180,
+                                "min": 0
+                              }
+                            }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "chest": {
+                          "predicates": {
+                            "damage": {
+                              "durability": {
+                                "max": 264,
+                                "min": 0
+                              }
+                            }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "legs": {
+                          "predicates": {
+                            "damage": {
+                              "durability": {
+                                "max": 248,
+                                "min": 0
+                              }
+                            }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "feet": {
+                          "predicates": {
+                            "damage": {
+                              "durability": {
+                                "max": 215,
+                                "min": 0
+                              }
+                            }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/damage",
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 11
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 11
+  },
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 10
+}

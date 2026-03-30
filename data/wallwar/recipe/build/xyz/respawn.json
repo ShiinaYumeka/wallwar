@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:grass_block",
+        "2":"gold_nugget",
+        "3":"redstone"
+    },
+    "pattern": ["212","131","212"],
+    "result": {
+        "id": "minecraft:red_dye",
+        "components": {"minecraft:custom_name":{"translate":"试金台核心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：无限制","italic": false,"color": "green"},{"translate":"若拥有队伍模块，放置于试金台顶端物品展示框中激活此建筑","italic": false,"color": "gray"},{"translate":"于试金台复活对应队伍死亡且复活代价为“一”的玩家。其不掉落头颅并获得一个凋零骷髅头。","italic": false,"color": "gray"},{"translate":"-因试金台复活的玩家隐身时间增加20s","italic": false,"color": "gray"},{"translate":"-当试金台装配猪灵头时，复活后会获得“瓦尔基里套装”并获得60s的力量与伤害吸收效果","italic": false,"color": "gray"},{"translate":"-当试金台的红石块被替换为金块时，复活地点改为距离最近的一名友方玩家附近","italic": false,"color": "gray"},{"translate":"-当试金台触发后消耗猪灵头与复活之星","italic": false,"color": "gray"},{"translate":"-你可以将扩散模块代替复活星置于试金台上","italic": false,"color": "gray"}],"custom_data": {"building_respawn":1}}
+    }
+}

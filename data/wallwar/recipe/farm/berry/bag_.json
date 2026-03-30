@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:sheaf_pottery_sherd"
+    ],
+    "result": {
+        "id": "minecraft:sweet_berries",
+        "count": 9
+    }
+}

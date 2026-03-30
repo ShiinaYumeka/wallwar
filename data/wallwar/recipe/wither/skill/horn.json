@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:dirt",
+        "2":"warped_hyphae"
+    },
+    "pattern": ["222","111","222"],
+    "result": {
+        "id": "minecraft:goat_horn",
+        "components": {"minecraft:custom_name":{"translate":"尘封凋零之号","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"当你为大祭司时，右键吹响号角触发以下效果：","italic": false,"color": "gray"},{"translate":"周围32格内所有凋零信徒（血祭品，狂信徒，信徒，大祭司）获得","italic": false,"color": "gray"},{"translate":"120s伤害吸收II,180s速度,5s生命恢复II并回复100点盔甲耐久","italic": false,"color": "gray"},{"translate":"冷却时间180s","italic": false,"color": "gray"},{"translate":"*布满尘埃的号角，吹响他会带来什么?","italic": false,"color": "dark_gray"}],"custom_data": {"wither_player_horn":1},"instrument": {"use_duration": 180,"range": 32,"description": "冲锋","sound_event": "item.goat_horn.sound.3"}}
+    }
+}

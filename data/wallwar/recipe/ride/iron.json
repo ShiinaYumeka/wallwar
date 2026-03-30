@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "3":"minecraft:iron_ingot",
+        "2":"minecraft:leather",
+        "1":"minecraft:copper_ingot"
+    },
+    "pattern": ["  1","323","1 1"],
+    "result": {
+        "id": "minecraft:iron_horse_armor",
+        "components": {"minecraft:item_name":{"translate":"铁马铠","italic": false,"color": "white"},"minecraft:lore":[{"translate":"平二川，定三足。","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "horse","amount": 18,"operation": "add_value","type": "armor","slot": "armor"},{"id": "horse","amount": 4,"operation": "add_value","type": "armor_toughness","slot": "armor"}],"enchantments": {"protection": 3,"projectile_protection": 3}}
+    }
+}

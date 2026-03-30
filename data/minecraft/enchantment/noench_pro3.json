@@ -1,0 +1,68 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "凌弱"
+  },
+    "effects": {
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 0.3,
+            "per_level_above_first": 0.3
+          }
+        },
+        "requirements": {
+            "condition":"any_of",
+                "terms":[{
+                "condition": "entity_properties",
+                "entity":"this",
+                "predicate": {
+                "equipment": {
+                    "head": {"predicates": {"enchantments": [{"enchantments": "protection","levels": {"min": 2,"max": 4}}]}}
+                }
+            }},{
+                "condition": "entity_properties",
+                "entity":"this",
+                "predicate": {
+                "equipment": {
+                    "chest": {"predicates": {"enchantments": [{"enchantments": "protection","levels": {"min": 2,"max": 4}}]}}
+                }
+            }},{
+                "condition": "entity_properties",
+                "entity":"this",
+                "predicate": {
+                "equipment": {
+                    "legs": {"predicates": {"enchantments": [{"enchantments": "protection","levels": {"min": 2,"max": 4}}]}}
+                }
+            }},{
+                "condition": "entity_properties",
+                "entity":"this",
+                "predicate": {
+                "equipment": {
+                    "feet": {"predicates": {"enchantments": [{"enchantments": "protection","levels": {"min": 2,"max": 4}}]}}
+                }
+            }}
+        ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/noench",
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:axes",
+  "weight": 2
+}

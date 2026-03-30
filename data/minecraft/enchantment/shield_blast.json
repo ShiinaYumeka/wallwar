@@ -1,0 +1,62 @@
+{
+    "anvil_cost": 2,
+    "description": {
+      "translate": "爆炸抗性"
+    },
+    "effects": {
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_explosion"
+              },
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "attributes": [
+        {
+            "id": "ench_shield_blast",
+            "amount": {
+              "type": "minecraft:linear",
+              "base": 0.15,
+              "per_level_above_first": 0.15
+            },
+            "attribute": "explosion_knockback_resistance",
+            "operation": "add_value"
+        }
+    ]
+    },
+  "exclusive_set": "#exclusive_set/shield",
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+    "slots": [
+      "hand"
+    ],
+    "supported_items": "shield",
+    "weight": 10
+}

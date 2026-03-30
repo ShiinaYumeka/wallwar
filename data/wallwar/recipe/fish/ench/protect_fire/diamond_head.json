@@ -1,0 +1,10 @@
+{
+  "type": "smithing_transform",
+  "template":  "flower_banner_pattern",
+  "base": "minecraft:diamond_helmet",
+  "addition": ["lapis_lazuli"],
+  "result": {
+    "id": "minecraft:diamond_helmet",
+    "components": {"enchantments": {"fire_protection": 4}}
+  }
+}

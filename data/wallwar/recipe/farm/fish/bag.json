@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    "show_notification": false,
+    "key": {
+        "1":"#fish"
+    },
+    "pattern": ["11","11"],
+    "result": {
+        "id": "minecraft:angler_pottery_sherd",
+        "components": {"minecraft:item_name":{"translate":"一包鱼","italic": false,"color": "white"}}
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:gold_nugget",
+        "minecraft:bone_meal"
+    ],
+    "result": {
+        "id": "minecraft:glowstone_dust"
+    }
+}

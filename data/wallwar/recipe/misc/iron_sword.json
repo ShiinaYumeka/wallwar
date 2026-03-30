@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:iron_block",
+        "2":"minecraft:iron_sword"
+    },
+    "pattern": [" 11","111","21 "],
+    "result": {
+        "id": "minecraft:iron_sword",
+        "components": {"minecraft:custom_name":{"translate":"铁制重剑","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"*十分沉重的武器","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 7 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.2 攻击速度","italic": false,"color": "dark_green"},{"translate":" 3.5 攻击距离","italic": false,"color": "dark_green"},{"translate":"-30% 移动速度","italic": false,"color": "red"}],"attribute_modifiers": [{"id": "iron_sword","type": "attack_speed","amount": -2.8,"operation": "add_value","slot": "mainhand"},{"id": "iron_sword","type": "attack_damage","amount": 6,"operation": "add_value","slot": "mainhand"},{"id": "iron_sword","type": "movement_speed","amount": -0.3,"operation": "add_multiplied_base","slot": "hand"},{"id": "iron_sword","type": "entity_interaction_range","amount": 0.5,"operation": "add_value","slot": "mainhand"}],"enchantments": {"auto_damage": 1,"sharpness": 1,"expensive_curse": 1},"max_damage": 500,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

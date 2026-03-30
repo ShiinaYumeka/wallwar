@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:angler_pottery_sherd"
+    ],
+    "result": {
+        "id": "minecraft:cod",
+        "count": 4
+    }
+}

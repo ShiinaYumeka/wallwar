@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:rooted_dirt",
+        "2":"#sand"
+    },
+    "pattern": ["111","121","111"],
+    "result": {
+        "id": "minecraft:suspicious_sand",
+        "components": {"minecraft:custom_name":{"translate":"远古沙子","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"可以探寻出矿物","italic": false,"color": "gray"},{"translate":"*使用刷子发现其中的宝藏","italic": false,"color": "gray"}],"block_entity_data": {"id": "brushable_block","LootTable": "archaeology/shovel/common"}},
+        "count": 16
+    }
+}

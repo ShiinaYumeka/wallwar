@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:wallwar/farm/clock2",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_clock/clock3"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作幻梦时钟\n奖励：200经验值"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:clock"
+    },
+    "title": {
+      "translate": "逆转时间"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "experience": 200,
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

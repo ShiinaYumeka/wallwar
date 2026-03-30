@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:fire_aspect",
+    "minecraft:cooking"
+  ]
+}

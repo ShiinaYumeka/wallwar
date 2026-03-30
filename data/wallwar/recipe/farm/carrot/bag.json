@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:carrot"
+    },
+    "pattern": ["111","111","111"],
+    "result": {
+        "id": "minecraft:flow_pottery_sherd",
+        "components": {"minecraft:item_name":{"translate":"一包胡萝卜","italic": false,"color": "white"},"minecraft:lore":[{"translate":"内含9个胡萝卜","italic": false,"color": "gray"}]}
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:nop",
+      "heightmap": "WORLD_SURFACE",
+      "offset": -5
+    }
+]
+}

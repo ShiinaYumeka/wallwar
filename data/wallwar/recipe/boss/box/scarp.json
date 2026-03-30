@@ -1,0 +1,113 @@
+{
+    "type": "crafting_shapeless",
+    "category": "equipment",
+    "ingredients": ["#logs_that_burn","#command"
+    ],
+    "result": {
+        "id": "minecraft:black_shulker_box",
+        "components": {
+            "minecraft:item_name":{"translate":"熔炼套装","italic": false,"color": "gold"},
+            "minecraft:lore": [
+                {"translate":"BOSS专属","italic": false,"color": "white"}
+            ],
+            "container": [
+                {
+                    "item": {
+                        "id": "amethyst_shard",
+                        "count": 64
+                    },
+                    "slot": 0
+                },
+                {
+                    "item": {
+                        "id": "coal_block",
+                        "count": 64
+                    },
+                    "slot": 5
+                },
+                {
+                    "item": {
+                        "id": "blackstone",
+                        "count": 64
+                    },
+                    "slot": 6
+                },
+                {
+                    "item": {
+                        "count": 8,
+                        "id": "minecraft:blast_furnace",
+                        "components": {
+                            "minecraft:item_name":{"translate":"高速熔炉","italic": false,"color": "yellow"},
+                            "minecraft:lore": [
+                                {"translate":"极速烧炼矿物","italic": false,"color": "gray"},
+                                {"translate":"*在熔炉边上的每一天都是浪费。","italic": false,"color": "gray"}
+                            ]
+                        }
+                    },
+                    "slot": 2
+                },
+                {
+                    "item": {
+                        "count": 8,
+                        "id": "minecraft:smoker",
+                        "components": {"minecraft:item_name":{"translate":"高速烟熏炉","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"极速烘烤食物或烧制木炭和皮革","italic": false,"color": "white"},{"translate":"-使烧制获得的经验值翻10倍到50倍！","italic": false,"color": "white"},{"translate":"在营火边上的每一天都是浪费。","italic": false,"color": "gray"}]}
+                    },
+                    "slot": 3
+                },
+                {
+                    "item": {
+                        "id": "leather",
+                        "count": 64
+                    },
+                    "slot": 7
+                },
+                {
+                    "item": {
+                        "id": "copper_bulb",
+                        "count": 64
+                    },
+                    "slot": 8
+                },
+                {
+                    "item": {
+                        "id": "anvil",
+                        "count": 64
+                    },
+                    "slot": 10
+                },
+                {
+                    "item": {
+                        "id": "quartz_block",
+                        "count": 64
+                    },
+                    "slot": 5
+                },
+                {
+                    "item": {
+                        "id": "amethyst_block",
+                        "count": 64
+                    },
+                    "slot": 1
+                },
+                {
+                    "item": {
+                        "id": "lava_bucket",
+                        "count": 16,
+                        "components": {
+                            "max_stack_size": 16
+                        }
+                    },
+                    "slot": 9
+                },
+                {
+                    "item": {
+            "id": "minecraft:white_dye",
+            "components": {"minecraft:custom_name":{"translate":"便携式临时粘合剂","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"-丢出后将身上护甲耐久恢复至最大值，然后为其添加磨损I","italic": false,"color": "white"},{"translate":"*旧梦可重温，破镜难重圆","italic": false,"color": "light_purple"}],"custom_data": {"fix_bag":1,"wallwar_item":1}},
+            "count": 4
+        },
+        "slot": 4
+                }
+            ]
+        }
+    }
+}

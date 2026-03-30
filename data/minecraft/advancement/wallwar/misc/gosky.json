@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 256
+              }
+            }
+          },
+          "nbt": "{Tags:['FIGHT']}"
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "到达Y=256以上"
+    },
+    "icon": {
+      "count": 1,
+      "id": "elytra"
+    },
+    "title": {
+      "translate": "登高望远"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

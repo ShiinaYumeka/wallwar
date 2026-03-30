@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_seed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_hyphae",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "获得四个绯红菌核"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crimson_hyphae"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "异界之木"
+    }
+  },
+  "requirements": [
+    [
+      "get_seed"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:heartbreak_pottery_sherd"
+    },
+    "pattern": ["111"],
+    "result": {
+        "id": "minecraft:pumpkin_pie",
+        "components": {"minecraft:item_name":{"translate":"云朵土豆饼","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"12饱食 3饱和","italic": false,"color": "yellow"},{"translate":"获得缓降","italic": false,"color": "gray"},{"translate":"*吃起来感觉轻飘飘的","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 12,"saturation": 3},"consumable": {"animation":"eat","consume_seconds": 2.0,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "slow_falling","duration": 600,"amplifier": 0}]}]}}
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:glass",
+        "2":"minecraft:diamond",
+        "3":"minecraft:podzol"
+    },
+    "pattern": ["111","121","333"],
+    "result": {
+        "id": "minecraft:beacon",
+        "components": {"minecraft:item_name":{"translate":"承枢台","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"建筑物的枢中承梁","italic": false,"color": "gray"},{"translate":"*千年不塌，因为掺了秦始皇的午餐？","italic": false,"color": "gray"}]}
+    }
+}

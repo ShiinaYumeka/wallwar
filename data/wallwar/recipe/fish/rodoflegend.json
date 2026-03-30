@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:fishing_rod",
+        "2":"minecraft:flint",
+        "3":"minecraft:bowl",
+        "4":"minecraft:cod",
+        "5":"minecraft:salmon"
+    },
+    "pattern": [" 3 ","415"," 2 "],
+    "result": {
+        "id": "minecraft:fishing_rod",
+        "components": {"minecraft:item_name":{"translate":"传说鱼竿","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"钓出垃圾的概率大幅度提升","italic": false,"color": "blue"},{"translate":"*传说中的捡垃圾之王，最爱在三国杀中游玩张纮张昭","italic": false,"color": "blue"}],"enchantments": {"luck_of_the_sea": 4,"lure": 3}}
+    }
+}

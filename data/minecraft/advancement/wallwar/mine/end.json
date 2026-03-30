@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:wallwar/mine/tool",
+  "criteria": {
+    "get_seed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "获得一组钻石\n奖励：4紫水晶"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_pickaxe"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "title": {
+      "translate": "最佳矿工"
+    }
+  },
+  "rewards": {
+    "loot": ["wallwar:stonk_rew2"],
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    [
+      "get_seed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

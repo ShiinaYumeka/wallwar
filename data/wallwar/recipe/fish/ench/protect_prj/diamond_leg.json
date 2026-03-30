@@ -1,0 +1,10 @@
+{
+  "type": "smithing_transform",
+  "template":  "skull_banner_pattern",
+  "base": "minecraft:diamond_leggings",
+  "addition": ["lapis_lazuli"],
+  "result": {
+    "id": "minecraft:diamond_leggings",
+    "components": {"enchantments": {"projectile_protection": 5}}
+  }
+}

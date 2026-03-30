@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:angler_pottery_sherd",
+        "minecraft:water_bucket"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:pufferfish"
+    }
+}

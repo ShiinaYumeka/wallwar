@@ -1,0 +1,252 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": 10.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"乱炖","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"20饱食 20饱和","italic": false,"color": "yellow"},{"translate":"让你的状态达到巅峰","italic": false,"color": "gray"},{"translate":"*拥有严谨的乱放工艺","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 20,"saturation": 20},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "regeneration","duration": 200,"amplifier": 0}]}]},"max_stack_size": 64}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mushroom_stew",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"金苹果炖菜","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 18饱和","italic": false,"color": "yellow"},{"translate":"获得三倍金苹果的效果","italic": false,"color": "gray"},{"translate":"*有一点咯牙。","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 8,"saturation": 18},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "regeneration","duration": 200,"amplifier": 1},{"id": "instant_health","duration": 1,"amplifier": 1},{"id": "absorption","duration": 2400,"amplifier": 2}]}]},"max_stack_size": 64}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"金龙鱼","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"20饱食 20饱和","italic": false,"color": "yellow"},{"translate":"*这是对寒带鱼的歧视！","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 20,"saturation": 20},"consumable": {"animation":"eat","consume_seconds": 1.6},"max_stack_size": 64}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": 10.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"群英荟萃","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"3饱食 3.6饱和","italic": false,"color": "yellow"},{"translate":"极快食用，获得爆发性移动速度","italic": false,"color": "gray"},{"translate":"*包含了108个形态各异的胡萝卜","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 3,"saturation": 3.6},"consumable": {"animation":"eat","consume_seconds": 0.2,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "speed","duration": 50,"amplifier": 6}]}]}}
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1, "max": 4 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"巧克力","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 6饱和","italic": false,"color": "yellow"},{"translate":"获得急迫II","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 8,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "haste","duration": 1800,"amplifier": 1}]}]}}
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1, "max": 3 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_stew",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"烤鱼拼盘","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"10饱食 12饱和","italic": false,"color": "yellow"},{"translate":"获得海豚的恩惠","italic": false,"color": "gray"},{"translate":"*每条鱼都是健身房的年卡会员","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 10,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "dolphins_grace","duration": 600,"amplifier": 1}]}]},"max_stack_size": 64}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"树莓派","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 5饱和","italic": false,"color": "yellow"},{"translate":"获得抗性提升II","italic": false,"color": "gray"},{"translate":"*树莓炒蛋","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 8,"saturation": 5},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "resistance","duration": 300,"amplifier": 1}]}]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"热土豆书","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"5饱食 6饱和","italic": false,"color": "yellow"},{"translate":"获得生命吸收","italic": false,"color": "gray"},{"translate":"*曾打响了土豆战争","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 5,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 3.2,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "absorption","duration": 12000,"amplifier": 2},{"id": "blindness","duration": 200,"amplifier": 1}]}]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_components","components": {"food": {"can_always_eat": true,"nutrition": 4,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 1.4,"on_consume_effects":[{"type": "apply_effects","effects":[{"id": "absorption","duration": 2400,"amplifier": 0},{"id": "regeneration","duration": 140,"amplifier": 1}]}]}}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "rolls": 14.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"全麦面包","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"10饱食 12饱和","italic": false,"color": "yellow"},{"translate":"回复大量饱食度并获得短暂的吸收","italic": false,"color": "gray"},{"translate":"*1000%纯小麦","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 10,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.7,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "absorption","duration": 36,"amplifier": 0}]}]},"custom_data": {"full_bread":1}}
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "max": 2.0,
+                "min": 1.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_stew",
+          "weight":25,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"果木烤肉","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"16饱食 16饱和","italic": false,"color": "yellow"},{"translate":"只需要一半的食用时间","italic": false,"color": "gray"},{"translate":"*起源于哈尔滨的美国韩式烤肉","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 16,"saturation": 16},"consumable": {"animation":"eat","consume_seconds": 0.8},"max_stack_size": 64}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_soup",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"萝卜炖汤","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"6饱食 2.4饱和","italic": false,"color": "yellow"},{"translate":"获得极短的跳跃提升","italic": false,"color": "gray"},{"translate":"*素食爱好者","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 6,"saturation": 2.4},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "jump_boost","duration": 20,"amplifier": 4}]}]},"max_stack_size": 8}
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1, "max": 5 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"云朵土豆饼","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"12饱食 3饱和","italic": false,"color": "yellow"},{"translate":"获得缓降","italic": false,"color": "gray"},{"translate":"*吃起来感觉轻飘飘的","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 12,"saturation": 3},"consumable": {"animation":"eat","consume_seconds": 2.0,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "slow_falling","duration": 600,"amplifier": 0}]}]}}
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1, "max": 5 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"热带鱼","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"12饱食 15饱和","italic": false,"color": "yellow"},{"translate":"*这是对寒带鱼的歧视！","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 12,"saturation": 15},"consumable": {"animation":"eat","consume_seconds": 1.6},"max_stack_size": 64}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"河豚刺身","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 12饱和","italic": false,"color": "yellow"},{"translate":"*河豚吃掉了剑并排出了所有毒素","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 8,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.6},"max_stack_size": 16}
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:item_name":{"translate":"波利海苔","italic": false,"color": "white"},"minecraft:lore":[{"translate":"5饱食 6饱和","italic": false,"color": "yellow"},{"translate":"海的味道，我知道！","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 5,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 1.6}}
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 1, "max": 10 }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:lore":[{"translate":"这是个谎言","italic": false,"color": "gray"}],"max_stack_size": 99}
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 99
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 30
+        }
+      ]
+    }
+  ]
+}

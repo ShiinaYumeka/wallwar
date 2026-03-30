@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:cactus",
+        "2":"#minecraft:cropblock"
+    },
+    "pattern": ["121","1 1"],
+    "result": {
+        "id": "minecraft:leather_helmet",
+        "components": {"minecraft:item_name":{"translate":"仙人掌帽子","italic": false,"color": "aqua"},"dyed_color": 917248,"minecraft:lore":[{"translate":"套装奖励：抗性提升I","italic": false,"color": "white"},{"translate":"对自己0%反伤","italic": false,"color": "gray"}],"enchantments": {"thorns": 3,"protection":2},"attribute_modifiers": [{"id": "cactus_cminecraft:leather_helmet","type": "armor","amount": 3,"operation": "add_value","slot": "head"},{"id": "cactus_cminecraft:leather_helmet","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "head"},{"id": "cactus_cminecraft:leather_helmet","type": "attack_damage","amount": -0.05,"operation": "add_multiplied_total","slot": "head"}],"max_damage": 500,"custom_data": {"cactus_armor":1}}
+    }
+}

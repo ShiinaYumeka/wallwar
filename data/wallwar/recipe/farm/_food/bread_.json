@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:hay_block",
+        "2":"minecraft:wheat"
+    },
+    "pattern": ["2","1","2"],
+    "result": {
+        "id": "minecraft:bread",
+        "components": {"minecraft:custom_name":{"translate":"法式面包","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"8饱食 12饱和","italic": false,"color": "yellow"},{"translate":"回复大量饱食度","italic": false,"color": "gray"},{"translate":"*锋利的武器","italic": false,"color": "gray"}],"enchantments": {"sharpness": 1},"food": {"can_always_eat": false,"nutrition": 8,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.8}}
+    }
+}

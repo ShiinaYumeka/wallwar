@@ -1,0 +1,1 @@
+tellraw @a {"translate": "Taj_77加入了游戏","color": "yellow"}

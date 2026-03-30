@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond",
+        "2":"player_head",
+        "3":"minecraft:water_bucket"
+    },
+    "pattern": ["111","121","131"],
+    "result": {
+        "id": "minecraft:potion",
+        "components": {"minecraft:item_name":{"translate":"鬼王酒","italic": false,"color": "light_purple"},"minecraft:custom_name":{"translate":"鬼王酒","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"获得超凡的防御力！","italic": false,"color": "gray"},{"translate":"伊吹瓢中倒出的能醉倒鬼的酒......等等，你是怎么得到它的","italic": false,"color": "gray"}],"potion_contents": {"custom_color": 15658734,"custom_effects": [{"id": "resistance","duration": 300,"amplifier": 4},{"id": "fire_resistance","duration": 300,"amplifier": 4},{"id": "slowness","duration": 300,"amplifier": 4},{"id": "minecraft:mining_fatigue","duration": 300,"amplifier": 4},{"id": "minecraft:weakness","duration": 300,"amplifier": 4}]}}}
+    }

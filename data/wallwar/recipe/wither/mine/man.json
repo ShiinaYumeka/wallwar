@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:compass",
+        "2":"minecraft:soul_sand",
+        "3":"minecraft:redstone_block"
+    },
+    "pattern": ["313","121","313"],
+    "result": {
+        "id": "minecraft:magma_cream",
+        "components": {"minecraft:custom_name":{"translate":"仪式灵魂核心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为仪式祭坛上之人添加信徒身份并且为凋灵额外增加20点生命值。","italic": false,"color": "gray"},{"translate":"信徒拥有以下效果：","italic": false,"color": "gray"},{"translate":"你被接纳了","italic": false,"color": "red"},{"translate":"若祭坛上之人已有身份，其献祭时额外增加10点生命值。","italic": false,"color": "gray"},{"translate":"*我将成为新世界的一份子","italic": false,"color": "dark_red"}],"custom_data": {"wither_man":1}}
+    }
+}

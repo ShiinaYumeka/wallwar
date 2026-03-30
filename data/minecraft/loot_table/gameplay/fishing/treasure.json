@@ -1,0 +1,133 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:barrel",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_loot_table",
+              "name": "gameplay/fish/chest",
+              "type": "barrel"
+            },
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"italic":false,"translate":"箍旧漂流桶","color":"aqua"},"lore":[{"italic":false,"translate":"*落难者的遗物","color":"white"}]}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "add": false,
+              "damage": {
+                "type": "minecraft:uniform",
+                "max": 0.25,
+                "min": 0.0
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 25.0,
+              "options": "#fishing_command"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+
+
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15.0,
+              "options": "#fishing_command"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:name_tag",
+          "weight": 5,
+          "quality": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 5,
+          "quality": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:heart_of_the_sea",
+          "weight": 5,
+          "quality": 1
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_skull",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {"enchantments": {"protection": 7}}
+            }
+          ]
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:piglin_head",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {"minecraft:custom_name":{"italic":false,"translate":"深海矿工","color":"aqua"},"lore":[{"italic":false,"translate":"只能挖掘非钻石矿石","color":"white"}],"enchantments": {"fortune": 5,"melt": 1,"efficiency": 5,"expensive_curse2": 1},"tool":{"default_mining_speed": 0,"damage_per_block": 1,"rules": [{"correct_for_drops": true,"speed": 12,"blocks": "#sea_pickaxe"}]},"repair_cost": 99}
+            }
+          ],
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_skeleton_skull",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {"enchantments": {"protection": 7}}
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "gameplay/fishing/command",
+          "weight": 2,
+          "quality": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/treasure"
+}

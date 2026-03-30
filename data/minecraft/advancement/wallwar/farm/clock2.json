@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:wallwar/farm/clock",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:farm/_clock/clock2"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作农耕时钟"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:hay_block"
+    },
+    "title": {
+      "translate": "后稷之像"
+    },
+    "frame": "goal"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

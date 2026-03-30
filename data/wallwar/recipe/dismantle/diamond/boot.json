@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:diamond_boots"
+    ],
+    "result": {
+        "count": 2,
+        "id": "minecraft:diamond"
+    }
+}

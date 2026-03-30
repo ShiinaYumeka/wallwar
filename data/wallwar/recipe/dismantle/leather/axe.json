@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:stone_axe"
+    ],
+    "result": {
+        "count": 3,
+        "id": "minecraft:cobblestone"
+    }
+}

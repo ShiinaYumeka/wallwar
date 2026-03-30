@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:diamond_horse_armor"
+    ],
+    "result": {
+        "count": 3,
+        "id": "minecraft:diamond"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#cookmeat2",
+        "2":"ice"
+    },
+    "pattern": ["121"],
+    "result": {
+        "id": "minecraft:magma_cream",
+        "components": {"minecraft:item_name":{"translate":"小肉丸","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 16饱和","italic": false,"color": "yellow"},{"translate":"获得短暂的生命恢复","italic": false,"color": "white"},{"translate":"*肉被冻成了最营养的形状：球形","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 8,"saturation": 16},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "regeneration","duration": 40,"amplifier": 0}]}]},"max_stack_size": 64}
+    }
+}

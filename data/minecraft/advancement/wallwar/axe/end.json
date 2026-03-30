@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:wallwar/axe/axe2",
+  "criteria": {
+    "get_seed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_hyphae",
+            "count": {
+              "min": 4
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "获得四个诡异菌核\n奖励：骨块x16"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:warped_hyphae"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "title": {
+      "translate": "高级献祭"
+    }
+  },
+  "rewards": {
+    "loot": ["wallwar:judge_rew3"],
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    [
+      "get_seed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

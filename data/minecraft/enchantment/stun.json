@@ -1,0 +1,88 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "震慑",
+    "color": "gold"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "all_of",
+          "effects": [
+              {
+                "type": "minecraft:apply_mob_effect",
+                "max_amplifier": 1.0,
+                "max_duration": 3.0,
+                "min_amplifier": 1.0,
+                "min_duration": 3.0,
+                "to_apply": "minecraft:slowness"
+            },
+          
+              {
+                "type": "minecraft:apply_mob_effect",
+                "max_amplifier": 1.0,
+                "max_duration": 4.0,
+                "min_amplifier": 1.0,
+                "min_duration": 4.0,
+                "to_apply": "minecraft:blindness"
+            },
+          
+              {
+                "type": "minecraft:apply_mob_effect",
+                "max_amplifier": 1.0,
+                "max_duration": 2.0,
+                "min_amplifier": 1.0,
+                "min_duration": 2.0,
+                "to_apply": "minecraft:weakness"
+            },
+            {
+              "type": "play_sound",
+              "sound": "minecraft:block.anvil.land",
+              "pitch": 1.0,
+              "volume": 1.0
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": {
+                "type": "enchantment_level",
+                "amount": {
+                  "type": "linear",
+                  "base": 0.02,
+                  "per_level_above_first": 0.04
+                }
+              }
+            },
+            {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "is_direct": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/weapon",
+  "weight": 1
+}

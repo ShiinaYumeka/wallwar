@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:chiseled_sandstone",
+        "2":"minecraft:diamond",
+        "3":"minecraft:copper_block",
+        "4":"minecraft:podzol"
+    },
+    "pattern": ["121","131","444"],
+    "result": {
+        "id": "minecraft:sunflower",
+        "components": {"minecraft:custom_name":{"translate":"金字塔核心","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"建筑范围：Y>60","italic": false,"color": "green"},{"translate":"放置于金字塔顶的物品展示框中激活此奇观","italic": false,"color": "gray"},{"translate":"64格内的玩家获得急迫I持续10s。","italic": false,"color": "gray"},{"translate":"强化1：回复1点生命值但会饥饿","italic": false,"color": "gray"},{"translate":"强化2：使急迫等级提升为II。","italic": false,"color": "gray"},{"translate":"队伍模块：使效果只生效于对应颜色队伍。","italic": false,"color": "gray"},{"translate":"扩散模块：将范围从64格扩散至全图。","italic": false,"color": "gray"},{"translate":"特殊状态：当你在收集阶段制作出此奇观，则将己方基岩墙消失时间延后10min，在此期间不受y轴凋零惩罚。","italic": false,"color": "gray"},{"translate":"满配效果：对方跨越基岩墙后会受到诅咒，持续5min","italic": false,"color": "gray"},{"translate":"*金字塔，中国传统建筑，发现于西安旁边的平沙","italic": false,"color": "gray"}],"custom_data": {"building_sand":1},"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

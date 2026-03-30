@@ -1,0 +1,39 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "pufferfish",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 64
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"custom_name": {"translate": "潜水药水","italic": false,"color": "dark_aqua","bold": true},"potion_contents": {"potion": "minecraft:long_water_breathing"}}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:build/fireball/huge"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作炎爆术\n奖励：火球术x4"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:magma_cream"
+    },
+    "title": {
+      "translate": "五火球神教"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot": [
+      "wallwar:dig/fire2"
+    ],
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "2":"#minecraft:stone_tool_materials",
+        "3":"minecraft:warped_hyphae"
+    },
+    "pattern": ["323","323","323"],
+    "result": {
+        "id": "minecraft:golden_pickaxe",
+        "components": {"custom_model_data": {"floats": [2]},"minecraft:item_name":{"translate":"贪婪者的褒奖","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"只能且可以挖掘所有矿物。","italic": false,"color": "gray"},{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为大祭司增加以下效果：","italic": false,"color": "gray"},{"translate":"当你本局游戏第一次死亡后，在你死亡的位置触发一次“轮回”","italic": false,"color": "gray"},{"translate":"*成功的机会将属于贪婪者","italic": false,"color": "gray"}],"tool": {"damage_per_block": 1,"default_mining_speed": 0,"rules": [{"blocks": "#silk_pickaxe","correct_for_drops":true,"speed": 30}]},"enchantments": {"fortune": 5,"expensive_curse2": 1},"minecraft:custom_data":{"wither_player_respawn":1},"max_damage": 28,"repair_cost": 99}
+    }
+}

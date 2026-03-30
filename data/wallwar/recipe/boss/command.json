@@ -1,0 +1,22 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:netherite_helmet",
+        "q":"minecraft:netherite_chestplate",
+        "w":"minecraft:netherite_leggings",
+        "e":"minecraft:netherite_boots",
+        "2":"minecraft:pillager_spawn_egg",
+        "3":"minecraft:player_head",
+        "4":"minecraft:respawn_anchor",
+        "5":"minecraft:blue_ice",
+        "6":"minecraft:conduit"
+    },
+    "pattern": ["12q","435","w6e"],
+    "result": {
+        "id": "minecraft:chain_command_block",
+        "components": {"minecraft:custom_name":{"translate":"勠力","italic": false,"color": "red","bold": true},"minecraft:lore":[{"translate":"当你合成此物品后，将解锁额外的合成内容","italic": false,"color": "white"},{"translate":"此物品可以制作正常游戏中无法获得的强大武器","italic": false,"color": "white"},{"translate":"*唯有勠力同心，众志成城，方能以凡人之躯，行比肩神明之伟业。","italic": false,"color": "gray"}]}
+        }
+}

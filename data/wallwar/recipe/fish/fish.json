@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:smoking",
+    "category": "food",
+    "cookingtime": 10,
+    "experience": 0.1,
+    "ingredient":"tropical_fish",
+    "result": {
+        "id": "minecraft:tropical_fish",
+        "components": {"minecraft:item_name":{"translate":"热带鱼","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"12饱食 15饱和","italic": false,"color": "yellow"},{"translate":"*这是对寒带鱼的歧视！","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 12,"saturation": 15},"consumable": {"animation":"eat","consume_seconds": 1.6},"max_stack_size": 64}
+    }
+}

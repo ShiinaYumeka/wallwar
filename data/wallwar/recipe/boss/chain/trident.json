@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "3":"minecraft:chain_command_block",
+        "4":"minecraft:prismarine_shard"
+    },
+    "pattern": ["414","131","414"],
+    "result": {
+        "id": "minecraft:trident",
+        "components": {"minecraft:custom_name":{"translate":"霆契","italic": false,"color": "light_purple","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*裂穹引雷贯九渊，血契同归破永夜。","italic": false,"color": "dark_red"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 9 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.1 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+3 额外氧气","italic": false,"color": "blue"}],"enchantments": {"impaling": 5,"channeling": 1,"boss_trident": 1,"loyalty": 10,"vanishing_ench": 1},"attribute_modifiers": [{"id": "trident_boss","type": "minecraft:attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"},{"id": "trident_boss","type": "minecraft:attack_speed","amount": -2.9,"operation": "add_value","slot": "mainhand"},{"id": "trident_boss","type": "minecraft:oxygen_bonus","amount": 3,"operation": "add_value","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+        }
+}

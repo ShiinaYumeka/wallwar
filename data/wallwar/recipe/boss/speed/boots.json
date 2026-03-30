@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:command_block",
+        "2":"minecraft:diamond_boots"
+    },
+    "pattern": [" 1 "," 2 ","   "],
+    "result": {
+        "id": "minecraft:leather_boots",
+        "components": {"minecraft:item_name":{"translate":"渊铠","italic": false,"bold": true,"color": "blue"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"enchantments": {"protection": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "chainmail_boots","amount": 3,"operation": "add_value","type": "armor","slot": "feet"},{"id": "chainmail_boots","amount": 3,"operation": "add_value","type": "armor_toughness","slot": "feet"},{"id": "chainmail_boots","amount": 2,"operation": "add_multiplied_base","type": "sneaking_speed","slot": "feet"},{"id": "chainmail_boots","amount": 0.5,"operation": "add_value","type": "water_movement_efficiency","slot": "feet"},{"id": "chainmail_boots","amount": -0.2,"operation": "add_multiplied_base","type": "scale","slot": "feet"}],"max_damage": 2000}
+    }
+}

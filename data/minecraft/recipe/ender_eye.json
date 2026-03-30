@@ -1,0 +1,15 @@
+{
+  "type": "crafting_shaped",
+  
+  "show_notification": false,
+  "key": {
+      "2":"minecraft:ender_pearl",
+      "3":"minecraft:netherite_scrap",
+      "1":"minecraft:blaze_powder"
+  },
+  "pattern": [" 13","121","31 "],
+  "result": {
+      "id": "ender_eye",
+      "count": 1
+  }
+}

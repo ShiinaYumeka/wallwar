@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:amethyst_shard",
+        "2":"copper_block",
+        "3":"#shield_block",
+        "4":"#coals",
+        "5":"gold_ingot"
+    },
+    "pattern": ["323","515"," 4 "],
+    "result": {
+        "id": "minecraft:shield",
+        "components": {"minecraft:item_name":{"translate":"术式阻断","italic": false,"color": "aqua"},"minecraft:custom_name":{"translate":"术式阻断","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"*既然不懂，就别纵容自己在不懂的时候下结论","italic": false,"color": "gray"}],"enchantment_glint_override": false,"enchantments": {"shield_magic": 10,"unprotection5": 1,"expensive_curse2": 1},"max_damage": 300,"minecraft:banner_patterns":[{"color":"light_blue","pattern":"minecraft:curly_border"},{"color":"blue","pattern":"minecraft:cross"},{"color":"light_blue","pattern":"minecraft:circle"},{"color":"black","pattern":"minecraft:flower"}],"minecraft:base_color":"white","tooltip_display": {"hidden_components": ["banner_patterns"]},"repair_cost": 99}
+    }
+}

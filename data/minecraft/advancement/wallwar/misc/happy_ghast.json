@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "dried_ghast"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作失水恶魂\n奖励：雪球x16"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:dried_ghast"
+    },
+    "title": {
+      "translate": "稳固的同盟"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:misc/happy_ghast"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

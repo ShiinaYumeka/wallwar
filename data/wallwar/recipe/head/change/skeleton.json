@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:coal",
+        "2":"minecraft:blackstone",
+        "3":"minecraft:player_head"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:wither_skeleton_skull",
+        "components": {"enchantments": {"protection": 7}},
+        "count": 2
+    }
+}

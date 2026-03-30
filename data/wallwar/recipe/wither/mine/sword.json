@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:compass",
+        "2":"minecraft:diamond_sword",
+        "3":"minecraft:copper_block"
+    },
+    "pattern": ["313","121","313"],
+    "result": {
+        "id": "minecraft:stone_sword",
+        "components": {"minecraft:custom_name":{"translate":"凋零仪式匕首","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"为仪式祭坛上之人添加狂信徒身份并且给予狂信徒装备（保护I，绑定诅咒），生命提升I","italic": false,"color": "gray"},{"translate":"狂信徒具有以下效果：","italic": false,"color": "gray"},{"translate":"死亡后不掉落头颅，当你因凋灵献祭而死亡时，你为凋灵额外增加20点生命值。","italic": false,"color": "gray"},{"translate":"*愿以吾命，惩世不公，赎生之罪","italic": false,"color": "dark_gray"}],"custom_data": {"wither_sword":1}}
+    }
+}

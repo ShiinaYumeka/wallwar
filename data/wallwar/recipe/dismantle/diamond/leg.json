@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:diamond_leggings"
+    ],
+    "result": {
+        "count": 4,
+        "id": "minecraft:diamond"
+    }
+}

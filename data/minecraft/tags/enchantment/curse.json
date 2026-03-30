@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:binding_curse",
+    "vanishing_curse",
+    "expensive_curse",
+    "expensive_curse2",
+    "noefficiency"
+  ]
+}

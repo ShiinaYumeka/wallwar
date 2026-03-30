@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:warped_hyphae",
+        "2":"minecraft:bone_meal",
+        "3":"minecraft:apple"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:golden_axe",
+        "components": {"minecraft:custom_name":{"translate":"异木收集者","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为大祭司增加以下效果：","italic": false,"color": "gray"},{"translate":"当你击杀一名玩家后，清除自身所有效果","italic": false,"color": "gray"},{"translate":"获得1s无敌,瞬间治疗I,60s伤害吸收,3s速度III,5s生命恢复II","italic": false,"color": "gray"},{"translate":"并生成一只自己队伍的凋灵骷髅","italic": false,"color": "gray"},{"translate":"*吾族传世之宝器，迎神之物。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 9 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"looting": 3,"cooking": 1},"tool": {"default_mining_speed": 1,"damage_per_block": 1,"rules": [{"blocks": "#mineable/axe","correct_for_drops": true,"speed": 65}]},"attribute_modifiers": [{"id": "gold_axe","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"},{"id": "gold_axe","type": "attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"custom_data": {"wither_player_kill":1},"max_damage": 1500}
+    }
+}

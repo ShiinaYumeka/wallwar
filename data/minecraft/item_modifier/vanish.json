@@ -1,0 +1,10 @@
+[
+  {
+    "function": "set_enchantments",
+    "enchantments": {"vanishing_curse": 1}
+  },
+  {
+    "function": "set_components",
+    "components": {"enchantment_glint_override": false}
+  }
+]

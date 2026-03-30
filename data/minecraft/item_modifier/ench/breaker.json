@@ -1,0 +1,77 @@
+[
+    {
+        "function": "set_damage",
+        "add": true,
+        "damage": -0.02,
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "head": {
+                            "items": ["diamond_helmet","diamond_chestplate","diamond_leggings","diamond_boots"]
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    
+    {
+        "function": "set_damage",
+        "add": true,
+        "damage": -0.005,
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "head": {
+                            "items": ["netherite_helmet","netherite_chestplate","netherite_leggings","netherite_boots"]
+                        }
+                    }
+                }
+            }
+        ]
+    },
+
+    {
+        "function": "set_damage",
+        "add": true,
+        "damage": -0.03,
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "head": {
+                            "items": ["leather_helmet","leather_chestplate","leather_leggings","leather_boots"]
+                        }
+                    }
+                }
+            }
+        ]
+    },
+
+    {
+        "function": "set_damage",
+        "add": true,
+        "damage": -0.005,
+        "conditions": [
+            {
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "head": {
+                            "items": ["chainmail_helmet","chainmail_chestplate","chainmail_leggings","chainmail_boots"]
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

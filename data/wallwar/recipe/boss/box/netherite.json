@@ -1,0 +1,33 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "2":"amethyst_shard",
+        "3":"minecraft:diamond",
+        "4":"#command"
+    },
+    "pattern": ["323","242","323"],
+    "result": {
+        "id": "minecraft:light_blue_shulker_box",
+        "components": {"minecraft:item_name":{"translate":"装备升级套装","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"container": [{"item": {
+            "id": "minecraft:anvil",
+            "count": 4
+        },"slot": 0},
+        {"item": {
+        "id": "minecraft:enchanted_book",
+        "components": {"minecraft:custom_name":{"translate":"兵势之书","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"兵者 凶器也 战者危事","italic": false,"color": "gray"},{"translate":"---汉．晁错《言兵事疏》","italic": false,"color": "gray"}],"stored_enchantments": {"sharpness": 4,"protection": 4},"max_stack_size": 4},"count": 4
+    },"slot": 1},
+        {"item": {
+            "id": "minecraft:field_masoned_banner_pattern",
+            "components": {"minecraft:item_name":{"translate":"古老的秘籍","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"应用后：","italic": false,"color": "white"},{"translate":"-物品耐久度修改至1000","italic": false,"color": "white"},{"translate":"-将物品完全修复","italic": false,"color": "white"},{"translate":"-将修复材料修改为铜锭/铁锭/钻石均可","italic": false,"color": "white"},{"translate":"-重置铁砧惩罚","italic": false,"color": "white"},{"translate":"可应用于：","italic": false,"color": "gray"},{"translate":" 钻石及以上盔甲","italic": false,"color": "blue"},{"translate":"所需原材料：","italic": false,"color": "gray"},{"translate":" 附魔之瓶","italic": false,"color": "blue"},{"translate":"","italic": false,"color": "white"}],"max_stack_size": 4},
+            "count": 4
+        },"slot": 2},
+        {"item": {
+            "id": "minecraft:experience_bottle",
+            "components": {"minecraft:custom_name":{"translate":"经验储囊","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"丢出后将经验等级设置为30","italic": false,"color": "gray"},{"translate":"*放在耳边时可以听到灵魂的悲惨尖叫","italic": false,"color": "dark_red"}],"custom_data": {"exp_bag":1,"wallwar_item":1}},
+            "count": 4
+        },"slot": 3}]}
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:shelter_pottery_sherd"
+    ],
+    "result": {
+        "id": "minecraft:sheaf_pottery_sherd",
+        "components": {"minecraft:item_name":{"translate":"一包甜浆果","italic": false,"color": "white"},"minecraft:lore":[{"translate":"内含9个甜浆果","italic": false,"color": "gray"}]},
+        "count": 9
+    }
+}

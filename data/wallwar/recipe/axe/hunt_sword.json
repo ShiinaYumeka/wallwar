@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:crimson_hyphae",
+        "2":"minecraft:iron_ingot"
+    },
+    "pattern": [" 2 ","121","111"],
+    "result": {
+        "id": "minecraft:iron_sword",
+        "components": {"minecraft:item_name":{"translate":"狩猎小刀","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"*扒皮拆骨，所有的部位都有自己的价值","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 6 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 2 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"cooking": 1,"hunter":1,"looting": 2,"bane_of_arthropods": 1,"summkill": 1,"smite": 1},"attribute_modifiers": [{"id": "iron_sword","type": "attack_speed","amount": -2,"operation": "add_value","slot": "mainhand"},{"id": "iron_sword","type": "attack_damage","amount": 5,"operation": "add_value","slot": "mainhand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 500}
+    }
+}

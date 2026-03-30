@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 10,
+  "experience": 3,
+  "ingredient":  "carrot",
+  "result": {
+    "id": "minecraft:golden_carrot",
+    "components": {"minecraft:item_name":{"translate":"烤胡萝卜","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"4饱食 6饱和","italic": false,"color": "yellow"}],"food": {"can_always_eat": false,"nutrition": 4,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 1.6},"max_stack_size": 64}
+  }
+}

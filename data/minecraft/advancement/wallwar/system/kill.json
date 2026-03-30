@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_seed": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {"type": "player"}
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "击杀一个玩家"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:skeleton_skull"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "击杀"
+    },"frame": "goal"
+  },
+  "rewards": {
+    "function": "wallwar:system/kill/adv"
+  },
+  "requirements": [
+    [
+      "get_seed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:crimson_hyphae",
+        "2":"minecraft:dragon_breath"
+    },
+    "pattern": ["111","121","111"],
+    "result": {
+        "id": "minecraft:enchanted_book",
+        "components": {"minecraft:custom_name":{"translate":"虚无之书","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上与阻献之触献祭后","italic": false,"color": "gray"},{"translate":"为大祭司增加以下效果：","italic": false,"color": "gray"},{"translate":"手中物品添加凋亡之影，如果其已拥有凋亡之影则提升一级。","italic": false,"color": "gray"},{"translate":"*繁华、衰败、最终归于虚无。","italic": false,"color": "dark_red"}],"stored_enchantments": {"unbreaking": 3,"vanishing_ench": 1},"custom_data": {"wither_player_hp":1}}
+    }
+}

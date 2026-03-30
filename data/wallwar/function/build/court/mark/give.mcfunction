@@ -1,0 +1,2 @@
+
+setblock ~ ~1.5 ~ minecraft:shulker_box{Items:[{id:diamond_sword,Slot:0b,components:{enchantable:{value:30},custom_name:{translate:"生离死别",italic:false,color:light_purple},"minecraft:lore":[{"translate":"-具有三倍的材质附魔加成","italic": false,"color": "white"},{"translate":"*上面刻着一行字——“虽然我不得不离开你，但我将永远在巴尔的阴影下舞蹈”","italic": false,"color": "gray"}]},count:1b},{id:enchanted_book,Slot:1b,components:{stored_enchantments:{sharpness:3,legend_edge:1}},count:1b}]}

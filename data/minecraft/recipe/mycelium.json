@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:podzol",
+        "2":"minecraft:bone_block"
+    },
+    "pattern": ["222","111"],
+    "result": {
+        "id": "minecraft:mycelium"
+    }
+}

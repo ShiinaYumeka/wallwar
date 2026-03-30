@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "3":"minecraft:chain_command_block",
+        "4":"minecraft:diamond"
+    },
+    "pattern": [" 1 ","131","414"],
+    "result": {
+        "id": "minecraft:crossbow",
+        "components": {"minecraft:custom_name":{"translate":"穿光","italic": false,"color": "yellow","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*远敌未觉光影逝，流光已破晦暝归。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+10 爆炸击退抗性","italic": false,"color": "blue"}],"enchantments": {"piercing": 1,"power": 3,"focus": 4,"heavy": 3,"expensive_curse2": 1,"nogravity": 1,"vanishing_ench": 1},"attribute_modifiers": [{"id": "crossbow_boss","type": "minecraft:explosion_knockback_resistance","amount": 1,"operation": "add_value","slot": "hand"}],"repair_cost": 99,"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+        }
+}

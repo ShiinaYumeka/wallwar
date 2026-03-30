@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:amethyst_shard",
+        "2":"copper_block",
+        "3":"#shield_block",
+        "4":"#coals",
+        "5":"soul_sand"
+    },
+    "pattern": ["323","515"," 4 "],
+    "result": {
+        "id": "minecraft:shield",
+        "components": {"minecraft:item_name":{"translate":"地牢探索者","italic": false,"color": "aqua"},"minecraft:custom_name":{"translate":"地牢探索者","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"*怕死的人走不远，不怕死的人活不长","italic": false,"color": "gray"}],"enchantment_glint_override": false,"enchantments": {"shield_mob": 10,"unprotection5": 1,"expensive_curse2": 1},"max_damage": 333,"minecraft:banner_patterns":[{"color":"yellow","pattern":"minecraft:stripe_center"},{"color":"black","pattern":"minecraft:flower"},{"color":"yellow","pattern":"minecraft:stripe_middle"},{"color":"black","pattern":"minecraft:straight_cross"},{"color":"yellow","pattern":"minecraft:curly_border"},{"color":"black","pattern":"minecraft:border"}],"minecraft:base_color":"black","tooltip_display": {"hidden_components": ["banner_patterns"]},"repair_cost": 99}
+    }
+}

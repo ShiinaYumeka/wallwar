@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:wallwar/fish/rod",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:fish/rodofsea"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作海洋钓竿"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:nautilus_shell"
+    },
+    "title": {
+      "translate": "大智若“渔”"
+    },
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

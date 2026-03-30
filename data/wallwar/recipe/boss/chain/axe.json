@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "2":"minecraft:stick",
+        "3":"minecraft:chain_command_block"
+    },
+    "pattern": [" 11","131"," 2 "],
+    "result": {
+        "id": "minecraft:netherite_axe",
+        "components": {"minecraft:custom_name":{"translate":"因果","italic": false,"color": "red","bold": true},"item_model": "diamond_axe","minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*斩宿命之链如断苇，裂宙始因茧见真渊","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 9 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 0.9 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+4 盔甲韧性","italic": false,"color": "blue"}],"enchantments": {"noench_pro3": 5,"noench_pro4": 5,"cutdown": 3,"heavy": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "netherite_axe","type": "attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"},{"id": "netherite_axe","type": "attack_speed","amount": -3.1,"operation": "add_value","slot": "mainhand"},{"id": "netherite_axe","type": "armor_toughness","amount": 4,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 32767}
+    }
+}

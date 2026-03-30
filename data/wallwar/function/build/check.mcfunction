@@ -1,0 +1,6 @@
+
+execute if score build_battle display matches 0.. unless entity @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_battle:1b}}}}] run scoreboard players display numberformat build_battle display fixed {"translate": "损坏","color": "dark_gray"}
+execute if score build_court display matches 0.. unless entity @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_court:1b}}}}] run scoreboard players display numberformat build_court display fixed {"translate": "损坏","color": "dark_gray"}
+execute if score build_sand display matches 0.. unless entity @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_sand:1b}}}}] run scoreboard players display numberformat build_sand display fixed {"translate": "损坏","color": "dark_gray"}
+execute if score build_ocean display matches 0.. unless entity @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_ocean:1b}}}}] run scoreboard players display numberformat build_ocean display fixed {"translate": "损坏","color": "dark_gray"}
+execute if score build_wither display matches 0.. unless entity @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_wither:1b}}}}] run scoreboard players display numberformat build_wither display fixed {"translate": "损坏","color": "dark_gray"}

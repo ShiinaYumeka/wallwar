@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:name_tag",
+        "minecraft:nautilus_shell"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:heart_of_the_sea"
+    }
+}

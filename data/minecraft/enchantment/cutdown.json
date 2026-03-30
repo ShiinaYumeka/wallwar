@@ -1,0 +1,73 @@
+{
+  "anvil_cost": 8,
+  "description": {
+    "translate": "砍倒"
+  },
+  "effects": {
+    "minecraft:armor_effectiveness": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -0.02,
+            "per_level_above_first": -0.02
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": -0.03,
+            "per_level_above_first": -0.03
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "Armor": {
+                "min": 21
+              }
+            }
+          },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "minecraft:absorption":{
+                    "duration":{
+                      "min":1
+                    }
+                  }
+                }
+              }
+            }
+
+          ]
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#minecraft:exclusive_set/noench",
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:axes",
+  "weight": 2
+}

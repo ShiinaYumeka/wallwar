@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:grass_block",
+        "2":"minecraft:rooted_dirt",
+        "3":"minecraft:apple"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:iron_shovel",
+        "components": {"minecraft:item_name":{"translate":"寒潭掘玉","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"*坎泉铸锋魄，映水淬铁之姿","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 5.5 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"efficiency": 3,"fortune": 1},"attribute_modifiers": [{"id": "iron_shovel","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"},{"id": "iron_shovel","type": "attack_damage","amount": 4.5,"operation": "add_value","slot": "mainhand"}],"max_damage": 3000,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

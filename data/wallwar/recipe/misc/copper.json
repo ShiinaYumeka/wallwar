@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:copper_block",
+        "2":"minecraft:redstone"
+    },
+    "pattern": ["111","121","111"],
+    "result": {
+        "id": "minecraft:copper_bulb"
+    }
+}

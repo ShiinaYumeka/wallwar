@@ -1,0 +1,323 @@
+{
+    "type": "command",
+    "pools": [{
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"attribute_modifiers": [{"id": "diamond_helmet","amount": 3,"operation": "add_value","type": "armor","slot": "head"},{"id": "diamond_helmet","amount": 2,"operation": "add_value","type": "armor_toughness","slot": "head"}]}
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 30.0,
+              "options": "#command_book/empty"
+            }
+          ]
+        }
+        ]
+    },{
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"attribute_modifiers": [{"id": "diamond_chestplate","amount": 8,"operation": "add_value","type": "armor","slot": "chest"},{"id": "diamond_chestplate","amount": 2,"operation": "add_value","type": "armor_toughness","slot": "chest"}]}
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 30.0,
+              "options": "#command_book/empty"
+            }
+          ]
+        }
+        ]
+    },{
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"attribute_modifiers": [{"id": "diamond_leggings","amount": 2,"operation": "add_value","type": "armor_toughness","slot": "legs"},{"id": "diamond_leggings","amount": 6,"operation": "add_value","type": "armor","slot": "legs"}]}
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 30.0,
+              "options": "#command_book/empty"
+            }
+          ]
+        }
+        ]
+    },{
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"attribute_modifiers": [{"id": "diamond_boots","amount": 2,"operation": "add_value","type": "armor_toughness","slot": "feet"},{"id": "diamond_boots","amount": 3,"operation": "add_value","type": "armor","slot": "feet"}]}
+            },
+            {
+              "function": "enchant_with_levels",
+              "levels": 30.0,
+              "options": "#command_book/empty"
+            }
+          ]
+        }
+        ]
+    },{
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
+        }
+        ]
+    },{
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30.0,
+              "options": "#command_book/empty"
+            }
+          ]
+        }
+        ]
+    },{
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": 30.0,
+              "options": "#command_book/empty"
+            }
+          ]
+        }
+        ]
+    },{
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 4, "max": 6 }
+            }
+          ]
+        }
+        ]
+    },{
+      "bonus_rolls": 0.0,
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 26, "max": 48 }
+            }
+          ]
+        }
+        ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 2, "max": 3 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:goat_horn",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {"minecraft:custom_name":{"translate":"尘封凋零之号","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"当你为大祭司时，右键吹响号角触发以下效果：","italic": false,"color": "gray"},{"translate":"周围32格内所有凋零信徒（血祭品，狂信徒，信徒，大祭司）获得","italic": false,"color": "gray"},{"translate":"120s伤害吸收II,180s速度,5s生命恢复II并回复100点盔甲耐久","italic": false,"color": "gray"},{"translate":"冷却时间180s","italic": false,"color": "gray"},{"translate":"*布满尘埃的号角，吹响他会带来什么?","italic": false,"color": "dark_gray"}],"custom_data": {"wither_player_horn":1},"instrument": {"use_duration": 180,"range": 32,"description": "冲锋","sound_event": "item.goat_horn.sound.3"}}
+            }
+          ]
+        }
+      ]
+    },
+    
+        
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 15, "max": 26 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 15, "max": 26 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oak_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "type": "minecraft:uniform", "min": 15, "max": 26 }
+            }
+          ]
+        }
+      ]
+    },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "light_gray_shulker_box",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:item_name":{"translate":"神祈","italic": false,"bold": true,"color": "red"},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"}],"container": [{"item": {
+            "components": {"minecraft:custom_name":{"translate":"神降祭坛","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"建筑范围：无限制","italic": false,"color": "green"},{"translate":"放置于神降祭坛内的物品展示框中激活此奇观，神降祭坛不受高度限制。","italic": false,"color": "gray"},{"translate":"当死斗开始时，召唤一只生命值为300的凋灵并将难度难度修改为普通","italic": false,"color": "gray"},{"translate":"强化1：凋灵在死斗开始时会尝试杀死对应队伍的（血祭品，狂信徒，信徒）并获得强化","italic": false,"color": "gray"},{"translate":"强化2：使所有建筑（包括时钟，复活等）的物品展示框失效","italic": false,"color": "gray"},{"translate":"队伍模块：将凋灵设置为对应队伍。","italic": false,"color": "gray"},{"translate":"扩散模块：将大祭司的基础护甲值设置为1，且有概率杀死经验球","italic": false,"color": "gray"},{"translate":"BOSS模式调整：杀死经验瓶的效果在资源收集阶段无效，额外给予血祭品和狂信徒抗性提升效果","italic": false,"color": "gray"},{"translate":""},{"translate":"神降祭坛拥有额外的四个献祭槽位，可以放置对应物品来获得相应强化，每个强化仅能使用一次。","italic": false,"color": "red"},{"translate":"大师农耕锄：将距离献祭槽位最近的玩家添加大祭司身份。","italic": false,"color": "gray"},{"translate":"群英荟萃：在死斗开始时召唤与敌人人数相等数量的凋零骷髅。","italic": false,"color": "gray"},{"translate":"热土豆书：在死斗开始时给与所有玩家10s的失明与虚弱X。","italic": false,"color": "gray"},{"translate":"幻梦时钟：在死斗开始时将难度修改为困难并将凋灵的基础生命值设置为200。","italic": false,"color": "gray"},{"translate":"*我们都是阴沟里的虫子，但总还是得有人仰望星空 --------《三体》","italic": false,"color": "dark_purple"}],"custom_data": {"building_wither":1}},
+            "id": "minecraft:black_glazed_terracotta",
+            "count": 1
+        },"slot": 0},
+        {"item": {
+        "id": "minecraft:gray_glazed_terracotta",
+        "components": {"minecraft:custom_name":{"translate":"仪式祭坛","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：无限制","italic": false,"color": "green"},{"translate":"放置于仪式祭坛内的物品展示框中激活此建筑，仪式祭坛不受高度限制。","italic": false,"color": "gray"},{"translate":"你可以将对应物品在此处献祭并获得对应强化。","italic": false,"color": "gray"},{"translate":"-此建筑无法在资源阶段建筑","italic": false,"color": "gray"},{"translate":"-献祭以下物品对应强化凋零数值方面强化（凋零灵魂权杖，凋零仪式匕首，黑石蚀刻之证，仪式灵魂核心）","italic": false,"color": "gray"},{"translate":"-献祭以下物品对应强化凋零技能方面强化（启封的秘籍/启封的秘典，渔者之心，虎纹鲨鱼，有点神奇之靴/灵犀众魂/命令方块）","italic": false,"color": "gray"},{"translate":"-献祭以下物品对应强化大祭司方面强化（异木收集者，虚无之书+3阻献之触，贪婪者的褒奖）","italic": false,"color": "gray"},{"translate":"-当你献祭玩家头颅，为最近的“血祭品”晋升。（被晋升者将视为被献祭且获得防御提升）","italic": false,"color": "gray"},{"translate":"-当你献祭凋零骷髅头颅，为最近的“狂信徒”晋升。（被晋升者将视为被献祭且获得防御提升）","italic": false,"color": "gray"},{"translate":"-献祭以下物品可以使用玩家头颅来获得凋零技能方面强化（红石块-轮回，皮革-三牲祭，钻石剑-毁灭，山羊角-清算）","italic": false,"color": "gray"},{"translate":"*这些只是开始，我会找到更多有价值的灵魂","italic": false,"color": "dark_gray"}],"custom_data": {"wither_craft":1}}
+    },"slot": 1},
+        {"item": {
+        "id": "minecraft:beacon",
+        "components": {"minecraft:item_name":{"translate":"承枢台","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"建筑物的枢中承梁","italic": false,"color": "gray"},{"translate":"*千年不塌，因为掺了秦始皇的午餐？","italic": false,"color": "gray"}]}
+    },"slot": 2},
+        {"item": {
+            "id": "minecraft:item_frame",
+            "count": 10
+        },"slot": 3},
+        {"item": {
+            "id": "minecraft:lava_bucket",
+            "components": {"max_stack_size": 16},
+            "count": 16
+        },"slot": 4},
+        {"item": {
+            "id": "minecraft:basalt",
+            "count": 29
+        },"slot": 5},
+        {"item": {
+            "id": "minecraft:polished_basalt",
+            "count": 16
+        },"slot": 6},
+        {"item": {
+            "id": "minecraft:shroomlight",
+            "count": 5
+        },"slot": 7},
+        {"item": {
+            "id": "minecraft:gilded_blackstone",
+            "count": 12
+        },"slot": 8},
+        {"item": {
+            "id": "minecraft:enchanting_table",
+            "count": 1
+        },"slot": 9},
+        {"item": {
+        "id": "minecraft:magma_cream",
+        "components": {"minecraft:custom_name":{"translate":"仪式灵魂核心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为仪式祭坛上之人添加信徒身份并且为凋灵额外增加20点生命值。","italic": false,"color": "gray"},{"translate":"信徒拥有以下效果：","italic": false,"color": "gray"},{"translate":"你被接纳了","italic": false,"color": "red"},{"translate":"若祭坛上之人已有身份，其献祭时额外增加10点生命值。","italic": false,"color": "gray"},{"translate":"*我将成为新世界的一份子","italic": false,"color": "dark_red"}],"custom_data": {"wither_man":1}}
+    },"slot": 10},
+        {"item": {
+        "id": "minecraft:stone_pickaxe",
+        "components": {"minecraft:custom_name":{"translate":"黑石蚀刻之证","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为仪式祭坛上之人添加血祭品身份并且给予教徒装备（绑定诅咒）","italic": false,"color": "gray"},{"translate":"血祭品拥有以下效果：","italic": false,"color": "gray"},{"translate":"当你因凋灵献祭而死亡时，你为凋灵额外增加10点护甲值。","italic": false,"color": "gray"},{"translate":"你永久获得隐身 I。","italic": false,"color": "gray"},{"translate":"*我将归于你，伟大的....","italic": false,"color": "dark_gray"}],"custom_data": {"wither_pickaxe":1}}
+    },"slot": 11},
+        {"item": {
+        "id": "minecraft:stone_sword",
+        "components": {"minecraft:custom_name":{"translate":"凋零仪式匕首","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"为仪式祭坛上之人添加狂信徒身份并且给予狂信徒装备（保护I，绑定诅咒），生命提升I","italic": false,"color": "gray"},{"translate":"狂信徒具有以下效果：","italic": false,"color": "gray"},{"translate":"死亡后不掉落头颅，当你因凋灵献祭而死亡时，你为凋灵额外增加20点生命值。","italic": false,"color": "gray"},{"translate":"*愿以吾命，惩世不公，赎生之罪","italic": false,"color": "dark_gray"}],"custom_data": {"wither_sword":1}}
+    },"slot": 12},
+    {
+        "item": {
+        "id": "minecraft:light_blue_glazed_terracotta",
+        "components": {"minecraft:custom_name":{"translate":"强化核心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"使部分建筑的效果增强。","italic": false,"color": "gray"},{"translate":"*那是个疯狂的夜晚，禁忌科学让强化核心诞生。","italic": false,"color": "gray"},{"translate":"电闪雷鸣，狂风怒号，整个世界都愤怒地否定着。","italic": false,"color": "gray"},{"translate":"但是这一切都无济于事，强化核心仍然活着，活着！","italic": false,"color": "gray"}],"custom_data": {"building_update_one":1}}
+    },"slot": 13
+    },
+    {
+        "item": {
+        "id": "minecraft:black_concrete",
+        "components": {"minecraft:custom_name":{"translate":"队伍限定模块-黑","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"使凋零祭坛属于议会。","italic": false,"color": "gray"},{"translate":"*这是我们曾经存在的证明。","italic": false,"color": "gray"}],"custom_data": {"building_update_wither":1,"building_update_team":1}}
+    },"slot": 14
+    }]}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

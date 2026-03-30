@@ -1,0 +1,15 @@
+[
+    {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+            "effects": {
+                "wind_charged": {
+                    "duration": {
+                        "min": 1
+                    }
+                }
+            }
+        }
+    }
+]

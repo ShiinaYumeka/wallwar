@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "beetroot_seeds",
+        "beetroot_seeds",
+        "beetroot_seeds"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:beetroot"
+    }
+}

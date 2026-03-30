@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    
+    "ingredients": [
+        "minecraft:glass_bottle",
+        "minecraft:bone_meal",
+        "minecraft:wheat_seeds"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:dragon_breath"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "3":"minecraft:chain_command_block",
+        "4":"minecraft:diamond"
+    },
+    "pattern": [" 14","131"," 14"],
+    "result": {
+        "id": "minecraft:bow",
+        "components": {"minecraft:custom_name":{"translate":"溯流","italic": false,"color": "aqua","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*箭出无痕，似江河奔涌无穷尽","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+70% 跳跃力度","italic": false,"color": "blue"},{"translate":"+10 安全摔落高度","italic": false,"color": "blue"}],"enchantments": {"power": 7,"focus": 3,"hunter": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "bow_boss","type": "minecraft:jump_strength","amount": 0.7,"operation": "add_multiplied_base","slot": "hand"},{"id": "bow_boss","type": "safe_fall_distance","amount": 10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 32767}
+        }
+}

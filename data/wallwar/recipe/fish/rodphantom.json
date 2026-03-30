@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:fishing_rod",
+        "2":"minecraft:flint",
+        "3":"minecraft:heart_of_the_sea",
+        "4":"minecraft:name_tag",
+        "5":"minecraft:nautilus_shell"
+    },
+    "pattern": [" 3 ","415"," 2 "],
+    "result": {
+        "id": "minecraft:fishing_rod",
+        "components": {"minecraft:item_name":{"translate":"虚妄鱼竿","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"必定钓出宝藏","italic": false,"color": "yellow"},{"translate":"虚妄宝藏的概率极大幅度提升","italic": false,"color": "light_purple"},{"translate":"*承海之广阔","italic": false,"color": "blue"},{"translate":"*虚妄之渔者","italic": false,"color": "gray"},{"translate":"*吾即为海洋","italic": false,"color": "dark_aqua"}],"enchantments": {"lure": 5,"luck_of_the_sea": 10,"expensive_curse2": 1},"repair_cost": 99,"max_damage": 8}
+    }
+}

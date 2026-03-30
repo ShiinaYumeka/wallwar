@@ -1,0 +1,269 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "2":"copper_ingot",
+        "1":"iron_ingot",
+        "4":"command_block"
+    },
+    "pattern": ["121","242","121"],
+    "result": {
+        "id": "minecraft:white_shulker_box",
+        "components": {"minecraft:item_name":{"translate":"战斗补给套装","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"container": [
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "long_swiftness"
+}
+},
+"id": "minecraft:potion",
+"count": 1
+},
+"slot": 0
+},
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "long_swiftness"
+}
+},
+"id": "minecraft:potion",
+"count": 1
+},
+"slot": 1
+},
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "weakness"
+}
+},
+"id": "minecraft:splash_potion",
+"count": 1
+},
+"slot": 2
+},
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "weakness"
+}
+},
+"id": "minecraft:splash_potion",
+"count": 1
+},
+"slot": 3
+},
+{
+"item": {
+"id": "minecraft:cobweb",
+"count": 64
+},
+"slot": 4
+},
+{
+"item": {
+"id": "minecraft:axolotl_bucket",
+"count": 1
+},
+"slot": 5
+},
+{
+"item": {
+        "id": "minecraft:gold_nugget",
+        "count": 64,
+        "components": {"minecraft:item_name":{"translate":"小垃圾零食","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 12饱和","italic": false,"color": "yellow"},{"translate":"你肯定没吃过！穷鬼！","italic": false,"color": "gray"},{"translate":"（愤怒的呐喊）","italic": false,"color": "gray"},{"translate":"穷光蛋你连小零食都吃不起啊你","italic": false,"color": "gray"},{"translate":"大穷光蛋一个!","italic": false,"color": "gray"},{"translate":"你太穷了（拖长音）","italic": false,"color": "gray"},{"translate":"你实在是太穷了！！","italic": false,"color": "gray"},{"translate":"穷光蛋你连小零食都吃不起啊你","italic": false,"color": "gray"},{"translate":"(疯狂的颤抖)","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition":  8,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.6},"max_stack_size": 64}
+    },
+"slot": 6
+},
+{
+"item": {
+"id": "minecraft:chiseled_deepslate",
+"count": 64
+},
+"slot": 7
+},
+{
+"item": {
+"id": "minecraft:lava_bucket",
+"count": 1
+},
+"slot": 8
+},
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "fire_resistance"
+}
+},
+"id": "minecraft:potion",
+"count": 1
+},
+"slot": 9
+},
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "fire_resistance"
+}
+},
+"id": "minecraft:potion",
+"count": 1
+},
+"slot": 10
+},
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "strong_slowness"
+}
+},
+"id": "minecraft:splash_potion",
+"count": 1
+},
+"slot": 11
+},
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "strong_slowness"
+}
+},
+"id": "minecraft:splash_potion",
+"count": 1
+},
+"slot": 12
+},
+{
+"item": {
+"id": "minecraft:cobweb",
+"count": 64
+},
+"slot": 13
+},
+{
+"item": {
+"id": "minecraft:axolotl_bucket",
+"count": 1
+},
+"slot": 14
+},
+{
+"item": {
+        "id": "minecraft:gold_nugget",
+        "count": 64,
+        "components": {"minecraft:item_name":{"translate":"小垃圾零食","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 12饱和","italic": false,"color": "yellow"},{"translate":"你肯定没吃过！穷鬼！","italic": false,"color": "gray"},{"translate":"（愤怒的呐喊）","italic": false,"color": "gray"},{"translate":"穷光蛋你连小零食都吃不起啊你","italic": false,"color": "gray"},{"translate":"大穷光蛋一个!","italic": false,"color": "gray"},{"translate":"你太穷了（拖长音）","italic": false,"color": "gray"},{"translate":"你实在是太穷了！！","italic": false,"color": "gray"},{"translate":"穷光蛋你连小零食都吃不起啊你","italic": false,"color": "gray"},{"translate":"(疯狂的颤抖)","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition":  8,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.6},"max_stack_size": 64}
+    },
+"slot": 15
+},
+{
+"item": {
+"id": "minecraft:chiseled_deepslate",
+"count": 64
+},
+"slot": 16
+},
+{
+"item": {
+"id": "minecraft:lava_bucket",
+"count": 1
+},
+"slot": 17
+},
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "long_water_breathing"
+}
+},
+"id": "minecraft:potion",
+"count": 1
+},
+"slot": 18
+},
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "long_water_breathing"
+}
+},
+"id": "minecraft:potion",
+"count": 1
+},
+"slot": 19
+},
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "strong_poison"
+}
+},
+"id": "minecraft:splash_potion",
+"count": 1
+},
+"slot": 20
+},
+{
+"item": {
+"components": {
+"potion_contents": {
+"potion": "strong_poison"
+}
+},
+"id": "minecraft:splash_potion",
+"count": 1
+},
+"slot": 21
+},
+{
+"item": {
+"id": "minecraft:cobweb",
+"count": 64
+},
+"slot": 22
+},
+{
+"item": {
+"id": "minecraft:axolotl_bucket",
+"count": 1
+},
+"slot": 23
+},
+{
+"item": {
+        "id": "minecraft:gold_nugget",
+        "count": 64,
+        "components": {"minecraft:item_name":{"translate":"小垃圾零食","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 12饱和","italic": false,"color": "yellow"},{"translate":"你肯定没吃过！穷鬼！","italic": false,"color": "gray"},{"translate":"（愤怒的呐喊）","italic": false,"color": "gray"},{"translate":"穷光蛋你连小零食都吃不起啊你","italic": false,"color": "gray"},{"translate":"大穷光蛋一个!","italic": false,"color": "gray"},{"translate":"你太穷了（拖长音）","italic": false,"color": "gray"},{"translate":"你实在是太穷了！！","italic": false,"color": "gray"},{"translate":"穷光蛋你连小零食都吃不起啊你","italic": false,"color": "gray"},{"translate":"(疯狂的颤抖)","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition":  8,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.6},"max_stack_size": 64}
+    },
+"slot": 24
+},
+{
+"item": {
+"id": "minecraft:chiseled_deepslate",
+"count": 64
+},
+"slot": 25
+},
+{
+"item": {
+"id": "minecraft:lava_bucket",
+"count": 1
+},
+"slot": 26
+}
+]}
+    }
+}

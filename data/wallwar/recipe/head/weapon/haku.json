@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "2":"minecraft:diamond",
+        "3":"#minecraft:heads"
+    },
+    "pattern": ["2","2","3"],
+    "result": {
+        "id": "minecraft:diamond_sword",
+        "components": {"minecraft:custom_name":{"translate":"白楼","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你副手持有带有双生·阴附魔的物品时增加攻击速度与保护等级","italic": false,"color": "white"},{"translate":"-当你至少拥有10等级时可用","italic": false,"color": "white"},{"translate":" 当你主副手切刀换至楼观时，获得爆发移速。使用时消耗1等级。","italic": false,"color": "white"},{"translate":"-若你在移速加成期间杀死一名敌人，获得2层“魄”","italic": false,"color": "white"},{"translate":" “魄”-奖励系统","italic": false,"color": "white"},{"translate":"-每层魄会等量的增加你的最大生命值","italic": false,"color": "white"},{"translate":"-当你的魄首次达到20/40/60/80时，获得2命令方块","italic": false,"color": "white"},{"translate":"*据说能斩断人类的迷惘。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 7 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.8 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"sharpness": 3,"haku": 1},"attribute_modifiers": [{"id": "haku_sword","type": "attack_speed","amount": -2.2,"operation": "add_value","slot": "mainhand"},{"id": "haku_sword","type": "attack_damage","amount": 6,"operation": "add_value","slot": "mainhand"}],"custom_data": {"haku_sword":1},"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 2000}
+    }
+}

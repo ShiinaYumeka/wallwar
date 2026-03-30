@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:wallwar/mine/furnace",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:mine/a/silk"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作稳健者的褒奖"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:stone_pickaxe",
+      "components": {"enchantments": {"silk_touch": 1}}
+    },
+    "title": {
+      "translate": "保守投资"
+    },
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "category":"equipment",
+    
+    "ingredients": [
+        "nether_star"
+    ],
+
+    "result": {
+        "id": "minecraft:wither_skeleton_skull",
+        "components": {"minecraft:item_name":{"translate":"神秘头颅","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"*你杀死了一个不存在的玩家并获得了一个头颅","italic": false,"color": "white"}],"enchantments": {"protection": 7},"max_stack_size": 64}
+    }
+}

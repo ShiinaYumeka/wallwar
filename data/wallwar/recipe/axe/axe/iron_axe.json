@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:crimson_hyphae",
+        "2":"minecraft:bone_meal",
+        "3":"minecraft:apple"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:iron_axe",
+        "components": {"minecraft:item_name":{"translate":"祭祀伐木斧","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"*摧毁腐木，复苏神坛。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 9 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 0.9 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"cooking": 1,"looting": 1},"tool": {"default_mining_speed": 1,"damage_per_block": 1,"rules": [{"blocks": "#mineable/axe","correct_for_drops": true,"speed": 30}]},"attribute_modifiers": [{"id": "iron_axe","type": "attack_speed","amount": -3.1,"operation": "add_value","slot": "mainhand"},{"id": "iron_axe","type": "attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 444}
+    }
+}

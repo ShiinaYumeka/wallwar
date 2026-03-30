@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:fishing",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:gameplay/fishing/treasure",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:gameplay/fishing/command",
+            "weight": 80
+          }
+        ],
+        "rolls": 1.0
+      }
+    ]
+}

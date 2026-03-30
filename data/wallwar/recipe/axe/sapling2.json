@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:redstone",
+        "2":"minecraft:lapis_lazuli",
+        "3":"minecraft:copper_ingot",
+        "4":"minecraft:diamond",
+        "5":"minecraft:warped_hyphae"
+    },
+    "pattern": [" 4 ","152"," 3 "],
+    "result": {
+        "id":"dark_oak_sapling",
+        "count": 3
+    }
+}

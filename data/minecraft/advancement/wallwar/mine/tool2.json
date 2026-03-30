@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:wallwar/mine/furnace",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:mine/a/stonk"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作掘石思洞客"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_pickaxe"
+    },
+    "title": {
+      "translate": "底层耗材"
+    },
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "1":"soul_sand",
+        "2":"blue_ice",
+        "3":"bone_meal"
+    },
+    "pattern": ["313","121","313"],
+    "result": {
+        "id": "minecraft:dried_ghast"
+    }
+}

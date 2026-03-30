@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:mycelium",
+        "2":"minecraft:podzol",
+        "3":"minecraft:nether_gold_ore",
+        "4":"minecraft:grass_block",
+        "5":"minecraft:rooted_dirt"
+    },
+    "pattern": [" 2 ","134"," 5 "],
+    "result": {
+        "id": "minecraft:netherite_shovel",
+        "components": {"minecraft:custom_name":{"translate":"太虚量天","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"*纳星宿为柄，丈九霄云厚","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 8 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"efficiency": 10,"fortune": 3,"knockback": 3},"attribute_modifiers": [{"id": "netherite_shovel_shovel","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"},{"id": "netherite_shovel_shovel","type": "attack_damage","amount": 7,"operation": "add_value","slot": "mainhand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"unbreakable": {}}
+    }
+}

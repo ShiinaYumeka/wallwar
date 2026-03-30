@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:gold_ingot",
+        "2":"minecraft:crimson_hyphae",
+        "3":"minecraft:wither_skeleton_skull"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:piglin_head",
+        "count": 2
+    }
+}

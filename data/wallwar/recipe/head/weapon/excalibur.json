@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:gold_ingot",
+        "2":"minecraft:golden_sword",
+        "3": "minecraft:player_head"
+    },
+    "pattern": [" 11","131","21 "],
+    "result": {
+        "id": "minecraft:golden_sword",
+        "components": {"minecraft:custom_name":{"translate":"圣剑","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"Excalibur！","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 7 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.6 攻击速度","italic": false,"color": "dark_green"},{"translate":" 3.5 攻击距离","italic": false,"color": "dark_green"}],"enchantments": {"fire_aspect": 5,"stun": 3},"attribute_modifiers": [{"id": "golden_sword","type": "attack_speed","amount": -2.4,"operation": "add_value","slot": "mainhand"},{"id": "golden_sword","type": "attack_damage","amount": 6,"operation": "add_value","slot": "mainhand"},{"id": "golden_sword","type": "entity_interaction_range","amount": 0.5,"operation": "add_value","slot": "mainhand"}],"max_damage": 64,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:boss/command"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "通过合作与坚持制作连锁命令方块\n奖励：2000经验值与1000经验值和命令方块每人"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chain_command_block"
+    },
+    "title": {
+      "translate": "众志成城"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "function": "wallwar:boss/enable2",
+    "experience": 2000
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:string",
+        "2":"minecraft:warped_hyphae",
+        "3":"minecraft:crossbow",
+        "4":"minecraft:stick"
+    },
+    "pattern": ["424","131"," 4 "],
+    "result": {
+        "id": "minecraft:crossbow",
+        "components": {"minecraft:custom_name":{"translate":"重弩","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"手持后一段时间无法移动","italic": false,"color": "gray"},{"translate":"*I wanna be in the cavalry if they send me off to war","italic": false,"color": "gray"},{"translate":"*I wanna be in the cavalry but I won't ride home no more","italic": false,"color": "gray"},{"translate":"   ——I Wanna Be In The Cavalry","italic": false,"color": "gray"}],"enchantments": {"piercing": 1,"focus": 1,"power": 2,"heavy": 10,"expensive_curse": 1},"attribute_modifiers": [{"id": "heavy_crossbow","type": "minecraft:armor","amount": -5,"operation": "add_value","slot": "hand"}],"repair_cost": 20,"max_damage": 465}
+        }
+}

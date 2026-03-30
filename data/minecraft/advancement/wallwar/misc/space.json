@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:wallwar/misc/gosky",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "location": [{
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "position": {
+              "y": {
+                "min": 319
+              }
+            }
+          }
+        }]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "在建筑高度上限放置一个方块\n奖励：200经验值"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lodestone"
+    },
+    "title": {
+      "translate": "空间站"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

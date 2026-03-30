@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:diamond_pickaxe"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:diamond"
+    }
+}

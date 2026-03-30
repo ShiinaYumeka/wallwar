@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "category":"equipment",
+    
+    "ingredients": [
+        "sand",
+        "#command"
+    ],
+    "result": {
+        "id": "minecraft:brown_shulker_box",
+        "components": {"minecraft:item_name":{"translate":"炼药套装","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"container": [ {"item": {"id":"nether_wart","count": 16},"slot": 0}, {"item": {"id":"soul_sand","count": 64},"slot": 1}, {"item": {"id":"blaze_rod","count": 21},"slot": 2}, {"item": {"id":"apple","count": 64},"slot": 3}, {"item": {"id":"gunpowder","count": 16},"slot": 4}, {"item": {"id":"glass_bottle","count": 64},"slot": 5}]}
+    }
+}

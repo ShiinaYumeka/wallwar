@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    
+    "ingredients": [
+        "#leaves",
+        "#leaves",
+        "#leaves",
+        "#leaves"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:string"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "3":"minecraft:chain_command_block",
+        "4":"minecraft:sea_lantern"
+    },
+    "pattern": ["414","131","414"],
+    "result": {
+        "id": "minecraft:trident",
+        "components": {"minecraft:custom_name":{"translate":"漩枢","italic": false,"color": "light_purple","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*万涡归心驭沧溟，一戟定涛裂渊极。","italic": false,"color": "dark_aqua"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 9 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.1 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+1 水下移动速率 ","italic": false,"color": "blue"}],"enchantments": {"impaling": 3,"riptide": 2,"heavy": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "trident_boss2","type": "minecraft:attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"},{"id": "trident_boss2","type": "minecraft:attack_speed","amount": -2.9,"operation": "add_value","slot": "mainhand"},{"id": "trident_boss2","type": "minecraft:water_movement_efficiency","amount": 1,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 32767}
+        }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tnt_minecart"
+          }
+        ]
+      },
+      "trigger": "inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "获得TNT矿车\n奖励：铁轨x1"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:tnt_minecart"
+    },
+    "title": {
+      "translate": "铁道杀手"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:misc/rail"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

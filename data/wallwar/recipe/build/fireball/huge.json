@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    
+    "show_notification": false,
+    "key": {
+        "4":"minecraft:mycelium",
+        "3":"minecraft:tnt_minecart",
+        "1":"minecraft:netherite_shovel"
+    },
+    "pattern": ["434","313","434"],
+    "result": {
+        "id": "minecraft:snowball",
+        "components": {"minecraft:item_name":{"translate":"炎爆术","italic": false,"color": "red"},"minecraft:lore":[{"translate":"召唤一个可以被打出的毁灭火球","italic": false,"color": "red"}],"minecraft:custom_data":{"is_snowball":3},"max_stack_size": 64},
+        "count": 1
+    }
+}

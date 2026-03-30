@@ -1,0 +1,10 @@
+{
+  "type": "smithing_transform",
+  "template":  "field_masoned_banner_pattern",
+  "base": "minecraft:netherite_leggings",
+  "addition": ["experience_bottle"],
+  "result": {
+    "id": "minecraft:netherite_leggings",
+    "components": {"damage": 0,"max_damage": 1000,"repair_cost": 0,"repairable":{"items": ["diamond","iron_ingot","copper_ingot"]}}
+  }
+}

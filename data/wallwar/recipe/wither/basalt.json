@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:dirt",
+        "2":"#sand"
+    },
+    "pattern": ["222","111","222"],
+    "result": {
+        "id": "minecraft:basalt"
+    }
+}

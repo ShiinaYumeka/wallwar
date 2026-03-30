@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:pumpkin",
+        "3":"minecraft:pumpkin_seeds",
+        "2":"#minecraft:cropblock"
+    },
+    "pattern": ["1 1","121","131"],
+    "result": {
+        "id": "minecraft:leather_chestplate",
+        "components": {"minecraft:item_name":{"translate":"南瓜衣服","italic": false,"color": "aqua"},"dyed_color": 13746176,"minecraft:lore":[{"translate":"套装奖励：生命提升II","italic": false,"color": "white"},{"translate":"有效的在万圣节要糖","italic": false,"color": "gray"}],"enchantments": {"protection":2},"attribute_modifiers": [{"id": "pumpkin_cminecraft:leather_chestplate","type": "armor","amount": 8,"operation": "add_value","slot": "chest"},{"id": "pumpkin_cminecraft:leather_chestplate","type": "armor_toughness","amount":2,"operation": "add_value","slot": "chest"},{"id": "pumpkin_cminecraft:leather_chestplate","type": "attack_damage","amount": -0.0,"operation": "add_multiplied_total","slot": "chest"}],"max_damage": 300,"custom_data": {"pumpkin_armor":1}}
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "2":"minecraft:dirt",
+        "3":"minecraft:rooted_dirt"
+    },
+    "pattern": ["222","333","222"],
+    "result": {
+        "id":"purpur_block",
+        "count": 3
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "2":"minecraft:stick",
+        "3":"minecraft:chain_command_block"
+    },
+    "pattern": ["113"," 21","2 1"],
+    "result": {
+        "id": "minecraft:netherite_spear",
+        "components": {"minecraft:custom_name":{"translate":"逐影","italic": false,"color": "gray","bold": true},"item_model": "diamond_spear","minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*流光掠野无踪迹，电步穿云存影痕。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 5 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+128 路径点接收距离","italic": false,"color": "blue"}],"enchantments": {"lunge": 2,"vanishing_ench": 1},"attribute_modifiers": [{"id": "netherite_spear","type": "attack_damage","amount": 4,"operation": "add_value","slot": "mainhand"},{"id": "netherite_spear","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"},{"id": "netherite_spear","type": "waypoint_receive_range","amount": 128,"operation": "add_value","slot": "hand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

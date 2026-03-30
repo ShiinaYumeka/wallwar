@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:iron_ingot",
+        "3":"minecraft:shield",
+        "2":"player_head"
+    },
+    "pattern": ["1","3","2"],
+    "result": {
+        "id": "minecraft:iron_sword",
+        "components": {"minecraft:custom_name":{"translate":"骑士佩剑","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"攻击命中盾牌后禁用敌方盾牌，但破盾时间仅有20%","italic": false,"color": "white"},{"translate":"拥有2999点耐久","italic": false,"color": "gray"},{"translate":"*以我骑士之誓，吾辈绝不动摇","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 7 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.6 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "gray"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+0.5 护甲值","italic": false,"color": "blue"}],"attribute_modifiers": [{"id": "iron_sword","type": "attack_speed","amount": -2.4,"operation": "add_value","slot": "mainhand"},{"id": "iron_sword","type": "attack_damage","amount": 6,"operation": "add_value","slot": "mainhand"},{"id": "iron_sword","type": "armor","amount": 0.5,"operation": "add_value","slot": "hand"}],"enchantments": {"auto_damage": 1,"conquer": 3},"weapon": {"disable_blocking_for_seconds": 1},"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 2999}
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "3":"minecraft:diamond_block",
+        "2":"minecraft:leather",
+        "1":"minecraft:copper_block"
+    },
+    "pattern": ["  1","323","1 1"],
+    "result": {
+        "id": "minecraft:diamond_horse_armor",
+        "components": {"minecraft:item_name":{"translate":"钻石马铠","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"兵者，行霸道之势，彰王道之实。","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "horse","amount": 20,"operation": "add_value","type": "armor","slot": "armor"},{"id": "horse","amount": 8,"operation": "add_value","type": "armor_toughness","slot": "armor"},{"id": "horse","amount": 0.5,"operation": "add_multiplied_base","type": "jump_strength","slot": "armor"}],"enchantments": {"protection": 5,"projectile_protection": 5}}
+    }
+}

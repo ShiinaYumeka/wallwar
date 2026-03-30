@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond",
+        "2":"minecraft:string",
+        "3":"#minecraft:heads"
+    },
+    "pattern": [" 12","132"," 12"],
+    "result": {
+        "id": "minecraft:bow",
+        "components": {"minecraft:custom_name":{"translate":"天界弓","italic": false,"color": "aqua"},"enchantments": {"power": 5,"hunter": 3,"infinity": 4,"expensive_curse2": 1},"repair_cost": 99,"max_damage": 64}
+    }
+}

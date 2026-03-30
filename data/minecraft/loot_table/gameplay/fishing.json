@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fish/normal",
+          "conditions": [
+            {
+              "condition": "table_bonus",
+              "enchantment": "luck_of_the_sea",
+              "chances": [1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fish/legend",
+          "conditions": [
+            {
+              "condition": "table_bonus",
+              "enchantment": "luck_of_the_sea",
+              "chances": [0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fish/fish",
+          "conditions": [
+            {
+              "condition": "table_bonus",
+              "enchantment": "luck_of_the_sea",
+              "chances": [0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fish/sea",
+          "conditions": [
+            {
+              "condition": "table_bonus",
+              "enchantment": "luck_of_the_sea",
+              "chances": [0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,0.0]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fish/phantom",
+          "conditions": [
+            {
+              "condition": "table_bonus",
+              "enchantment": "luck_of_the_sea",
+              "chances": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0]
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/test",
+          "conditions": [
+            {
+              "condition": "table_bonus",
+              "enchantment": "luck_of_the_sea",
+              "chances": [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0]
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing"
+}

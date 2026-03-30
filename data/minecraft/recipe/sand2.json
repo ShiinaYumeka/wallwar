@@ -1,0 +1,12 @@
+{
+    "category": "redstone",
+    "type": "crafting_shapeless",
+    
+    "ingredients": [
+        "#minecraft:sand"
+    ],
+    "result": {
+        "id": "minecraft:dirt",
+        "count": 1
+    }
+}

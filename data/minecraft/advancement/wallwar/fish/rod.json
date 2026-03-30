@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:wallwar/fish/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:fish/rodofpuffer"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作䲆竿"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:tropical_fish"
+    },
+    "title": {
+      "translate": "靠水吃水"
+    },
+    "frame": "task"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

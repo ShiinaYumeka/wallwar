@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:wallwar/axe/book",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:axe/weather"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作阻献之触"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:rabbit_foot"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "稀有祭品"
+    }
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

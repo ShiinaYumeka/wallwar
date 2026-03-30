@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "category":"equipment",
+    
+    "ingredients": [
+        "wheat_seeds",
+        "#command"
+    ],
+
+    "result": {
+        "id": "minecraft:orange_shulker_box",
+        "components": {"minecraft:item_name":{"translate":"种子套装","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"container": [ {"item": {"id":"potato","count": 64},"slot": 0}, {"item": {"id":"carrot","count": 64},"slot": 1}, {"item": {"id":"melon","count": 32},"slot": 2}, {"item": {"id":"pumpkin","count": 32},"slot": 3}, {"item": {"id":"beetroot","count": 64},"slot": 4}, {"item": {"id":"brown_mushroom","count": 32},"slot": 5}, {"item": {"id":"red_mushroom","count": 32},"slot": 6}, {"item": {"id":"sweet_berries","count": 64},"slot": 7}, {"item": {"id":"cactus","count": 32},"slot": 8}, {"item": {"id":"cocoa_beans","count": 64},"slot": 9}, {"item": {"id":"kelp","count": 64},"slot": 10}, {"item": {"id":"cow_spawn_egg","components": {"minecraft:item_name":{"translate":"唤灵-牛","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个牛","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：20","italic": false,"color": "gray"},{"translate":"持续时间：无限","italic": false,"color": "gray"},{"translate":"武器：无","italic": false,"color": "gray"}],"entity_data": {"id": "cow","PersistenceRequired": true,"Health": 20,"attributes": [{"id": "max_health","base": 20}],"CustomNameVisible": true,"CustomName": {"translate":"唤灵-牛"},"Tags": ["summoner"],"CanPickUpLoot": false},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 32},"count": 32},"slot": 11},{"item": {"id":"chicken_spawn_egg","components": {"minecraft:item_name":{"translate":"唤灵-鸡","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个鸡","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：20","italic": false,"color": "gray"},{"translate":"持续时间：无限","italic": false,"color": "gray"},{"translate":"武器：无","italic": false,"color": "gray"}],"entity_data": {"id": "chicken","Tags": ["summoner"],"PersistenceRequired": true,"Health": 8,"attributes": [{"id": "max_health","base": 8}],"CustomNameVisible": true,"CustomName": {"translate":"唤灵-鸡"},"CanPickUpLoot": false},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 32},"count": 32},"slot": 12}]}
+    }
+}

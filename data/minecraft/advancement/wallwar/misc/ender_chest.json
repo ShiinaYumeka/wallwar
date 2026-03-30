@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:wallwar/misc/ender_eye",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "ender_chest"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作末影箱\n奖励：神秘传送门"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ender_chest"
+    },
+    "title": {
+      "translate": "异次元空间"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:misc/ender"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:wallwar/boss/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:boss/chain/shield"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作余晖\n奖励：残阳药水（抗性提升）"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shield",
+      "components": {"minecraft:banner_patterns":[{"color":"gray","pattern":"minecraft:bricks"},{"color":"orange","pattern":"minecraft:half_horizontal"},{"color":"red","pattern":"minecraft:gradient"},{"color":"orange","pattern":"minecraft:flower"},{"color":"yellow","pattern":"minecraft:circle"},{"color":"red","pattern":"minecraft:triangles_bottom"}],"tooltip_display": {"hidden_components": ["banner_patterns","attribute_modifiers"]},"minecraft:base_color":"orange","minecraft:custom_name":{"color":"gold","italic":false,"bold":true,"translate":"余晖"},"minecraft:enchantments":{"minecraft:knockback":2,"minecraft:thorns":5,"shield_fire": 10,"minecraft:vanishing_curse":1},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*城垣凝血铸永誓，万代英魂立斜阳","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "shield_boss","type": "minecraft:armor","amount": 1,"operation": "add_value","slot": "hand"}],"unbreakable": {}}
+    },
+    "title": {
+      "translate": "余晖"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:boss/shield"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

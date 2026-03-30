@@ -1,0 +1,57 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "双生·阴","color": "green"
+  },
+  "effects": {
+    "tick":[
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "wallwar:weapon/swords/rokan"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {"offhand": {"components": {"minecraft:custom_name":{"translate":"白楼","italic": false,"color": "aqua"}}}}
+          }
+        }
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 2.5,
+            "per_level_above_first": 2.5
+          }
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "equipment": {"offhand": {"components": {"custom_data": {"haku_sword":1}}}}
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 8
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 8
+  },
+  "primary_items": "netherite_sword",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "netherite_sword",
+  "weight": 1
+}

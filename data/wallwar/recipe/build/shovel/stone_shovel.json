@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:dirt",
+        "2":"minecraft:sand",
+        "3":"#leaves"
+    },
+    "pattern": ["121","232","121"],
+    "result": {
+        "id": "minecraft:stone_shovel",
+        "components": {"minecraft:item_name":{"translate":"荒原耒木","italic": false,"color": "white"},"minecraft:lore":[{"translate":"*未斫荆条为柄，粗磨燧石作锋","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 4.5 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"efficiency": 2},"attribute_modifiers": [{"id": "stone_shovel","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"},{"id": "stone_shovel","type": "attack_damage","amount": 3.5,"operation": "add_value","slot": "mainhand"}],"max_damage": 300,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

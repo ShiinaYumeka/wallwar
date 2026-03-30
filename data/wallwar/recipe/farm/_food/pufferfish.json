@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"pufferfish",
+        "2":"#swords"
+    },
+    "pattern": ["1","2"],
+    "result": {
+        "id": "minecraft:pufferfish",
+        "components": {"minecraft:item_name":{"translate":"河豚刺身","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 12饱和","italic": false,"color": "yellow"},{"translate":"*河豚吃掉了剑并排出了所有毒素","italic": false,"color": "gray"}],"food": {"can_always_eat": false,"nutrition": 8,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.6},"max_stack_size": 16}
+    }
+}

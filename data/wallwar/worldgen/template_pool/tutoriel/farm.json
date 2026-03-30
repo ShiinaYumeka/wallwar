@@ -1,0 +1,16 @@
+{
+  "name": "wallwar:tutoriel/farm",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "wallwar:tutoriel/farm",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+    
+  ]
+}

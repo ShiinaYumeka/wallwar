@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shapeless",
+    
+    "ingredients": [
+        "minecraft:golden_shovel"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:gold_ingot"
+    }
+}

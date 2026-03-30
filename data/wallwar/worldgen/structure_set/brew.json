@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "wallwar:brew",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 987654321,
+    "frequency": 0.5,
+    "frequency_reduction_method": "default",
+    "spread_type": "linear",
+    "spacing": 7,
+    "separation": 4
+  }
+}

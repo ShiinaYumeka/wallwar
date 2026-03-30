@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:compass",
+        "2":"minecraft:diamond_pickaxe",
+        "3":"minecraft:gold_block"
+    },
+    "pattern": ["313","121","313"],
+    "result": {
+        "id": "minecraft:stone_pickaxe",
+        "components": {"minecraft:custom_name":{"translate":"黑石蚀刻之证","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为仪式祭坛上之人添加血祭品身份并且给予教徒装备（绑定诅咒）","italic": false,"color": "gray"},{"translate":"血祭品拥有以下效果：","italic": false,"color": "gray"},{"translate":"当你因凋灵献祭而死亡时，你为凋灵额外增加10点护甲值。","italic": false,"color": "gray"},{"translate":"你永久获得隐身 I。","italic": false,"color": "gray"},{"translate":"*我将归于你，伟大的....","italic": false,"color": "dark_gray"}],"custom_data": {"wither_pickaxe":1}}
+    }
+}

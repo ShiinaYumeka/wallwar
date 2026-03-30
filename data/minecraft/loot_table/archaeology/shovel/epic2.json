@@ -1,0 +1,138 @@
+{
+    "type": "minecraft:archaeology",
+    "pools": [
+      {
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_scrap",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 1.0,
+                  "max": 2.0
+                }
+              }
+            ],
+            "weight": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_otherside"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_creator"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_wait"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_creator_music_box"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_precipice"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_relic"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_13"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_5"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_pigstep"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_upgrade_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sentry_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:vex_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wild_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:coast_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:dune_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:wayfinder_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raiser_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:shaper_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:host_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ward_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:silence_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tide_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:snout_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:rib_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:eye_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:spire_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flow_armor_trim_smithing_template"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bolt_armor_trim_smithing_template"
+          }
+        ],
+        "rolls": 1.0
+      }
+    ],
+    "random_sequence": "minecraft:archaeology/shovel/epic"
+  }

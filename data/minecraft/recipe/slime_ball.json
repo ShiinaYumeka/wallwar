@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#grass"
+    },
+    "pattern": ["11","11"],
+    "result": {
+        "id": "minecraft:slime_ball",
+        "count": 4
+    }
+}

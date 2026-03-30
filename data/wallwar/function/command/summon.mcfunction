@@ -1,0 +1,3 @@
+
+summon drowned ~ ~ ~ {"Health": 20,"CustomNameVisible": true,"CustomName": {"translate":"海神仆从","color": "blue"},"equipment": {"feet":{"id":"diamond_boots","count": 1,components:{enchantments:{protection:4}}},"legs":{"id":"diamond_leggings",components:{enchantments:{protection:4}},"count": 1},"chest":{"id":"diamond_chestplate",components:{enchantments:{protection:4}},"count": 1},"head":{"id":"diamond_helmet",components:{enchantments:{protection:4}},"count": 1},"mainhand":{"id":"diamond_sword","count": 1}},"attributes": [{"id": "armor","base": 0}],active_effects:[{id:"speed",amplifier:0,duration:-1},{id:"fire_resistance",amplifier:0,duration:-1},{id:"strength",amplifier:0,duration:-1}],NoAI:1b}
+

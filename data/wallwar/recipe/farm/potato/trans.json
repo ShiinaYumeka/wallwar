@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "minecraft:baked_potato",
+        "minecraft:water_bucket"
+    ],
+    "result": {
+        "id": "minecraft:potato",
+        "components": {"minecraft:item_name":{"translate":"被泡过的马铃薯","italic": false,"color": "white"},"minecraft:lore":[{"translate":"*当你用到这个配方时，你一定和我有相同的遭遇罢","italic": false,"color": "gray"}]},
+        "count": 1
+    }
+}

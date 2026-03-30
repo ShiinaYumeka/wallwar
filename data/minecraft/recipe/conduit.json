@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "1":  "minecraft:mycelium",
+    "2": "#patterns2",
+    "3": "#patterns2",
+    "4": "#patterns2",
+    "5": "#patterns2",
+    "6":  "minecraft:heart_of_the_sea"
+  },
+  "pattern": [
+    "121",
+    "364",
+    "151"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:conduit",
+    "components": {"minecraft:custom_name":{"translate":"潮涌核心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"放置于潮涌核心框架中心激活此建筑","italic": false,"color": "gray"},{"translate":"给予有效半径内所有与水接触的玩家潮涌能量效果","italic": false,"color": "gray"},{"translate":"-拥有潮涌能量的玩家将解封力量效果的限制","italic": false,"color": "gray"},{"translate":"-若玩家没有力量效果，给予其力量I","italic": false,"color": "gray"},{"translate":"-潮涌核心建筑不受神降祭坛等封锁效果的影响","italic": false,"color": "gray"},{"translate":"-无法装配任何队伍、强化模块，在边界外时失效","italic": false,"color": "gray"},{"translate":"*他们将从大海中归来……","italic": false,"color": "aqua"}]}
+  }
+}

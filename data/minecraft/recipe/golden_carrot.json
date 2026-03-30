@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:gold_nugget",
+    "X": "minecraft:carrot"
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+        "id": "minecraft:oak_sign",
+        "components": {"minecraft:item_name":{"translate":"你不能做这个","italic": false,"color": "dark_purple"},"minecraft:lore":[{"translate":"此物品已被管理员一键做局","italic": false,"color": "white"}]},
+        "count": 1
+    }
+}

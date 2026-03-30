@@ -1,0 +1,13 @@
+{    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"redstone",
+        "2": "minecraft:player_head"
+    },
+    "pattern": [" 1 ","121"," 1 "],
+    "result": {
+        "id": "minecraft:splash_potion",
+        "components": {"minecraft:item_name":{"translate":"亡灵专杀爆弹","italic": false,"color": "aqua"},"minecraft:custom_name":{"translate":"亡灵专杀爆弹","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"至多可以叠加64瓶","italic": false,"color": "gray"},{"translate":"*对亡灵造成巨额伤害(?)","italic": false,"color": "gray"}],"potion_contents": {"potion": "strong_healing"},"max_stack_size": 64},"count": 4}
+}

@@ -1,0 +1,35 @@
+{
+    "anvil_cost": 2,
+    "description": {
+      "translate": "火焰抗性"
+    },
+    "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.25,
+          "per_level_above_first": -0.15
+        },
+        "attribute": "minecraft:burning_time",
+        "id": "minecraft:enchantment.fire_protection",
+        "operation": "add_multiplied_base"
+      }
+    ]
+    },
+  "exclusive_set": "#exclusive_set/shield",
+  "max_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+    "slots": [
+      "hand"
+    ],
+    "supported_items": "shield",
+    "weight": 10
+}

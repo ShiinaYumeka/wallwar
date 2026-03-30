@@ -1,0 +1,16 @@
+{
+  "name": "wallwar:tutoriel/mine",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "wallwar:tutoriel/mine",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+    
+  ]
+}

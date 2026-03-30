@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:iron_ingot",
+        "2": "minecraft:player_head",
+        "3":"minecraft:diamond"
+    },
+    "pattern": ["3  "," 21"," 11"],
+    "result": {
+        "id": "minecraft:trident",
+        "components": {"minecraft:custom_name":{"translate":"三叉戟-游龙","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"大海无量……","italic": false,"color": "gray"}],"enchantments": {"riptide": 2,"impaling": 1,"expensive_curse": 1},"max_damage": 32,"repair_cost": 20}
+    }
+}

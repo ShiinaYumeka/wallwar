@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#cropblock_",
+        "2":"golden_apple",
+        "3":"sugar",
+        "4":"beetroot_soup"
+    },
+    "pattern": ["212","141","313"],
+    "result": {
+        "id": "minecraft:mushroom_stew",
+        "components": {"minecraft:item_name":{"translate":"金苹果炖菜","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 18饱和","italic": false,"color": "yellow"},{"translate":"获得三倍金苹果的效果","italic": false,"color": "gray"},{"translate":"*有一点咯牙。","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 8,"saturation": 18},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "regeneration","duration": 200,"amplifier": 1},{"id": "instant_health","duration": 1,"amplifier": 1},{"id": "absorption","duration": 2400,"amplifier": 2}]}]},"max_stack_size": 64}
+    }
+}

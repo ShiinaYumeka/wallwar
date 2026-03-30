@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:podzol",
+        "2":"minecraft:diamond",
+        "3":"minecraft:cauldron",
+        "4":"minecraft:glowstone_dust"
+    },
+    "pattern": ["444","121","333"],
+    "result": {
+        "id": "minecraft:cyan_glazed_terracotta",
+        "components": {"minecraft:custom_name":{"translate":"强化核心2","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"使部分建筑的效果增强。","italic": false,"color": "gray"},{"translate":"*他是强化核心的姐妹，强化核心二号，他一直不满意自己的名字。","italic": false,"color": "gray"},{"translate":"因为他觉得自己的名字是因为父母想不出新名字随便起的一样。","italic": false,"color": "gray"}],"custom_data": {"building_update_two":1},"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

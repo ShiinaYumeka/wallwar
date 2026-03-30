@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:copper_sword"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:copper_ingot"
+    }
+}

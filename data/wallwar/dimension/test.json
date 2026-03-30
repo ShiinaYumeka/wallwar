@@ -1,0 +1,22 @@
+{
+    "type": "wallwar:test",
+    "generator": {
+        "type": "minecraft:flat",
+        "settings": {
+            "biome": "minecraft:the_void",
+            "lakes": false,
+            "features": false,
+            "layers": [
+                {
+                    "block": "bedrock",
+                    "height": 1
+                },
+                {
+                    "block": "bricks",
+                    "height": 8
+                }
+            ],
+            "structure_overrides": []
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_seed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chain_command_block",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "获得一个连锁命令方块"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chain_command_block"
+    },
+    "show_toast": false,
+    "hidden": true,
+    "title": {
+      "translate": "超规则"
+    },"frame": "task"
+  },
+  "rewards": {
+    "function": "wallwar:boss/enable_"
+  },
+  "requirements": [
+    [
+      "get_seed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "2":"minecraft:copper_ingot"
+    },
+    "pattern": ["222","2 2","222"],
+    "result": {
+        "id": "minecraft:shulker_box"
+    }
+}

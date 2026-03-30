@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    
+    "category":"building",
+    "ingredients": [
+        "#minecraft:cropblock_",
+        "#minecraft:cropblock_",
+        "#minecraft:cropblock_",
+        "minecraft:sugar",
+        "minecraft:sugar",
+        "minecraft:sugar",
+        "minecraft:bowl"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:mushroom_stew",
+        "components": {"minecraft:item_name":{"translate":"乱炖","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"20饱食 20饱和","italic": false,"color": "yellow"},{"translate":"让你的状态达到巅峰","italic": false,"color": "gray"},{"translate":"*拥有严谨的乱放工艺","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 20,"saturation": 20},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "regeneration","duration": 200,"amplifier": 0}]}]},"max_stack_size": 64}
+    }
+}

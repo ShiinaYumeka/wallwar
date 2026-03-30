@@ -1,0 +1,10 @@
+{
+    "type": "smithing_transform",
+    "template": "#patterns",
+    "base": "minecraft:iron_axe",
+    "addition": ["lapis_lazuli"],
+    "result": {
+      "id": "minecraft:iron_axe",
+      "components": {"enchantments": {"sharpness": 3}}
+    }
+}

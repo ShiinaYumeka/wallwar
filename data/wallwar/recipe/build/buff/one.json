@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:podzol",
+        "2":"minecraft:diamond",
+        "3":"minecraft:cauldron",
+        "4":"minecraft:redstone"
+    },
+    "pattern": ["444","121","333"],
+    "result": {
+        "id": "minecraft:light_blue_glazed_terracotta",
+        "components": {"minecraft:custom_name":{"translate":"强化核心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"使部分建筑的效果增强。","italic": false,"color": "gray"},{"translate":"*那是个疯狂的夜晚，禁忌科学让强化核心诞生。","italic": false,"color": "gray"},{"translate":"电闪雷鸣，狂风怒号，整个世界都愤怒地否定着。","italic": false,"color": "gray"},{"translate":"但是这一切都无济于事，强化核心仍然活着，活着！","italic": false,"color": "gray"}],"custom_data": {"building_update_one":1},"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

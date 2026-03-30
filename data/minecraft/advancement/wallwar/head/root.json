@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_seed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:player_head",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "获得一个玩家头颅"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:player_head",
+      "components": {"profile": {"name": "ShiinaYumeka"}}
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "论功行赏"
+    },"frame": "goal"
+  },
+  "requirements": [
+    [
+      "get_seed"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

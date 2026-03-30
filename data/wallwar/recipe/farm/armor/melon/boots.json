@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:melon_slice",
+        "2":"#minecraft:cropblock"
+    },
+    "pattern": ["2 2","1 1"],
+    "result": {
+        "id": "minecraft:leather_boots",
+        "components": {"minecraft:item_name":{"translate":"西瓜鞋子","italic": false,"color": "aqua"},"dyed_color": 5941248,"minecraft:lore":[{"translate":"套装奖励：每5s回复生命值","italic": false,"color": "white"},{"translate":"家人们，谁懂啊！","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "melon_boots","type": "armor","amount": 3,"operation": "add_value","slot": "feet"},{"id": "melon_boots","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "feet"},{"id": "melon_boots","type": "attack_damage","amount": -0.05,"operation": "add_multiplied_total","slot": "feet"}],"max_damage": 500,"enchantments": {"protection":2},"custom_data": {"melon_armor":1}}
+    }
+}

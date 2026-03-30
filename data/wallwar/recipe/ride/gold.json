@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "3":"minecraft:gold_block",
+        "2":"minecraft:leather",
+        "1":"minecraft:copper_block"
+    },
+    "pattern": ["  1","323","1 1"],
+    "result": {
+        "id": "minecraft:golden_horse_armor",
+        "components": {"minecraft:item_name":{"translate":"黄金马铠","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"将为军魂，可因势而袭，其有战无类。","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "horse","amount": 15,"operation": "add_value","type": "armor","slot": "armor"},{"id": "horse","amount": 0.25,"operation": "add_multiplied_total","type": "jump_strength","slot": "armor"},{"id": "horse","amount": 0.1,"operation": "add_multiplied_total","type": "movement_speed","slot": "armor"},{"id": "horse","amount": 0.5,"operation": "add_value","type": "water_movement_efficiency","slot": "armor"}],"enchantments": {"projectile_protection": 10}}
+    }
+}

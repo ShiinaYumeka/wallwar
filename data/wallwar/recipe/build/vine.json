@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "category": "redstone",
+    "show_notification": false,
+    "key": {
+        "1":"#grass"
+    },
+    "pattern": ["1","1","1"],
+    "result": {
+        "id": "minecraft:vine",
+        "count": 3
+    }
+}

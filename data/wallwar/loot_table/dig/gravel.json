@@ -1,0 +1,24 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:suspicious_gravel",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 32
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:custom_name":{"translate":"远古沙砾","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"可以探寻出更多矿物","italic": false,"color": "gray"},{"translate":"*使用刷子发现其中的宝藏","italic": false,"color": "gray"}],"block_entity_data": {"id": "brushable_block","LootTable": "archaeology/shovel/rare"}}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

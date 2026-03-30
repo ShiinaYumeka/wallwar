@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:iron_ingot",
+        "2":"minecraft:copper_ingot",
+        "3":"minecraft:stick"
+    },
+    "pattern": ["121"," 3 "," 3 "],
+    "result": {
+        "id": "minecraft:iron_pickaxe",
+        "components": {"custom_model_data": {"floats": [1]},"minecraft:item_name":{"translate":"铁质重镐","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"保底人都是人上人。","italic": false,"color": "gray"}],"enchantments": {"efficiency": 2,"melt": 1},"max_damage": 500}
+    }
+}

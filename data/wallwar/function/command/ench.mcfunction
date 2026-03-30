@@ -1,0 +1,1 @@
+$data modify entity 0-0-0-0-1 item.components."minecraft:enchantments" merge value {"minecraft:$(1)":$(2)}

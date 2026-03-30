@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:command_block",
+        "2":"minecraft:diamond_chestplate"
+    },
+    "pattern": [" 1 "," 2 ","   "],
+    "result": {
+        "id": "minecraft:chainmail_chestplate",
+        "components": {"minecraft:item_name":{"translate":"流御","italic": false,"bold": true,"color": "blue"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"enchantments": {"protection": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "chainmail_chestplate","amount": 8,"operation": "add_value","type": "armor","slot": "chest"},{"id": "chainmail_chestplate","amount": 3,"operation": "add_value","type": "armor_toughness","slot": "chest"},{"id": "chainmail_chestplate","amount": 0.5,"operation": "add_multiplied_base","type": "block_break_speed","slot": "chest"},{"id": "chainmail_chestplate","amount": 0.5,"operation": "add_value","type": "water_movement_efficiency","slot": "chest"}],"max_damage": 2000}
+    }
+}

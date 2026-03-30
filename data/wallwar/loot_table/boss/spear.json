@@ -1,0 +1,35 @@
+{
+    "type": "entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                "type": "minecraft:item",
+                "name": "minecraft:horse_spawn_egg",
+                "functions": [
+                    {
+                    "function": "set_components",
+                    "components": {"minecraft:item_name":{"translate":"灵驹","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个强大的马","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：100","italic": false,"color": "gray"},{"translate":"持续时间：无限","italic": false,"color": "gray"},{"translate":"状态：抗火、速度II、生命恢复II","italic": false,"color": "gray"}],"entity_data": {"id": "horse","PersistenceRequired": true,"Health": 100,"CustomNameVisible": true,"CustomName": {"translate":"灵驹"},"active_effects": [{"id": "regeneration","amplifier": 1,"duration": -1},{"id": "speed","amplifier": 1,"duration": -1},{"id": "fire_resistance","amplifier": 0,"duration": -1}],"CanPickUpLoot": false,"attributes": [{"id": "max_health","base": 100},{"id": "follow_range","base": 64},{"id": "jump_strength","base": 1},{"id": "movement_speed","base": 0.28}]},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 16}
+                    }
+                ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components","components": {"food": {"can_always_eat": true,"nutrition": 4,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 1.4,"on_consume_effects":[{"type": "apply_effects","effects":[{"id": "absorption","duration": 2400,"amplifier": 0},{"id": "regeneration","duration": 140,"amplifier": 1}]}]}}
+            }
+          ]
+        }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "blocks",
+  "cookingtime": 20,
+  "experience": 4,
+  "ingredient": "minecraft:wet_sponge",
+  "result": {
+    "id": "minecraft:sponge"
+  }
+}

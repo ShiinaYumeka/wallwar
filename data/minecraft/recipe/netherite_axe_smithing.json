@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "netherite_ingot",
+  "base": "minecraft:diamond_axe",
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_axe",
+    "components": {"attribute_modifiers": [{"id": "netherite_add","amount": -3,"operation": "add_value","type": "attack_speed","slot": "mainhand"},{"id": "netherite_add","amount": 10,"operation": "add_value","type": "attack_damage","slot": "mainhand"}],"lore":[{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 11 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 2342}
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

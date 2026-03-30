@@ -1,0 +1,40 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"dirt",
+        "4":"command_block"
+    },
+    "pattern": ["111","141","111"],
+    "result": {
+        "id": "minecraft:magenta_shulker_box",
+        "components": {"minecraft:item_name":{"translate":"唤灵套装","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"container": [{"item": {
+        "id": "minecraft:husk_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-石斧尸壳","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个更加强大的尸壳","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：80","italic": false,"color": "gray"},{"translate":"持续时间：240s","italic": false,"color": "gray"},{"translate":"武器：石斧","italic": false,"color": "gray"}],"entity_data": {"id": "husk","PersistenceRequired": true,"Health": 80,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-石斧尸壳"},"Tags": ["summoner","summoner_death"],"PortalCooldown": 4800,"equipment": {"head": {"id":"iron_helmet","count": 1,"components": {"enchantments": {"projectile_protection": 4},"unbreakable": {}}},"mainhand": {"id": "stone_axe","count": 1}},"CanPickUpLoot": true,"drop_chances": {"head": 0,"chest": 0,"legs": 0,"feet": 0,"mainhand": 0,"offhand": 0},"attributes": [{"id": "max_health","base": 80},{"id": "follow_range","base": 64},{"id": "movement_speed","base": 0.32}]},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 64},"count": 12
+    },"slot": 0},
+        {"item": {
+        "id": "minecraft:stray_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-流浪者","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个流浪者","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：60","italic": false,"color": "gray"},{"translate":"持续时间：360s","italic": false,"color": "gray"},{"translate":"武器：穿透弓","italic": false,"color": "gray"}],"entity_data": {"id": "stray","PersistenceRequired": true,"Health": 60,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-流浪者"},"Tags": ["summoner","summoner_death"],"PortalCooldown": 7200,"equipment": {"head": {"id":"iron_helmet","count": 1,"components": {"enchantments": {"projectile_protection": 4},"unbreakable": {}}},"mainhand": {"id":"bow","components": {"enchantments":{"piercing": 1}},"count": 1}},"CanPickUpLoot": true,"drop_chances": {"head": 0,"chest": 0,"legs": 0,"feet": 0,"mainhand": 0,"offhand": 0},"attributes": [{"id": "max_health","base": 60},{"id": "follow_range","base": 64},{"id": "movement_speed","base": 0.35}]},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 16},"count": 6
+    },"slot": 1},
+        {"item": {
+        "id": "minecraft:guardian_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-古代守卫者","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个血量更高的守卫者","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：120","italic": false,"color": "gray"},{"translate":"持续时间：480s","italic": false,"color": "gray"},{"translate":"武器：激光射线","italic": false,"color": "gray"}],"entity_data": {"id": "guardian","PersistenceRequired": true,"Tags": ["summoner","summoner_death"],"PortalCooldown": 9600,"Health": 120,"attributes": [{"id": "max_health","base": 120},{"id": "follow_range","base": 100}],"CustomNameVisible": true,"CustomName": {"translate":"唤灵-古代守卫者"},"CanPickUpLoot": false},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 16},"count": 3
+    },"slot": 2},
+        {"item": {
+            "components": {"potion_contents": {"potion": "strong_swiftness"},"max_stack_size": 4},
+            "id": "minecraft:splash_potion",
+            "count": 4
+        },"slot": 5},
+        {"item": {
+            "components": {"potion_contents": {"potion": "strong_strength"},"max_stack_size": 4},
+            "id": "minecraft:splash_potion",
+            "count": 4
+        },"slot": 4},
+        {"item": {
+        "id": "minecraft:sniffer_egg",
+        "components": {"minecraft:item_name":{"translate":"大师球","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"丢出后抓捕碰到的实体","italic": false,"color": "white"},{"translate":"再次丢出释放抓捕的实体并获得召回","italic": false,"color": "white"},{"translate":"手持丢出可以立即召回实体并治疗部分生命值","italic": false,"color": "white"},{"translate":"-使抓捕的实体持续时间改为300s（若有）","italic": false,"color": "gray"},{"translate":"-使抓捕的实体失去【唤灵】标签","italic": false,"color": "gray"},{"translate":"*这就是宝可梦决斗","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"custom_data": {"pokemon_ball":1,"pokemon_master":1,"wallwar_item":1},"max_stack_size": 1}
+    },"slot": 3}]}
+    }
+}

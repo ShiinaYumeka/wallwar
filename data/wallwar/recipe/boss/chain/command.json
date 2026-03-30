@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:command_block",
+        "3":"minecraft:chain_command_block"
+    },
+    "pattern": [" 1 ","131"," 1 "],
+    "result": {
+        "id": "minecraft:repeating_command_block",
+        "components": {"minecraft:custom_name":{"translate":"存续","italic": false,"color": "light_purple","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"当你制作出后消耗5min解析命令方块构造","italic": false,"color": "gray"},{"translate":"解析完成后开始复制命令方块，耗时为5min。","italic": false,"color": "gray"},{"translate":"当你复制出四个命令方块后会优化算法，使复制时间缩短至3min。","italic": false,"color": "gray"},{"translate":"-于资源收集阶段无效","italic": false,"color": "gray"},{"translate":"-与【窃魂】无法共存","italic": false,"color": "gray"},{"translate":"*万源归衍，轮回自成寰宇；亿兆盈缩，鼎炼永劫星河","italic": false,"color": "dark_gray"}],"enchantments": {"knockback": 4,"vanishing_ench": 1},"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+        }
+}

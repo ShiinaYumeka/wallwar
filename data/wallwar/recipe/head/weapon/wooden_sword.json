@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:stick",
+        "2":"#minecraft:heads",
+        "3":"minecraft:netherite_scrap",
+        "4":"minecraft:obsidian"
+    },
+    "pattern": [" 43","424","14 "],
+    "result": {
+        "id": "minecraft:wooden_sword",
+        "components": {"minecraft:custom_name":{"translate":"桃木剑","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"镇宅辟邪、驱邪纳福","italic": false,"color": "yellow"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 5 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 37 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"smite":5,"bane_of_arthropods": 5,"summkill": 5,"sweeping_edge": 10,"breach": 5,"bigkiller": 3,"cutdown": 3,"impaling": 5,"expensive_curse2": 1},"attribute_modifiers": [{"id": "wooden_sword","slot": "mainhand","type": "attack_damage","amount": 4,"operation": "add_value"},{"id": "wooden_sword","slot": "mainhand","type": "attack_speed","amount": 37,"operation": "add_value"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"unbreakable": {},"repair_cost": 99}
+    }
+}

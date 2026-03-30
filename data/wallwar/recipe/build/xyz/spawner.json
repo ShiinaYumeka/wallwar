@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:grass_block",
+        "2":"stone_bricks",
+        "3":"zombie_spawn_egg"
+    },
+    "pattern": ["111","131","222"],
+    "result": {
+        "id": "minecraft:bell",
+        "components": {"minecraft:custom_name":{"translate":"弗莱文方形剧场核心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：Y<150","italic": false,"color": "green"},{"translate":"若拥有怪物生成蛋，放置于弗莱文方形剧场顶端的物品展示框中激活此建筑","italic": false,"color": "gray"},{"translate":"每10秒，刷新一个与怪物生成蛋相同种类的怪物","italic": false,"color": "gray"},{"translate":"-生成的怪物生命值固定为1点","italic": false,"color": "gray"},{"translate":"-附近的实体过多时不会触发","italic": false,"color": "gray"},{"translate":"*科技改变生活，我们有属于自己的刷怪笼","italic": false,"color": "aqua"}],"custom_data": {"building_spawner":1},"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

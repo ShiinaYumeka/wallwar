@@ -1,0 +1,10 @@
+{
+    "type": "smithing_transform",
+    "template": "#patterns",
+    "base": "minecraft:netherite_axe",
+    "addition": ["lapis_lazuli"],
+    "result": {
+      "id": "minecraft:netherite_axe",
+      "components": {"enchantments": {"sharpness": 3}}
+    }
+}

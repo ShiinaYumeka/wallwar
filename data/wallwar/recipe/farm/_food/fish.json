@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    
+    "show_notification": false,
+    "key": {
+        "1":"angler_pottery_sherd",
+        "2":"#coal_block",
+        "3":"sugar"
+    },
+    "pattern": [" 3 ","111","222"],
+    "result": {
+        "id": "minecraft:rabbit_stew",
+        "components": {"minecraft:item_name":{"translate":"烤鱼拼盘","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"10饱食 12饱和","italic": false,"color": "yellow"},{"translate":"获得海豚的恩惠","italic": false,"color": "gray"},{"translate":"*每条鱼都是健身房的年卡会员","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 10,"saturation": 12},"consumable": {"animation":"eat","consume_seconds": 1.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "dolphins_grace","duration": 600,"amplifier": 1}]}]},"max_stack_size": 64}
+    }
+}

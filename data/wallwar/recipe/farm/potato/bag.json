@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    "category":"building",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:potato"
+    },
+    "pattern": ["111","111","111"],
+    "result": {
+        "id": "minecraft:heartbreak_pottery_sherd",
+        "components": {"minecraft:item_name":{"translate":"一包土豆","italic": false,"color": "white"},"minecraft:lore":[{"translate":"内含9个土豆","italic": false,"color": "gray"}]}
+    }
+}

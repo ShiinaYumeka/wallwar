@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "2":"minecraft:stick",
+        "3":"minecraft:chain_command_block"
+    },
+    "pattern": ["2 1"," 21","113"],
+    "result": {
+        "id": "minecraft:netherite_spear",
+        "components": {"minecraft:custom_name":{"translate":"镇魂","italic": false,"color": "gold","bold": true},"item_model": "diamond_spear","minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*碎骨裂魂凭劲摧，崩山断脉恃威临。","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 5 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1 攻击速度","italic": false,"color": "dark_green"},{"translate":" +50% 重力","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+8 最大生命值","italic": false,"color": "blue"}],"enchantments": {"sharpness": 5,"impaling": 5,"smite": 5,"bane_of_arthropods": 5,"summkill": 5,"knockback": 1,"vanishing_ench": 1},"attribute_modifiers": [{"id": "netherite_spear","type": "attack_damage","amount": 4,"operation": "add_value","slot": "mainhand"},{"id": "netherite_spear","type": "attack_speed","amount": -3,"operation": "add_value","slot": "mainhand"},{"id": "netherite_spear","type": "max_health","amount": 8,"operation": "add_value","slot": "hand"},{"id": "netherite_spear","type": "gravity","amount": 0.5,"operation": "add_multiplied_base","slot": "mainhand"}],"max_damage": 32767,"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

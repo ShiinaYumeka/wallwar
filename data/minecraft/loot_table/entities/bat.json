@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.01,
+            "per_level_above_first": 0.002
+          },
+          "enchantment": "minecraft:looting",
+          "unenchanted_chance": 0.008
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane",
+          "functions": [
+            {
+                "function": "set_components",
+                "components": {
+                    "attribute_modifiers": [
+                        {
+                            "id": "bat_wing",
+                            "type": "movement_speed",
+                            "amount": 0.05,
+                            "operation": "add_multiplied_base",
+                            "slot": "offhand"
+                        },
+                        {
+                            "id": "bat_wing",
+                            "type": "gravity",
+                            "amount": -0.05,
+                            "operation": "add_multiplied_base",
+                            "slot": "offhand"
+                        }
+                    ],
+                    "item_name": {"text": "蝙蝠翅膀","color": "light_purple"}
+                }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/bat"
+}

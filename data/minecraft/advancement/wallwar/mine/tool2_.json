@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:wallwar/mine/tool2",
+  "criteria": {
+    "mine_stone": {
+      "conditions": {
+        "item": {
+            "items": "golden_pickaxe",
+            "components": {"minecraft:item_name":{"translate":"掘石思洞客","italic": false,"color": "aqua"}}
+          },
+        "durability": 500,
+        "delta": -1
+      },
+      "trigger": "minecraft:item_durability_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "使用掘石思洞客挖掘500个石头\n奖励：3钻石"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:deepslate"
+    },
+    "title": {
+      "translate": "地下网络"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "loot": [
+      "wallwar:stonk_rew"
+    ],
+    "function": "wallwar:system/afk/give"
+  },
+  "requirements": [
+    [
+      "mine_stone"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

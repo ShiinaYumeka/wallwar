@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:redstone",
+        "3":"minecraft:player_head"
+    },
+    "pattern": ["111","131","111"],
+    "result": {
+        "id": "minecraft:nether_star",
+        "components": {"minecraft:item_name":{"translate":"坚毅之心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你是队伍中仅剩的玩家时：","italic": false,"color": "white"},{"translate":"放置于物品展示框中并站在上面","italic": false,"color": "white"},{"translate":"复活一个附近旁观的队友","italic": false,"color": "white"},{"translate":"-你的队友获得“瓦尔基里套装”","italic": false,"color": "white"},{"translate":"-此物品每局游戏每队伍限一次","italic": false,"color": "white"},{"translate":"-你与其的复活惩罚增加至9","italic": false,"color": "white"},{"translate":"-你与其获得额外4点生命值上限","italic": false,"color": "white"},{"translate":"*逝者长埋青史，而生者仍要砥砺前行。","italic": false,"color": "gray"}],"custom_data": {"respawn_star_head":1,"wallwar_item":1},"max_stack_size": 64}
+    }
+}

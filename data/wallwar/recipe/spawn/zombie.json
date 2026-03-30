@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:soul_sand",
+        "2":"minecraft:rotten_flesh",
+        "3":"minecraft:redstone",
+        "4":"minecraft:iron_ingot"
+    },
+    "pattern": ["323","414","323"],
+    "result": {
+        "id": "minecraft:zombie_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-僵尸","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个僵尸","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：40","italic": false,"color": "gray"},{"translate":"持续时间：60s","italic": false,"color": "gray"},{"translate":"武器：无","italic": false,"color": "gray"}],"entity_data": {"id": "zombie","PersistenceRequired": true,"Health": 40,"CustomNameVisible": true,"CustomName": {"translate":"唤灵-僵尸"},"Tags": ["summoner","summoner_death"],"PortalCooldown": 1200,"equipment":{"head": {"id":"iron_helmet","count": 1,"components": {"unbreakable": {}}}},"CanPickUpLoot": true,"drop_chances": {"head": 0,"chest": 0,"legs": 0,"feet": 0,"mainhand": 0,"offhand": 0},"attributes": [{"id": "max_health","base": 40},{"id": "follow_range","base": 64},{"id": "movement_speed","base": 0.32}]},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 16}
+    }
+}

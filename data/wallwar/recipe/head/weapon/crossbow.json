@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:amethyst_shard",
+        "3":"#minecraft:heads3",
+        "2":"minecraft:glass_bottle",
+        "4":"minecraft:crossbow",
+        "5":"minecraft:redstone_block"
+    },
+    "pattern": ["121","535","141"],
+    "result": {
+        "id": "minecraft:crossbow",
+        "components": {"minecraft:custom_name":{"translate":"锋针","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"射出箭矢的伤害降低99%","italic": false,"color": "white"},{"translate":"*精准与否 就是屠宰与手术的区别","italic": false,"color": "gray"}],"enchantments": {"expensive_curse2": 1,"nopower": 2,"piercing": 4,"nogravity": 1,"infinity": 2},"repair_cost": 99,"max_damage": 64}
+    }
+}

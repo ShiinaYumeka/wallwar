@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:command_block",
+        "3":"minecraft:chain_command_block"
+    },
+    "pattern": ["1 1"," 3 ","1 1"],
+    "result": {
+        "id": "minecraft:chain_command_block",
+        "components": {"minecraft:custom_name":{"translate":"窃魂","italic": false,"color": "light_purple","bold": true},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"你的近战攻击力增加1","italic": false,"color": "gray"},{"translate":"每当你击杀一个敌人，你从死去的玩家身上提取10缕魂魄","italic": false,"color": "gray"},{"translate":"你将其中的六缕魂魄给予BOSS","italic": false,"color": "gray"},{"translate":"当你的魄多于8且你的生命值低于一半后，消耗一半的灵魂数量回复生命值。","italic": false,"color": "gray"},{"translate":"-于资源收集阶段无效","italic": false,"color": "gray"},{"translate":"-当你制作出窃魂后，5min后上述效果将给予所有我方玩家并给予一个连锁命令方块","italic": false,"color": "gray"},{"translate":"-与【存续】无法共存","italic": false,"color": "gray"},{"translate":" “魄”-奖励系统","italic": false,"color": "white"},{"translate":"-每层魄会等量的增加你的最大生命值","italic": false,"color": "white"},{"translate":"-当你的魄首次达到20/40/60/80时，获得2命令方块","italic": false,"color": "white"},{"translate":"*千魂窃摄，刑鼎永锢残阳；兆怨凝煞，魂铸无间永夜","italic": false,"color": "dark_gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"手持时：","italic": false,"color": "gray"},{"translate":"+∞ 击退抗性","italic": false,"color": "blue"},{"translate":"+∞ 爆炸击退抗性","italic": false,"color": "blue"}],"enchantments": {"vanishing_ench": 1},"attribute_modifiers": [{"id": "command_boss","type": "minecraft:knockback_resistance","amount": 2,"operation": "add_value","slot": "hand"},{"id": "command_boss","type": "minecraft:explosion_knockback_resistance","amount": 2,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+        }
+}

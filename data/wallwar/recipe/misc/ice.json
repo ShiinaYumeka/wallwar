@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"water_bucket"
+    },
+    "pattern": ["111"],
+    "result": {
+        "id": "minecraft:ice",
+        "components": {"minecraft:custom_name":{"translate":"冰","italic": false,"color": "white","bold": true},"minecraft:lore":[{"translate":"矿石的一种","italic": false,"color": "white"},{"translate":"*战墙制作者的碎片","italic": false,"color": "gray"}]}
+    }
+}

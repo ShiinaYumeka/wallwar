@@ -1,0 +1,70 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "双生·阳","color": "green"
+  },
+  "effects": {
+    "damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 3.0,
+            "per_level_above_first": 3.0
+          }
+        },
+        "requirements": {
+          "condition": "all_of",
+          "terms": [{
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {"offhand": {"components": {"custom_data": {"rokan_sword":1}}}}
+          }
+        },{
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }]
+        }
+      }
+    ],
+    "tick":[
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "wallwar:weapon/swords/haku"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {"offhand": {"components": {"minecraft:custom_name":{"translate":"楼观","italic": false,"color": "aqua"}}}}
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 8
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 8
+  },
+  "primary_items": "diamond_sword",
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "diamond_sword",
+  "weight": 1
+}

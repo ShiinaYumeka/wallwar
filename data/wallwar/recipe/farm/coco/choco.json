@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shapeless",
+    "category":"building",
+    
+    "ingredients": [
+        "cocoa_beans",
+        "cocoa_beans",
+        "cocoa_beans",
+        "cocoa_beans",
+        "cocoa_beans",
+        "cocoa_beans",
+        "cocoa_beans",
+        "cocoa_beans",
+        "cocoa_beans"
+    ],
+    "result": {
+        "count": 1,
+        "components": {"minecraft:item_name":{"translate":"可可块","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"8饱食 0饱和","italic": false,"color": "yellow"},{"translate":"获得急迫I","italic": false,"color": "gray"},{"translate":"*味同嚼蜡","italic": false,"color": "gray"}],"food": {"can_always_eat": true,"nutrition": 8,"saturation": 0},"consumable": {"animation":"eat","consume_seconds": 3.6,"on_consume_effects":[{"type":"apply_effects","effects":[{"id": "haste","duration": 1200,"amplifier": 0}]}]}},    
+        "id": "minecraft:nether_brick"
+    }
+}

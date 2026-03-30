@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"misc",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#wool",
+        "2":"saddle"
+    },
+    "pattern": ["111","121","111"],
+    "result": {
+        "id": "minecraft:light_blue_harness",
+        "components": {"minecraft:item_name":{"translate":"强化挽具","italic": false,"color": "aqua"},"enchantments": {"projectile_protection": 2},"attribute_modifiers": [{"id": "diamond_harness","type": "max_health","amount": 80,"operation": "add_value","slot": "body"}]}
+    }
+}

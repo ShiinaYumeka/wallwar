@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:soul_sand",
+        "2":"minecraft:gunpowder",
+        "3":"minecraft:redstone",
+        "4":"minecraft:string"
+    },
+    "pattern": ["323","414","323"],
+    "result": {
+        "id": "minecraft:creeper_spawn_egg",
+        "components": {"minecraft:item_name":{"translate":"唤灵-苦力怕","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"丢出可以将其与自己绑定","italic": false,"color": "white"},{"translate":"召唤一个盘丝苦力怕","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：5","italic": false,"color": "gray"},{"translate":"持续时间：60s","italic": false,"color": "gray"},{"translate":"防具：保护XX","italic": false,"color": "gray"}],"entity_data": {"id": "creeper","PersistenceRequired": true,"Health": 5,"equipment":{"head": {"id":"gunpowder","components": {"enchantments": {"protection": 20}}}},"drop_chances": {"head": 0,"chest": 0,"legs": 0,"feet": 0,"mainhand": 0,"offhand": 0},"attributes": [{"id": "max_health","base": 5}],"Fuse": 20,"CustomNameVisible": true,"active_effects": [{"id": "weaving","duration": 1200,"amplifier": 1}],"CustomName": {"translate":"唤灵-苦力怕"},"Tags": ["summoner","summoner_death"],"PortalCooldown": 1200,"CanPickUpLoot": false},"custom_data": {"spawn_egg":1,"wallwar_item":1},"max_stack_size": 16}
+    }
+}

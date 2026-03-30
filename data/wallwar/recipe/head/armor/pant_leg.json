@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:white_wool",
+        "2":"#minecraft:coal_block",
+        "3":"#minecraft:heads3"
+    },
+    "pattern": ["131","2 2","1 1"],
+    "result": {
+        "id": "minecraft:leather_leggings",
+        "components": {"minecraft:item_name":{"translate":"核纳","italic": false,"color": "dark_purple"},"dyed_color": 0,"minecraft:lore":[{"translate":"在爆炸中存活","italic": false,"color": "white"},{"translate":"*你能脸接TNT矿车吗","italic": false,"color": "gray"}],"enchantments": {"blast_protection":10,"unprotection3": 6,"unbreaking": 4},"attribute_modifiers": [{"id": "pant_leg","type": "armor","amount": 6,"operation": "add_value","slot": "legs"},{"id": "pant_leg","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "legs"}],"max_damage": 347}
+    }
+}

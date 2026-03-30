@@ -1,0 +1,11 @@
+{
+    "type": "crafting_shaped",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:leather"
+    },
+    "pattern": ["1 1","111"],
+    "result": {
+        "id": "minecraft:saddle"
+    }
+}

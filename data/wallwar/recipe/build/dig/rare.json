@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:grass_block",
+        "2":"deepslate_coal_ore"
+    },
+    "pattern": ["111","121","111"],
+    "result": {
+        "id": "minecraft:suspicious_gravel",
+        "components": {"minecraft:custom_name":{"translate":"远古沙砾","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"可以探寻出更多矿物","italic": false,"color": "gray"},{"translate":"*使用刷子发现其中的宝藏","italic": false,"color": "gray"}],"block_entity_data": {"id": "brushable_block","LootTable": "archaeology/shovel/rare"}},
+        "count": 16
+    }
+}

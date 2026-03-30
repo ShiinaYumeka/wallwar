@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:book",
+        "3":"minecraft:player_head",
+        "2":"minecraft:diamond_block"
+    },
+    "pattern": ["1","3","2"],
+    "result": {
+        "id": "minecraft:writable_book",
+        "components": {"minecraft:custom_name":{"translate":"禁忌知识","italic": false,"color": "light_purple"},"enchantment_glint_override": true,"minecraft:lore":[{"translate":"在署名时的书名处写上以下其中一项","italic": false,"color": "white"},{"translate":"“凌弱”、“攻坚”、“砍倒”、“保护”、“锋利”","italic": false,"color": "white"},{"translate":"-当你写上要求后署名，将所需附魔物品放置于副手并打开此书","italic": false,"color": "white"},{"translate":"-如果你当前敌对玩家击杀数大于等于一","italic": false,"color": "gray"},{"translate":" 消耗灵魂数为物品附魔等级为灵魂数的对应附魔","italic": false,"color": "gray"},{"translate":"-“保护”附魔等级将固定为六，此项附魔仅扣除一点生命值。","italic": false,"color": "gray"},{"translate":"-“锋利”附魔等级将固定为四，此项附魔仅扣除一点生命值。","italic": false,"color": "gray"},{"translate":"-“攻坚”、“凌弱”将扣除等同于等级的生命值（最多为四）并获得额外的1附魔等级。","italic": false,"color": "gray"},{"translate":"-“砍倒”将扣除等同于等级的生命值（最多为四）","italic": false,"color": "gray"},{"translate":"“锋利”与“保护”仍需遵循附魔冲突限制。","italic": false,"color": "gray"},{"translate":"-如果此物品失效，则自动设定为“锋利”。","italic": false,"color": "gray"},{"translate":"！此物品无法在死斗阶段使用","italic": false,"color": "red"},{"translate":"*许下愿望，然后我会实现它，最后付出代价","italic": false,"color": "dark_red"}],"custom_data": {"command_book":2}}
+    }
+}

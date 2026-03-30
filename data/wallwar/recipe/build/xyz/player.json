@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:dirt",
+        "2":"player_head"
+    },
+    "pattern": ["121","121","111"],
+    "result": {
+        "id": "minecraft:piglin_head",
+        "components": {"minecraft:custom_name":{"translate":"头目之首","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：Y>60","italic": false,"color": "green"},{"translate":"于头颅中心的泥土上：(资源收集阶段无效）","italic": false,"color": "gray"},{"translate":"放置于京观顶端的物品展示框激活此建筑","italic": false,"color": "gray"},{"translate":"使所有玩家获得发光，并且增加此阶段12分钟。","italic": false,"color": "gray"},{"translate":"令除y轴在50-100以内的玩家获得中毒I与饥饿I，且每过10s凋零一点生命值","italic": false,"color": "gray"},{"translate":"如果触发此效果累计超过150s，则负面效果等级翻倍","italic": false,"color": "gray"},{"translate":"特殊状态：每十秒有概率使建造者队伍获得（力量，抗性提升）I 1s","italic": false,"color": "gray"},{"translate":"-当进入死斗后中毒与饥饿效果失效。","italic": false,"color": "gray"},{"translate":"-京观建筑不受神降祭坛等封锁效果的影响","italic": false,"color": "gray"},{"translate":"*老祖宗的智慧","italic": false,"color": "light_purple"}],"profile": {"id":[676394080,-1165864093,-2077043440,1317999558],"properties":[{"name":"textures","value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY2NGRlZWI3ZTE5ODdmODEzNzM5NjA4YWZiOTE2ZmFjN2U3ZmZjZWU1NWM4NGFhNmVmN2M0NDNmNWU0YTdkMyJ9fX0="}]},"custom_data": {"building_player":1},"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

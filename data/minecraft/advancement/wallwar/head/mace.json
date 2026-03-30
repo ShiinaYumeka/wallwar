@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:wallwar/head/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:head/weapon/mace"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "通过头颅制作重锤\n奖励：风弹x10"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:mace"
+    },
+    "title": {
+      "translate": "沉重之梦"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:misc/mace"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:wallwar/boss/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:boss/chain/command2"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作窃魂\n奖励：同描述"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chain_command_block",
+      "components": {"enchantment_glint_override": true}
+    },
+    "title": {
+      "translate": "窃魂"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "function": "wallwar:boss/command2/make"
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

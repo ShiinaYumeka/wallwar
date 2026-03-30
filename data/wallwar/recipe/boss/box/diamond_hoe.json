@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shapeless",
+    "category":"equipment",
+    
+    "ingredients": [
+        "copper_hoe",
+        "command_block"
+    ],
+
+    "result": {
+        "id": "minecraft:lime_shulker_box",
+        "components": {"minecraft:item_name":{"translate":"农业套装","italic": false,"color": "gold"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"container": [{"item": {
+            "id": "minecraft:netherite_hoe",
+            "components": {"minecraft:item_name":{"translate":"宗师农耕锄","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"粮粟一季，可供十年所需。","italic": false,"color": "gray"},{"translate":"BOSS专属工具","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 6 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 2 攻击速度","italic": false,"color": "dark_green"},{"translate":" 3.5 攻击距离","italic": false,"color": "dark_green"}],"enchantments": {"fortune": 10,"efficiency": 5,"vanishing_ench": 1},"attribute_modifiers": [{"id": "iron_hoe","type": "attack_speed","amount": -2,"operation": "add_value","slot": "mainhand"},{"id": "iron_hoe","type": "attack_damage","amount": 5,"operation": "add_value","slot": "mainhand"},{"id": "iron_hoe","type": "entity_interaction_range","amount": 0.5,"operation": "add_value","slot": "mainhand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"unbreakable": {}}
+        },"slot": 0},
+        {
+            "item": {
+                "id": "minecraft:clock",
+                "components": {"minecraft:item_name":{"translate":"农耕时钟","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：Y<150","italic": false,"color": "green"},{"translate":"放置于面向天空的物品展示框中","italic": false,"color": "gray"},{"translate":"大幅加快下方7x7作物的生长速度","italic": false,"color": "gray"},{"translate":"站立于此物品展示框上消耗时钟","italic": false,"color": "gray"},{"translate":"面向天空：改变天气至雨天","italic": false,"color": "gray"},{"translate":"面向大地：改变天气至雷雨天","italic": false,"color": "gray"},{"translate":"*古希腊掌管农业的神","italic": false,"color": "yellow"}],"custom_data": {"clock":2}},
+                "count": 6
+            },"slot": 1},
+         {"item": {"id":"item_frame","count": 6},"slot": 4},
+         {"item": {"id":"hay_block","count": 64},"slot": 3},
+        {"item": {
+        "id": "minecraft:leather_boots",
+        "components": {"minecraft:item_name":{"translate":"园丁鞋子","italic": false,"color": "aqua"},"dyed_color": 8913151,"minecraft:lore":[{"translate":"套装奖励：？？？","italic": false,"color": "white"},{"translate":"末路的尽头是……","italic": false,"color": "gray"}],"enchantments": {"gardon": 2,"protection": 3},"attribute_modifiers": [{"id": "chorus_boots","type": "armor","amount": 3,"operation": "add_value","slot": "feet"},{"id": "chorus_boots","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "feet"}],"max_damage": 999,"custom_data": {"chorus_armor":1}}
+    },"slot": 2}]}
+    }
+}

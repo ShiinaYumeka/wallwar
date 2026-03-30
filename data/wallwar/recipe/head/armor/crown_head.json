@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"#wool",
+        "2":"minecraft:redstone",
+        "3":"#heads3"
+    },
+    "pattern": [" 1 ","121","131"],
+    "result": {
+        "id": "minecraft:leather_helmet",
+        "components": {"minecraft:item_name":{"translate":"恶魔头盔","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你至少拥有20等级且生命值低于5时","italic": false,"color": "white"},{"translate":"回复生命值并获得伤害吸收，然后扣除20级经验值","italic": false,"color": "gray"},{"translate":"*与恶魔的交易是需要付出代价的","italic": false,"color": "gray"}],"dyed_color": 6750208,"attribute_modifiers": [{"id": "crown_head","type": "armor","amount": 3,"operation": "add_value","slot": "head"},{"id": "crown_head","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "head"},{"id": "crown_head","type": "block_interaction_range","amount": -0.5,"operation": "add_value","slot": "head"}],"custom_data": {"crown_head":1},"max_damage": 500}
+    }
+}

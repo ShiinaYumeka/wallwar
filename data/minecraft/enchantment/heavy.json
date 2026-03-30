@@ -1,0 +1,31 @@
+{
+  "anvil_cost": 1,
+  "description": {
+    "translate": "沉重","color": "red"
+  },
+  "effects": {
+    "tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "wallwar:crossbow/main"
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 6
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 6
+  },
+  "primary_items": "#minecraft:enchantable/melee_weapon",
+  "slots": [
+    "hand"
+  ],
+  "supported_items": "#minecraft:enchantable/vanishing",
+  "weight": 2
+}

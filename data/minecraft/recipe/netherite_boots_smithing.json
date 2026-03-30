@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "netherite_ingot",
+  "base": "minecraft:diamond_boots",
+  "result": {
+    "count": 1,
+    "id": "minecraft:netherite_boots",
+    "components": {"attribute_modifiers": [{"id": "netherite_boots","amount": 3,"operation": "add_value","type": "armor","slot": "feet"},{"id": "netherite_boots","amount": 4,"operation": "add_value","type": "armor_toughness","slot": "feet"},{"id": "netherite_boots","amount": 0.1,"operation": "add_value","type": "knockback_resistance","slot": "feet"}],"minecraft:max_damage": 643}
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

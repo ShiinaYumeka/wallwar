@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:purpur_pillar",
+        "2":"minecraft:diamond",
+        "4":"minecraft:copper_block",
+        "3":"minecraft:podzol"
+    },
+    "pattern": ["131","121","434"],
+    "result": {
+        "id": "minecraft:target",
+        "components": {"minecraft:custom_name":{"translate":"裁判法庭核心","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"建筑范围：Y>30","italic": false,"color": "green"},{"translate":"放置于裁判法庭中央的物品展示框中激活此奇观","italic": false,"color": "gray"},{"translate":"每当阶段切换时标记一名非友方玩家作为谋杀目标。","italic": false,"color": "gray"},{"translate":"-谋杀目标死亡后击杀该玩家可以获得四层魄。","italic": false,"color": "gray"},{"translate":"-当你在裁判所中央标靶中放置队伍模块时，其中一名目标必然为此队伍玩家","italic": false,"color": "gray"},{"translate":"特殊状态：阶段切换时，若无谋杀目标，在裁判法庭中心刷新特殊武器与锋利附魔书。","italic": false,"color": "gray"},{"translate":"强化1：谋杀目标每十秒获得有概率获得发光，缓慢，挖掘疲劳其中一项，持续两秒。（整体概率30%)","italic": false,"color": "gray"},{"translate":"强化2：谋杀目标每十秒获得有概率获得发光，缓慢，挖掘疲劳其中一项，持续两秒。（整体概率30%)","italic": false,"color": "gray"},{"translate":"扩散模块：将会额外出现随机的一名谋杀目标（无视特殊状态）","italic": false,"color": "gray"},{"translate":"队伍模块：对应队伍的玩家每十秒清除身上的；挖掘疲劳，中毒，虚弱，失明，缓慢效果","italic": false,"color": "gray"},{"translate":" 并令仅有对应队伍的玩家可以通过击杀谋杀目标获得魄。","italic": false,"color": "gray"},{"translate":" “魄”-奖励系统","italic": false,"color": "white"},{"translate":"-每层魄会等量的增加你的最大生命值","italic": false,"color": "white"},{"translate":"-当你的魄首次达到20/40/60/80时，获得2命令方块","italic": false,"color": "white"},{"translate":"*我已经决定好成为亵渎刺客了，我的考验是什么？","italic": false,"color": "light_purple"}],"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"custom_data": {"building_court":1}}
+    }
+}

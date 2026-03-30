@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:grass_block",
+        "2":"dirt"
+    },
+    "pattern": [" 1 ","212","222"],
+    "result": {
+        "id": "minecraft:campfire",
+        "components": {"minecraft:custom_name":{"translate":"号令之旗核心","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：Y>60","italic": false,"color": "green"},{"translate":"放置于土堆顶展示框中激活此建筑","italic": false,"color": "gray"},{"translate":"每10秒使周围64格内所有非玩家单位获得力量II,速度II10s","italic": false,"color": "gray"},{"translate":"-被号令之旗影响的单位会将持续时间设置为60s","italic": false,"color": "gray"},{"translate":"-土堆顶端旗帜颜色会影响效果给予单位","italic": false,"color": "gray"},{"translate":"-生效范围为向上5格向下5格","italic": false,"color": "gray"},{"translate":"*当你往米粥中烧张符纸就是能救病的符水了","italic": false,"color": "gray"}],"custom_data": {"building_flag":1},"attribute_modifiers": [{"id": "no_put","type": "block_interaction_range","amount": -10,"operation": "add_value","slot": "hand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]}}
+    }
+}

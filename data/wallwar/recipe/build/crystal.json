@@ -1,0 +1,14 @@
+{
+    "type": "crafting_shaped",
+    "category":"redstone",
+    
+    "show_notification": false,
+    "key": {
+        "2":"minecraft:rooted_dirt"
+    },
+    "pattern": [" 2 ","   ","2 2"],
+    "result": {
+        "id":"prismarine_crystals",
+        "count": 1
+    }
+}

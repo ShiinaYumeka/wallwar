@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "get_seed": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#leaves",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "收集一组树叶"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wheat_seeds"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "刀耕火种"
+    }
+  },
+  "requirements": [
+    [
+      "get_seed"
+    ]
+  ],
+  "rewards": {
+    "function": "wallwar:system/afk/give"
+  },
+  "sends_telemetry_event": true
+}

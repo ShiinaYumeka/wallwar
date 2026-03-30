@@ -1,0 +1,12 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        "minecraft:copper_ingot",
+        "minecraft:sand",
+        "#minecraft:soul_item",
+        "minecraft:dirt"
+    ],
+    "result": {
+        "id": "minecraft:soul_sand"
+    }
+}
