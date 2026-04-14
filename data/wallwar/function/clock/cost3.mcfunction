@@ -9,6 +9,7 @@ scoreboard players set #temp time 9600
 execute if score #BOSS_MODE time matches 1 run scoreboard players set #temp time 4800
 
 execute if score GAME_PRO time matches 1 run scoreboard players operation #temp time /= 2 const
+execute if score GAME_PRO time matches 5.. run scoreboard players operation #temp time /= 4 const
 execute if score GAME_PRO time matches 1 unless score GAME time matches 24001.. run scoreboard players set #temp time 600
 execute if score #rot temp matches ..0 run scoreboard players operation GAME time += #temp time
 execute if score #rot temp matches 1.. run scoreboard players operation GAME time -= #temp time

@@ -1,5 +1,4 @@
 
-
 execute store result score #temp temp run random value 1..100
 execute if score #temp temp matches 1..10 run return run effect give @s resistance 1 4 true
 execute if score #temp temp matches 11..20 run return run effect give @s hunger 2 9 true

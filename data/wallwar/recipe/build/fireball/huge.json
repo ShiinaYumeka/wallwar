@@ -5,7 +5,7 @@
     "show_notification": false,
     "key": {
         "4":"minecraft:mycelium",
-        "3":"minecraft:tnt_minecart",
+        "3":"minecraft:gunpowder",
         "1":"minecraft:netherite_shovel"
     },
     "pattern": ["434","313","434"],

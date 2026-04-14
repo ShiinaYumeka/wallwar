@@ -10,5 +10,5 @@
     "pattern": ["2","1"],
     "result": {
         "id": "minecraft:potion",
-        "components": {"minecraft:item_name":{"translate":"迅捷药水+","italic": false,"color": "aqua"},"minecraft:custom_name":{"translate":"迅捷药水+","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"更快！更持久！","italic": false,"color": "gray"}],"potion_contents": {"custom_color": 55807,"custom_effects": [{"id": "speed","duration": -1,"amplifier": 0}]}}}
+        "components": {"minecraft:item_name":{"translate":"迅捷药水+","italic": false,"color": "aqua"},"minecraft:custom_name":{"translate":"迅捷药水+","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"更快！更持久！","italic": false,"color": "gray"}],"potion_contents": {"custom_color": 55807,"custom_effects": [{"id": "speed","duration": 24000,"amplifier": 1}]}}}
 }

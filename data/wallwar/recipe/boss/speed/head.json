@@ -10,6 +10,6 @@
     "pattern": [" 1 "," 2 ","   "],
     "result": {
         "id": "minecraft:chainmail_helmet",
-        "components": {"minecraft:item_name":{"translate":"澜佑","italic": false,"bold": true,"color": "blue"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"enchantments": {"protection": 3,"aqua_affinity": 1,"respiration": 3,"vanishing_ench": 1},"attribute_modifiers": [{"id": "chainmail_helmet","amount": 3,"operation": "add_value","type": "armor","slot": "head"},{"id": "chainmail_helmet","amount": 3,"operation": "add_value","type": "armor_toughness","slot": "head"},{"id": "chainmail_helmet","amount": 1,"operation": "add_value","type": "water_movement_efficiency","slot": "head"}],"max_damage": 2000}
+        "components": {"minecraft:item_name":{"translate":"澜佑","italic": false,"bold": true,"color": "blue"},"minecraft:lore":[{"translate":"BOSS专属","italic": false,"color": "white"}],"enchantments": {"protection": 3,"aqua_affinity": 1,"respiration": 5,"vanishing_ench": 1},"attribute_modifiers": [{"id": "chainmail_helmet","amount": 3,"operation": "add_value","type": "armor","slot": "head"},{"id": "chainmail_helmet","amount": 3,"operation": "add_value","type": "armor_toughness","slot": "head"},{"id": "chainmail_helmet","amount": 1,"operation": "add_value","type": "water_movement_efficiency","slot": "head"}],"max_damage": 2000}
     }
 }

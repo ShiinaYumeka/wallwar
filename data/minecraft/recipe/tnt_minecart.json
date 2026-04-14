@@ -4,11 +4,11 @@
     
     "show_notification": false,
     "key": {
-        "1":"minecraft:iron_block",
-        "2":"minecraft:iron_ingot",
-        "3":"minecraft:tnt"
+        "2":"minecraft:tnt",
+        "3":"minecraft:damaged_anvil",
+        "4":"minecraft:chipped_anvil"
     },
-    "pattern": [" 3 ","232","111"],
+    "pattern": ["22","43"],
   "result": {
     "count": 1,
     "id": "minecraft:tnt_minecart"

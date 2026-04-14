@@ -41,11 +41,17 @@ execute if entity @n[type=minecraft:ghast,tag=pokemon_target] run data modify en
 execute if entity @n[type=minecraft:happy_ghast,tag=pokemon_target] run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.id set value "happy_ghast"
 execute if entity @n[type=minecraft:guardian,tag=pokemon_target] run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.id set value "guardian"
 #tellraw @a {"score": {"name": "@s","objective": "temp"}}
-data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.team set value "sp"
-execute if entity @n[team=blue,tag=pokemon_target] run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.team set value "blue"
-execute if entity @n[team=green,tag=pokemon_target] run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.team set value "green"
-execute if entity @n[team=yellow,tag=pokemon_target] run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.team set value "yellow"
-execute if entity @n[team=red,tag=pokemon_target] run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.team set value "red"
+#data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.team set value "sp"
+#execute if entity @n[team=blue,tag=pokemon_target] run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.team set value "blue"
+#execute if entity @n[team=green,tag=pokemon_target] run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.team set value "green"
+#execute if entity @n[team=yellow,tag=pokemon_target] run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.team set value "yellow"
+#execute if entity @n[team=red,tag=pokemon_target] run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.team set value "red"
+
+
+#scoreboard players operation #temp tid = @s tid
+#execute as @n[tag=pokemon_target] unless score @s tid matches 1.. run scoreboard players operation @s tid = #temp tid
+#execute unless score @s tid = @n[tag=pokemon_target] tid run return run data remove entity @s Item.components."minecraft:custom_data".pokemon_entity
+execute store result entity @s Item.components."minecraft:custom_data".pokemon_entity.team byte 1 run scoreboard players get @n[tag=pokemon_target] tid
 
 data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.nbt set from entity @n[tag=pokemon_target] {}
 #data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.nbt.equipment set from entity @n[tag=pokemon_target] equipment
