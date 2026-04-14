@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:wallwar/boss/root",
+  "criteria": {
+    "get_item": {
+      "conditions": {
+        "recipe_id": "wallwar:boss/chain/shield2"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "制作星垣\n奖励： 金苹果x5"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shield",
+      "components": {"minecraft:banner_patterns":[{"color":"gray","pattern":"minecraft:bricks"},{"color":"orange","pattern":"minecraft:half_horizontal"},{"color":"red","pattern":"minecraft:gradient"},{"color":"orange","pattern":"minecraft:flower"},{"color":"yellow","pattern":"minecraft:circle"},{"color":"red","pattern":"minecraft:triangles_bottom"}],"tooltip_display": {"hidden_components": ["banner_patterns"]},"minecraft:base_color":"orange","minecraft:custom_name":{"color":"gold","italic":false,"bold":true,"translate":"余晖"},"minecraft:enchantments":{"minecraft:thorns":5,"shield_fire": 10,"minecraft:vanishing_ench":1},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*城垣凝血铸永誓，万代英魂立斜阳","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "shield_boss","type": "minecraft:armor","amount": 1,"operation": "add_value","slot": "hand"},{"id": "shield_boss","type": "knockback_resistance","amount": 0.3,"operation": "add_value","slot": "hand"}],"max_damage": 32767}
+    },
+    "title": {
+      "translate": "星垣"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "loot":[
+      "wallwar:boss/shield2"
+    ]
+  },
+  "requirements": [
+    [
+      "get_item"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
