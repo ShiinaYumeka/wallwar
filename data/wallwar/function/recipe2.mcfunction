@@ -366,6 +366,7 @@ recipe give @s wallwar:boss/tool/star
 execute unless score @s recipe matches 2.. run return fail
 
 recipe give @s wallwar:boss/chain/axe
+recipe give @s wallwar:boss/chain/axe2
 recipe give @s wallwar:boss/chain/bow
 recipe give @s wallwar:boss/chain/bow2
 recipe give @s wallwar:boss/chain/command
@@ -375,6 +376,7 @@ recipe give @s wallwar:boss/chain/crossbow2
 recipe give @s wallwar:boss/chain/mace
 recipe give @s wallwar:boss/chain/mace2
 recipe give @s wallwar:boss/chain/shield
+recipe give @s wallwar:boss/chain/shield2
 recipe give @s wallwar:boss/chain/spear
 recipe give @s wallwar:boss/chain/spear2
 recipe give @s wallwar:boss/chain/sword

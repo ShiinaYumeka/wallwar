@@ -1,0 +1,16 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    
+    "show_notification": false,
+    "key": {
+        "1":"minecraft:diamond_block",
+        "2":"minecraft:stick",
+        "3":"minecraft:chain_command_block"
+    },
+    "pattern": ["111"," 31"," 2 "],
+    "result": {
+        "id": "minecraft:netherite_axe",
+        "components": {"minecraft:custom_name":{"translate":"岩陨","italic": false,"color": "gold","bold": true},"item_model": "diamond_axe","minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*碎玄黄之障若摧朽，崩终末岩心显寂墟","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 9 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 1.2 攻击速度","italic": false,"color": "dark_green"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":"+200% 破盾时间","italic": false,"color": "blue"}],"enchantments": {"sharpness": 5,"vanishing_ench": 1},"attribute_modifiers": [{"id": "netherite_axe","type": "attack_damage","amount": 8,"operation": "add_value","slot": "mainhand"},{"id": "netherite_axe","type": "attack_speed","amount": -2.8,"operation": "add_value","slot": "mainhand"}],"weapon": {"disable_blocking_for_seconds": 15,"item_damage_per_attack": 1},"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"max_damage": 32767}
+    }
+}

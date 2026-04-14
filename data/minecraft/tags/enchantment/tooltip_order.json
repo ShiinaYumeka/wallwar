@@ -1,7 +1,8 @@
 {
   "replace": true,
   "values": [
-
+    "boss_shield",
+    "boss_trident",
     "haku",
     "rokan",
     "lunge",

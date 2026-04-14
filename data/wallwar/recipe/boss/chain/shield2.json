@@ -6,11 +6,11 @@
     "key": {
         "1":"minecraft:diamond_block",
         "3":"minecraft:chain_command_block",
-        "4":"minecraft:diamond"
+        "4":"minecraft:amethyst_shard"
     },
-    "pattern": ["434","111"," 1 "],
+    "pattern": ["141","434","141"],
     "result": {
         "id": "minecraft:shield",
-        "components":{"minecraft:banner_patterns":[{"color":"gray","pattern":"minecraft:bricks"},{"color":"orange","pattern":"minecraft:half_horizontal"},{"color":"red","pattern":"minecraft:gradient"},{"color":"orange","pattern":"minecraft:flower"},{"color":"yellow","pattern":"minecraft:circle"},{"color":"red","pattern":"minecraft:triangles_bottom"}],"tooltip_display": {"hidden_components": ["banner_patterns"]},"minecraft:base_color":"orange","minecraft:custom_name":{"color":"gold","italic":false,"bold":true,"translate":"余晖"},"minecraft:enchantments":{"minecraft:thorns":5,"shield_fire": 10,"minecraft:vanishing_ench":1},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*城垣凝血铸永誓，万代英魂立斜阳","italic": false,"color": "gray"}],"attribute_modifiers": [{"id": "shield_boss","type": "minecraft:armor","amount": 1,"operation": "add_value","slot": "hand"},{"id": "shield_boss","type": "knockback_resistance","amount": 0.3,"operation": "add_value","slot": "hand"}],"unbreakable": {}}
+        "components":{"minecraft:banner_patterns":[{"color":"yellow","pattern":"minecraft:mojang"},{"color":"black","pattern":"minecraft:flower"},{"color":"blue","pattern":"minecraft:gradient_up"},{"color":"white","pattern":"minecraft:circle"},{"color":"black","pattern":"minecraft:square_bottom_left"},{"color":"black","pattern":"minecraft:triangles_bottom"}],"tooltip_display": {"hidden_components": ["banner_patterns"]},"minecraft:base_color":"black","minecraft:custom_name":{"color":"dark_purple","italic":false,"bold":true,"translate":"星垣"},"minecraft:enchantments":{"minecraft:shield_blast":5,"shield_mob": 5,"shield_prj": 5,"shield_magic": 5,"boss_shield": 1,"minecraft:vanishing_ench":1},"minecraft:lore":[{"translate":"BOSS专属武器","italic": false,"color": "red"},{"translate":"*星穹凝辉化壁垒，亘古辰光守夜疆","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "gray"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":"+5 弹射防御半径","italic": false,"color": "blue"},{"translate":"+5 爆炸防御半径","italic": false,"color": "blue"}],"max_damage": 32767}
     }
 }
