@@ -381,6 +381,7 @@ recipe give @s wallwar:boss/chain/spear
 recipe give @s wallwar:boss/chain/spear2
 recipe give @s wallwar:boss/chain/sword
 recipe give @s wallwar:boss/chain/sword2
+recipe give @s wallwar:boss/chain/sword3
 recipe give @s wallwar:boss/chain/trident
 recipe give @s wallwar:boss/chain/trident2
 recipe give @s wallwar:boss/chain/wither
