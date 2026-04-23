@@ -6,11 +6,11 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "diamond",
+                    "name": "amethyst_shard",
                     "functions": [
                         {
                             "function": "set_count",
-                            "count": 3
+                            "count": 4
                         }
                     ]
                 }

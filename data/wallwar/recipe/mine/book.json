@@ -4,10 +4,11 @@
     
     "show_notification": false,
     "key": {
-        "2":"minecraft:book",
+        "1":"minecraft:iron_ingot",
+        "2":"minecraft:diamond",
         "3":"minecraft:lapis_block"
     },
-    "pattern": ["333","323","333"],
+    "pattern": ["131","323","131"],
     "result": {
         "id": "minecraft:enchanted_book",
         "components": {"minecraft:item_name":{"translate":"矿之精华","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"*最强大的力量往往来自于最广阔的群体","italic": false,"color": "gray"}],"stored_enchantments": {"efficiency": 3,"protection": 2}}

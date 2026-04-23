@@ -15,11 +15,11 @@
   },
   "display": {
     "description": {
-      "translate": "用完一把掘石思洞客\n奖励：4紫水晶"
+      "translate": "用完一把掘石思洞客\n奖励：4钻石"
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:amethyst_shard"
+      "id": "minecraft:diamond"
     },
     "title": {
       "translate": "蚁巢思维"
