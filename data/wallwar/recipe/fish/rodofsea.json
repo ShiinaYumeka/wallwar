@@ -12,6 +12,6 @@
     "pattern": ["555","414"," 2 "],
     "result": {
         "id": "minecraft:fishing_rod",
-        "components": {"minecraft:item_name":{"translate":"海洋钓竿","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"钓出宝藏的概率提升","italic": false,"color": "blue"},{"translate":"*一时渔，一生渔。","italic": false,"color": "blue"}],"enchantments": {"luck_of_the_sea": 6,"lure": 3}}
+        "components": {"minecraft:item_name":{"translate":"海洋钓竿","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"钓出宝藏的概率提升","italic": false,"color": "blue"},{"translate":"*一时渔，一生渔。","italic": false,"color": "blue"}],"enchantments": {"luck_of_the_sea": 6,"lure": 5}}
     }
 }

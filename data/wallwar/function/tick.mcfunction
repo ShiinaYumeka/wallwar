@@ -9,7 +9,7 @@ execute if score #recipe time matches 1200.. run function wallwar:recipe
 execute as @e[type=!player] at @s run function wallwar:system/entity
 
 scoreboard players add #clock time 1
-execute if score #clock time matches 100.. run function wallwar:clock/main
+execute if score #clock time matches 60.. run function wallwar:clock/main
 
 scoreboard players add #build time 1
 execute if score #build time matches 200.. run function wallwar:build/main

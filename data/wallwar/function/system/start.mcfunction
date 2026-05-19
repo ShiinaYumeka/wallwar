@@ -10,7 +10,9 @@ execute as 0-0-0-0-1 at @s as @a run function wallwar:system/start_player
 time set day
 
 scoreboard players set GAMEMODE time 1
-scoreboard players set GAME time 48000
+scoreboard players reset @a revive_left
+scoreboard players set @a starter_path 0
+scoreboard players set GAME time 24000
 
 scoreboard players set GAME_PRO time 1
 
@@ -29,10 +31,10 @@ execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~3 air replace
 execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~-3 air replace
 execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~-3 air replace
 
-execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~3 red_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:4b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"red_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
-execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~-3 light_blue_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:4b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"light_blue_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
-execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~-3 lime_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:4b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"lime_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
-execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~3 yellow_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:4b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"yellow_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~3 red_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:10b},{id:"wheat_seeds",Slot:2b,count:32b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"red_banner",Slot:6b,count:1b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~-3 light_blue_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:10b},{id:"wheat_seeds",Slot:2b,count:32b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"light_blue_banner",Slot:6b,count:1b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~-3 lime_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:10b},{id:"wheat_seeds",Slot:2b,count:32b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"lime_banner",Slot:6b,count:1b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~3 yellow_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:10b},{id:"wheat_seeds",Slot:2b,count:32b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"yellow_banner",Slot:6b,count:1b}]} replace
 
 execute if score #URF_MODE time matches 1.. run function wallwar:boss_urf/start
 
@@ -76,7 +78,9 @@ tellraw @a [""]
 tellraw @a ["",{"translate":"-----------------------------------------------------","color": "gray"}]
 tellraw @a ["",{"translate":"<资源收集阶段>","color": "gold"}]
 tellraw @a ["",{"translate":"本阶段内玩家需要收集资源以准备接下来的战斗。","color": "white"}]
-tellraw @a ["",{"translate":"·难度初始为简单，死亡不掉落且可以无限复活","color": "white"}]
+tellraw @a ["",{"translate":"·本阶段约20分钟，难度初始为简单，死亡不掉落且可以无限复活","color": "white"}]
+tellraw @a ["",{"translate":"·农耕时钟扫描更快，除小麦外作物每次生长推进两阶段","color": "white"}]
+tellraw @a ["",{"translate":"·开局请选择发育流派（六选一收纳袋）：/trigger choose_starter set <1-6>","color": "white"}]
 tellraw @a ["",{"translate":"·玩家可以通过输入/trigger suicide快速自杀","color": "white"}]
 tellraw @a ["",{"translate":"·当玩家在没有“劫营速战”效果时试图翻越基岩墙会直接死亡。","color": "white"}]
 execute unless score #BOSS_MODE time matches 1.. run tellraw @a ["",{"translate":"·当玩家通过末影珍珠翻越基岩墙后，获得效果“劫营速战”","color": "white"}]

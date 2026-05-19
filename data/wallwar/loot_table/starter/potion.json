@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bundle",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {"translate": "炼药流派包", "italic": false, "color": "dark_red"},
+                                "minecraft:lore": [{"translate": "发育流派：炼药/召唤", "italic": false, "color": "gray"}],
+                                "minecraft:bundle_contents": [
+                                    {"id": "minecraft:nether_wart", "count": 1},
+                                    {"id": "minecraft:blaze_rod", "count": 1},
+                                    {"id": "minecraft:soul_sand", "count": 64},
+                                    {"id": "minecraft:bread", "count": 3},
+                                    {"id": "minecraft:apple", "count": 3}
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

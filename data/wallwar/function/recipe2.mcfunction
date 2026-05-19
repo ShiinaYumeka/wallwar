@@ -267,6 +267,7 @@ recipe give @s wallwar:mine/a/pickaxe2000
 recipe give @s wallwar:mine/a/power
 recipe give @s wallwar:mine/a/silk
 recipe give @s wallwar:mine/a/stonk
+recipe give @s wallwar:mine/synthetic_diamond
 
 recipe give @s wallwar:misc/bone_meal
 recipe give @s wallwar:misc/copper

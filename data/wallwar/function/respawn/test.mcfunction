@@ -10,7 +10,8 @@ execute unless entity @s[tag=respawn_target] run return run function wallwar:res
 
 execute at @s store result score #temp respawn if entity @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{respawn_star:1b}}}},distance=..2]
 
-execute if score #temp respawn < @s respawn run return fail
+function wallwar:respawn/calc_need
+execute if score #temp respawn < #need temp run return fail
 
 function wallwar:respawn/main
 execute as @a[tag=respawn_user] run function wallwar:respawn/user
@@ -18,4 +19,4 @@ execute as @a[tag=respawn_user] run function wallwar:respawn/user
 tag @a remove respawn_target
 tag @a remove respawn_user
 
-kill @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{respawn_star:1b}}}},distance=..2]
+function wallwar:respawn/consume_stars

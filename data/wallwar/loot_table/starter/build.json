@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bundle",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {"translate": "建筑流派包", "italic": false, "color": "light_purple"},
+                                "minecraft:lore": [{"translate": "发育流派：奇观/建筑", "italic": false, "color": "gray"}],
+                                "minecraft:bundle_contents": [
+                                    {"id": "minecraft:mycelium", "count": 1},
+                                    {"id": "minecraft:item_frame", "count": 16},
+                                    {"id": "minecraft:bread", "count": 5},
+                                    {"id": "minecraft:apple", "count": 5}
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

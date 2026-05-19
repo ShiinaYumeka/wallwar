@@ -4,12 +4,12 @@ execute as @a at @s run playsound minecraft:block.anvil.land player @s
 
 title @a times 20 60 20
 
-scoreboard players set GAME time 12000
+scoreboard players set GAME time 6000
 
 scoreboard players set GAME_PRO time 3
 
 worldborder set 301 3600
-bossbar set minecraft:gauge2 max 12000
+bossbar set minecraft:gauge2 max 6000
 function wallwar:system/bossbar_circle
 
 title @a title {"translate":" "}

@@ -6,7 +6,7 @@
         "2":"minecraft:lightning_rod",
         "1":"minecraft:lava_bucket"
     },
-    "pattern": ["111","121","111"],
+    "pattern": ["1 1"," 2 ","1 1"],
     "result": {
         "id": "minecraft:blaze_rod"
     }

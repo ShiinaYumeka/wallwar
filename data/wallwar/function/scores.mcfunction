@@ -22,6 +22,7 @@ scoreboard objectives add kill_player dummy
 scoreboard objectives add kill_entity totalKillCount
 scoreboard objectives add temp dummy
 scoreboard objectives add respawn dummy
+scoreboard objectives add revive_left dummy
 scoreboard objectives add invisible dummy
 scoreboard objectives add wither_health dummy
 scoreboard objectives add wither_armor dummy
@@ -52,6 +53,8 @@ scoreboard objectives add rc used:carrot_on_a_stick
 scoreboard objectives add nightvision trigger
 scoreboard objectives add suicide trigger
 scoreboard objectives add tutorial trigger
+scoreboard objectives add choose_starter trigger "选择发育流派"
+scoreboard objectives add starter_path dummy
 
 scoreboard objectives add const dummy
 scoreboard players set 2 const 2
@@ -111,20 +114,20 @@ team modify waiting friendlyFire false
 bossbar add gauge "1"
 bossbar set minecraft:gauge color yellow
 bossbar set minecraft:gauge style progress
-bossbar set minecraft:gauge max 48000
+bossbar set minecraft:gauge max 24000
 bossbar set minecraft:gauge name "天空之壁倒塌倒计时"
 
 
 bossbar add gauge2 "2"
 bossbar set minecraft:gauge2 color green
 bossbar set minecraft:gauge2 style progress
-bossbar set minecraft:gauge2 max 24000
+bossbar set minecraft:gauge2 max 14400
 bossbar set minecraft:gauge2 name "缩圈倒计时"
 
 bossbar add gauge3 "3"
 bossbar set minecraft:gauge3 color red
 bossbar set minecraft:gauge3 style progress
-bossbar set minecraft:gauge3 max 12000
+bossbar set minecraft:gauge3 max 6000
 bossbar set minecraft:gauge3 name "死斗模式倒计时"
 
 bossbar add gauge4 "4"

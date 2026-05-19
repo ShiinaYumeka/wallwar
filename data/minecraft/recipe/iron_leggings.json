@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "III",
+        "I I",
+        "I I"
+    ],
+    "key": {
+        "I": "minecraft:iron_ingot"
+    },
+    "result": {
+        "id": "minecraft:iron_leggings",
+        "components": {
+            "minecraft:enchantments": {
+                "levels": {
+                    "minecraft:protection": 1
+                }
+            },
+            "minecraft:attribute_modifiers": [
+                {
+                    "id": "wallwar_iron3",
+                    "type": "minecraft:armor",
+                    "amount": 6,
+                    "operation": "add_value",
+                    "slot": "legs"
+                },
+                {
+                    "id": "wallwar_iron_t3",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "legs"
+                }
+            ]
+        }
+    }
+}

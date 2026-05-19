@@ -12,6 +12,7 @@ scoreboard objectives remove kill_player
 scoreboard objectives remove kill_entity
 scoreboard objectives remove temp
 scoreboard objectives remove respawn
+scoreboard objectives remove revive_left
 scoreboard objectives remove invisible
 scoreboard objectives remove wither_health
 scoreboard objectives remove wither_armor
@@ -36,6 +37,8 @@ scoreboard objectives remove sid
 
 scoreboard objectives remove suicide
 scoreboard objectives remove tutorial
+scoreboard objectives remove choose_starter
+scoreboard objectives remove starter_path
 
 scoreboard objectives remove const
 

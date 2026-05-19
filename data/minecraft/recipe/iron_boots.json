@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "I I",
+        "I I"
+    ],
+    "key": {
+        "I": "minecraft:iron_ingot"
+    },
+    "result": {
+        "id": "minecraft:iron_boots",
+        "components": {
+            "minecraft:enchantments": {
+                "levels": {
+                    "minecraft:protection": 1
+                }
+            },
+            "minecraft:attribute_modifiers": [
+                {
+                    "id": "wallwar_iron4",
+                    "type": "minecraft:armor",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "feet"
+                },
+                {
+                    "id": "wallwar_iron_t4",
+                    "type": "minecraft:armor_toughness",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "feet"
+                }
+            ]
+        }
+    }
+}

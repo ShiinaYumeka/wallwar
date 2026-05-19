@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "show_notification": false,
+    "key": {
+        "1": "minecraft:iron_ingot",
+        "2": "minecraft:flint",
+        "3": "minecraft:tuff",
+        "4": "minecraft:diorite",
+        "5": "minecraft:granite",
+        "6": "minecraft:andesite"
+    },
+    "pattern": [
+        "314",
+        "121",
+        "516"
+    ],
+    "result": {
+        "id": "minecraft:diamond",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {"translate": "凝晶坯", "italic": false, "color": "aqua"},
+            "minecraft:lore": [
+                {"translate": "以主世界常见材料凝炼的钻石", "italic": false, "color": "gray"},
+                {"translate": "燧石居中，四铁相邻，四角为四种石头", "italic": false, "color": "dark_gray"}
+            ]
+        }
+    }
+}

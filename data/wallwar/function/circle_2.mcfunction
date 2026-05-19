@@ -7,12 +7,13 @@ execute as @a at @s run playsound minecraft:block.anvil.land player @s
 title @a times 20 60 20
 
 
-scoreboard players set GAME time 12000
+scoreboard players set GAME time 6000
 
 scoreboard players set GAME_PRO time 4
 
 worldborder set 151 2400
 
+bossbar set minecraft:gauge3 max 6000
 function wallwar:system/bossbar_dthbtl
 
 title @a title {"translate":" "}
@@ -20,7 +21,7 @@ title @a subtitle {"translate":"世界边界将在2分钟内缩小至150"}
 
 
 tellraw @a ["",{"translate":"<一触即发>","color": "gold"}]
-tellraw @a ["",{"translate":"本阶段所有y<30的玩家会受到凋零II效果的影响","color": "white"}]
+tellraw @a ["",{"translate":"本阶段Y-64至Y0的玩家会受到凋零I效果的影响","color": "white"}]
 execute unless score #BOSS_MODE time matches 1.. run function wallwar:system/mark/main
 
 execute if score #EVENT time matches 1.. run schedule function wallwar:event/main/norm 10s replace

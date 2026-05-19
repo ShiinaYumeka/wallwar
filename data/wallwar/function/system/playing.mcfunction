@@ -45,6 +45,8 @@ execute if score @s suicide matches 1.. run function wallwar:system/suicide
 
 execute if score @s tutorial matches 1.. run function wallwar:tutorial/use
 
+execute if score @s choose_starter matches 1.. run function wallwar:system/item/starter/choose
+
 execute if score @s wither_horn_use matches 1.. run function wallwar:wither/player/horn/use
 
 execute if score @s command_book_use matches 1.. run function wallwar:command/rc

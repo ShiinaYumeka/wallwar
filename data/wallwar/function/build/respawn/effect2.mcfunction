@@ -1,6 +1,7 @@
 
 scoreboard players add @s respawn 1
 
+execute unless entity @s[tag=building_respawn_user2] run function wallwar:respawn/kit_combat
 execute unless entity @s[tag=building_respawn_user2] run give @s wither_skeleton_skull[enchantments={protection:7}]
 
 effect give @s invisibility 60 1 true

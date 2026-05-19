@@ -7,6 +7,7 @@
         "minecraft:dirt"
     ],
     "result": {
-        "id": "minecraft:soul_sand"
+        "id": "minecraft:soul_sand",
+        "count": 2
     }
 }

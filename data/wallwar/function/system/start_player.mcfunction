@@ -9,8 +9,8 @@ title @s times 10 40 10
 
 advancement revoke @s everything
 
-xp set @s 5 levels
-xp set @s 0 points
+scoreboard players set @s starter_path 0
+scoreboard players enable @s choose_starter
 
 attribute @s max_health base set 20
 attribute @s minecraft:waypoint_receive_range base set 0
@@ -28,6 +28,7 @@ effect give @s minecraft:saturation 5 20 true
 effect give @s[tag=!no_nightvision] night_vision infinite 0 true
 
 execute unless score #URF_MODE time matches 1.. run function wallwar:system/item/main
+execute unless score #URF_MODE time matches 1.. run function wallwar:system/item/starter/prompt
 execute if score #URF_MODE time matches 1.. run function wallwar:boss_urf/start_player
 
 tp @s[team=red] ~3 ~2 ~3

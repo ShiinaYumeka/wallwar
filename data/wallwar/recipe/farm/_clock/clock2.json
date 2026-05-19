@@ -11,7 +11,7 @@
     "pattern": ["121","232","121"],
     "result": {
         "id": "minecraft:clock",
-        "components": {"minecraft:custom_name":{"translate":"农耕时钟","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：Y<150","italic": false,"color": "green"},{"translate":"放置于面向天空的物品展示框中","italic": false,"color": "white"},{"translate":"可以中幅度增加下方一格为中心的7x7耕地作物生长速度","italic": false,"color": "gray"},{"translate":"（约15秒生长一次）","italic": false,"color": "gray"},{"translate":"站在物品展示框上方以消耗时钟用于调整天气","italic": false,"color": "white"},{"translate":"-面朝天空消耗时：改变至雨天","italic": false,"color": "gray"},{"translate":"-面朝地面消耗时：改变至雷雨天","italic": false,"color": "gray"},{"translate":"-当此时钟的生效范围内每有一个其他时钟或农耕时钟时，效率降低40%","italic": false,"color": "gray"},{"translate":"*古希腊掌管农业的神","italic": false,"color": "yellow"}],"custom_data": {"clock":2}},
+        "components": {"minecraft:custom_name":{"translate":"农耕时钟","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：Y<150","italic": false,"color": "green"},{"translate":"放置于面向天空的物品展示框中","italic": false,"color": "white"},{"translate":"可以中幅度增加下方一格为中心的7x7耕地作物生长速度","italic": false,"color": "gray"},{"translate":"（约9秒生长一次，非小麦作物每次推进两阶段）","italic": false,"color": "gray"},{"translate":"站在物品展示框上方以消耗时钟用于调整天气","italic": false,"color": "white"},{"translate":"-面朝天空消耗时：改变至雨天","italic": false,"color": "gray"},{"translate":"-面朝地面消耗时：改变至雷雨天","italic": false,"color": "gray"},{"translate":"-当此时钟的生效范围内每有一个其他时钟或农耕时钟时，效率降低40%","italic": false,"color": "gray"},{"translate":"*古希腊掌管农业的神","italic": false,"color": "yellow"}],"custom_data": {"clock":2}},
         "count": 1
     }
 }

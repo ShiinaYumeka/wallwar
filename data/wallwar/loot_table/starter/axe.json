@@ -1,0 +1,49 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bundle",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {"translate": "砍树流派包", "italic": false, "color": "dark_green"},
+                                "minecraft:lore": [{"translate": "发育流派：砍树", "italic": false, "color": "gray"}],
+                                "minecraft:bundle_contents": [
+                                    {
+                                        "id": "minecraft:stone_axe",
+                                        "count": 1,
+                                        "components": {
+                                            "minecraft:item_name": {"translate": "伐木斧", "italic": false, "color": "yellow"},
+                                            "minecraft:lore": [
+                                                {"translate": "*要致富，先砍树。", "italic": false, "color": "gray"},
+                                                {"translate": "", "italic": false, "color": "dark_green"},
+                                                {"translate": "在主手时：", "italic": false, "color": "gray"},
+                                                {"translate": " 9 攻击伤害", "italic": false, "color": "dark_green"},
+                                                {"translate": " 0.8 攻击速度", "italic": false, "color": "dark_green"}
+                                            ],
+                                            "minecraft:tool": {"default_mining_speed": 1, "damage_per_block": 1, "rules": [{"blocks": "#minecraft:mineable/axe", "correct_for_drops": true, "speed": 12}]},
+                                            "minecraft:tooltip_display": {"hidden_components": ["minecraft:attribute_modifiers"]},
+                                            "minecraft:attribute_modifiers": [
+                                                {"id": "stone_axe", "type": "minecraft:attack_speed", "amount": -3.2, "operation": "add_value", "slot": "mainhand"},
+                                                {"id": "stone_axe", "type": "minecraft:attack_damage", "amount": 8, "operation": "add_value", "slot": "mainhand"}
+                                            ]
+                                        }
+                                    },
+                                    {"id": "minecraft:oak_sapling", "count": 32},
+                                    {"id": "minecraft:bone_meal", "count": 64},
+                                    {"id": "minecraft:bread", "count": 10},
+                                    {"id": "minecraft:apple", "count": 10}
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

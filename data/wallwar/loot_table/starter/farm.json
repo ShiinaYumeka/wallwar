@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:bundle",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {"translate": "种田流派包", "italic": false, "color": "green"},
+                                "minecraft:lore": [{"translate": "发育流派：种田", "italic": false, "color": "gray"}],
+                                "minecraft:bundle_contents": [
+                                    {
+                                        "id": "minecraft:iron_hoe",
+                                        "count": 1,
+                                        "components": {
+                                            "minecraft:item_name": {"translate": "基础农耕锄", "italic": false, "color": "yellow"},
+                                            "minecraft:lore": [
+                                                {"translate": "成为农夫的第一步", "italic": false, "color": "gray"},
+                                                {"translate": "", "italic": false, "color": "dark_green"},
+                                                {"translate": "在主手时：", "italic": false, "color": "gray"},
+                                                {"translate": " 3 攻击伤害", "italic": false, "color": "dark_green"},
+                                                {"translate": " 1.6 攻击速度", "italic": false, "color": "dark_green"},
+                                                {"translate": " 3 攻击距离", "italic": false, "color": "dark_green"}
+                                            ],
+                                            "minecraft:enchantments": {"minecraft:fortune": 3, "minecraft:efficiency": 1},
+                                            "minecraft:tooltip_display": {"hidden_components": ["minecraft:attribute_modifiers"]},
+                                            "minecraft:attribute_modifiers": [
+                                                {"id": "iron_hoe", "type": "minecraft:attack_speed", "amount": -2.4, "operation": "add_value", "slot": "mainhand"},
+                                                {"id": "iron_hoe", "type": "minecraft:attack_damage", "amount": 2, "operation": "add_value", "slot": "mainhand"},
+                                                {"id": "iron_hoe", "type": "minecraft:entity_interaction_range", "amount": 0, "operation": "add_value", "slot": "mainhand"}
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "id": "minecraft:clock",
+                                        "count": 1,
+                                        "components": {"minecraft:custom_name":{"translate":"时钟","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"建筑范围：Y<150","italic": false,"color": "green"},{"translate":"放置于面向天空的物品展示框中","italic": false,"color": "white"},{"translate":"可以小幅度增加下方一格为中心的5x5耕地作物生长速度","italic": false,"color": "gray"},{"translate":"（约15秒生长一次，非小麦作物每次推进两阶段）","italic": false,"color": "gray"},{"translate":"站在物品展示框上方以消耗时钟用于调整时间","italic": false,"color": "white"},{"translate":"-面朝天空消耗时：改变至清晨","italic": false,"color": "gray"},{"translate":"-面朝地面消耗时：改变至傍晚","italic": false,"color": "gray"},{"translate":"-当此时钟的生效范围内每有一个其他时钟或农耕时钟时，效率降低33%","italic": false,"color": "gray"},{"translate":"*种植作物的必备品","italic": false,"color": "green"}],"custom_data": {"clock":1}}
+                                        
+                                    },
+                                    {"id": "minecraft:bone_meal", "count": 32},
+                                    {"id": "minecraft:wheat_seeds", "count": 32},
+                                    {"id": "minecraft:water_bucket", "count": 1},
+                                    {"id": "minecraft:item_frame", "count": 2},
+                                    {"id": "minecraft:bread", "count": 2},
+                                    {"id": "minecraft:apple", "count": 2}
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

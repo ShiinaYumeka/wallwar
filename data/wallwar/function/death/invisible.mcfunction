@@ -1,6 +1,7 @@
 
 
 effect give @s[tag=!no_nightvision] night_vision infinite 2 true
+execute if entity @s[tag=free_combat_temp] run function wallwar:respawn/free_combat2
 execute if entity @s[tag=building_respawn_user] run function wallwar:build/respawn/effect2
 effect give @s invisibility 15 1 true
 

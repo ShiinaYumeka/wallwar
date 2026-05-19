@@ -6,6 +6,7 @@ execute if score #BOSS_MODE time matches 1 unless score GAMEMODE time matches 1.
 execute unless score GAME_PRO time matches 1.. run scoreboard players enable @a tutorial
 execute unless score GAME_PRO time matches 1.. run scoreboard players enable @a suicide
 execute unless score GAME_PRO time matches 1.. run scoreboard players enable @a nightvision
+execute if score GAME_PRO time matches 1 run scoreboard players enable @a[scores={starter_path=0}] choose_starter
 
 execute as @a[gamemode=!spectator] run function wallwar:recipe2
 #give @s minecraft:red_bundle[bundle_contents=[{id:"chest",components:{"minecraft:container_loot":{"loot_table":"wallwar:boss/gift"}}}]]
