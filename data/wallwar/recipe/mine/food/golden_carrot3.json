@@ -5,7 +5,7 @@
     "show_notification": false,
     "key": {
         "1":"gold_block",
-        "2":"#diamond_ores",
+        "2":"diamond",
         "3":"quartz_block"
     },
     "pattern": ["313","121","313"],

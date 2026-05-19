@@ -6,7 +6,7 @@
     "key": {
         "1":"minecraft:crimson_hyphae",
         "3":"minecraft:warped_hyphae",
-        "2":"minecraft:gold_ingot"
+        "2":"minecraft:gold_nugget"
     },
     "pattern": ["212","131","212"],
     "result": {

@@ -5,7 +5,7 @@
     "show_notification": false,
     "key": {
         "1":"minecraft:iron_ingot",
-        "2":"minecraft:diamond",
+        "2":"minecraft:flint",
         "3":"minecraft:lapis_block"
     },
     "pattern": ["131","323","131"],

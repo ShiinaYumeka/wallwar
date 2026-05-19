@@ -45,7 +45,8 @@
                                     {"id": "minecraft:bone_meal", "count": 32},
                                     {"id": "minecraft:wheat_seeds", "count": 32},
                                     {"id": "minecraft:water_bucket", "count": 1},
-                                    {"id": "minecraft:item_frame", "count": 2},
+                                    {"id": "minecraft:water_bucket", "count": 1},
+                                    {"id": "minecraft:item_frame", "count": 8},
                                     {"id": "minecraft:bread", "count": 2},
                                     {"id": "minecraft:apple", "count": 2}
                                 ]

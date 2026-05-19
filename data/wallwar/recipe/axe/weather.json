@@ -11,6 +11,6 @@
     "result": {
         "id": "minecraft:rabbit_foot",
         "components": {"minecraft:custom_name":{"translate":"阻献之触","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"放置于物品展示框中，站立于其上消耗","italic": false,"color": "gray"},{"translate":"使天气立即放晴","italic": false,"color": "gray"},{"translate":"*在盲目的双眼下，我们将放弃我们的意志，并服从您的指引","italic": false,"color": "dark_red"}],"custom_data": {"weather_clear":1}},
-        "count": 2
+        "count": 3
     }
 }

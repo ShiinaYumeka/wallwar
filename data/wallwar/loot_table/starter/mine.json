@@ -14,8 +14,8 @@
                                 "minecraft:item_name": {"translate": "挖矿流派包", "italic": false, "color": "gold"},
                                 "minecraft:lore": [{"translate": "发育流派：挖矿", "italic": false, "color": "gray"}],
                                 "minecraft:bundle_contents": [
-                                    {"id": "minecraft:iron_ingot", "count": 8},
-                                    {"id": "minecraft:copper_ingot", "count": 8},
+                                    {"id": "minecraft:iron_ingot", "count": 16},
+                                    {"id": "minecraft:copper_ingot", "count": 32},
                                     {"id": "minecraft:coal", "count": 16},
                                     {"id": "minecraft:amethyst_shard", "count": 4},
                                     {"id": "minecraft:bread", "count": 5},

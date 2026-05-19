@@ -13,9 +13,7 @@
         "id": "minecraft:iron_leggings",
         "components": {
             "minecraft:enchantments": {
-                "levels": {
                     "minecraft:protection": 1
-                }
             },
             "minecraft:attribute_modifiers": [
                 {

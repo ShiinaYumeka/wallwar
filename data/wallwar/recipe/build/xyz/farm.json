@@ -18,7 +18,7 @@
             "minecraft:lore": [
                 {"translate":"建筑范围：Y>60","italic": false,"color": "green"},
                 {"translate":"放置于平放5x5x1的干草块北方的物品展示框中激活此建筑","italic": false,"color": "gray"},
-                {"translate":"每10秒有50%/67%/40%概率在前方生成一个普通/法式/全麦面包","italic": false,"color": "gray"},
+                {"translate":"每10秒在前方生成一个普通/法式/全麦面包","italic": false,"color": "gray"},
                 {"translate":"-当此干草块堆不存在至少两层5x5干草块时生产普通面包","italic": false,"color": "gray"},
                 {"translate":"-当此干草块堆上方存在至少两层5x5干草块时改为法式面包","italic": false,"color": "gray"},
                 {"translate":"-当此干草块堆上方存在至少四层5x5干草块时改为全麦面包","italic": false,"color": "gray"},

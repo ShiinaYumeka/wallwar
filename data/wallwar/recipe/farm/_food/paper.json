@@ -9,7 +9,7 @@
     },
     "pattern": ["1 1","2 2","1 1"],
     "result": {
-        "id": "minecraft:book",
-        "count": 2
+        "id": "minecraft:bookshelf",
+        "count": 1
     }
 }

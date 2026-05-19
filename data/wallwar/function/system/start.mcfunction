@@ -31,10 +31,10 @@ execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~3 air replace
 execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~-3 air replace
 execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~-3 air replace
 
-execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~3 red_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:10b},{id:"wheat_seeds",Slot:2b,count:32b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"red_banner",Slot:6b,count:1b}]} replace
-execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~-3 light_blue_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:10b},{id:"wheat_seeds",Slot:2b,count:32b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"light_blue_banner",Slot:6b,count:1b}]} replace
-execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~-3 lime_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:10b},{id:"wheat_seeds",Slot:2b,count:32b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"lime_banner",Slot:6b,count:1b}]} replace
-execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~3 yellow_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:10b},{id:"wheat_seeds",Slot:2b,count:32b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"yellow_banner",Slot:6b,count:1b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~3 red_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:12b},{id:"wheat_seeds",Slot:2b,count:64b},{id:"bookshelf",Slot:3b,count:5b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"red_banner",Slot:6b,count:1b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~-3 light_blue_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:12b},{id:"wheat_seeds",Slot:2b,count:64b},{id:"bookshelf",Slot:3b,count:5b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"light_blue_banner",Slot:6b,count:1b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~-3 lime_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:12b},{id:"wheat_seeds",Slot:2b,count:64b},{id:"bookshelf",Slot:3b,count:5b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"lime_banner",Slot:6b,count:1b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~3 yellow_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:4b},{id:"sugar_cane",Slot:1b,count:12b},{id:"wheat_seeds",Slot:2b,count:64b},{id:"bookshelf",Slot:3b,count:5b},{id:"water_bucket",Slot:4b,count:1b},{id:"apple",Slot:5b,count:32b},{id:"yellow_banner",Slot:6b,count:1b}]} replace
 
 execute if score #URF_MODE time matches 1.. run function wallwar:boss_urf/start
 

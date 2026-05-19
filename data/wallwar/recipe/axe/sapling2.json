@@ -8,11 +8,11 @@
         "2":"minecraft:lapis_lazuli",
         "3":"minecraft:copper_ingot",
         "4":"minecraft:diamond",
-        "5":"minecraft:warped_hyphae"
+        "5":"minecraft:iron_ingot"
     },
     "pattern": [" 4 ","152"," 3 "],
     "result": {
         "id":"dark_oak_sapling",
-        "count": 3
+        "count": 8
     }
 }

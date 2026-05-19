@@ -35,7 +35,7 @@
                                         }
                                     },
                                     {"id": "minecraft:oak_sapling", "count": 32},
-                                    {"id": "minecraft:bone_meal", "count": 64},
+                                    {"id": "minecraft:bone_block", "count": 16},
                                     {"id": "minecraft:bread", "count": 10},
                                     {"id": "minecraft:apple", "count": 10}
                                 ]
