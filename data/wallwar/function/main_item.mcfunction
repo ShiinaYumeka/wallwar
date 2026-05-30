@@ -11,4 +11,5 @@ execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{soul_bag:1b
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{exp_bag:1b}}}}] run return run function wallwar:bag/exp
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{fix_bag:1b}}}}] run return run function wallwar:bag/fix
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{protection_bag:1b}}}}] run return run function wallwar:bag/protection
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{mine_compass:1b}}}}] run return run function wallwar:system/item/starter/compass
 

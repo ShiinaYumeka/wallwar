@@ -17,9 +17,9 @@
             "item": {
                 "id": "minecraft:clock",
                 "components": {"minecraft:item_name":{"translate":"农耕时钟","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"建筑范围：Y<150","italic": false,"color": "green"},{"translate":"放置于面向天空的物品展示框中","italic": false,"color": "gray"},{"translate":"大幅加快下方7x7作物的生长速度","italic": false,"color": "gray"},{"translate":"站立于此物品展示框上消耗时钟","italic": false,"color": "gray"},{"translate":"面向天空：改变天气至雨天","italic": false,"color": "gray"},{"translate":"面向大地：改变天气至雷雨天","italic": false,"color": "gray"},{"translate":"*古希腊掌管农业的神","italic": false,"color": "yellow"}],"custom_data": {"clock":2}},
-                "count": 6
+                "count": 4
             },"slot": 1},
-         {"item": {"id":"item_frame","count": 6},"slot": 4},
+         {"item": {"id":"item_frame","count": 4},"slot": 4},
          {"item": {"id":"hay_block","count": 64},"slot": 3},
         {"item": {
         "id": "minecraft:leather_boots",

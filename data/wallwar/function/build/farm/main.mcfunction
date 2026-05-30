@@ -10,7 +10,7 @@ playsound block.grass.place block @a ~ ~ ~
 #effect give @a[gamemode=!spectator] glowing 11 0 true
 
 execute store result score #temp temp run random value 1..100
-execute if blocks ^2 ^ ^-0.5 ^-2 ^ ^-4.5 ^2 ^1 ^-0.5 all if blocks ^2 ^ ^-0.5 ^-2 ^ ^-4.5 ^2 ^2 ^-0.5 all run return run function wallwar:build/farm/effect
+execute if blocks ^2 ^ ^-0.5 ^-2 ^ ^-4.5 ^2 ^1 ^-0.5 all run return run function wallwar:build/farm/effect
 
 #execute if score #temp temp matches 1..50 run 
 summon item ^ ^ ^0.5 {Item:{id:"bread",count:1}}

@@ -26,7 +26,7 @@
         },"slot": 2},
         {"item": {
             "id": "minecraft:experience_bottle",
-            "components": {"minecraft:custom_name":{"translate":"经验储囊","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"丢出后将经验等级设置为30","italic": false,"color": "gray"},{"translate":"*放在耳边时可以听到灵魂的悲惨尖叫","italic": false,"color": "dark_red"}],"custom_data": {"exp_bag":1,"wallwar_item":1}},
+            "components": {"minecraft:custom_name":{"translate":"经验储囊","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"按Q丢出后将经验等级设置为30","italic": false,"color": "white"},{"translate":"*有的时候使用方式决定了结果","italic": false,"color": "dark_red"}],"custom_data": {"exp_bag":1,"wallwar_item":1}},
             "count": 4
         },"slot": 3}]}
     }

@@ -31,7 +31,7 @@
     }
   },
   "rewards": {
-    "loot": ["wallwar:stonk_rew2"],
+    "loot": ["wallwar:stonk_rew"],
     "function": "wallwar:system/afk/give"
   },
   "requirements": [

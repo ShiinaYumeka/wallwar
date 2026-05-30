@@ -10,5 +10,6 @@ playsound block.trial_spawner.spawn_item block @a ~ ~ ~
 #effect give @a[gamemode=!spectator] glowing 11 0 true
 #scoreboard players reset #spawner_glow temp
 function wallwar:build/spawner/effect
+function wallwar:build/spawner/effect
 
 #execute if score #spawner_glow temp matches 1 run data modify entity @s Glowing set value 1b

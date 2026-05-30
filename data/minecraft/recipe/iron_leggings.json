@@ -26,7 +26,7 @@
                 {
                     "id": "wallwar_iron_t3",
                     "type": "minecraft:armor_toughness",
-                    "amount": 2,
+                    "amount": 1,
                     "operation": "add_value",
                     "slot": "legs"
                 }

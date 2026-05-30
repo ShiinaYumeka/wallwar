@@ -11,12 +11,13 @@ execute if entity @s[tag=battle_bone_player] run function wallwar:build/battle/e
 execute as @a[scores={kill=1..}] run function wallwar:death/killer
 scoreboard players reset #respawn_suc temp
 execute unless score @s respawn matches 1.. if entity @e[tag=building_respawn] run function wallwar:build/respawn/check
-execute if score GAME_PRO time matches 2..4 if score @s revive_left matches 1.. run return run function wallwar:respawn/free_combat
 
 execute if score #respawn_suc temp matches 1 run return fail
 
 execute unless entity @s[tag=wither_sword] run function wallwar:death/head
 tag @n[tag=new] remove new
+
+execute if score GAME_PRO time matches 2..4 if score @s revive_left matches 1.. run return run function wallwar:respawn/free_combat
 
 
 tag @s remove FIGHT

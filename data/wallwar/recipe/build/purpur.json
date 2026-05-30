@@ -7,9 +7,9 @@
         "2":"minecraft:dirt",
         "3":"minecraft:rooted_dirt"
     },
-    "pattern": ["222","333","222"],
+    "pattern": ["2","3","2"],
     "result": {
         "id":"purpur_block",
-        "count": 3
+        "count": 4
     }
 }

@@ -11,6 +11,6 @@
     "pattern": ["131","323","131"],
     "result": {
         "id": "minecraft:enchanted_book",
-        "components": {"minecraft:item_name":{"translate":"矿之精华","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"*最强大的力量往往来自于最广阔的群体","italic": false,"color": "gray"}],"stored_enchantments": {"efficiency": 3,"protection": 2}}
+        "components": {"minecraft:item_name":{"translate":"矿之精华","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"*最强大的力量往往来自于最广阔的群体","italic": false,"color": "gray"}],"stored_enchantments": {"efficiency": 3,"protection": 3}}
     }
 }

@@ -8,6 +8,7 @@
     },
     "pattern": ["222","111","222"],
     "result": {
-        "id": "minecraft:basalt"
+        "id": "minecraft:basalt",
+        "count": 4
     }
 }

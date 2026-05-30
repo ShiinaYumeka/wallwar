@@ -273,6 +273,7 @@ recipe give @s wallwar:misc/bone_meal
 recipe give @s wallwar:misc/copper
 recipe give @s wallwar:misc/diamond_sword
 recipe give @s wallwar:misc/dragon_breath
+recipe give @s wallwar:misc/exp_bag
 recipe give @s wallwar:misc/exp
 recipe give @s wallwar:misc/ice
 recipe give @s wallwar:misc/iron_sword

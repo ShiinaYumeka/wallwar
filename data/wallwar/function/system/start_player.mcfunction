@@ -28,7 +28,6 @@ effect give @s minecraft:saturation 5 20 true
 effect give @s[tag=!no_nightvision] night_vision infinite 0 true
 
 execute unless score #URF_MODE time matches 1.. run function wallwar:system/item/main
-execute unless score #URF_MODE time matches 1.. run function wallwar:system/item/starter/prompt
 execute if score #URF_MODE time matches 1.. run function wallwar:boss_urf/start_player
 
 tp @s[team=red] ~3 ~2 ~3

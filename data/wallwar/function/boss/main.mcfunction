@@ -1,4 +1,8 @@
 
+
+bossbar set minecraft:gauge max 36000
+scoreboard players set GAME time 36000
+
 tag @a remove boss_player
 scoreboard players operation #temp tid = @s tid
 execute as @a[team=!sp] if score @s tid = #temp tid run tag @s add boss_player

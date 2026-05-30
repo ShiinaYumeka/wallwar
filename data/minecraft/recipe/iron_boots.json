@@ -18,14 +18,14 @@
                 {
                     "id": "wallwar_iron4",
                     "type": "minecraft:armor",
-                    "amount": 3,
+                    "amount": 2,
                     "operation": "add_value",
                     "slot": "feet"
                 },
                 {
                     "id": "wallwar_iron_t4",
                     "type": "minecraft:armor_toughness",
-                    "amount": 2,
+                    "amount": 1,
                     "operation": "add_value",
                     "slot": "feet"
                 }
