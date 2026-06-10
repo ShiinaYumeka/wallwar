@@ -5,9 +5,8 @@
     "key": {
         "1":"minecraft:string"
     },
-    "pattern": ["11","11"],
+    "pattern": ["111"],
     "result": {
-        "id": "minecraft:cobweb",
-        "components": {"max_stack_size": 4}
+        "id": "minecraft:cobweb"
     }
 }

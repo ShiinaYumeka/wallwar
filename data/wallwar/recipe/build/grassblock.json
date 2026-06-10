@@ -7,7 +7,7 @@
         "1":"minecraft:rooted_dirt",
         "2":"#grass"
     },
-    "pattern": ["222","111","111"],
+    "pattern": ["22","11","11"],
     "result": {
         "id": "minecraft:grass_block"
     }

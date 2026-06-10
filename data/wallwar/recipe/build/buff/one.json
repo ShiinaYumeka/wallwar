@@ -5,7 +5,7 @@
     "key": {
         "1":"minecraft:podzol",
         "2":"minecraft:diamond",
-        "3":"minecraft:cauldron",
+        "3":"minecraft:iron_ingot",
         "4":"minecraft:redstone"
     },
     "pattern": ["444","121","333"],

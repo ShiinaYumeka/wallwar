@@ -15,7 +15,7 @@
                                 "minecraft:lore": [{"translate": "发育流派：炼药/召唤", "italic": false, "color": "gray"}],
                                 "minecraft:bundle_contents": [
                                     {"id": "minecraft:nether_wart", "count": 1},
-                                    {"id": "minecraft:blaze_rod", "count": 1},
+                                    {"id": "minecraft:blaze_rod", "count": 8},
                                     {"id": "minecraft:soul_sand", "count": 64},
                                     {"id": "minecraft:bread", "count": 3},
                                     {"id": "minecraft:apple", "count": 3}

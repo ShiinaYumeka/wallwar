@@ -16,6 +16,7 @@
                                 "minecraft:bundle_contents": [
                                     {"id": "minecraft:mycelium", "count": 1},
                                     {"id": "minecraft:item_frame", "count": 16},
+                                    {"id": "minecraft:diamond", "count": 4},
                                     {"id": "minecraft:bread", "count": 2},
                                     {"id": "minecraft:apple", "count": 2}
                                 ]
