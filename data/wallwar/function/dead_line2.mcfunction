@@ -9,9 +9,8 @@ scoreboard players set GAME_PRO time 8
 bossbar set gauge6 max 1800
 function wallwar:system/bossbar_end
 
-effect clear @a poison
-title @a title {"translate":"全体凋零","color":"dark_purple"}
-title @a subtitle {"translate":"你的命运已经注定……","color":"white"}
+title @a title {"translate":"凋零增强","color":"dark_purple"}
+title @a subtitle {"translate":"何必用血肉之躯去撞击命运的墙？","color":"white"}
 
 
 execute if score DeathFight time matches 1..10 at 0-0-0-0-1 positioned ~ 295 ~ run setblock ~ ~ ~ command_block{Command:"say 激活这个命令方块并不会提前刷新伊甸之果"} destroy

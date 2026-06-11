@@ -3,8 +3,8 @@
 scoreboard players reset @a respawn
 tag @a add FIGHT
 
-scoreboard players set GAME time 14400
-bossbar set minecraft:gauge2 max 14400
+scoreboard players set GAME time 12000
+bossbar set minecraft:gauge2 max 12000
 
 scoreboard players set GAME_PRO time 2
 scoreboard players set GAMEMODE time 2

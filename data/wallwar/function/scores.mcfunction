@@ -121,26 +121,26 @@ bossbar set minecraft:gauge name "天空之壁倒塌倒计时"
 bossbar add gauge2 "2"
 bossbar set minecraft:gauge2 color green
 bossbar set minecraft:gauge2 style progress
-bossbar set minecraft:gauge2 max 14400
-bossbar set minecraft:gauge2 name "缩圈倒计时"
+bossbar set minecraft:gauge2 max 12000
+bossbar set minecraft:gauge2 name "边界缩小倒计时"
 
 bossbar add gauge3 "3"
 bossbar set minecraft:gauge3 color red
 bossbar set minecraft:gauge3 style progress
-bossbar set minecraft:gauge3 max 6000
+bossbar set minecraft:gauge3 max 12000
 bossbar set minecraft:gauge3 name "死斗模式倒计时"
 
 bossbar add gauge4 "4"
 bossbar set minecraft:gauge4 color purple
 bossbar set minecraft:gauge4 style progress
 bossbar set minecraft:gauge4 max 2400
-bossbar set minecraft:gauge4 name "全体中毒倒计时"
+bossbar set minecraft:gauge4 name "饥饿增强倒计时"
 
 bossbar add gauge5 "5"
 bossbar set minecraft:gauge5 color purple
 bossbar set minecraft:gauge5 style progress
-bossbar set minecraft:gauge5 max 3600
-bossbar set minecraft:gauge5 name "全体凋零倒计时"
+bossbar set minecraft:gauge5 max 2400
+bossbar set minecraft:gauge5 name "凋零状态倒计时"
 
 bossbar add gauge6 "6"
 bossbar set minecraft:gauge6 color purple

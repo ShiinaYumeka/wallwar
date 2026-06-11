@@ -28,8 +28,8 @@ tellraw @a [""]
 tellraw @a ["",{"translate":"-----------------------------------------------------","color": "gray"}]
 tellraw @a ["",{"translate":"<死斗阶段>","color": "gold"}]
 tellraw @a ["",{"translate":"本阶段将玩家集体传送至死斗平台进行死斗","color": "white"}]
-tellraw @a ["",{"translate":"·随时间给予所有玩家越来越强的中毒、凋零效果","color": "white"}]
-tellraw @a ["",{"translate":"·在终阶段，神的意志将会化为伊甸之果降临于场地中央","color": "white"}]
+tellraw @a ["",{"translate":"·随时间给予所有玩家越来越强的饥饿、凋零效果","color": "white"}]
+tellraw @a ["",{"translate":"·在最终阶段，神的意志将会化为伊甸之果降临于场地中央","color": "white"}]
 tellraw @a ["",{"translate":"-----------------------------------------------------","color": "gray"}]
 
 execute if entity @a[tag=marking_team] run function wallwar:system/mark/yes

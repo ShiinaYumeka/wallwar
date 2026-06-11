@@ -5,6 +5,21 @@ gamerule spawn_mobs true
 function wallwar:system/bossbar_clear
 scoreboard players set OVER time 0
 
+tellraw @a [""]
+tellraw @a ["",{"translate":"-----------------------------------------------------","color": "gray"}]
+tellraw @a ["",{"translate":"<资源收集阶段>","color": "gold"}]
+tellraw @a ["",{"translate":"本阶段内玩家需要收集资源以准备接下来的战斗。","color": "white"}]
+tellraw @a ["",{"translate":"·本阶段约20分钟，难度初始为简单，死亡不掉落且可以无限复活","color": "white"}]
+tellraw @a ["",{"translate":"·农耕时钟扫描更快，除小麦外作物每次生长推进两阶段","color": "white"}]
+tellraw @a ["",{"translate":"·开局请选择发育流派（六选一收纳袋）：/trigger choose_starter set <1-6>","color": "white"}]
+tellraw @a ["",{"translate":"·玩家可以通过输入/trigger suicide快速自杀","color": "white"}]
+tellraw @a ["",{"translate":"·当玩家在没有“劫营速战”效果时试图翻越基岩墙会直接死亡。","color": "white"}]
+execute unless score #BOSS_MODE time matches 1.. run tellraw @a ["",{"translate":"·当玩家通过末影珍珠翻越基岩墙后，获得效果“劫营速战”","color": "white"}]
+execute unless score #BOSS_MODE time matches 1.. run tellraw @a ["",{"translate":"-此效果下会短暂发光且死亡后掉落一个玩家头颅","color": "white"}]
+execute if score #EVENT time matches 1.. run tellraw @a ["",{"translate":"·10秒后刷新一个<开局事件>","color": "white"}]
+tellraw @a ["",{"translate":"-----------------------------------------------------","color": "gray"}]
+tellraw @a [""]
+
 execute as 0-0-0-0-1 at @s as @a run function wallwar:system/start_player
 
 time set day
@@ -70,23 +85,12 @@ difficulty easy
 function wallwar:recipe
 
 
-schedule function wallwar:death_fight/random 5s
-execute if score #EVENT time matches 1.. run schedule function wallwar:event/main/start 10s replace
+#计时器异步
+scoreboard players set #recipe time 5
+scoreboard players set #clock time 15
+scoreboard players set #armor time 10
 
 
-tellraw @a [""]
-tellraw @a ["",{"translate":"-----------------------------------------------------","color": "gray"}]
-tellraw @a ["",{"translate":"<资源收集阶段>","color": "gold"}]
-tellraw @a ["",{"translate":"本阶段内玩家需要收集资源以准备接下来的战斗。","color": "white"}]
-tellraw @a ["",{"translate":"·本阶段约20分钟，难度初始为简单，死亡不掉落且可以无限复活","color": "white"}]
-tellraw @a ["",{"translate":"·农耕时钟扫描更快，除小麦外作物每次生长推进两阶段","color": "white"}]
-tellraw @a ["",{"translate":"·开局请选择发育流派（六选一收纳袋）：/trigger choose_starter set <1-6>","color": "white"}]
-tellraw @a ["",{"translate":"·玩家可以通过输入/trigger suicide快速自杀","color": "white"}]
-tellraw @a ["",{"translate":"·当玩家在没有“劫营速战”效果时试图翻越基岩墙会直接死亡。","color": "white"}]
-execute unless score #BOSS_MODE time matches 1.. run tellraw @a ["",{"translate":"·当玩家通过末影珍珠翻越基岩墙后，获得效果“劫营速战”","color": "white"}]
-execute unless score #BOSS_MODE time matches 1.. run tellraw @a ["",{"translate":"-此效果下会短暂发光且死亡后掉落一个玩家头颅","color": "white"}]
-execute if score #EVENT time matches 1.. run tellraw @a ["",{"translate":"·10秒后刷新一个<开局事件>","color": "white"}]
-tellraw @a ["",{"translate":"-----------------------------------------------------","color": "gray"}]
 
 
 setworldspawn ~ ~ ~
