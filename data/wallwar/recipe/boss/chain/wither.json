@@ -59,11 +59,11 @@
     },"slot": 10},
         {"item": {
         "id": "minecraft:stone_pickaxe",
-        "components": {"minecraft:custom_name":{"translate":"黑石蚀刻之证","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为仪式祭坛上之人添加血祭品身份并且给予教徒装备（绑定诅咒）","italic": false,"color": "gray"},{"translate":"血祭品拥有以下效果：","italic": false,"color": "gray"},{"translate":"当你因凋灵献祭而死亡时，你为凋灵额外增加10点护甲值。","italic": false,"color": "gray"},{"translate":"你永久获得隐身 I。","italic": false,"color": "gray"},{"translate":"*我将归于你，伟大的....","italic": false,"color": "dark_gray"}],"custom_data": {"wither_pickaxe":1}}
+        "components": {"minecraft:custom_name":{"translate":"黑石蚀刻之证","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你将其置于仪式祭坛上献祭后","italic": false,"color": "gray"},{"translate":"为仪式祭坛上之人添加血祭品身份并且给予教徒装备（保护I、绑定诅咒）","italic": false,"color": "gray"},{"translate":"血祭品拥有以下效果：","italic": false,"color": "gray"},{"translate":"当你因凋灵献祭而死亡时，你为凋灵额外增加10点护甲值。","italic": false,"color": "gray"},{"translate":"你永久获得隐身 I。","italic": false,"color": "gray"},{"translate":"*我将归于你，伟大的....","italic": false,"color": "dark_gray"}],"custom_data": {"wither_pickaxe":1}}
     },"slot": 11},
         {"item": {
         "id": "minecraft:stone_sword",
-        "components": {"minecraft:custom_name":{"translate":"凋零仪式匕首","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"为仪式祭坛上之人添加狂信徒身份并且给予狂信徒装备（保护I，绑定诅咒），生命提升I","italic": false,"color": "gray"},{"translate":"狂信徒具有以下效果：","italic": false,"color": "gray"},{"translate":"死亡后不掉落头颅，当你因凋灵献祭而死亡时，你为凋灵额外增加20点生命值。","italic": false,"color": "gray"},{"translate":"*愿以吾命，惩世不公，赎生之罪","italic": false,"color": "dark_gray"}],"custom_data": {"wither_sword":1}}
+        "components": {"minecraft:custom_name":{"translate":"凋零仪式匕首","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"为仪式祭坛上之人添加狂信徒身份并且给予狂信徒装备（保护II，绑定诅咒），生命提升I","italic": false,"color": "gray"},{"translate":"狂信徒具有以下效果：","italic": false,"color": "gray"},{"translate":"死亡后不掉落头颅，当你因凋灵献祭而死亡时，你为凋灵额外增加20点生命值。","italic": false,"color": "gray"},{"translate":"*愿以吾命，惩世不公，赎生之罪","italic": false,"color": "dark_gray"}],"custom_data": {"wither_sword":1}}
     },"slot": 12},
     {
         "item": {
