@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 20,
+  "experience": 1,
+  "ingredient": "charcoal",
+  "result": {
+    "id": "minecraft:charcoal"
+  }
+}

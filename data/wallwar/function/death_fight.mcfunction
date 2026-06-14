@@ -9,10 +9,12 @@ execute at 0-0-0-0-1 run tp @a[team=sp] ~ 300 ~
 
 execute as 0-0-0-0-1 at @s run function wallwar:death_fight/start
 
+execute as 0-0-0-0-1 at @s run function wallwar:death_fight/respawn_dead
+
 worldborder damage amount 20
 
-scoreboard players set GAME time 2400
-bossbar set gauge4 max 2400
+scoreboard players set GAME time 3600
+bossbar set gauge4 max 3600
 
 scoreboard players set GAME_PRO time 5
 

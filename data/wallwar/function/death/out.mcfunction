@@ -17,6 +17,12 @@ execute unless entity @s[tag=wither_sword] run function wallwar:death/head
 tag @n[tag=new] remove new
 
 
+execute unless entity @s[tag=team_buff_sacrifice] run scoreboard players set @s team_buff 0
+execute if entity @s[team=red,tag=!team_buff_sacrifice] run scoreboard players remove #red_buff team_buff 1
+execute if entity @s[team=blue,tag=!team_buff_sacrifice] run scoreboard players remove #blue_buff team_buff 1
+execute if entity @s[team=green,tag=!team_buff_sacrifice] run scoreboard players remove #green_buff team_buff 1
+execute if entity @s[team=yellow,tag=!team_buff_sacrifice] run scoreboard players remove #yellow_buff team_buff 1
+
 tag @s remove FIGHT
 
 title @s title {"translate":"游戏结束"}
@@ -24,7 +30,7 @@ title @s subtitle {"translate":"你失败了"}
 
 tellraw @a [{"translate":"[战墙] "},{"selector":"@s"},{"translate":" 在本局游戏中淘汰！","color":"white"}]
 
-execute if score GAME_PRO time matches 5.. run scoreboard players add GAME time 300
+execute if score GAME_PRO time matches 5..7 run scoreboard players add GAME time 300
 
 gamemode spectator @s
 tag @s remove wither_user

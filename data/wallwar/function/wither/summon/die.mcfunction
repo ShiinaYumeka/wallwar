@@ -12,6 +12,7 @@ scoreboard players operation #temp wither_armor += @s wither_armor
 
 execute if entity @s[tag=wither_man_nokill] run return run tellraw @s [{"translate": "*你感觉失去了什么，但是你好像还能控制自己的身体","color": "gray"}]
 
+tag @s add team_buff_sacrifice
 
 tp @s ~ -70 ~
 kill @s

@@ -25,6 +25,9 @@ effect clear @s
 
 effect give @s minecraft:instant_health 1 20
 effect give @s minecraft:saturation 5 20 true
+effect give @s minecraft:speed 1200 0 true
+effect give @s minecraft:water_breathing 1200 0 true
+effect give @s minecraft:dolphins_grace 1200 0 true
 effect give @s[tag=!no_nightvision] night_vision infinite 0 true
 
 execute unless score #URF_MODE time matches 1.. run function wallwar:system/item/main

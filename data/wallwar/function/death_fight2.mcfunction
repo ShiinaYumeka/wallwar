@@ -3,8 +3,9 @@
 title @a times 10 20 10
 
 
-scoreboard players set GAME time 1800
-bossbar set gauge4 max 1800
+scoreboard players set GAME time 2400
+bossbar set gauge4 max 2400
+bossbar set minecraft:gauge4 name "团队增益倒计时"
 scoreboard players set GAME_PRO time 6
 
 function wallwar:system/bossbar_hunger

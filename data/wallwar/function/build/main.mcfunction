@@ -10,7 +10,7 @@ function wallwar:build/check
 execute as @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_sand:1b}}}}] at @s if entity @s[y=60,dy=260] run function wallwar:build/sand/main
 execute as @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_ocean:1b}}}}] at @s if entity @s[y=60,dy=260] run function wallwar:build/ocean/main
 execute as @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_tower:1b}}}}] at @s if entity @s[y=60,dy=260] run function wallwar:build/tower/main
-execute as @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_spawner:1b}}}}] at @s if entity @s[y=-60,dy=210] run function wallwar:build/spawner/main
+execute as @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_spawner:1b}}}}] at @s if entity @s[y=-60,dy=214] run function wallwar:build/spawner/main
 execute as @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_flag:1b}}}}] at @s if entity @s[y=60,dy=260] run function wallwar:build/flag/main
 execute as @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_respawn:1b}}}}] at @s run function wallwar:build/respawn/main
 execute as @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{building_wither:1b}}}}] at @s run function wallwar:build/wither/main

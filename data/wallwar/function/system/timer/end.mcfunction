@@ -24,5 +24,11 @@ execute if score GAME_PRO time matches 6 run return run function wallwar:dead_li
 execute if score GAME_PRO time matches 7 run execute as @a at @s run playsound minecraft:entity.wither.spawn player @s ~ ~ ~ 1 2
 execute if score GAME_PRO time matches 7 run return run function wallwar:dead_line2
 
-execute if score GAME_PRO time matches 8..9 run execute as @a at @s run playsound minecraft:entity.wither.spawn player @s ~ ~ ~ 1 2
-execute if score GAME_PRO time matches 8..9 run return run function wallwar:dead_line3
+execute if score GAME_PRO time matches 8 run execute as @a at @s run playsound minecraft:entity.wither.spawn player @s ~ ~ ~ 1 2
+execute if score GAME_PRO time matches 8 run return run function wallwar:dead_line3
+
+execute if score GAME_PRO time matches 9 run execute as @a at @s run playsound minecraft:entity.wither.spawn player @s ~ ~ ~ 1 2
+execute if score GAME_PRO time matches 9 run return run function wallwar:dead_line4
+
+execute if score GAME_PRO time matches 11 run execute as @a at @s run playsound minecraft:entity.wither.spawn player @s ~ ~ ~ 1 2
+execute if score GAME_PRO time matches 11 run return run function wallwar:dead_line4

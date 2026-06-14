@@ -14,7 +14,7 @@ execute if entity @s[nbt=!{active_effects:[{id:"minecraft:strength"}]},nbt={acti
 execute if items entity @s weapon.mainhand enchanted_golden_apple[custom_data~{"death_fight_end":1b}] run function wallwar:system/end/main
 execute if items entity @s container.* enchanted_golden_apple[custom_data~{"death_fight_end":1b}] run function wallwar:system/end/pick
 
-execute if score GAME_PRO time matches 7.. if entity @s[advancements={wallwar/misc/ender_chest=true,wallwar/misc/ender_delete=false}] if items entity @s enderchest.* enchanted_golden_apple[custom_data~{"death_fight_end":1b}] run function wallwar:dead_noapple
+execute if score GAME_PRO time matches 11.. if entity @s[advancements={wallwar/misc/ender_chest=true,wallwar/misc/ender_delete=false}] if items entity @s enderchest.* enchanted_golden_apple[custom_data~{"death_fight_end":1b}] run function wallwar:dead_noapple
 
 execute if score @s death matches 1.. run function wallwar:death/main
 execute if score @s invisible matches 1.. if score @s HP matches 1.. run scoreboard players remove @s invisible 1

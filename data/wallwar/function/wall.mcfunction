@@ -51,24 +51,21 @@ fill ~-1 -19 ~300 ~-1 20 ~-300 minecraft:bedrock
 fill ~-1 21 ~300 ~-1 60 ~-300 minecraft:bedrock
 fill ~-1 61 ~300 ~-1 100 ~-300 minecraft:bedrock
 fill ~-1 101 ~300 ~-1 140 ~-300 minecraft:bedrock
-fill ~-1 141 ~300 ~-1 180 ~-300 minecraft:bedrock
-fill ~-1 181 ~300 ~-1 210 ~-300 minecraft:bedrock
+fill ~-1 141 ~300 ~-1 150 ~-300 minecraft:bedrock
 
 fill ~1 -63 ~300 ~1 -20 ~-300 minecraft:bedrock
 fill ~1 -19 ~300 ~1 20 ~-300 minecraft:bedrock
 fill ~1 21 ~300 ~1 60 ~-300 minecraft:bedrock
 fill ~1 61 ~300 ~1 100 ~-300 minecraft:bedrock
 fill ~1 101 ~300 ~1 140 ~-300 minecraft:bedrock
-fill ~1 141 ~300 ~1 180 ~-300 minecraft:bedrock
-fill ~1 181 ~300 ~1 210 ~-300 minecraft:bedrock
+fill ~1 141 ~300 ~1 150 ~-300 minecraft:bedrock
 
 fill ~ -63 ~300 ~ -20 ~-300 minecraft:bedrock
 fill ~ -19 ~300 ~ 20 ~-300 minecraft:bedrock
 fill ~ 21 ~300 ~ 60 ~-300 minecraft:bedrock
 fill ~ 61 ~300 ~ 100 ~-300 minecraft:bedrock
 fill ~ 101 ~300 ~ 140 ~-300 minecraft:bedrock
-fill ~ 141 ~300 ~ 180 ~-300 minecraft:bedrock
-fill ~ 181 ~300 ~ 210 ~-300 minecraft:bedrock
+fill ~ 141 ~300 ~ 150 ~-300 minecraft:bedrock
 forceload remove ~ ~300 ~ ~-300
 forceload add ~ ~ ~ ~
 
@@ -79,24 +76,21 @@ fill ~300 -19 ~ ~-300 20 ~ minecraft:bedrock
 fill ~300 21 ~ ~-300 60 ~ minecraft:bedrock
 fill ~300 61 ~ ~-300 100 ~ minecraft:bedrock
 fill ~300 101 ~ ~-300 140 ~ minecraft:bedrock
-fill ~300 141 ~ ~-300 180 ~ minecraft:bedrock
-fill ~300 181 ~ ~-300 210 ~ minecraft:bedrock
+fill ~300 141 ~ ~-300 150 ~ minecraft:bedrock
 
 fill ~300 -63 ~1 ~-300 -20 ~1 minecraft:bedrock
 fill ~300 -19 ~1 ~-300 20 ~1 minecraft:bedrock
 fill ~300 21 ~1 ~-300 60 ~1 minecraft:bedrock
 fill ~300 61 ~1 ~-300 100 ~1 minecraft:bedrock
 fill ~300 101 ~1 ~-300 140 ~1 minecraft:bedrock
-fill ~300 141 ~1 ~-300 180 ~1 minecraft:bedrock
-fill ~300 181 ~1 ~-300 210 ~1 minecraft:bedrock
+fill ~300 141 ~1 ~-300 150 ~1 minecraft:bedrock
 
 fill ~300 -63 ~-1 ~-300 -20 ~-1 minecraft:bedrock
 fill ~300 -19 ~-1 ~-300 20 ~-1 minecraft:bedrock
 fill ~300 21 ~-1 ~-300 60 ~-1 minecraft:bedrock
 fill ~300 61 ~-1 ~-300 100 ~-1 minecraft:bedrock
 fill ~300 101 ~-1 ~-300 140 ~-1 minecraft:bedrock
-fill ~300 141 ~-1 ~-300 180 ~-1 minecraft:bedrock
-fill ~300 181 ~-1 ~-300 210 ~-1 minecraft:bedrock
+fill ~300 141 ~-1 ~-300 150 ~-1 minecraft:bedrock
 forceload remove ~300 ~ ~-300 ~
 
 forceload add ~ ~ ~ ~

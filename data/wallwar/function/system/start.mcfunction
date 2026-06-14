@@ -7,6 +7,8 @@ scoreboard players set OVER time 0
 
 execute as 0-0-0-0-1 at @s as @a run function wallwar:system/start_player
 
+function wallwar:system/team_buff/init
+
 time set day
 
 scoreboard players set GAMEMODE time 1
@@ -29,10 +31,10 @@ execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~3 air replace
 execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~-3 air replace
 execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~-3 air replace
 
-execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~3 red_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:4b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"red_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
-execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~-3 light_blue_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:4b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"light_blue_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
-execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~-3 lime_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:4b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"lime_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
-execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~3 yellow_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:4b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"yellow_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~3 red_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:8b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"red_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~3 ~1 ~-3 light_blue_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:8b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"light_blue_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~-3 lime_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:8b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"lime_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
+execute as 0-0-0-0-1 at @s run setblock ~-3 ~1 ~3 yellow_shulker_box{Items:[{id:"enchanting_table",Slot:0b,count:1b},{id:"sugar_cane",Slot:1b,count:8b},{id:"wheat_seeds",Slot:2b,count:10b},{id:"item_frame",Slot:3b,count:1b},{id:"water_bucket",Slot:4b,count:1b},{id:"oak_sapling",Slot:5b,count:16b},{id:"yellow_banner",Slot:6b,count:1b},{id:"leather",Slot:7b,count:4b}]} replace
 
 execute if score #URF_MODE time matches 1.. run function wallwar:boss_urf/start
 

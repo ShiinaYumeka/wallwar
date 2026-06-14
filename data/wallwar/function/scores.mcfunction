@@ -38,6 +38,7 @@ scoreboard objectives add weapon_rokan dummy
 scoreboard objectives add weapon_haku dummy
 scoreboard objectives add fish custom:fish_caught
 scoreboard objectives add building_player dummy
+scoreboard objectives add team_buff dummy
 
 scoreboard objectives add recipe dummy
 
@@ -62,6 +63,7 @@ scoreboard players set 6 const 6
 scoreboard players set 20 const 20
 scoreboard players set 30 const 30
 scoreboard players set 60 const 60
+scoreboard players set 75 const 75
 scoreboard players set 100 const 100
 scoreboard players set 1200 const 1200
 scoreboard players set 10000 const 10000
@@ -130,14 +132,14 @@ bossbar set minecraft:gauge3 name "死斗模式倒计时"
 bossbar add gauge4 "4"
 bossbar set minecraft:gauge4 color purple
 bossbar set minecraft:gauge4 style progress
-bossbar set minecraft:gauge4 max 2400
+bossbar set minecraft:gauge4 max 3600
 bossbar set minecraft:gauge4 name "全体中毒倒计时"
 
 bossbar add gauge5 "5"
 bossbar set minecraft:gauge5 color purple
 bossbar set minecraft:gauge5 style progress
-bossbar set minecraft:gauge5 max 3600
-bossbar set minecraft:gauge5 name "全体凋零倒计时"
+bossbar set minecraft:gauge5 max 2400
+bossbar set minecraft:gauge5 name "凋灵阶段倒计时"
 
 bossbar add gauge6 "6"
 bossbar set minecraft:gauge6 color purple
