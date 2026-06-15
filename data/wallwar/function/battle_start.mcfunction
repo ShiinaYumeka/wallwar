@@ -16,7 +16,7 @@ tp @a[team=sp] @e[limit=1,tag=ctp]
 function wallwar:system/bossbar_circle
 
 gamerule keep_inventory false
-difficulty normal
+difficulty hard
 
 execute as 0-0-0-0-1 at @s run function wallwar:wall_off
 
