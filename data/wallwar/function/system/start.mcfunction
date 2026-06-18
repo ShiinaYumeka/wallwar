@@ -12,7 +12,7 @@ function wallwar:system/team_buff/init
 time set day
 
 scoreboard players set GAMEMODE time 1
-scoreboard players set GAME time 48000
+scoreboard players set GAME time 42000
 
 scoreboard players set GAME_PRO time 1
 

@@ -42,3 +42,4 @@ execute as 0-0-0-0-1 at @s run function wallwar:observer/cast
 execute if score #EVENT time matches 1.. run schedule function wallwar:event/main/norm 10s replace
 execute unless score GAME_PRO time matches 6.. as @e[type=item_frame,tag=building_battle] at @s if entity @s[y=-64,dy=154] positioned ~ ~-1 ~ run function wallwar:build/battle/use/main
 execute unless score GAME_PRO time matches 6.. as @e[type=item_frame,tag=building_court] at @s if entity @s[y=30,dy=290] run function wallwar:build/court/mark/main
+

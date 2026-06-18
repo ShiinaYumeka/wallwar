@@ -113,7 +113,7 @@ team modify waiting friendlyFire false
 bossbar add gauge "1"
 bossbar set minecraft:gauge color yellow
 bossbar set minecraft:gauge style progress
-bossbar set minecraft:gauge max 48000
+bossbar set minecraft:gauge max 42000
 bossbar set minecraft:gauge name "天空之壁倒塌倒计时"
 
 
