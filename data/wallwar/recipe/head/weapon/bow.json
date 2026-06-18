@@ -11,6 +11,6 @@
     "pattern": [" 12","132"," 12"],
     "result": {
         "id": "minecraft:bow",
-        "components": {"minecraft:custom_name":{"translate":"天界弓","italic": false,"color": "aqua"},"enchantments": {"power": 5,"hunter": 3,"infinity": 4,"expensive_curse2": 1},"repair_cost": 99,"max_damage": 64}
+        "components": {"minecraft:custom_name":{"translate":"天界弓","italic": false,"color": "aqua"},"enchantments": {"power": 5,"hunter": 3,"infinity": 4},"repair_cost": 99,"max_damage": 128}
     }
 }
