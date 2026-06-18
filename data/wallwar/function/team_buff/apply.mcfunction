@@ -30,7 +30,7 @@ execute if entity @s[team=blue] run scoreboard players operation #tb_pct temp /=
 execute if entity @s[team=green] run scoreboard players operation #tb_pct temp /= #green_buff_start team_buff
 execute if entity @s[team=yellow] run scoreboard players operation #tb_pct temp /= #yellow_buff_start team_buff
 execute if score #tb_pct temp matches 75.. run effect give @s minecraft:resistance infinite 0 true
-execute if entity @s[team=red] if score #tb_alive temp = #red_buff_start team_buff run effect give @s minecraft:strength infinite 0 true
-execute if entity @s[team=blue] if score #tb_alive temp = #blue_buff_start team_buff run effect give @s minecraft:strength infinite 0 true
-execute if entity @s[team=green] if score #tb_alive temp = #green_buff_start team_buff run effect give @s minecraft:strength infinite 0 true
-execute if entity @s[team=yellow] if score #tb_alive temp = #yellow_buff_start team_buff run effect give @s minecraft:strength infinite 0 true
+execute if entity @s[team=red] if score #tb_alive temp = #red_buff_start team_buff run effect give @s conduit_power infinite 0 true
+execute if entity @s[team=blue] if score #tb_alive temp = #blue_buff_start team_buff run effect give @s conduit_power infinite 0 true
+execute if entity @s[team=green] if score #tb_alive temp = #green_buff_start team_buff run effect give @s conduit_power infinite 0 true
+execute if entity @s[team=yellow] if score #tb_alive temp = #yellow_buff_start team_buff run effect give @s conduit_power infinite 0 true

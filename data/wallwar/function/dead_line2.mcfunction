@@ -12,6 +12,7 @@ function wallwar:system/bossbar_dead
 effect clear @a absorption
 effect clear @a resistance
 effect clear @a strength
+effect clear @a conduit_power
 effect clear @a invisibility
 effect clear @a poison
 title @a title {"translate":"凋零降临","color":"dark_purple"}
