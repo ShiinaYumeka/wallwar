@@ -6,7 +6,7 @@ effect give @a minecraft:saturation 5 20 true
 
 effect clear @a
 
-function wallwar:system/bossbar_clear
+function wallwar:system/bossbar/clear
 
 #kill @e[type=item]
 

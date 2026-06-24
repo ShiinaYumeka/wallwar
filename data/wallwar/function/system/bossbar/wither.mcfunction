@@ -6,5 +6,6 @@ bossbar set minecraft:gauge3 visible false
 bossbar set minecraft:gauge4 visible false
 bossbar set minecraft:gauge5 visible false
 bossbar set minecraft:gauge6 visible false
+bossbar set minecraft:gauge7 visible false
 
-bossbar set minecraft:gauge4 visible true
+bossbar set minecraft:gauge6 visible true

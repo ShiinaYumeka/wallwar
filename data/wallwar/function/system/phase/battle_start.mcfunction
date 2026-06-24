@@ -11,7 +11,7 @@ scoreboard players set GAMEMODE time 2
 
 tp @a[team=sp] @e[limit=1,tag=ctp]
 
-function wallwar:system/bossbar_circle
+function wallwar:system/bossbar/circle
 
 gamerule keep_inventory false
 difficulty hard

@@ -2,7 +2,7 @@
 gamerule immediate_respawn false
 gamerule spawn_mobs true
 
-function wallwar:system/bossbar_clear
+function wallwar:system/bossbar/clear
 scoreboard players set OVER time 0
 
 execute as 0-0-0-0-1 at @s as @a run function wallwar:system/start_player
@@ -16,7 +16,7 @@ scoreboard players set GAME time 42000
 
 scoreboard players set GAME_PRO time 1
 
-function wallwar:system/bossbar_wall
+function wallwar:system/bossbar/wall
 
 bossbar remove dead_line
 bossbar remove ocean

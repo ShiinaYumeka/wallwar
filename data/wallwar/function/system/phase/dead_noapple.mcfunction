@@ -16,7 +16,8 @@ title @a times 10 20 10
 scoreboard players set GAME time 99999
 scoreboard players set GAME_PRO time 10
 
-function wallwar:system/bossbar_end
+bossbar set gauge7 max 99999
+function wallwar:system/bossbar/apple
 
 #function wallwar:system/end/cast
 

@@ -3,11 +3,11 @@
 title @a times 10 20 10
 
 
-scoreboard players set GAME time 1800
+scoreboard players set GAME time 2400
 scoreboard players set GAME_PRO time 9
 
-bossbar set gauge6 max 1800
-function wallwar:system/bossbar_end
+bossbar set gauge7 max 2400
+function wallwar:system/bossbar/apple
 
 effect clear @a wither
 title @a title {"translate":"凋零增强","color":"dark_purple"}

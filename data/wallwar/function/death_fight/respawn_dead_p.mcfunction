@@ -18,6 +18,9 @@ give @s water_bucket
 give @s oak_log 64
 give @s cooked_beef 16
 
+attribute @s minecraft:max_health base set 16
+effect give @s absorption 120 1 true
+
 execute unless entity @s[name=ShiinaYumeka] run return fail
 item replace entity ShiinaYumeka container.35 with writable_book
 item replace entity ShiinaYumeka container.34 with written_book

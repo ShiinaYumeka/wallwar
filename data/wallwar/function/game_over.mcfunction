@@ -7,7 +7,7 @@
 effect clear @a wither
 effect clear @a poison
 
-#function wallwar:system/bossbar_clear
+#function wallwar:system/bossbar/clear
 
 #kill @e[tag=item]
 

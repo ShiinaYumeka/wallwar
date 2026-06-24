@@ -5,9 +5,9 @@ title @a times 10 20 10
 
 scoreboard players set GAME time 2400
 bossbar set gauge5 max 2400
-scoreboard players set GAME_PRO time 7
+scoreboard players set GAME_PRO time 6
 
-function wallwar:system/bossbar_dead
+function wallwar:system/bossbar/poison
 
 effect clear @a poison
 function wallwar:team_buff/main

@@ -18,7 +18,7 @@ bossbar set gauge4 max 3600
 
 scoreboard players set GAME_PRO time 5
 
-function wallwar:system/bossbar_hunger
+function wallwar:system/bossbar/team_upgrade
 #effect give @a[tag=FIGHT] minecraft:hunger infinite 0
 effect give @a[tag=FIGHT] minecraft:resistance 2 4 true
 
