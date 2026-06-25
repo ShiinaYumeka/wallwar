@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "show_notification": false,
+    "key": {
+        "1": "minecraft:piglin_head",
+        "2": "#minecraft:swords"
+    },
+    "pattern": ["1", "2"],
+    "result": {
+        "id": "minecraft:chest",
+        "components": {
+            "minecraft:item_name": {"translate": "侵入礼盒", "italic": false, "color": "red"},
+            "minecraft:lore": [{"translate": "开启后随机获得战斗类特殊道具", "italic": false, "color": "gray"}],
+            "minecraft:container_loot": {"loot_table": "wallwar:head/box/invasion"}
+        }
+    }
+}

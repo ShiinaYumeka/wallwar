@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_helmet",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:item_name":{"translate":"恶魔头盔","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你至少拥有20等级且生命值低于5时","italic": false,"color": "white"},{"translate":"回复生命值并获得伤害吸收，然后扣除20级经验值","italic": false,"color": "gray"},{"translate":"*与恶魔的交易是需要付出代价的","italic": false,"color": "gray"}],"dyed_color": 6750208,"attribute_modifiers": [{"id": "crown_head","type": "armor","amount": 3,"operation": "add_value","slot": "head"},{"id": "crown_head","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "head"}],"custom_data": {"crown_head":1},"max_damage": 500}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:item_name":{"translate":"耐摔鞋","italic": false,"color": "dark_purple"},"dyed_color": 11042304,"minecraft:lore":[{"translate":"防止你坠机","italic": false,"color": "white"},{"translate":"*Man! What can I say","italic": false,"color": "gray"}],"enchantments": {"protection": 3},"attribute_modifiers": [{"id": "fall_boots","type": "fall_damage_multiplier","amount": -0.8,"operation": "add_multiplied_base","slot": "feet"},{"id": "fall_boots","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "feet"},{"id": "fall_boots","type": "armor","amount": 3,"operation": "add_value","slot": "feet"}],"max_damage": 824}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_leggings",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:item_name":{"translate":"核纳","italic": false,"color": "dark_purple"},"dyed_color": 0,"minecraft:lore":[{"translate":"在爆炸中存活","italic": false,"color": "white"},{"translate":"*你能脸接TNT矿车吗","italic": false,"color": "gray"}],"enchantments": {"blast_protection":10,"unprotection3": 5,"unbreaking": 4},"attribute_modifiers": [{"id": "pant_leg","type": "armor","amount": 6,"operation": "add_value","slot": "legs"},{"id": "pant_leg","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "legs"}],"max_damage": 347}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:leather_chestplate",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:item_name":{"translate":"藤甲","italic": false,"color": "dark_purple"},"dyed_color": 13421772,"minecraft:lore":[{"translate":"极强的防御效果","italic": false,"color": "white"},{"translate":"*烈火燃尽英雄胆","italic": false,"color": "gray"}],"enchantments": {"projectile_protection":5},"attribute_modifiers": [{"id": "fire_chestplate","type": "armor","amount": 8,"operation": "add_value","slot": "chest"},{"id": "fire_chestplate","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "chest"},{"id": "fire_chestplate","type": "burning_time","amount": 2,"operation": "add_multiplied_base","slot": "chest"}],"max_damage": 444}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

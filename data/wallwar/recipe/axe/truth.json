@@ -7,11 +7,7 @@
         "3": "minecraft:warped_hyphae",
         "2": "minecraft:feather"
     },
-    "pattern": [
-        " 1 ",
-        "232",
-        " 1 "
-    ],
+    "pattern": ["132"],
     "result": {
         "id": "minecraft:writable_book",
         "components": {

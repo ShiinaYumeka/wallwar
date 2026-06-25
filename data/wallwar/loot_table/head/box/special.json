@@ -1,0 +1,66 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:crossbow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:custom_name":{"translate":"锋针","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"射出箭矢的伤害降低99%","italic": false,"color": "white"},{"translate":"*精准与否 就是屠宰与手术的区别","italic": false,"color": "gray"}],"enchantments": {"expensive_curse2": 1,"nopower": 2,"piercing": 4,"nogravity": 1,"infinity": 2},"repair_cost": 99,"max_damage": 64}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:soul_lantern",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:item_name":{"translate":"回魂灯","italic": false,"color": "yellow"},"minecraft:lore":[{"translate":"当此物品被放置在背包右上角时，击杀一名玩家触发","italic": false,"color": "white"},{"translate":"-此物品转变为“灵魂容器”并吸收范围3格内的掉落物","italic": false,"color": "white"},{"translate":"-获得瞬间治疗I与10s速度III","italic": false,"color": "white"},{"translate":"*头、甲、刀、食物、背包…魂来！","italic": false,"color": "yellow"}],"custom_data": {"lantern_remove":2}}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:enchanted_book",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:custom_name":{"translate":"“小帮手”","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"*无论在多么猛烈的暴风雨中回头，都能看到那盏不灭的灯火。","italic": false,"color": "red"}],"stored_enchantments": {"mending": 1,"cooking": 1,"fortune": 1,"melt": 1,"unbreaking": 4,"efficiency": 3}}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:snowball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 16
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:item_name":{"translate":"火焰冲击","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"召唤一个可以被打出的小火球","italic": false,"color": "red"}],"minecraft:custom_data":{"is_snowball":1},"max_stack_size": 64}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

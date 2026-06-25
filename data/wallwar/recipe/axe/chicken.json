@@ -1,11 +1,11 @@
 {
     "type": "crafting_shaped",
-    "category": "equipment",
+    "category": "redstone",
     
     "show_notification": false,
     "key": {
-        "1":"#minecraft:heads3",
-        "2":"minecraft:wheat_seeds"
+        "1":"warped_hyphae",
+        "2":"#minecraft:grass"
     },
     "pattern": [" 2 ","212"," 2 "],
     "result": {

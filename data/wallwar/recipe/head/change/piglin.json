@@ -3,11 +3,10 @@
     "category": "equipment",
     "show_notification": false,
     "key": {
-        "1":"minecraft:gold_ingot",
-        "2":"minecraft:crimson_hyphae",
+        "2":"#minecraft:planks",
         "3":"minecraft:wither_skeleton_skull"
     },
-    "pattern": ["121","232","121"],
+    "pattern": [" 2 ","232"," 2 "],
     "result": {
         "id": "minecraft:piglin_head",
         "count": 2

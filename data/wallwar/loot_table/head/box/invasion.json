@@ -1,0 +1,54 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_spear",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:item_name":{"translate":"简易长矛","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"耐久上限为5","italic": false,"color": "white"},{"translate":"*对气球造成十倍伤害","italic": false,"color": "gray"}],"enchantments": {"lunge": 3,"expensive_curse2": 1},"repair_cost": 99,"max_damage": 5}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wooden_spear",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:custom_name":{"translate":"破舰者","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"攻击命中敌人盾牌后，使其禁用120秒。","italic": false,"color": "white"},{"translate":"-需要蓄力满才可以进行攻击","italic": false,"color": "white"},{"translate":"-只能使用两次","italic": false,"color": "white"},{"translate":"*你不会永远地安全，不会永远的逃脱","italic": false,"color": "gray"},{"translate":"","italic": false,"color": "dark_green"},{"translate":"在主手时：","italic": false,"color": "gray"},{"translate":" 1 攻击伤害","italic": false,"color": "dark_green"},{"translate":" 2 攻击速度","italic": false,"color": "dark_green"}],"enchantments": {"breaker": 10,"expensive_curse2": 1,"breaking": 1},"kinetic_weapon":{"delay_ticks": 9999999},"item_model": "wooden_axe","attack_range": {"max_reach": 3,"min_reach": 0,"mob_factor": 0},"attribute_modifiers": [{"id": "golden_sword","type": "attack_speed","amount": -2,"operation": "add_value","slot": "mainhand"}],"tooltip_display": {"hidden_components": ["attribute_modifiers"]},"weapon": {"disable_blocking_for_seconds": 120,"item_damage_per_attack": 0},"repair_cost": 99,"max_damage": 4}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:spectral_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 128
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:item_name":{"translate":"光灵箭","italic": false},"minecraft:lore":[{"translate":"*使命中的敌人发光","italic": false,"color": "gray"}]}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:shears",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {"minecraft:custom_name":{"translate":"裂网者","italic": false,"color": "light_purple"},"minecraft:lore":[{"translate":"骤雨清障，蛛甲尽碎。","italic": false,"color": "dark_purple"}],"enchantments": {"knockback": 1,"efficiency": 10},"tool": {"default_mining_speed": 1,"damage_per_block": 1,"rules": [{"blocks": "#leaves","correct_for_drops": true,"speed": 200},{"blocks": "cobweb","correct_for_drops": true,"speed": 200},{"blocks": "#wool","correct_for_drops": true,"speed": 200}]},"max_damage": 1024}
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -3,11 +3,10 @@
     "category": "equipment",
     "show_notification": false,
     "key": {
-        "1":"minecraft:coal",
-        "2":"minecraft:blackstone",
+        "1":"#minecraft:coals",
         "3":"minecraft:player_head"
     },
-    "pattern": ["121","232","121"],
+    "pattern": [" 1 ","131"," 1 "],
     "result": {
         "id": "minecraft:wither_skeleton_skull",
         "components": {"enchantments": {"protection": 7}},
