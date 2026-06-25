@@ -1,4 +1,7 @@
 
+execute unless score DeathFight time matches 1..80 run scoreboard players set DeathFight time 1
+execute as @a[gamemode=spectator,team=!sp,tag=!FIGHT] run function wallwar:death_fight/respawn_dead
+
 execute as 0-0-0-0-1 if entity @s[tag=event_wither] run function wallwar:event/wither/spawn
 
 execute as @e[type=item_frame,tag=building_wither] at @s positioned ~ ~-1 ~ run function wallwar:wither/summon/main

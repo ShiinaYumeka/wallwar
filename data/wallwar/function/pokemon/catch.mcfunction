@@ -64,7 +64,7 @@ data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.nbt
 data remove entity @s Item.components."minecraft:custom_data".pokemon_entity.nbt.Pos
 data remove entity @s Item.components."minecraft:custom_data".pokemon_entity.nbt.Rotation
 data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.nbt.IsBaby set from entity @n[tag=pokemon_target] IsBaby
-data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.nbt.CanPickUpLoot set from entity @n[tag=pokemon_target] CanPickUpLoot
+data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.nbt.CanPickUpLoot set value 0b
 execute if data entity @n[tag=pokemon_target] Fuse run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.nbt.Fuse set value 20
 
 #execute if data entity @n[tag=pokemon_target] Offers run data modify entity @s Item.components."minecraft:custom_data".pokemon_entity.nbt.AssignProfessionWhenSpawned set value true

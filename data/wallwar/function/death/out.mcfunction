@@ -30,7 +30,7 @@ title @s subtitle {"translate":"你失败了"}
 
 tellraw @a [{"translate":"[战墙] "},{"selector":"@s"},{"translate":" 在本局游戏中淘汰！","color":"white"}]
 
-execute if score GAME_PRO time matches 5..7 run scoreboard players add GAME time 300
+execute unless entity @s[tag=deathmatch_respawn] if score GAME_PRO time matches 5.. run scoreboard players add GAME time 300
 
 gamemode spectator @s
 tag @s remove wither_user
