@@ -22,13 +22,16 @@ execute if score GAME_PRO time matches 6 run execute as @a at @s run playsound m
 execute if score GAME_PRO time matches 6 run return run function wallwar:system/phase/poison
 
 execute if score GAME_PRO time matches 7 run execute as @a at @s run playsound minecraft:entity.wither.spawn player @s ~ ~ ~ 1 2
-execute if score GAME_PRO time matches 7 run return run function wallwar:system/phase/wither
+execute if score GAME_PRO time matches 7 run return run function wallwar:system/phase/hunger
 
 execute if score GAME_PRO time matches 8 run execute as @a at @s run playsound minecraft:entity.wither.spawn player @s ~ ~ ~ 1 2
-execute if score GAME_PRO time matches 8 run return run function wallwar:system/phase/apple
+execute if score GAME_PRO time matches 8 run return run function wallwar:system/phase/wither
 
 execute if score GAME_PRO time matches 9 run execute as @a at @s run playsound minecraft:entity.wither.spawn player @s ~ ~ ~ 1 2
 execute if score GAME_PRO time matches 9 run return run function wallwar:system/phase/apple
 
-execute if score GAME_PRO time matches 10 run execute as @a at @s run playsound minecraft:entity.wither.spawn player @s ~ ~ ~ 1 2
+execute if score GAME_PRO time matches 10 run execute as @a at @s run playsound minecraft:block.note_block.bell player @s
 execute if score GAME_PRO time matches 10 run return run function wallwar:system/phase/apple
+
+execute if score GAME_PRO time matches 11 run execute as @a at @s run playsound minecraft:entity.wither.spawn player @s ~ ~ ~ 1 2
+execute if score GAME_PRO time matches 11 run return run function wallwar:system/phase/apple

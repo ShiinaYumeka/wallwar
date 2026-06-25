@@ -14,13 +14,14 @@ title @a times 10 20 10
 
 
 scoreboard players set GAME time 99999
-scoreboard players set GAME_PRO time 10
+scoreboard players set GAME_PRO time 11
 
-bossbar set gauge7 max 99999
+bossbar set gauge8 max 99999
 function wallwar:system/bossbar/apple
 
-#function wallwar:system/end/cast
-
+effect clear @a poison
+effect clear @a hunger
+effect clear @a wither
+effect give @a[tag=FIGHT] minecraft:wither infinite 2 true
 title @a title {"translate":"万物凋零！","color":"dark_purple"}
 title @a subtitle {"translate":"是时候结束了……","color":"white"}
-

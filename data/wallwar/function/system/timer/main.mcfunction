@@ -10,11 +10,11 @@ execute if score GAME time matches 20..100 run execute as @a at @s run playsound
 
 
 execute if score GAME_PRO time matches 5.. as 0-0-0-0-1 at @s run function wallwar:death_fight/no_high
-execute if score GAME_PRO time matches 5.. run effect give @a[tag=FIGHT] minecraft:hunger infinite 1
-execute if score GAME_PRO time matches 7 run effect give @a[tag=FIGHT] minecraft:poison infinite 1
-execute if score GAME_PRO time matches 8 run effect give @a[tag=FIGHT] minecraft:wither infinite 1
-execute if score GAME_PRO time matches 9 run effect give @a[tag=FIGHT] minecraft:wither infinite 0
-execute if score GAME_PRO time matches 10 run effect give @a[tag=FIGHT] minecraft:wither infinite 2
+execute if score GAME_PRO time matches 5..7 run effect give @a[tag=FIGHT] minecraft:hunger infinite 1 true
+execute if score GAME_PRO time matches 7 run effect give @a[tag=FIGHT] minecraft:poison infinite 0 true
+execute if score GAME_PRO time matches 8.. run effect give @a[tag=FIGHT] minecraft:hunger infinite 2 true
+execute if score GAME_PRO time matches 9 run effect give @a[tag=FIGHT] minecraft:wither infinite 0 true
+execute if score GAME_PRO time matches 11 run effect give @a[tag=FIGHT] minecraft:wither infinite 2 true
 execute if score GAME_PRO time matches 5.. store result bossbar ocean value run data get entity @n[type=guardian,tag=ocean_bob] Health 1000
 
 

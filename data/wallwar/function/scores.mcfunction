@@ -138,20 +138,26 @@ bossbar set minecraft:gauge4 name "团队增益倒计时"
 bossbar add gauge5 "5"
 bossbar set minecraft:gauge5 color purple
 bossbar set minecraft:gauge5 style progress
-bossbar set minecraft:gauge5 max 2400
+bossbar set minecraft:gauge5 max 1200
 bossbar set minecraft:gauge5 name "全体中毒倒计时"
 
 bossbar add gauge6 "6"
 bossbar set minecraft:gauge6 color purple
 bossbar set minecraft:gauge6 style progress
 bossbar set minecraft:gauge6 max 2400
-bossbar set minecraft:gauge6 name "全体凋零倒计时"
+bossbar set minecraft:gauge6 name "全体饥饿倒计时"
 
 bossbar add gauge7 "7"
 bossbar set minecraft:gauge7 color purple
 bossbar set minecraft:gauge7 style progress
-bossbar set minecraft:gauge7 max 3600
-bossbar set minecraft:gauge7 name "果实刷新倒计时"
+bossbar set minecraft:gauge7 max 1800
+bossbar set minecraft:gauge7 name "全体凋零倒计时"
+
+bossbar add gauge8 "8"
+bossbar set minecraft:gauge8 color purple
+bossbar set minecraft:gauge8 style progress
+bossbar set minecraft:gauge8 max 3600
+bossbar set minecraft:gauge8 name "果实刷新倒计时"
 
 
 scoreboard objectives add HP health

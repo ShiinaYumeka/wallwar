@@ -9,6 +9,7 @@ scoreboard players set GAME_PRO time 6
 
 function wallwar:system/bossbar/poison
 
+effect clear @a wither
 effect clear @a poison
 function wallwar:team_buff/main
 

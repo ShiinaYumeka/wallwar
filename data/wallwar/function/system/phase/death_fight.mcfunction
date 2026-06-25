@@ -35,8 +35,8 @@ tellraw @a ["",{"translate":"---------------------------------------------------
 
 execute if entity @a[tag=marking_team] run function wallwar:system/mark/yes
 
-execute unless score GAME_PRO time matches 6.. as @e[type=item_frame,tag=building_battle] at @s if entity @s[y=-64,dy=154] positioned ~ ~-1 ~ run function wallwar:build/battle/use/main
-execute unless score GAME_PRO time matches 6.. as @e[type=item_frame,tag=building_court] at @s if entity @s[y=30,dy=290] run function wallwar:build/court/mark/main
+execute unless score GAME_PRO time matches 7.. as @e[type=item_frame,tag=building_battle] at @s if entity @s[y=-64,dy=154] positioned ~ ~-1 ~ run function wallwar:build/battle/use/main
+execute unless score GAME_PRO time matches 7.. as @e[type=item_frame,tag=building_court] at @s if entity @s[y=30,dy=290] run function wallwar:build/court/mark/main
 
 #
 #execute as @a[tag=wither_user] at @s run function wallwar:wither/summon

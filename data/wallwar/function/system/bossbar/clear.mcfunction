@@ -8,6 +8,7 @@ bossbar set minecraft:gauge4 players @a
 bossbar set minecraft:gauge5 players @a
 bossbar set minecraft:gauge6 players @a
 bossbar set minecraft:gauge7 players @a
+bossbar set minecraft:gauge8 players @a
 bossbar set minecraft:dead_line players @a
 
 bossbar set minecraft:dead_line visible false
@@ -18,3 +19,4 @@ bossbar set minecraft:gauge4 visible false
 bossbar set minecraft:gauge5 visible false
 bossbar set minecraft:gauge6 visible false
 bossbar set minecraft:gauge7 visible false
+bossbar set minecraft:gauge8 visible false
