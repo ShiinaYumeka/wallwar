@@ -5,7 +5,7 @@
     "key": {
         "1":"minecraft:string"
     },
-    "pattern": ["111"],
+    "pattern": [" 1 ","111"," 1 "],
     "result": {
         "id": "minecraft:cobweb"
     }
