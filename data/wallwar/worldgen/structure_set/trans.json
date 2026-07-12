@@ -1,15 +1,15 @@
 {
   "structures": [
     {
-      "structure": "wallwar:spawn",
+      "structure": "wallwar:trans",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
     "spread_type": "triangular",
-    "spacing": 23,
-    "separation": 14,
-    "salt": 284719365
+    "spacing": 25,
+    "separation": 15,
+    "salt": 618293740
   }
 }

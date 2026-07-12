@@ -1,9 +1,3 @@
 {
-  "processors": [
-    {
-      "processor_type": "nop",
-      "heightmap": "WORLD_SURFACE",
-      "offset": -1
-    }
-]
+  "processors": []
 }

@@ -5,7 +5,7 @@
     "show_notification": false,
     "key": {
         "1":"#minecraft:logs_that_burn",
-        "2":"minecraft:bookshelf",
+        "2":"minecraft:book",
         "3":"minecraft:command_block"
     },
     "pattern": ["111","232","111"],

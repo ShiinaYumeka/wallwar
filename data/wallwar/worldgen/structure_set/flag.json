@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "wallwar:tower",
+      "structure": "wallwar:flag",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 19,
-    "separation": 11,
-    "salt": 928374651
+    "spacing": 14,
+    "separation": 8,
+    "salt": 450198273
   }
 }

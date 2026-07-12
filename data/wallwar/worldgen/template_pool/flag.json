@@ -1,11 +1,11 @@
 {
-  "name": "wallwar:tower",
+  "name": "wallwar:flag",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "wallwar:tower",
+        "location": "wallwar:flag",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

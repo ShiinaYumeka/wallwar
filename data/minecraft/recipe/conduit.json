@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "1":  "minecraft:mycelium",
+    "1":  "minecraft:podzol",
     "2": "#patterns2",
     "3": "#patterns2",
     "4": "#patterns2",
