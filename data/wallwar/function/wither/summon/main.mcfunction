@@ -20,11 +20,7 @@ scoreboard players operation @e[tag=wither] wither_health /= 2 const
 execute if entity @s[tag=building_wither_clock] run difficulty hard
 execute if entity @s[tag=building_wither_book] run function wallwar:wither/summon/book
 
-execute if entity @e[type=item_frame,distance=..2.5,nbt={Item:{components:{"minecraft:custom_data":{building_update_red:1b}}}}] run function wallwar:wither/summon/red
-execute if entity @e[type=item_frame,distance=..2.5,nbt={Item:{components:{"minecraft:custom_data":{building_update_blue:1b}}}}] run function wallwar:wither/summon/blue
-execute if entity @e[type=item_frame,distance=..2.5,nbt={Item:{components:{"minecraft:custom_data":{building_update_yellow:1b}}}}] run function wallwar:wither/summon/yellow
-execute if entity @e[type=item_frame,distance=..2.5,nbt={Item:{components:{"minecraft:custom_data":{building_update_green:1b}}}}] run function wallwar:wither/summon/green
-execute if entity @e[type=item_frame,distance=..2.5,nbt={Item:{components:{"minecraft:custom_data":{building_update_wither:1b}}}}] run function wallwar:wither/summon/wither
+execute if score build_wither tid matches 1..10 run function wallwar:wither/summon/team
 
 tellraw @a [{"translate":"<凋灵> 重新整理，然后再次搭建","color":"gray","bold": true}]
 

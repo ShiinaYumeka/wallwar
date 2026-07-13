@@ -33,7 +33,7 @@ tellraw @a [{"translate":"[战墙] "},{"selector":"@s"},{"translate":" 在本局
 execute unless entity @s[tag=deathmatch_respawn] if score GAME_PRO time matches 5.. run scoreboard players add GAME time 300
 
 gamemode spectator @s
-tag @s remove wither_user
+#tag @s remove wither_user
 
 
 scoreboard players add @s respawn 1
