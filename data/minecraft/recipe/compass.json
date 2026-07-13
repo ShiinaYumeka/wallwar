@@ -9,6 +9,7 @@
     },
     "pattern": ["212","131","212"],
     "result": {
-        "id": "minecraft:compass"
+        "id": "minecraft:compass",
+        "components": {"minecraft:lore":[{"translate":"手持时可显示队友位置","italic": false,"color": "white"}]}
     }
 }
