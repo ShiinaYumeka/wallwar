@@ -10,3 +10,6 @@ execute store result entity @s Item.components.minecraft:lodestone_tracker.targe
 data remove entity @s Item.components."minecraft:lore"
 data remove entity @s Item.components."minecraft:item_name"
 data remove entity @s Item.components."minecraft:custom_data"
+
+data modify entity @s PickupDelay set value 0s
+
