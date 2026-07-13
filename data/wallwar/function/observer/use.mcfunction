@@ -4,13 +4,12 @@ playsound block.fire.extinguish player @a ~ ~ ~
 
 execute as @p[team=!sp,gamemode=!spectator] run tag @s add observe_user
 
-execute if entity @p[tag=observe_user,team=red] as @a[team=!red,gamemode=!spectator] run function wallwar:observer/main
-execute if entity @p[tag=observe_user,team=yellow] as @a[team=!yellow,gamemode=!spectator] run function wallwar:observer/main
-execute if entity @p[tag=observe_user,team=blue] as @a[team=!blue,gamemode=!spectator] run function wallwar:observer/main
-execute if entity @p[tag=observe_user,team=green] as @a[team=!green,gamemode=!spectator] run function wallwar:observer/main
+scoreboard players operation #tid tid = @p[tag=observe_user] tid
+execute as @a[team=!sp,gamemode=!spectator,sort=furthest] unless score @s tid = #tid tid run function wallwar:observer/main
 
-execute if entity @p[tag=observe_user] run data remove entity @s Item.components."minecraft:custom_data"
+execute if entity @p[tag=observe_user] run function wallwar:observer/main2
 
 tag @a remove observe_user
-kill @s
+tag @a remove observer_target_temp
+#kill @s
 
