@@ -20,6 +20,6 @@ summon pig ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:t
 scoreboard players operation @e[tag=new] tid = @s tid
 execute as @e[tag=new] run function wallwar:system/team/join
 
-spreadplayers ~ ~ 2 15 under 315 false @e[tag=new]
+execute at 0-0-0-0-1 run spreadplayers ~ ~ 2 15 under 315 false @e[tag=new]
 
 tag @e[tag=new] remove new
