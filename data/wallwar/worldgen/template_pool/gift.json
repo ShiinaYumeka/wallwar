@@ -6,7 +6,7 @@
       "weight": 1,
       "element": {
         "location": "wallwar:gift",
-        "processors": "minecraft:empty",
+        "processors": "wallwar:underground_tunnel",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
