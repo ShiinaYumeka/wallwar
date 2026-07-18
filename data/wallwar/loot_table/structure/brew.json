@@ -77,7 +77,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:sugar",
+          "name": "minecraft:glass_bottle",
           "weight": 6,
           "functions": [
             {

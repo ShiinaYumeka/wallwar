@@ -26,7 +26,22 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_ingot",
+          "name": "minecraft:redstone",
+          "weight": 14,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0},
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
           "weight": 14,
           "functions": [
             {
@@ -63,8 +78,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 1.0},
+                "max": 16.0,
+                "min": 6.0},
               "function": "minecraft:set_count"
             }
           ]
@@ -80,6 +95,21 @@
                 "type": "minecraft:uniform",
                 "max": 3.0,
                 "min": 1.0},
+              "function": "minecraft:set_count"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 23,
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 9.0,
+                "min": 12.0},
               "function": "minecraft:set_count"
             }
           ]
