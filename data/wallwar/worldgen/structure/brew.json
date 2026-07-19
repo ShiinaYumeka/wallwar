@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#wallwar:brew",
+  "biomes": "#wallwar:wood",
   "step": "underground_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "none",
@@ -9,10 +9,10 @@
   "start_height": {
     "type": "minecraft:uniform",
     "min_inclusive": {
-      "absolute": -50
+      "absolute": -54
     },
     "max_inclusive": {
-      "absolute": 60
+      "absolute": 30
     }
   },
   "max_distance_from_center": 80,

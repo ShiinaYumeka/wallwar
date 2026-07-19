@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#wallwar:spawn",
+  "biomes": "#wallwar:wood",
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
@@ -9,7 +9,7 @@
   "start_height": {
     "type": "minecraft:constant",
     "value": {
-      "absolute": -20
+      "absolute": 1
     }
   },
   "project_start_to_heightmap": "WORLD_SURFACE",

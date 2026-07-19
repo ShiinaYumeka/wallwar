@@ -1,0 +1,40 @@
+{
+  "structures": [
+    {
+      "structure": "wallwar:electric",
+      "weight": 2
+    },
+    {
+      "structure": "wallwar:farmland",
+      "weight": 2
+    },
+    {
+      "structure": "wallwar:flag",
+      "weight": 2
+    },
+    {
+      "structure": "wallwar:respawn",
+      "weight": 2
+    },
+    {
+      "structure": "wallwar:spawn",
+      "weight": 2
+    },
+    {
+      "structure": "wallwar:tower",
+      "weight": 2
+    },
+    {
+      "structure": "wallwar:trans",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spread_type": "linear",
+    "frequency": 1,
+    "spacing": 9,
+    "separation": 5,
+    "salt": 739201845
+  }
+}

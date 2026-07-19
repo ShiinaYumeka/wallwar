@@ -16,6 +16,14 @@
           },
           {
             "type": "minecraft:item",
+            "name": "minecraft:water_bucket"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lava_bucket"
+          },
+          {
+            "type": "minecraft:item",
             "name": "minecraft:purpur_block",
             "functions": [
               {
@@ -83,8 +91,8 @@
               {
                 "function": "set_count",
                 "count": {
-                  "min": 4.0,
-                  "max": 8.0
+                  "min": 12.0,
+                  "max": 32.0
                 }
               }
             ]
@@ -96,8 +104,8 @@
               {
                 "function": "set_count",
                 "count": {
-                  "min": 4.0,
-                  "max": 8.0
+                  "min": 12.0,
+                  "max": 32.0
                 }
               }
             ]
@@ -109,8 +117,21 @@
               {
                 "function": "set_count",
                 "count": {
-                  "min": 4.0,
-                  "max": 8.0
+                  "min": 12.0,
+                  "max": 32.0
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:beetroot_seeds",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": {
+                  "min": 12.0,
+                  "max": 32.0
                 }
               }
             ]
@@ -122,8 +143,8 @@
               {
                 "function": "set_count",
                 "count": {
-                  "min": 4.0,
-                  "max": 8.0
+                  "min": 12.0,
+                  "max": 32.0
                 }
               }
             ]
@@ -131,7 +152,7 @@
           {
             "type": "minecraft:loot_table",
             "value": "archaeology/shovel/epic2",
-            "weight": 15
+            "weight": 13
           }
         ],
         "rolls": 1.0

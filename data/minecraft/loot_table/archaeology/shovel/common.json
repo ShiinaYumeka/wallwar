@@ -111,12 +111,12 @@
           {
             "type": "minecraft:item",
             "name": "minecraft:sand",
-            "weight": 10
+            "weight": 1
           },
           {
             "type": "minecraft:loot_table",
             "value": "archaeology/shovel/rare",
-            "weight": 2
+            "weight": 1
           }
         ],
         "rolls": 1.0

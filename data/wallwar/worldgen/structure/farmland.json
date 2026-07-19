@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#wallwar:farmland",
+  "biomes": "#wallwar:wood",
   "step": "surface_structures",
   "spawn_overrides": {
     "monster": {

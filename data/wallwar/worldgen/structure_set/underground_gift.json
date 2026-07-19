@@ -1,17 +1,29 @@
 {
   "structures": [
     {
+      "structure": "wallwar:wood",
+      "weight": 10
+    },
+    {
       "structure": "wallwar:gift",
+      "weight": 10
+    },
+    {
+      "structure": "wallwar:prison",
+      "weight": 3
+    },
+    {
+      "structure": "wallwar:brew",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 1123581321,
+    "salt": 554433221,
     "frequency": 1,
     "frequency_reduction_method": "default",
     "spread_type": "linear",
-    "spacing": 5,
+    "spacing": 3,
     "separation": 2
   }
 }
