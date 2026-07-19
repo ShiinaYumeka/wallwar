@@ -152,7 +152,7 @@
           {
             "type": "minecraft:loot_table",
             "value": "archaeology/shovel/epic2",
-            "weight": 13
+            "weight": 12
           }
         ],
         "rolls": 1.0
