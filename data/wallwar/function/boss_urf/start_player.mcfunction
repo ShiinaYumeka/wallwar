@@ -16,3 +16,5 @@ give @s water_bucket 1
 give @s minecraft:cooked_beef 16
 give @s chain_command_block 1
 give @s command_block 4
+
+give @s bundle[bundle_contents=[{id:cobblestone,count:8},{id:bread,count:5},{id:apple,count:5},{id:bone,count:2},{id:feather,count:4}]]
