@@ -6,9 +6,8 @@
     "X":  "minecraft:water_bucket"
   },
   "pattern": [
-    " # ",
-    "#X#",
-    " # "
+    "#",
+    "X"
   ],
   "result": {
     "count": 1,
