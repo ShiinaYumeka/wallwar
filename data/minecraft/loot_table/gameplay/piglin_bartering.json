@@ -11,7 +11,8 @@
         },
         {
           "type": "minecraft:item",
-          "functions": [{
+          "functions": [
+            {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
@@ -156,7 +157,8 @@
                 "min": 5.0
               },
               "function": "minecraft:set_count"
-            }]
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -180,7 +182,54 @@
           "functions": [
             {
               "function": "set_components",
-              "components": {"minecraft:item_name":{"translate":"火焰冲击","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"召唤一个可以被打出的小火球","italic": false,"color": "red"},{"translate":"----------------------------","italic": false,"color": "gray"},{"translate":"生命值：","italic": false,"color": "gray"},{"translate":"持续时间：","italic": false,"color": "gray"},{"translate":"武器：","italic": false,"color": "gray"}],"entity_data": {"id": "fireball","CustomNameVisible": true,"CustomName": {"translate":"火焰冲击"},"ExplosionPower": 1},"max_stack_size": 16}
+              "components": {
+                "custom_model_data": {
+                  "floats": [
+                    1
+                  ]
+                },
+                "minecraft:item_name": {
+                  "translate": "火焰冲击",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "召唤一个可以被打出的小火球",
+                    "italic": false,
+                    "color": "red"
+                  },
+                  {
+                    "translate": "----------------------------",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "生命值：",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "持续时间：",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "武器：",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "entity_data": {
+                  "id": "fireball",
+                  "CustomNameVisible": true,
+                  "CustomName": {
+                    "translate": "火焰冲击"
+                  },
+                  "ExplosionPower": 1
+                },
+                "max_stack_size": 16
+              }
             }
           ],
           "weight": 40

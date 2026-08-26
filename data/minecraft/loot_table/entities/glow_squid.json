@@ -31,7 +31,6 @@
       ],
       "rolls": 1.0
     },
-    
     {
       "bonus_rolls": 0.0,
       "conditions": [
@@ -54,26 +53,34 @@
           "type": "minecraft:item",
           "functions": [
             {
-                "function": "set_components",
-                "components": {
-                    "attribute_modifiers": [
-                        {
-                            "id": "bat_wing",
-                            "type": "water_movement_efficiency",
-                            "amount": 0.05,
-                            "operation": "add_value",
-                            "slot": "offhand"
-                        },
-                        {
-                            "id": "bat_wing",
-                            "type": "oxygen_bonus",
-                            "amount": 0.05,
-                            "operation": "add_multiplied_base",
-                            "slot": "offhand"
-                        }
-                    ],
-                    "item_name": {"text": "荧光核心","color": "light_purple"}
+              "function": "set_components",
+              "components": {
+                "custom_model_data": {
+                  "floats": [
+                    1
+                  ]
+                },
+                "attribute_modifiers": [
+                  {
+                    "id": "bat_wing",
+                    "type": "water_movement_efficiency",
+                    "amount": 0.05,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  },
+                  {
+                    "id": "bat_wing",
+                    "type": "oxygen_bonus",
+                    "amount": 0.05,
+                    "operation": "add_multiplied_base",
+                    "slot": "offhand"
+                  }
+                ],
+                "item_name": {
+                  "text": "荧光核心",
+                  "color": "light_purple"
                 }
+              }
             }
           ],
           "name": "minecraft:heart_of_the_sea"

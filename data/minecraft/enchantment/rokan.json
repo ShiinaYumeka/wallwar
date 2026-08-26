@@ -1,10 +1,11 @@
 {
   "anvil_cost": 1,
   "description": {
-    "translate": "双生·阴","color": "green"
+    "translate": "双生·阴",
+    "color": "green"
   },
   "effects": {
-    "tick":[
+    "tick": [
       {
         "effect": {
           "type": "run_function",
@@ -14,7 +15,22 @@
           "condition": "entity_properties",
           "entity": "this",
           "predicate": {
-            "equipment": {"offhand": {"components": {"minecraft:custom_name":{"translate":"白楼","italic": false,"color": "aqua"}}}}
+            "equipment": {
+              "offhand": {
+                "components": {
+                  "custom_model_data": {
+                    "floats": [
+                      5
+                    ]
+                  },
+                  "minecraft:custom_name": {
+                    "translate": "白楼",
+                    "italic": false,
+                    "color": "aqua"
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -33,7 +49,15 @@
           "condition": "entity_properties",
           "entity": "attacker",
           "predicate": {
-            "equipment": {"offhand": {"components": {"custom_data": {"haku_sword":1}}}}
+            "equipment": {
+              "offhand": {
+                "components": {
+                  "custom_data": {
+                    "haku_sword": 1
+                  }
+                }
+              }
+            }
           }
         }
       }

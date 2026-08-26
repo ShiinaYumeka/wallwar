@@ -14,7 +14,7 @@ item replace entity @s armor.chest with leather_chestplate[attribute_modifiers=[
 
 item replace entity @s armor.head with wither_skeleton_skull[attribute_modifiers=[{id:"leather_head",amount:3,operation:"add_value",type:"armor",slot:"head"}],enchantments={binding_curse:1,wither:1,vanishing_ench:1,protection:7},unbreakable={}]
 
-item replace entity @s weapon.mainhand with stone_sword[unbreakable={},custom_name={"translate": "凋灵骷髅佩剑","color": "dark_gray","italic": false},enchantments={vanishing_ench:1,wither_:3,sharpness:5},custom_data={"wither_player_blade":1b}]
+item replace entity @s weapon.mainhand with stone_sword[custom_model_data={floats:[2]},unbreakable={},custom_name={"translate": "凋灵骷髅佩剑","color": "dark_gray","italic": false},enchantments={vanishing_ench:1,wither_:3,sharpness:5},custom_data={"wither_player_blade":1b}]
 
 execute if score GAME_PRO time matches 5.. run spreadplayers ~ ~ 3 10 under 315 false @s
 execute unless score GAME_PRO time matches 5.. run spreadplayers ~ ~ 3 10 under 249 false @s

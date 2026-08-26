@@ -1,6 +1,6 @@
 
 effect clear @s wither
-execute unless items entity @s weapon.* stone_sword run item replace entity @s weapon.mainhand with stone_sword[unbreakable={},custom_name={"translate": "凋灵骷髅佩剑","color": "dark_gray","italic": false},enchantments={vanishing_ench:1,wither_:3,sharpness:5},custom_data={"wither_player_blade":1b}]
+execute unless items entity @s weapon.* stone_sword run item replace entity @s weapon.mainhand with stone_sword[custom_model_data={floats:[2]},unbreakable={},custom_name={"translate": "凋灵骷髅佩剑","color": "dark_gray","italic": false},enchantments={vanishing_ench:1,wither_:3,sharpness:5},custom_data={"wither_player_blade":1b}]
 #item replace entity @s container.9 with air
 #item replace entity @s container.10 with air
 #item replace entity @s container.11 with air
