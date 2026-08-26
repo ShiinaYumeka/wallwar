@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "show_notification": false,
+    "key": {
+        "I": "minecraft:iron_block",
+        "L": "minecraft:soul_soil",
+        "G": "minecraft:gold_block",
+        "N": "minecraft:netherite_scrap",
+        "C": "minecraft:compass",
+        "B": "minecraft:blaze_rod",
+        "D": "minecraft:diamond_block",
+        "O": "minecraft:gilded_blackstone",
+        "P": "minecraft:lapis_block"
+    },
+    "pattern": [
+        "ILG",
+        "NCB",
+        "DOP"
+    ],
+    "result": {
+        "id": "minecraft:ender_eye",
+        "count": 1,
+        "components": {
+            "minecraft:item_name": {"translate": "猎人之眼", "italic": false, "color": "light_purple"},
+            "minecraft:lore": [
+                {"translate": "猎人专属", "italic": false, "color": "red"},
+                {"translate": "丢弃后传送到当前追踪目标 200 格内", "italic": false, "color": "gray"}
+            ],
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:max_stack_size": 16,
+            "minecraft:rarity": "epic",
+            "minecraft:custom_data": {"hunter_eye": 1}
+        }
+    }
+}

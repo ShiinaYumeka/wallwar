@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {"translate": "追踪器", "italic": false, "color": "white"}
+            },
+            {
+              "function": "minecraft:set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {"translate": "手持更新,丢弃选择目标", "color": "gray", "italic": false}
+              ]
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lodestone_tracker": {
+                  "target": {
+                    "pos": [0, 0, 0],
+                    "dimension": "minecraft:overworld"
+                  },
+                  "tracked": false
+                },
+                "minecraft:enchantments": {
+                  "minecraft:vanishing_curse": 1
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": ["minecraft:enchantments"]
+                },
+                "minecraft:custom_data": {
+                  "tracker": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

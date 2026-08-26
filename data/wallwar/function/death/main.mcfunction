@@ -1,8 +1,10 @@
 
 
-
 scoreboard players set @s death 0
 scoreboard players set @s invisible 10
+
+execute if score #Hunter_MODE time matches 1.. if entity @s[team=green,tag=FIGHT] run return run function wallwar:death/out
+execute if score #Hunter_MODE time matches 1.. if entity @s[team=red,tag=FIGHT] run return run function wallwar:hunter/death
 
 execute if entity @s[tag=wither_player] run return run function wallwar:death/wither
 execute if entity @s[tag=FIGHT] run return run function wallwar:death/out

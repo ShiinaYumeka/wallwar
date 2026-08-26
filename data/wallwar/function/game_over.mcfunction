@@ -39,5 +39,13 @@ tellraw @a [{"translate":"------===========","color":"white"},{"translate":"====
 
 
 tag @a remove FIGHT
+tag @a remove hunter_player
+tag @a remove runner_player
+recipe take @a wallwar:hunter/eye
+
+scoreboard players reset #Hunter_MODE time
+scoreboard players reset #hunter_freeze time
+scoreboard players reset #hunter_freeze_left time
+bossbar set wallwar:hunter_freeze visible false
 
 kill @e[tag=wither]

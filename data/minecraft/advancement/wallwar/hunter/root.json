@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "hunter_mode": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "hidden": true,
+    "description": {
+      "translate": "猎人模式专属进度"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:compass"
+    },
+    "title": {
+      "translate": "猎人模式"
+    }
+  },
+  "requirements": [
+    [
+      "hunter_mode"
+    ]
+  ],
+  "sends_telemetry_event": false
+}

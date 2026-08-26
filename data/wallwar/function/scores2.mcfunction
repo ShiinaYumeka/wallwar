@@ -37,6 +37,17 @@ scoreboard objectives remove sid
 scoreboard objectives remove suicide
 scoreboard objectives remove tutorial
 
+scoreboard objectives remove hunter_join
+scoreboard objectives remove runner_join
+scoreboard objectives remove hunter_freeze
+scoreboard objectives remove hunter_uid
+scoreboard objectives remove hunter_tracking
+scoreboard objectives remove hunter_drop_compass
+scoreboard objectives remove hunter_drop_eye
+scoreboard objectives remove hunter_use_eye
+scoreboard objectives remove hunter_temp
+bossbar remove wallwar:hunter_freeze
+
 scoreboard objectives remove const
 
 team remove red
