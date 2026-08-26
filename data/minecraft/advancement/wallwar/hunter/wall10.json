@@ -1,0 +1,204 @@
+{
+  "parent": "minecraft:wallwar/hunter/root",
+  "criteria": {
+    "axe_root": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:wallwar/root": true
+            }
+          }
+        }
+      }
+    },
+    "dig_root": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:wallwar/mine/tool2__": true
+            }
+          }
+        }
+      }
+    },
+    "farm_root": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:wallwar/dig/fireball2": true
+            }
+          }
+        }
+      }
+    },
+    "fish_root": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:wallwar/axe/axe3": true
+            }
+          }
+        }
+      }
+    },
+    "mine_root": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:wallwar/head/respawn": true
+            }
+          }
+        }
+      }
+    },
+    "head_root": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:wallwar/misc/ender_chest": true
+            }
+          }
+        }
+      }
+    },
+    "ender_pearl": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:wallwar/farm/hoe2": true
+            }
+          }
+        }
+      }
+    },
+    "cart": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:wallwar/fish/rod2": true
+            }
+          }
+        }
+      }
+    },
+    "smoker": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:wallwar/misc/gosky": true
+            }
+          }
+        }
+      }
+    },
+    "netherite_armor": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:wallwar/mine/furnace": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "作为逃者完成以下10个战墙进度：\n·获得苹果\n·用完一把掘石思洞客\n·制作火球术\n·制作审判之日\n·制作坚毅之心\n·制作末影箱\n·制作专业农耕锄\n·制作海洋钓竿\n·到达Y=256以上\n·制作高速熔炉\n奖励：连锁命令方块x1、钻石x32"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:brick_wall"
+    },
+    "title": {
+      "translate": "战墙精进"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "function": "wallwar:hunter/adv/reward_chain"
+  },
+  "requirements": [
+    ["axe_root"],
+    ["dig_root"],
+    ["farm_root"],
+    ["fish_root"],
+    ["mine_root"],
+    ["head_root"],
+    ["ender_pearl"],
+    ["cart"],
+    ["smoker"],
+    ["netherite_armor"]
+  ],
+  "sends_telemetry_event": true
+}

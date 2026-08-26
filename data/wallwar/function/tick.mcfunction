@@ -1,5 +1,7 @@
 
-execute if score GAMEMODE time matches 1..2 run function wallwar:system/timer/main
+execute if score #Hunter_MODE time matches 1.. run function wallwar:hunter/tick
+
+execute if score GAMEMODE time matches 1..2 unless score #Hunter_MODE time matches 1.. run function wallwar:system/timer/main
 
 
 scoreboard players add #recipe time 1

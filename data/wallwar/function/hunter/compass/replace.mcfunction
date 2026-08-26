@@ -1,0 +1,2 @@
+
+$item replace entity @s weapon.mainhand with minecraft:compass[custom_name={"translate":"追踪器","italic":false,"color":"white"},lore=[{"translate":"手持更新,丢弃选择目标","color":"gray","italic":false}],lodestone_tracker={target:{pos:[I;$(x),$(y),$(z)],dimension:"$(dim)"},tracked:false},enchantments={"minecraft:vanishing_curse":1},tooltip_display={hidden_components:["minecraft:enchantments"]},custom_data={tracker:1b}]

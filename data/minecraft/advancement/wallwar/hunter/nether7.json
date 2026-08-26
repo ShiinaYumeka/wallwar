@@ -1,0 +1,150 @@
+{
+  "parent": "minecraft:wallwar/hunter/root",
+  "criteria": {
+    "nether_root": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:story/enter_the_nether": true
+            }
+          }
+        }
+      }
+    },
+    "find_fortress": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:nether/loot_bastion": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_blaze_rod": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:nether/obtain_blaze_rod": true
+            }
+          }
+        }
+      }
+    },
+    "find_bastion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:nether/obtain_ancient_debris": true
+            }
+          }
+        }
+      }
+    },
+    "obtain_ancient_debris": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:nether/return_to_sender": true
+            }
+          }
+        }
+      }
+    },
+    "use_lodestone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:nether/fast_travel": true
+            }
+          }
+        }
+      }
+    },
+    "get_wither_skull": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "player",
+          "team": "green",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["survival"],
+            "advancements": {
+              "minecraft:wallwar/hunter/root": true,
+              "minecraft:nether/explore_nether": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "作为逃者完成以下7个下界进度：\n【勇往直下】\n【战猪】\n【与火共舞】\n【深藏不露】\n【见鬼去吧】\n【曲速泡】\n【热门景点】\n奖励：命令方块x1"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_ingot"
+    },
+    "title": {
+      "translate": "下界巡礼"
+    },
+    "frame": "challenge"
+  },
+  "rewards": {
+    "function": "wallwar:hunter/adv/reward_command"
+  },
+  "requirements": [
+    ["nether_root"],
+    ["find_fortress"],
+    ["obtain_blaze_rod"],
+    ["find_bastion"],
+    ["obtain_ancient_debris"],
+    ["use_lodestone"],
+    ["get_wither_skull"]
+  ],
+  "sends_telemetry_event": true
+}

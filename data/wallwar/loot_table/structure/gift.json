@@ -155,7 +155,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
+          "name": "minecraft:copper_sword",
           "weight": 20,
           "functions": [
             {
@@ -233,71 +233,73 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_helmet",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 5.0,
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 5.0,
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_leggings",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 5.0,
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_boots",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 5.0,
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
           "type": "minecraft:empty",
-          "weight": 102
+          "weight": 30
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_ore",
-          "weight": 68
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_helmet",
-          "weight": 57,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 5.0,
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_chestplate",
-          "weight": 63,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 5.0,
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_leggings",
-          "weight": 49,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 5.0,
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_boots",
-          "weight": 53,
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 5.0,
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
+          "weight": 60
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
-          "weight": 20
+          "weight": 10
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
+        "max": 4.0,
         "min": 1.0
       }
     }

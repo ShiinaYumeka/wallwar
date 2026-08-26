@@ -54,6 +54,22 @@ scoreboard objectives add nightvision trigger
 scoreboard objectives add suicide trigger
 scoreboard objectives add tutorial trigger
 
+scoreboard objectives add hunter_join trigger
+scoreboard objectives add runner_join trigger
+scoreboard objectives add hunter_freeze trigger
+scoreboard objectives add hunter_uid dummy
+scoreboard objectives add hunter_tracking dummy
+scoreboard objectives add hunter_drop_compass minecraft.dropped:minecraft.compass
+scoreboard objectives add hunter_drop_eye minecraft.dropped:minecraft.ender_eye
+scoreboard objectives add hunter_use_eye minecraft.used:minecraft.ender_eye
+scoreboard objectives add hunter_temp dummy
+scoreboard players set #hunter_uid hunter_uid 0
+
+bossbar add wallwar:hunter_freeze ""
+bossbar set wallwar:hunter_freeze color blue
+bossbar set wallwar:hunter_freeze style progress
+bossbar set wallwar:hunter_freeze visible false
+
 scoreboard objectives add const dummy
 scoreboard players set 2 const 2
 scoreboard players set 3 const 3

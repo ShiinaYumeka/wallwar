@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "wallwar:hunter/eye"
+      }
+    }
+  },
+  "rewards": {
+    "function": "wallwar:hunter/eye/crafted"
+  }
+}

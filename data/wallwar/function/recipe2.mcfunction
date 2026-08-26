@@ -318,6 +318,7 @@ recipe give @s wallwar:wither/craft
 recipe give @s wallwar:wither/light
 
 recipe give @s wallwar:boss/command
+execute if score #Hunter_MODE time matches 1.. if entity @s[tag=hunter_player] run recipe give @s wallwar:hunter/eye
 #execute unless score @s recipe matches 2.. run 
 execute unless score @s recipe matches 1.. run return fail
 
