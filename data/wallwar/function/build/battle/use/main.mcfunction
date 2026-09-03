@@ -10,4 +10,6 @@ execute if data entity @e[tag=building_battle_selected,limit=1] Item{id:"minecra
 execute if data entity @e[tag=building_battle_selected,limit=1] Item{id:"minecraft:string"} run function wallwar:build/battle/use/string
 execute if data entity @e[tag=building_battle_selected,limit=1] Item{id:"minecraft:apple"} run function wallwar:build/battle/use/apple
 
+execute if entity @e[tag=building_battle_apple,limit=1] as @a[team=!sp] if score @s tid = build_battle tid run effect give @s absorption infinite 4 true
+
 kill @e[tag=building_battle_selected]

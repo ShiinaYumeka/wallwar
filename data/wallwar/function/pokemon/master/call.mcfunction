@@ -2,7 +2,7 @@
 execute store result score #temp sid run data get entity @s Item.components."minecraft:custom_data".sid 1
 execute as @e[tag=pokemon_master_summon,sort=nearest] if score @s sid = #temp sid run tag @s add pokemon_target
 
-data modify entity @s Item merge value {id:"sniffer_egg",count:1b,components:{"max_stack_size":1,"item_name":{"translate":"大师球","italic": false,"color": "light_purple"},"minecraft:custom_data":{"wallwar_item":1b,"pokemon_master":1b,pokemon_entity:{is:1b,team:"",id:"",nbt:{}}}}}
+data modify entity @s Item merge value {id:"sniffer_egg",count:1b,components:{custom_model_data:{floats:[1]},"max_stack_size":1,"item_name":{"translate":"大师球","italic": false,"color": "light_purple"},"minecraft:custom_data":{"wallwar_item":1b,"pokemon_master":1b,pokemon_entity:{is:1b,team:"",id:"",nbt:{}}}}}
 
 execute unless entity @e[tag=pokemon_target] run return run function wallwar:pokemon/master/call2
 

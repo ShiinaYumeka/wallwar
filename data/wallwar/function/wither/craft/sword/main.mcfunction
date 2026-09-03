@@ -15,4 +15,4 @@ item replace entity @s armor.chest with leather_chestplate[attribute_modifiers=[
 item replace entity @s armor.head with wither_skeleton_skull[attribute_modifiers=[{id:"leather_head",amount:3,operation:"add_value",type:"armor",slot:"head"},{id:"leather_head",amount:2,operation:"add_value",type:"armor_toughness",slot:"head"}],enchantments={protection:7,vanishing_ench:1,binding_curse:1},unbreakable={}]
 
 
-give @s stone_sword[unbreakable={},custom_name={"translate": "凋灵骷髅佩剑","color": "dark_gray","italic": false},enchantments={vanishing_ench:1,wither_:3,sharpness:5}]
+give @s stone_sword[custom_model_data={floats:[2]},unbreakable={},custom_name={"translate": "凋灵骷髅佩剑","color": "dark_gray","italic": false},enchantments={vanishing_ench:1,wither_:3,sharpness:5}]
