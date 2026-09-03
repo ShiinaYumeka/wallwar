@@ -50,9 +50,9 @@
       ],
       "enchantments": {
         "piercing": 1,
-        "focus": 2,
+        "focus": 3,
         "nogravity": 1,
-        "power": 2,
+        "power": 1,
         "heavy": 10,
         "expensive_curse": 1
       },
