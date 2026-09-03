@@ -364,6 +364,27 @@ def vanilla_fallback(item: str) -> dict:
     return {"type": "minecraft:model", "model": f"minecraft:item/{item}"}
 
 
+def is_blockish_fallback(fallback: dict) -> bool:
+    """Vanilla inventory already uses a 3D block or special (head/conduit) model."""
+    if not isinstance(fallback, dict):
+        return False
+    t = fallback.get("type", "")
+    if t == "minecraft:special":
+        return True
+    if t == "minecraft:model":
+        m = fallback.get("model", "")
+        return isinstance(m, str) and m.startswith("minecraft:block/")
+    return False
+
+
+def fallback_model_label(fallback: dict) -> str:
+    if fallback.get("type") == "minecraft:special":
+        inner = fallback.get("model") or {}
+        kind = inner.get("kind") or inner.get("type", "special")
+        return f"vanilla 3D ({kind})"
+    return fallback.get("model", "")
+
+
 def extra_vanilla_keys(item: str) -> dict:
     v = load_vanilla_item(item)
     if not v:
@@ -511,11 +532,16 @@ def generate_rp(groups: dict) -> None:
         entries = []
         kind = ents[0]["kind"]
         extra_root = extra_vanilla_keys(lookup)
+        fallback = vanilla_fallback(lookup)
 
         for e in ents:
             slug = e["model"].split("/")[-1]
             tex_ns = f"minecraft:{e['model']}"
             keep = e["model"] in KEEP_TEXTURE or e["name"] in REUSE_TEXTURE
+
+            if is_blockish_fallback(fallback):
+                entries.append({"threshold": e["cmd"], "model": json.loads(json.dumps(fallback))})
+                continue
 
             if kind == "bow":
                 prefix = slug
@@ -633,7 +659,7 @@ def generate_rp(groups: dict) -> None:
                 "type": "minecraft:range_dispatch",
                 "property": "minecraft:custom_model_data",
                 "entries": entries,
-                "fallback": vanilla_fallback(lookup),
+                "fallback": fallback,
             }
         }
         item_def.update(extra_root)
@@ -798,11 +824,16 @@ def write_map(groups):
     rows.sort(key=lambda x: (x["lookup"], x["cmd"]))
     for e in rows:
         note = ""
+        model = e["model"]
+        fb = vanilla_fallback(e["lookup"])
+        if is_blockish_fallback(fb):
+            model = fallback_model_label(fb)
+            note = "block/special 3D placeholder"
         if e["name"] in LOOKUP_OVERRIDE:
             note = "item_model redirect"
         if e["model"] in KEEP_TEXTURE:
             note = (note + "; existing texture").strip("; ")
-        lines.append(f"{e['name']}\t{e['base']}\t{e['lookup']}\t{e['cmd']}\t{e['model']}\t{note}")
+        lines.append(f"{e['name']}\t{e['base']}\t{e['lookup']}\t{e['cmd']}\t{model}\t{note}")
     (RP / "cmd_map.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
     return len(rows)
 

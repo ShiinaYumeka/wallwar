@@ -7,7 +7,6 @@ RP = Path(r"d:\minecraft\.minecraft\versions\1.21.11-Fabric 0.18.2\resourcepacks
 FAITH = Path(r"d:\minecraft\.minecraft\versions\1.21.11-Fabric 0.18.2\resourcepacks\Faithful 64x - December 2025 Release")
 DP = Path(__file__).resolve().parents[1]
 FTI = FAITH / "assets/minecraft/textures/item"
-FTB = FAITH / "assets/minecraft/textures/block"
 TEX = RP / "assets/minecraft/textures/item"
 MDL = RP / "assets/minecraft/models/item"
 ITM = RP / "assets/minecraft/items"
@@ -64,28 +63,16 @@ def write_item(name: str, entries: list, fallback_model: dict | None = None):
 copy(FTI / "compass_00.png", TEX / "prop/compass_1.png")
 copy(FTI / "compass_00.png", TEX / "prop/compass_2.png")
 copy(FTI / "recovery_compass_00.png", TEX / "prop/recovery_compass_1.png")
-copy(FTB / "suspicious_sand_0.png", TEX / "build/suspicious_sand_1.png")
-copy(FTB / "suspicious_gravel_0.png", TEX / "build/suspicious_gravel_1.png")
-pig = FTI / "piglin_head.png"
-if not pig.exists():
-    # entity texture as last resort: item/piglin_head from block-like, or gold block
-    cand = list((FAITH / "assets/minecraft/textures/entity/piglin").glob("*.png")) if (FAITH / "assets/minecraft/textures/entity/piglin").exists() else []
-    pig = cand[0] if cand else FTI / "golden_helmet.png"
-copy(pig, TEX / "build/piglin_head_1.png")
 
 for rel, parent in [
     ("prop/compass_1", "minecraft:item/generated"),
     ("prop/compass_2", "minecraft:item/generated"),
     ("prop/recovery_compass_1", "minecraft:item/generated"),
-    ("build/suspicious_sand_1", "minecraft:item/generated"),
-    ("build/suspicious_gravel_1", "minecraft:item/generated"),
-    ("build/piglin_head_1", "minecraft:item/generated"),
     ("prop/gold_nugget_2", "minecraft:item/generated"),
     ("prop/gold_nugget_3", "minecraft:item/generated"),
     ("prop/golden_apple_1", "minecraft:item/generated"),
     ("prop/tropical_fish_1", "minecraft:item/generated"),
     ("prop/tropical_fish_2", "minecraft:item/generated"),
-    ("prop/player_head_1", "minecraft:item/generated"),
 ]:
     model(rel, parent, rel)
 
@@ -94,7 +81,6 @@ copy(FTI / "gold_nugget.png", TEX / "prop/gold_nugget_3.png")
 copy(FTI / "golden_apple.png", TEX / "prop/golden_apple_1.png")
 copy(FTI / "tropical_fish.png", TEX / "prop/tropical_fish_1.png")
 copy(FTI / "tropical_fish.png", TEX / "prop/tropical_fish_2.png")
-copy(FTI / "golden_apple.png", TEX / "prop/player_head_1.png")
 
 # compass.json already has cmd 1; add 2
 add_entry(ITM / "compass.json", 2, "item/prop/compass_2")
@@ -102,14 +88,6 @@ add_entry(ITM / "gold_nugget.json", 2, "item/prop/gold_nugget_2")
 add_entry(ITM / "gold_nugget.json", 3, "item/prop/gold_nugget_3")
 write_item("golden_apple", [(1, "item/prop/golden_apple_1")])
 write_item("tropical_fish", [(1, "item/prop/tropical_fish_1"), (2, "item/prop/tropical_fish_2")])
-
-# player_head: wrap vanilla special with range_dispatch
-fallback = {
-    "type": "minecraft:special",
-    "base": "minecraft:item/template_skull",
-    "model": {"type": "minecraft:player_head"},
-}
-write_item("player_head", [(1, "item/prop/player_head_1")], fallback)
 
 # --- datapack CMD inserts ---
 EXTRA = {
@@ -194,7 +172,7 @@ extra_lines = [
     "小垃圾零食\tgold_nugget\tgold_nugget\t3\titem/prop/gold_nugget_3\t",
     "热带鱼\ttropical_fish\ttropical_fish\t1\titem/prop/tropical_fish_1\t",
     "虎纹鲨鱼\ttropical_fish\ttropical_fish\t2\titem/prop/tropical_fish_2\t",
-    "附魔 金苹果\tplayer_head\tplayer_head\t1\titem/prop/player_head_1\t",
+    "附魔 金苹果\tplayer_head\tplayer_head\t1\tvanilla 3D (minecraft:player_head)\tblock/special 3D placeholder",
 ]
 text = mp.read_text(encoding="utf-8")
 for line in extra_lines:

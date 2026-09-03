@@ -14,5 +14,5 @@ execute if entity @s[tag=building_battle_flint] as @a[team=!sp] run function wal
 execute if entity @s[tag=building_battle_leather] as @a[team=!sp] run function wallwar:build/battle/effect/leather
 execute if entity @s[tag=building_battle_bucket] as @a[team=!sp] run function wallwar:build/battle/effect/bucket
 execute if entity @s[tag=building_battle_iron] as @a[team=!sp] run function wallwar:build/battle/effect/iron
-execute if entity @s[tag=building_battle_string] as @a[team=!sp] run function wallwar:build/battle/effect/string
+execute if entity @s[tag=building_battle_string] run function wallwar:build/battle/effect/string
 

@@ -6,4 +6,4 @@ particle flame ~ ~ ~ 0 0 0 0.4 30
 
 tellraw @a {"translate": "","color": "gray","bold": true}
 tellraw @a {"translate": "沉闷的声音：惩罚恶人，用以慰祭亡魂","color": "gray","bold": true}
-tellraw @a {"translate": "“永恒的诅咒”（当你被玩家击杀后，击杀你的玩家减少2点体力上限。最多减少4）","color": "gray","bold": true}
+tellraw @a {"translate": "“永恒的诅咒”（当你被玩家击杀后，击杀你的玩家减少2点体力上限。最多减少至10）","color": "gray","bold": true}
