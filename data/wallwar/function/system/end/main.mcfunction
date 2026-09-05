@@ -1,4 +1,5 @@
 
+execute on vehicle run return fail
 execute at @s if block ~ ~ ~ water run return fail
 
 effect clear @s resistance
