@@ -42,7 +42,7 @@
           "color": "gray"
         },
         {
-          "translate": "生命值：30",
+          "translate": "生命值：42",
           "italic": false,
           "color": "gray"
         },
@@ -64,7 +64,7 @@
         "attributes": [
           {
             "id": "max_health",
-            "base": 30
+            "base": 42
           },
           {
             "id": "safe_fall_distance",

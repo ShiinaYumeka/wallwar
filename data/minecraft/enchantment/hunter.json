@@ -4,25 +4,6 @@
     "translate": "狩猎"
   },
   "effects": {
-    "damage": [
-      {
-        "effect": {
-          "type": "add",
-          "value": {
-            "type": "linear",
-            "base": 2.5,
-            "per_level_above_first": 2.5
-          }
-        },
-        "requirements": {
-          "entity": "this",
-          "condition": "minecraft:entity_properties",
-          "predicate": {
-            "type": "#minecraft:sensitive_to_hunter"
-          }
-        }
-      }
-    ],
     "minecraft:post_attack": [
       {
         "affected": "victim",
