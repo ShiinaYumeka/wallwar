@@ -10,8 +10,8 @@
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 0.3,
-            "per_level_above_first": 0.3
+            "base": 0.4,
+            "per_level_above_first": 0.4
           }
         },
         "requirements": {
@@ -28,21 +28,21 @@
                 "entity":"this",
                 "predicate": {
                 "equipment": {
-                    "chest": {"predicates": {"enchantments": [{"enchantments": "protection","levels": {"min": 2,"max": 4}}]}}
+                    "chest": {"predicates": {"enchantments": [{"enchantments": "protection","levels": {"min": 3,"max": 4}}]}}
                 }
             }},{
                 "condition": "entity_properties",
                 "entity":"this",
                 "predicate": {
                 "equipment": {
-                    "legs": {"predicates": {"enchantments": [{"enchantments": "protection","levels": {"min": 2,"max": 4}}]}}
+                    "legs": {"predicates": {"enchantments": [{"enchantments": "protection","levels": {"min": 3,"max": 4}}]}}
                 }
             }},{
                 "condition": "entity_properties",
                 "entity":"this",
                 "predicate": {
                 "equipment": {
-                    "feet": {"predicates": {"enchantments": [{"enchantments": "protection","levels": {"min": 2,"max": 4}}]}}
+                    "feet": {"predicates": {"enchantments": [{"enchantments": "protection","levels": {"min": 3,"max": 4}}]}}
                 }
             }}
         ]
