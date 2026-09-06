@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "custom_model_data": {
+                  "floats": [
+                    4
+                  ]
+                },
+                "minecraft:custom_name": {
+                  "translate": "锋针",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "射出箭矢的伤害降低99%",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "translate": "*精准与否 就是屠宰与手术的区别",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "enchantments": {
+                  "expensive_curse2": 1,
+                  "nopower": 2,
+                  "piercing": 4,
+                  "nogravity": 1,
+                  "infinity": 2
+                },
+                "repair_cost": 99,
+                "max_damage": 64
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 3
+            },
+            {
+              "function": "set_potion",
+              "id": "minecraft:healing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

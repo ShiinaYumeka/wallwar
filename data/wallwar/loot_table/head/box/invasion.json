@@ -141,35 +141,8 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:spectral_arrow",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 128
-            },
-            {
-              "function": "set_components",
-              "components": {
-                "custom_model_data": {
-                  "floats": [
-                    1
-                  ]
-                },
-                "minecraft:item_name": {
-                  "translate": "光灵箭",
-                  "italic": false
-                },
-                "minecraft:lore": [
-                  {
-                    "translate": "*使命中的敌人发光",
-                    "italic": false,
-                    "color": "gray"
-                  }
-                ]
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "wallwar:head/box/needle"
         },
         {
           "type": "minecraft:item",

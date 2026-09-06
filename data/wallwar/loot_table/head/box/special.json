@@ -6,46 +6,31 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:crossbow",
+          "name": "minecraft:spectral_arrow",
           "functions": [
             {
               "function": "set_count",
-              "count": 1
+              "count": 64
             },
             {
               "function": "set_components",
               "components": {
                 "custom_model_data": {
                   "floats": [
-                    4
+                    1
                   ]
                 },
-                "minecraft:custom_name": {
-                  "translate": "锋针",
-                  "italic": false,
-                  "color": "aqua"
+                "minecraft:item_name": {
+                  "translate": "光灵箭",
+                  "italic": false
                 },
                 "minecraft:lore": [
                   {
-                    "translate": "射出箭矢的伤害降低99%",
-                    "italic": false,
-                    "color": "white"
-                  },
-                  {
-                    "translate": "*精准与否 就是屠宰与手术的区别",
+                    "translate": "*使命中的敌人发光",
                     "italic": false,
                     "color": "gray"
                   }
-                ],
-                "enchantments": {
-                  "expensive_curse2": 1,
-                  "nopower": 2,
-                  "piercing": 4,
-                  "nogravity": 1,
-                  "infinity": 2
-                },
-                "repair_cost": 99,
-                "max_damage": 64
+                ]
               }
             }
           ]
@@ -56,7 +41,7 @@
           "functions": [
             {
               "function": "set_count",
-              "count": 3
+              "count": 1
             },
             {
               "function": "set_components",
@@ -146,7 +131,7 @@
           "functions": [
             {
               "function": "set_count",
-              "count": 16
+              "count": 8
             },
             {
               "function": "set_components",
