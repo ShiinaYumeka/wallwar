@@ -54,5 +54,5 @@ execute if score #force_spec time matches 1.. if entity @s[gamemode=spectator,te
 
 execute if score #wither_no_use time matches 1.. run return fail
 execute if score @s respawn matches 1.. if entity @s[team=!sp,gamemode=spectator,tag=!FIGHT] if entity @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{respawn_star:1b}}}},distance=..2] run function wallwar:respawn/test
-execute if score @s respawn matches 1 if entity @s[team=!sp,gamemode=spectator,tag=!FIGHT] if entity @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{respawn_star_head:1b}}}},distance=..2] run function wallwar:respawn2/test
+execute if score @s respawn matches 1.. if entity @s[team=!sp,gamemode=spectator,tag=!FIGHT] if entity @e[type=item_frame,nbt={Item:{components:{"minecraft:custom_data":{respawn_star_head:1b}}}},distance=..2] run function wallwar:respawn2/test
 

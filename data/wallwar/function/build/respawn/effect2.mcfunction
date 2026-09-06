@@ -13,7 +13,6 @@ execute unless entity @s[tag=building_respawn_user2] run return fail
 effect clear @s speed
 effect clear @s invisibility
 effect give @s conduit_power 60 0 true
-effect give @s strength 60 0 true
 effect give @s absorption 60 4 true
 
 item replace entity @s armor.head with golden_helmet[enchantments={protection:4,unbreaking:4},attribute_modifiers=[{id:"golden_armor1",type:"armor","amount":3,operation:"add_value",slot:"head"},{id:"golden_armor1",type:"armor_toughness","amount":2,operation:"add_value",slot:"head"}]]
