@@ -15,7 +15,7 @@
                         
                         {
                         "function": "minecraft:set_components",
-                        "components": {"enchantments": {"protection": 7}}
+                        "components": {"enchantments": {"protection": 8}}
                         }
                     ]
                 }

@@ -12,7 +12,7 @@ item replace entity @s armor.legs with leather_leggings[attribute_modifiers=[{id
 
 item replace entity @s armor.chest with leather_chestplate[attribute_modifiers=[{id:"leather_chest",amount:8,operation:"add_value",type:"armor",slot:"chest"}],enchantments={binding_curse:1,vanishing_ench:1},dyed_color=[0,0,0],unbreakable={},max_damage=9999]
 
-item replace entity @s armor.head with wither_skeleton_skull[attribute_modifiers=[{id:"leather_head",amount:3,operation:"add_value",type:"armor",slot:"head"}],enchantments={binding_curse:1,wither:1,vanishing_ench:1,protection:7},unbreakable={}]
+item replace entity @s armor.head with wither_skeleton_skull[attribute_modifiers=[{id:"leather_head",amount:3,operation:"add_value",type:"armor",slot:"head"}],enchantments={binding_curse:1,wither:1,vanishing_ench:1,protection:8},unbreakable={}]
 
 item replace entity @s weapon.mainhand with stone_sword[custom_model_data={floats:[2]},unbreakable={},custom_name={"translate": "凋灵骷髅佩剑","color": "dark_gray","italic": false},enchantments={vanishing_ench:1,wither_:3,sharpness:5},custom_data={"wither_player_blade":1b}]
 

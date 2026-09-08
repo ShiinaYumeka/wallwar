@@ -39,6 +39,7 @@ scoreboard objectives add weapon_haku dummy
 scoreboard objectives add fish custom:fish_caught
 scoreboard objectives add building_player dummy
 scoreboard objectives add team_buff dummy
+scoreboard objectives add dragon_neck dummy
 
 scoreboard objectives add recipe dummy
 

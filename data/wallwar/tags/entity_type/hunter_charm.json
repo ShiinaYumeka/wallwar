@@ -1,0 +1,28 @@
+{
+  "values": [
+    "#minecraft:undead",
+    "#minecraft:illager",
+    "minecraft:blaze",
+    "minecraft:breeze",
+    "minecraft:cave_spider",
+    "minecraft:creaking",
+    "minecraft:creeper",
+    "minecraft:elder_guardian",
+    "minecraft:enderman",
+    "minecraft:endermite",
+    "minecraft:ghast",
+    "minecraft:guardian",
+    "minecraft:hoglin",
+    "minecraft:magma_cube",
+    "minecraft:piglin",
+    "minecraft:piglin_brute",
+    "minecraft:ravager",
+    "minecraft:shulker",
+    "minecraft:silverfish",
+    "minecraft:slime",
+    "minecraft:spider",
+    "minecraft:vex",
+    "minecraft:warden",
+    "minecraft:witch"
+  ]
+}

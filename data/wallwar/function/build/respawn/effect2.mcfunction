@@ -1,7 +1,7 @@
 
 scoreboard players add @s respawn 1
 
-execute unless entity @s[tag=building_respawn_user2] run give @s wither_skeleton_skull[enchantments={protection:7}]
+execute unless entity @s[tag=building_respawn_user2] run give @s wither_skeleton_skull[enchantments={protection:8}]
 
 effect give @s invisibility 60 1 true
 effect give @s speed 35 3 true
@@ -29,5 +29,5 @@ give @s shield
 give @s oak_log 64
 give @s cooked_beef 32
 give @s golden_apple[food={"can_always_eat": true,"nutrition": 4,"saturation": 6},consumable={consume_seconds:1.4,"on_consume_effects":[{"type": "apply_effects","effects": [{"id": "absorption","duration": 2400,"amplifier": 0},{"id": "regeneration","duration": 140,"amplifier": 1}]}]}] 5
-give @s wither_skeleton_skull[enchantments={protection:7}]
+give @s wither_skeleton_skull[enchantments={protection:8}]
 tag @s remove building_respawn_user2

@@ -5,6 +5,7 @@ effect give @s jump_boost 180 3 true
 effect give @s absorption 180 3 true
 effect give @s conduit_power 180 3 true
 effect give @s strength 180 3 true
+effect give @s dolphins_grace 180 3 true
 effect give @s saturation 1 3 true
 
 title @a title {"translate":"代罚者加入战场。","color":"red"}

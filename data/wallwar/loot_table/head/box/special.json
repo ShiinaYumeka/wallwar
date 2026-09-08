@@ -160,6 +160,48 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honeycomb",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "猎人护身符",
+                  "italic": false,
+                  "color": "gold"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "副手持有时，杀死自然刷新怪物时积累一层",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "translate": "当到达28层后获得3000点经验值并且消耗此物品",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "translate": "*森林从不会善待迷路的人，但它会回应真正的猎人。",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "custom_data": {
+                  "hunter_charm": 1,
+                  "hunter_kills": 0
+                },
+                "max_stack_size": 1
+              }
+            }
+          ]
         }
       ]
     }

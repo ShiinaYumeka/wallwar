@@ -27,6 +27,7 @@ scoreboard objectives remove escape_timer
 scoreboard objectives remove weapon_rokan
 scoreboard objectives remove weapon_haku
 scoreboard objectives remove fish
+scoreboard objectives remove dragon_neck
 
 scoreboard objectives remove recipe
 

@@ -8,6 +8,8 @@ execute if score @s time matches 1.. run scoreboard players remove @s time 1
 execute if entity @s[scores={HP=..4},tag=battle_flesh_player,nbt=!{active_effects:[{id:"minecraft:resistance",amplifier:4b}]}] run function wallwar:build/battle/effect/flesh
 execute if entity @s[scores={konpaku=8..},tag=boss_command2_user,nbt=!{active_effects:[{id:"minecraft:resistance",amplifier:4b}]}] run function wallwar:boss/command2/heal
 execute if entity @s[scores={HP=..5},level=20..,nbt=!{active_effects:[{id:"minecraft:resistance",amplifier:4b}]}] if items entity @s armor.head leather_helmet[custom_data={crown_head:1b}] run function wallwar:crown/main
+execute if items entity @s weapon.offhand yellow_dye[custom_data~{dragon_neck:1b}] if entity @s[gamemode=!spectator,team=!sp] run function wallwar:head/neck/tick
+execute unless items entity @s weapon.offhand yellow_dye[custom_data~{dragon_neck:1b}] if score @s dragon_neck matches 1.. run function wallwar:head/neck/reset
 execute if entity @s[nbt={active_effects:[{id:"minecraft:wither"}]}] run effect clear @s regeneration
 execute if entity @s[nbt=!{active_effects:[{id:"minecraft:conduit_power"}]}] run effect clear @s strength
 execute if entity @s[nbt=!{active_effects:[{id:"minecraft:strength"}]},nbt={active_effects:[{id:"minecraft:conduit_power"}]}] run effect give @s strength 1 0

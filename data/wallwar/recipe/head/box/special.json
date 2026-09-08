@@ -11,7 +11,10 @@
         "id": "minecraft:chest",
         "components": {
             "minecraft:item_name": {"translate": "特殊礼盒", "italic": false, "color": "light_purple"},
-            "minecraft:lore": [{"translate": "开启后随机获得特殊类型道具", "italic": false, "color": "gray"}],
+            "minecraft:lore": [
+                {"translate": "开启后随机获得特殊类型道具", "italic": false, "color": "gray"},
+                {"translate": "光灵箭、回魂灯、小帮手、火焰冲击、猎人护身符", "italic": false, "color": "gray"}
+            ],
             "minecraft:container_loot": {"loot_table": "wallwar:head/box/special"}
         },
         "count": 2

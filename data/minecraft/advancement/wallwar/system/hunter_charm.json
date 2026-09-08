@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "kill_monster": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#wallwar:hunter_charm"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "nbt": "{Tags:['summoner']}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "击杀非唤灵怪物"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:resin_clump"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "猎人护身符"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "function": "wallwar:head/charm/kill"
+  },
+  "requirements": [
+    [
+      "kill_monster"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

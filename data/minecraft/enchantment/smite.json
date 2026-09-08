@@ -36,7 +36,7 @@
                 "entity":"this",
                 "predicate": {
                 "equipment": {
-                    "head": {"predicates": {"enchantments": [{"enchantments": "protection","levels": 5}]}}
+                    "head": {"predicates": {"enchantments": [{"enchantments": "protection","levels": 8}]}}
                 }
         }}
       }

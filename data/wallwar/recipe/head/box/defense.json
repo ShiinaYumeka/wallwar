@@ -11,7 +11,10 @@
         "id": "minecraft:chest",
         "components": {
             "minecraft:item_name": {"translate": "安守礼盒", "italic": false, "color": "blue"},
-            "minecraft:lore": [{"translate": "开启后随机获得防御类特殊装备", "italic": false, "color": "gray"}],
+            "minecraft:lore": [
+                {"translate": "开启后随机获得防御类特殊装备", "italic": false, "color": "gray"},
+                {"translate": "恶魔头盔、耐摔鞋、核纳、藤甲、龙麟项链", "italic": false, "color": "gray"}
+            ],
             "minecraft:container_loot": {"loot_table": "wallwar:head/box/defense"}
         }
     }

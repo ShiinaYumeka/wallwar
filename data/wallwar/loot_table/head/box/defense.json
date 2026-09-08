@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:item_name":{"translate":"恶魔头盔","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你至少拥有20等级且生命值低于5时","italic": false,"color": "white"},{"translate":"回复生命值并获得伤害吸收，然后扣除20级经验值","italic": false,"color": "gray"},{"translate":"*与恶魔的交易是需要付出代价的","italic": false,"color": "gray"}],"dyed_color": 6750208,"attribute_modifiers": [{"id": "crown_head","type": "armor","amount": 3,"operation": "add_value","slot": "head"},{"id": "crown_head","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "head"}],"custom_data": {"crown_head":1},"max_damage": 500}
+                            "components": {"minecraft:item_name":{"translate":"恶魔头盔","italic": false,"color": "aqua"},"minecraft:lore":[{"translate":"当你至少拥有20等级且生命值低于5时","italic": false,"color": "white"},{"translate":"回复生命值并获得伤害吸收，然后扣除20级经验值","italic": false,"color": "gray"},{"translate":"*与恶魔的交易是需要付出代价的","italic": false,"color": "gray"}],"enchantments": {"protection": 2},"dyed_color": 6750208,"attribute_modifiers": [{"id": "crown_head","type": "armor","amount": 3,"operation": "add_value","slot": "head"},{"id": "crown_head","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "head"}],"custom_data": {"crown_head":1},"max_damage": 500}
                         }
                     ]
                 },
@@ -20,7 +20,7 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:item_name":{"translate":"耐摔鞋","italic": false,"color": "dark_purple"},"dyed_color": 11042304,"minecraft:lore":[{"translate":"防止你坠机","italic": false,"color": "white"},{"translate":"*Man! What can I say","italic": false,"color": "gray"}],"enchantments": {"protection": 3},"attribute_modifiers": [{"id": "fall_boots","type": "fall_damage_multiplier","amount": -0.8,"operation": "add_multiplied_base","slot": "feet"},{"id": "fall_boots","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "feet"},{"id": "fall_boots","type": "armor","amount": 3,"operation": "add_value","slot": "feet"}],"max_damage": 824}
+                            "components": {"minecraft:item_name":{"translate":"耐摔鞋","italic": false,"color": "dark_purple"},"dyed_color": 11042304,"minecraft:lore":[{"translate":"防止你坠机","italic": false,"color": "white"},{"translate":"*Man! What can I say","italic": false,"color": "gray"}],"enchantments": {"protection": 4},"attribute_modifiers": [{"id": "fall_boots","type": "fall_damage_multiplier","amount": -0.8,"operation": "add_multiplied_base","slot": "feet"},{"id": "fall_boots","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "feet"},{"id": "fall_boots","type": "armor","amount": 3,"operation": "add_value","slot": "feet"}],"max_damage": 824}
                         }
                     ]
                 },
@@ -40,7 +40,27 @@
                     "functions": [
                         {
                             "function": "set_components",
-                            "components": {"minecraft:item_name":{"translate":"藤甲","italic": false,"color": "dark_purple"},"dyed_color": 13421772,"minecraft:lore":[{"translate":"极强的防御效果","italic": false,"color": "white"},{"translate":"*烈火燃尽英雄胆","italic": false,"color": "gray"}],"enchantments": {"projectile_protection":5},"attribute_modifiers": [{"id": "fire_chestplate","type": "armor","amount": 8,"operation": "add_value","slot": "chest"},{"id": "fire_chestplate","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "chest"},{"id": "fire_chestplate","type": "burning_time","amount": 2,"operation": "add_multiplied_base","slot": "chest"}],"max_damage": 444}
+                            "components": {"minecraft:item_name":{"translate":"藤甲","italic": false,"color": "dark_purple"},"dyed_color": 13421772,"minecraft:lore":[{"translate":"极强的防御效果","italic": false,"color": "white"},{"translate":"*烈火燃尽英雄胆","italic": false,"color": "gray"}],"enchantments": {"projectile_protection":5},"attribute_modifiers": [{"id": "fire_chestplate","type": "armor","amount": 8,"operation": "add_value","slot": "chest"},{"id": "fire_chestplate","type": "armor_toughness","amount": 2,"operation": "add_value","slot": "chest"},{"id": "fire_chestplate","type": "burning_time","amount": 2,"operation": "add_multiplied_base","slot": "chest"}],"max_damage": 514}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:yellow_dye",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "minecraft:item_name": {"translate": "龙麟项链", "italic": false, "color": "yellow"},
+                                "minecraft:lore": [
+                                    {"translate": "放置于副手持续3分钟后激活", "italic": false, "color": "white"},
+                                    {"translate": "激活后每分钟获得伤害吸收II", "italic": false, "color": "white"},
+                                    {"translate": "-离开副手立即失效并重置计时", "italic": false, "color": "white"},
+                                    {"translate": "*龙的鳞片仍记得心跳。", "italic": false, "color": "gray"}
+                                ],
+                                "custom_data": {"dragon_neck": 1},
+                                "max_stack_size": 1
+                            }
                         }
                     ]
                 }

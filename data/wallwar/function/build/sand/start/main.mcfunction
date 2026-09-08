@@ -1,5 +1,5 @@
 
-scoreboard players set lowY_Pro time 18000
+scoreboard players set lowY_Pro time 12000
 
 
 #execute as @p[gamemode=!spectator] run tag @s add building_temp

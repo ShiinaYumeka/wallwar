@@ -3,8 +3,8 @@
 title @a times 10 20 10
 
 
-scoreboard players set GAME time 2400
-bossbar set gauge7 max 2400
+scoreboard players set GAME time 1800
+bossbar set gauge7 max 1800
 scoreboard players set GAME_PRO time 8
 
 function wallwar:system/bossbar/wither

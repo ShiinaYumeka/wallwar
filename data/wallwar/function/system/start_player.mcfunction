@@ -44,6 +44,7 @@ playsound minecraft:entity.player.levelup player @s ~ ~ ~
 title @s title {"translate":"游戏开始"}
 title @s subtitle {"translate":"预备阶段，收集你的资源"}
 scoreboard players reset @s time
+scoreboard players reset @s dragon_neck
 tag @s remove wither_user
 
 

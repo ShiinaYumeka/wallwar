@@ -9,7 +9,7 @@
     "pattern": [" 1 ","131"," 1 "],
     "result": {
         "id": "minecraft:wither_skeleton_skull",
-        "components": {"enchantments": {"protection": 7}},
+        "components": {"enchantments": {"protection": 8}},
         "count": 2
     }
 }

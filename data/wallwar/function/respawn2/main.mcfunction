@@ -33,7 +33,7 @@ give @s shield
 give @s oak_log 64
 give @s cooked_beef 32
 give @s golden_apple[food={"can_always_eat": true,"nutrition": 4,"saturation": 6},consumable={consume_seconds:1.4,"on_consume_effects":[{"type": "apply_effects","effects": [{"id": "absorption","duration": 2400,"amplifier": 0},{"id": "regeneration","duration": 140,"amplifier": 1}]}]}] 5
-give @s wither_skeleton_skull[enchantments={protection:7}]
+give @s wither_skeleton_skull[enchantments={protection:8}]
 
 
 execute unless entity @s[name=ShiinaYumeka] run return fail

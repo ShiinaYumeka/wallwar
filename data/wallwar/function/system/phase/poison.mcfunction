@@ -3,8 +3,8 @@
 title @a times 10 20 10
 
 
-scoreboard players set GAME time 1200
-bossbar set gauge6 max 1200
+scoreboard players set GAME time 1800
+bossbar set gauge6 max 1800
 scoreboard players set GAME_PRO time 7
 
 function wallwar:system/bossbar/hunger

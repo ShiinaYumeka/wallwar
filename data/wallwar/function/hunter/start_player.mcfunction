@@ -36,6 +36,7 @@ playsound minecraft:entity.player.levelup player @s ~ ~ ~
 title @s title {"translate":"猎人模式"}
 title @s subtitle {"translate":"猎杀或逃亡，开始！"}
 scoreboard players reset @s time
+scoreboard players reset @s dragon_neck
 tag @s remove wither_user
 
 execute unless score @s hunter_uid matches 1.. run function wallwar:hunter/assign_uid

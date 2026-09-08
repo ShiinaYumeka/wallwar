@@ -93,7 +93,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "enchantments": {
-                  "protection": 7
+                  "protection": 8
                 }
               }
             }
@@ -159,7 +159,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "enchantments": {
-                  "protection": 7
+                  "protection": 8
                 }
               }
             }

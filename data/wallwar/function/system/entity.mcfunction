@@ -1,5 +1,8 @@
 
 
+execute if entity @s[type=marker,tag=corrode_mark] run return run function wallwar:head/corrode/check
+execute if entity @s[type=splash_potion] if data entity @s Item.components."minecraft:custom_data".corrode_potion run return run function wallwar:head/corrode/fly
+
 execute if entity @s[type=item,nbt={Item:{components:{"minecraft:custom_data":{wallwar_item:1b}}}}] run function wallwar:main_item
 execute if entity @s[type=snowball,nbt={Item:{components:{"minecraft:custom_data":{is_snowball:1b}}}}] run function wallwar:snowball/cast
 execute if entity @s[type=snowball,nbt={Item:{components:{"minecraft:custom_data":{is_snowball:2b}}}}] run function wallwar:snowball/cast2

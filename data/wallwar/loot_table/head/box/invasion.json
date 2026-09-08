@@ -197,6 +197,44 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:custom_name": {
+                  "translate": "腐蚀药水",
+                  "italic": false,
+                  "color": "green"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "喷溅命中时，其身上的护甲耐久值扣除50点",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "translate": "*铁锈味的雨",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "potion_contents": {
+                  "custom_color": 5871914
+                },
+                "custom_data": {
+                  "corrode_potion": 1
+                }
+              }
+            }
+          ]
         }
       ]
     }

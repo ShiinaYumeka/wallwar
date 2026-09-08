@@ -2,6 +2,7 @@
 
 scoreboard players set @s death 0
 scoreboard players set @s invisible 10
+scoreboard players reset @s dragon_neck
 
 execute if score #Hunter_MODE time matches 1.. if entity @s[team=green,tag=FIGHT] run return run function wallwar:death/out
 execute if score #Hunter_MODE time matches 1.. if entity @s[team=red,tag=FIGHT] run return run function wallwar:hunter/death
