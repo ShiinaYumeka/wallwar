@@ -2,8 +2,6 @@
 
 #execute if items entity @s weapon.offhand *[enchantments~[{enchantments:"#command_book/main"}]]
 
-scoreboard players operation @s kill_entity /= 2 const
-
 execute store result score #ench temp run random value 1..100
 scoreboard players operation #ench temp *= 30 const
 scoreboard players add @s temp 30
@@ -14,6 +12,9 @@ scoreboard players remove @s temp 30
 #execute if score #ench temp matches 1..20 run tellraw @s [{"translate": "物品修饰成功，当前灵魂数目：","color": "red"},{"score": {"name": "@s","objective":"kill_entity"}}]
 
 item replace entity 0-0-0-0-1 container.0 from entity @s weapon.offhand
+execute if score #ench temp matches 1..40 run scoreboard players operation #cost temp = @s temp
+execute if score #ench temp matches 1..40 run scoreboard players operation #cost temp /= 2 const
+execute if score #ench temp matches 1..40 run scoreboard players operation @s kill_entity -= #cost temp
 execute if score #ench temp matches 1..20 run function wallwar:command/add/fix/use
 execute if score #ench temp matches 21..40 run function wallwar:command/add/upgrade/use
 execute if score #ench temp matches 41..100 run function wallwar:command/add/bad

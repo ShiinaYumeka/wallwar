@@ -45,7 +45,12 @@
           "color": "gray"
         },
         {
-          "translate": "-当附魔完成后，消耗33%的灵魂数量",
+          "translate": "-字符数超过30不再生效",
+          "italic": false,
+          "color": "gray"
+        },
+        {
+          "translate": "-当附魔完成后，消耗写下字符数33%的灵魂",
           "italic": false,
           "color": "gray"
         },
@@ -75,12 +80,12 @@
           "color": "gray"
         },
         {
-          "translate": "3.清空你的灵魂数量",
+          "translate": "3.消耗写下字符数67%的灵魂",
           "italic": false,
           "color": "gray"
         },
         {
-          "translate": "-当附魔完成后，为你的物品增加一级磨损附魔并消耗50%的灵魂数量",
+          "translate": "-当附魔完成后，为你的物品增加一级磨损附魔并消耗写下字符数50%的灵魂",
           "italic": false,
           "color": "gray"
         },
