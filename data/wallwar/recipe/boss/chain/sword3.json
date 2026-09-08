@@ -55,7 +55,7 @@
           "color": "dark_green"
         },
         {
-          "translate": " 1.7 攻击速度",
+          "translate": " 1.8 攻击速度",
           "italic": false,
           "color": "dark_green"
         },
@@ -70,16 +70,15 @@
           "color": "gray"
         },
         {
-          "translate": "+30% 击退抗性",
+          "translate": "+90% 击退抗性",
           "italic": false,
           "color": "blue"
         }
       ],
       "enchantments": {
-        "sharpness": 5,
-        "sweeping_edge": 4,
-        "fire_aspect": 2,
-        "looting": 3,
+        "sweeping_edge": 3,
+        "fire_aspect": 3,
+        "auto_damage": 1,
         "vanishing_ench": 1
       },
       "attribute_modifiers": [
@@ -93,16 +92,9 @@
         {
           "id": "netherite_sword3",
           "type": "attack_speed",
-          "amount": -2.3,
+          "amount": -2.2,
           "operation": "add_value",
           "slot": "mainhand"
-        },
-        {
-          "id": "netherite_sword3",
-          "type": "knockback_resistance",
-          "amount": 0.3,
-          "operation": "add_multiplied_total",
-          "slot": "hand"
         }
       ],
       "max_damage": 32767,
