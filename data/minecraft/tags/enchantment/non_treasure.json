@@ -51,6 +51,11 @@
     "focus",
     "pervade",
     "conquer",
+    "shield_blast",
+    "shield_prj",
+    "shield_magic",
+    "shield_mob",
+    "shield_fire",
 
     "vanishing_ench",
     "unprotection1",
@@ -61,11 +66,6 @@
     "unsharpness",
     "heavy",
     "nopower",
-    "breaking",
-      "shield_blast",
-      "shield_prj",
-      "shield_magic",
-      "shield_mob",
-      "shield_fire"
+    "breaking"
   ]
 }
