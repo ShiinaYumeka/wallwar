@@ -7,12 +7,9 @@ execute as @e[tag=wither_skill_pig_entity] at @s run function wallwar:wither/ski
 summon sheep ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}
 summon sheep ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}
 summon sheep ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}
-summon sheep ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}
 summon cow ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}
 summon cow ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}
 summon cow ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}
-summon cow ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}
-summon pig ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}
 summon pig ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}
 summon pig ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}
 summon pig ~ 318 ~ {Tags:["new","wither_skill_pig_entity"],PersistenceRequired:true,CustomNameVisible:true}

@@ -12,4 +12,4 @@ execute positioned ~ ~-1 ~ if entity @e[type=item_frame,distance=..1.5,nbt={Item
 
 execute positioned ~ ~-1 ~ if entity @e[type=item_frame,distance=..1.5,nbt={Item:{components:{"minecraft:custom_data":{building_update_two:1b}}}}] as @a[tag=building_court_marked] run function wallwar:build/court/two
 
-execute if score @s tid matches 1.. as @a[tag=FIGHT] if score build_court tid = @s tid run function wallwar:build/court/effect
+execute if score @s tid matches 1.. as @a[tag=FIGHT,team=!sp,gamemode=!spectator] if score build_court tid = @s tid run function wallwar:build/court/effect

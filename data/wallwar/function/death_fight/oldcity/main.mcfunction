@@ -1,20 +1,25 @@
 
-forceload add ~16 ~16 ~-16 ~-16
+forceload add ~20 ~20 ~-20 ~-20
 
-fill ~36 301 ~36 ~-36 303 ~-36 bedrock
-fill ~35 304 ~35 ~-35 305 ~-35 reinforced_deepslate
-fill ~35 306 ~35 ~-35 306 ~-35 sculk
-fill ~35 307 ~35 ~-35 311 ~-35 air
-fill ~35 312 ~35 ~-35 316 ~-35 air
-fill ~35 317 ~35 ~-35 317 ~-35 minecraft:reinforced_deepslate
-fill ~35 318 ~35 ~-35 318 ~-35 deepslate
-fill ~35 319 ~35 ~-35 319 ~-35 bedrock
+fill ~38 301 ~38 ~-38 303 ~-38 bedrock
+fill ~36 304 ~36 ~-36 305 ~-36 reinforced_deepslate
+fill ~36 306 ~36 ~-36 306 ~-36 sculk
+fill ~36 307 ~36 ~-36 311 ~-36 air
+fill ~36 312 ~36 ~-36 315 ~-36 air
+fill ~36 316 ~36 ~-36 316 ~-36 minecraft:reinforced_deepslate
+fill ~36 317 ~36 ~-36 317 ~-36 deepslate
+fill ~36 318 ~36 ~-36 319 ~-36 bedrock
 
 
-fill ~36 301 ~36 ~36 319 ~-36 reinforced_deepslate
-fill ~36 301 ~36 ~-36 319 ~36 reinforced_deepslate
-fill ~-36 301 ~-36 ~-36 319 ~36 reinforced_deepslate
-fill ~-36 301 ~-36 ~36 319 ~-36 reinforced_deepslate
+fill ~37 301 ~37 ~37 319 ~-37 reinforced_deepslate
+fill ~37 301 ~37 ~-37 319 ~37 reinforced_deepslate
+fill ~-37 301 ~-37 ~-37 319 ~37 reinforced_deepslate
+fill ~-37 301 ~-37 ~37 319 ~-37 reinforced_deepslate
+
+fill ~38 301 ~38 ~38 319 ~-38 reinforced_deepslate
+fill ~38 301 ~38 ~-38 319 ~38 reinforced_deepslate
+fill ~-38 301 ~-38 ~-38 319 ~38 reinforced_deepslate
+fill ~-38 301 ~-38 ~38 319 ~-38 reinforced_deepslate
 
 
 
@@ -48,6 +53,6 @@ execute positioned ~ ~ ~30 run function wallwar:death_fight/oldcity/diamond
 
 #kill @e[tag=death_fight_summon]
 
-worldborder set 71
+worldborder set 75
 execute as 0-0-0-0-1 at @s run tp @a ~ 306 ~
 execute at 0-0-0-0-1 positioned ~ 306 ~ run spreadplayers ~ ~ 15 15 under 312 true @a[team=!sp,gamemode=!spectator]

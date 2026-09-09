@@ -1,7 +1,7 @@
 
 
 scoreboard players reset @a respawn
-tag @a add FIGHT
+tag @a[team=!sp] add FIGHT
 
 scoreboard players set GAME time 24000
 bossbar set minecraft:gauge2 max 24000
