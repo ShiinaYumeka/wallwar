@@ -1,3 +1,4 @@
 
+execute if entity @p[gamemode=!spectator,tag=wither_man] run return fail
 execute as @p[gamemode=!spectator] run function wallwar:wither/craft/pickaxe/main
 item replace entity @s container.0 with air

@@ -43,7 +43,7 @@
           "color": "gray"
         },
         {
-          "translate": " 5 攻击伤害",
+          "translate": " 1 攻击伤害",
           "italic": false,
           "color": "dark_green"
         },
@@ -54,6 +54,7 @@
         }
       ],
       "enchantments": {
+        "sharpness": 5,
         "smite": 5,
         "bane_of_arthropods": 5,
         "summkill": 5,
@@ -69,7 +70,7 @@
           "id": "wooden_sword",
           "slot": "mainhand",
           "type": "attack_damage",
-          "amount": 4,
+          "amount": 0,
           "operation": "add_value"
         },
         {
