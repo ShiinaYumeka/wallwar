@@ -234,6 +234,7 @@ recipe give @s wallwar:head/weapon/sword
 recipe give @s wallwar:head/weapon/trident
 recipe give @s wallwar:head/weapon/trident2
 recipe give @s wallwar:head/weapon/wooden_sword
+recipe give @s wallwar:head/weapon/grudge
 recipe give @s wallwar:head/book
 recipe give @s wallwar:head/ender_pearl
 recipe give @s wallwar:head/fight

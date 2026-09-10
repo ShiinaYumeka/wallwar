@@ -38,6 +38,8 @@
     "armor_fire",
     "armor_ice",
     "stun",
-    "nogravity"
+    "nogravity",
+    "soul_power",
+    "soul_guard"
   ]
 }

@@ -15,9 +15,10 @@ execute if score DeathFight time matches 21..30 run function wallwar:death_fight
 execute if score DeathFight time matches 31..40 run function wallwar:death_fight/beach/main
 execute if score DeathFight time matches 41..50 run function wallwar:death_fight/cloud/main
 execute if score DeathFight time matches 51..60 run function wallwar:death_fight/oldcity/main
-execute if score DeathFight time matches 61..70 run function wallwar:death_fight/cloud/main
+execute if score DeathFight time matches 61..70 run function wallwar:death_fight/under/main
 execute if score DeathFight time matches 71..80 run function wallwar:death_fight/cloud/main
 
 
-execute at 0-0-0-0-1 positioned ~ 315 ~ run spreadplayers ~ ~ 3 15 under 315 false @e[tag=wither_skeleton]
+execute unless score DeathFight time matches 61..70 at 0-0-0-0-1 positioned ~ 315 ~ run spreadplayers ~ ~ 3 15 under 315 false @e[tag=wither_skeleton]
+execute if score DeathFight time matches 61..70 at 0-0-0-0-1 run tp @e[tag=wither_skeleton] ~ 310 ~
 

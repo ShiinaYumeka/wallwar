@@ -1,4 +1,6 @@
 
+execute unless score #soul_init const matches 1 run function wallwar:soul/init
+
 execute if score #Hunter_MODE time matches 1.. run function wallwar:hunter/tick
 
 execute if score GAMEMODE time matches 1..2 unless score #Hunter_MODE time matches 1.. run function wallwar:system/timer/main

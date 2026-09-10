@@ -54,6 +54,8 @@ scoreboard objectives add rc used:carrot_on_a_stick
 scoreboard objectives add nightvision trigger
 scoreboard objectives add suicide trigger
 scoreboard objectives add tutorial trigger
+scoreboard objectives add soul trigger
+scoreboard players set #soul_init const 1
 
 scoreboard objectives add hunter_join trigger
 scoreboard objectives add runner_join trigger

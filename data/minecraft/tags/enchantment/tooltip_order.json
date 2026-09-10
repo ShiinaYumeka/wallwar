@@ -60,6 +60,9 @@
 
     "breaker",
     "stun",
+    "freeze",
+    "soul_power",
+    "soul_guard",
     "armor_fire",
     "armor_ice",
     "cooking",

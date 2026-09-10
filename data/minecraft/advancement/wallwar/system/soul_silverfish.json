@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "kill_silverfish": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:silverfish"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "击杀蠹虫不获得灵魂"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:silverfish_spawn_egg"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "无魂蠹虫"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "function": "wallwar:system/soul/silverfish"
+  },
+  "requirements": [
+    [
+      "kill_silverfish"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

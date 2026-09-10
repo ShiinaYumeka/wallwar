@@ -1,5 +1,10 @@
 
 execute unless score @s rejoin matches -10 run function wallwar:system/rejoin/main
+tag @s remove soul_power_shot
+tag @s remove soul_guard_hit
+function wallwar:soul/clamp
+scoreboard players enable @s soul
+execute if score @s soul matches 1.. run function wallwar:system/soul/show
 execute if score @s rc matches 1.. run function wallwar:system/rc/use
 
 execute if score @s time matches 1.. run scoreboard players remove @s time 1

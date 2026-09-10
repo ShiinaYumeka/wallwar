@@ -37,6 +37,7 @@ scoreboard objectives remove sid
 
 scoreboard objectives remove suicide
 scoreboard objectives remove tutorial
+scoreboard objectives remove soul
 
 scoreboard objectives remove hunter_join
 scoreboard objectives remove runner_join

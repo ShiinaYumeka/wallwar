@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:wallwar/root",
+  "criteria": {
+    "kill_soul": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:silverfish"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "回魂灯额外灵魂"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:soul_lantern"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "title": {
+      "translate": "回魂灯"
+    },
+    "frame": "goal"
+  },
+  "rewards": {
+    "function": "wallwar:system/soul/lantern_extra"
+  },
+  "requirements": [
+    [
+      "kill_soul"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

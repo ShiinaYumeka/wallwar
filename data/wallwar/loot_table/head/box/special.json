@@ -73,6 +73,11 @@
                     "color": "white"
                   },
                   {
+                    "translate": "置于背包右上角时，击杀拥有灵魂的生物有50%的概率额外获得一枚灵魂",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
                     "translate": "*头、甲、刀、食物、背包…魂来！",
                     "italic": false,
                     "color": "yellow"

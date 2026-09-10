@@ -27,7 +27,7 @@
       },
       "minecraft:lore": [
         {
-          "translate": "当你杀死一名玩家时，此物品消失并提供生命吸收I",
+          "translate": "当你杀死一名玩家时，此物品消失并提供生命吸收I，并获得20个灵魂",
           "italic": false,
           "color": "gray"
         },

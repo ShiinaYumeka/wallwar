@@ -322,7 +322,7 @@
                   "color": "red"
                 },
                 {
-                  "translate": "若祭坛上之人已有身份，其献祭时额外增加10点生命值。",
+                  "translate": "若祭坛上之人已有身份，其献祭时额外增加20点生命值。",
                   "italic": false,
                   "color": "gray"
                 },

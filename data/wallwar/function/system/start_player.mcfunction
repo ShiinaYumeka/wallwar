@@ -5,6 +5,7 @@ scoreboard players reset @s fish
 
 
 scoreboard players enable @s suicide
+scoreboard players enable @s soul
 title @s times 10 40 10
 
 advancement revoke @s everything
