@@ -12,7 +12,7 @@ title @s title {"translate":"你重生了"}
 title @s subtitle {"translate":"“把失去的一切夺回来……”"}
 
 scoreboard players set @s respawn 99
-effect give @s health_boost infinite 0 true
+function wallwar:respawn2/hp
 
 effect clear @s speed
 effect clear @s invisibility

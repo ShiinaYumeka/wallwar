@@ -338,7 +338,7 @@ recipe give @s wallwar:boss/box/scarp
 recipe give @s wallwar:boss/box/seeds
 recipe give @s wallwar:boss/box/spawn
 recipe give @s wallwar:boss/box/turth
-recipe give @s wallwar:boss/box/village
+recipe give @s wallwar:boss/box/enchant
 recipe give @s wallwar:boss/kbr/boots
 recipe give @s wallwar:boss/kbr/chest
 recipe give @s wallwar:boss/kbr/head
@@ -347,7 +347,6 @@ recipe give @s wallwar:boss/speed/boots
 recipe give @s wallwar:boss/speed/chest
 recipe give @s wallwar:boss/speed/head
 recipe give @s wallwar:boss/speed/leg
-recipe give @s wallwar:boss/tool/book
 recipe give @s wallwar:boss/tool/ender
 recipe give @s wallwar:boss/tool/pickaxe4000
 recipe give @s wallwar:boss/tool/power
