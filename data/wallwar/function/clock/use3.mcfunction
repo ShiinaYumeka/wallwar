@@ -1,7 +1,7 @@
 
 execute if entity @a[distance=..0.2,team=!sp,gamemode=!spectator] run function wallwar:clock/cost3
 
-execute unless entity @s[y=0,dy=150] run return fail
+execute unless entity @s[y=-64,dy=213] run return fail
 
 execute positioned ^-1 ^ ^-0.5 if block ~ ~ ~ #crops run function wallwar:clock/crops
 execute positioned ^-2 ^ ^-0.5 if block ~ ~ ~ #crops run function wallwar:clock/crops

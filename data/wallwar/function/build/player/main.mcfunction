@@ -7,8 +7,7 @@ execute if score GAME_PRO time matches 5.. run return fail
 
 #execute as @a[gamemode=!spectator] at @s if entity @s[y=150,dy=170] run function wallwar:build/player/effect2
 
-execute as @a[gamemode=!spectator] at @s if entity @s[y=100,dy=220] run function wallwar:build/player/effect
-execute as @a[gamemode=!spectator] at @s if entity @s[y=0,dy=50] run function wallwar:build/player/effect
+execute as @a[gamemode=!spectator] at @s unless entity @s[y=50,dy=50] run function wallwar:build/player/effect
 
 
 execute store result score #temp temp run random value 1..100

@@ -39,12 +39,12 @@
           "color": "gray"
         },
         {
-          "translate": "每10秒检测最近的一名玩家给予蓄风，如果其已有蓄风则受到电击。",
+          "translate": "每10秒检测范围内的玩家给予蓄风，如果其已有蓄风则受到电击。",
           "italic": false,
           "color": "gray"
         },
         {
-          "translate": "-检测范围为以特斯拉塔底端为中心圆形12格",
+          "translate": "-检测范围为以特斯拉塔核心为中心圆形12格",
           "italic": false,
           "color": "gray"
         },
