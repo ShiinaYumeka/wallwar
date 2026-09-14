@@ -13,6 +13,32 @@
               "count": 8.0
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 8.0,
+                "min": 4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_block",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "max": 8.0,
+                "min": 4.0
+              }
+            }
+          ]
         }
       ],
       "rolls": 1.0

@@ -6,21 +6,35 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:redstone_block",
+          "name": "minecraft:netherite_scrap",
           "functions": [
             {
               "function": "set_count",
-              "count": 4.0
+              "count": {
+                "max": 2.0,
+                "min": 1.0
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:lapis_block",
+          "name": "minecraft:experience_bottle",
           "functions": [
             {
               "function": "set_count",
-              "count": 4.0
+              "count": 64
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
             }
           ]
         }

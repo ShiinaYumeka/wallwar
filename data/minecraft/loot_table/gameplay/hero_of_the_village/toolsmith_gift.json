@@ -10,7 +10,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30.0,
-              "options": "#minecraft:on_random_loot"
+              "options": "#minecraft:fishing_command"
             }
           ],
           "name": "minecraft:diamond_pickaxe"
@@ -21,7 +21,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30.0,
-              "options": "#minecraft:on_random_loot"
+              "options": "#minecraft:fishing_command"
             }
           ],
           "name": "minecraft:diamond_axe"
@@ -32,7 +32,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30.0,
-              "options": "#minecraft:on_random_loot"
+              "options": "#minecraft:fishing_command"
             }
           ],
           "name": "minecraft:diamond_hoe"
@@ -43,7 +43,7 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 30.0,
-              "options": "#minecraft:on_random_loot"
+              "options": "#minecraft:fishing_command"
             }
           ],
           "name": "minecraft:diamond_shovel"

@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "set_count",
-              "count": 16.0
+              "count": 32.0
             }
           ],
           "weight": 6
@@ -23,7 +23,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },
@@ -42,7 +42,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },
@@ -61,7 +61,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },
@@ -80,7 +80,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },
@@ -99,7 +99,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },
@@ -118,7 +118,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },
@@ -137,7 +137,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },
@@ -156,7 +156,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },
@@ -175,7 +175,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },
@@ -194,7 +194,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },
@@ -213,26 +213,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:night_vision"
-            }
-          ],
-          "name": "minecraft:tipped_arrow"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },
@@ -251,7 +232,7 @@
               "count": {
                 "type": "minecraft:uniform",
                 "max": 16.0,
-                "min": 0.0
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             },

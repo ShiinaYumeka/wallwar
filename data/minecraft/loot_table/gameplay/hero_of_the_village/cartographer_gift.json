@@ -10,17 +10,10 @@
           "functions": [
             {
               "function": "set_count",
-              "count": 4.0
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:paper",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": 9.0
+              "count": {
+                "max": 6.0,
+                "min": 2.0
+              }
             }
           ]
         }

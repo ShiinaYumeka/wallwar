@@ -4,13 +4,16 @@
   "key": {
     "1": "minecraft:soul_sand",
     "2": "minecraft:bread",
-    "3": "minecraft:redstone_block",
-    "4": "minecraft:book"
+    "3": "minecraft:apple",
+    "4": "minecraft:grass_block",
+    "5": "minecraft:hay_block",
+    "6": "minecraft:crimson_hyphae",
+    "7": "minecraft:pufferfish"
   },
   "pattern": [
-    "323",
-    "414",
-    "323"
+    "425",
+    "313",
+    "627"
   ],
   "result": {
     "id": "minecraft:villager_spawn_egg",
