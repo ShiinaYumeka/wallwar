@@ -7,7 +7,7 @@
         "1":"minecraft:crimson_hyphae",
         "3":"minecraft:warped_hyphae"
     },
-    "pattern": ["111","131","111"],
+    "pattern": [" 1 ","131"," 1 "],
     "result": {
         "id": "minecraft:piglin_head"
     }
