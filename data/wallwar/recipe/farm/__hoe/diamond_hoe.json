@@ -3,9 +3,9 @@
   "category": "building",
   "show_notification": false,
   "key": {
-    "1": "iron_ingot",
-    "2": "#crop",
-    "3": "#minecraft:cropblock"
+    "1": "#crop",
+    "2": "#crop2",
+    "3": "apple"
   },
   "pattern": [
     "121",

@@ -132,36 +132,41 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:snowball",
+          "name": "minecraft:echo_shard",
           "functions": [
             {
               "function": "set_count",
-              "count": 8
+              "count": 1
             },
             {
               "function": "set_components",
               "components": {
                 "custom_model_data": {
                   "floats": [
-                    3
+                    1
                   ]
                 },
-                "minecraft:item_name": {
-                  "translate": "火焰冲击",
+                "minecraft:custom_name": {
+                  "translate": "灵魂储囊",
                   "italic": false,
-                  "color": "aqua"
+                  "color": "light_purple"
                 },
                 "minecraft:lore": [
                   {
-                    "translate": "召唤一个可以被打出的小火球",
+                    "translate": "丢出后获得二十点灵魂并消耗此物品。",
                     "italic": false,
-                    "color": "red"
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "*放在耳边时可以听到灵魂的悲惨尖叫",
+                    "italic": false,
+                    "color": "dark_red"
                   }
                 ],
-                "minecraft:custom_data": {
-                  "is_snowball": 1
-                },
-                "max_stack_size": 64
+                "custom_data": {
+                  "soul_bag": 1,
+                  "wallwar_item": 1
+                }
               }
             }
           ]
@@ -184,12 +189,12 @@
                 },
                 "minecraft:lore": [
                   {
-                    "translate": "副手持有时，杀死自然刷新怪物时积累一层",
+                    "translate": "副手持有时，击杀非唤灵生物积累一层",
                     "italic": false,
                     "color": "white"
                   },
                   {
-                    "translate": "当到达28层后获得3000点经验值并且消耗此物品",
+                    "translate": "当到达28层后获得2000级经验并且消耗此物品",
                     "italic": false,
                     "color": "white"
                   },

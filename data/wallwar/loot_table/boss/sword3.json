@@ -6,15 +6,27 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:potion",
+                    "name": "minecraft:splash_potion",
                     "functions": [
                         {
                             "function": "set_count",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "function": "set_components",
-                            "components": {"potion_contents": {"potion": "strong_strength"}}
+                            "components": {
+                                "custom_name": {"translate": "冰封药水", "italic": false, "color": "aqua", "bold": true},
+                                "minecraft:lore": [
+                                    {"translate": "喷溅命中后施加缓慢II，持续3分钟", "italic": false, "color": "white"},
+                                    {"translate": "*霜华落处，余烬成冰", "italic": false, "color": "gray"}
+                                ],
+                                "potion_contents": {
+                                    "custom_color": 7251711,
+                                    "custom_effects": [
+                                        {"id": "slowness", "duration": 3600, "amplifier": 1}
+                                    ]
+                                }
+                            }
                         }
                     ]
                 }
@@ -26,10 +38,14 @@
                         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
-          "weight": 3,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_components","components": {"food": {"can_always_eat": true,"nutrition": 4,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 1.4,"on_consume_effects":[{"type": "apply_effects","effects":[{"id": "absorption","duration": 2400,"amplifier": 0},{"id": "regeneration","duration": 140,"amplifier": 1}]}]}}
+            },
+            {
+                "function": "set_count",
+                "count": 5
             }
           ]
         }

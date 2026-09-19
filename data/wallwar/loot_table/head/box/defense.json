@@ -6,6 +6,21 @@
             "entries": [
                 {
                     "type": "minecraft:item",
+                    "name": "minecraft:shield",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
                     "name": "minecraft:leather_helmet",
                     "functions": [
                         {

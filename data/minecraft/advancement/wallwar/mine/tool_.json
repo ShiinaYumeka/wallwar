@@ -15,7 +15,7 @@
   },
   "display": {
     "description": {
-      "translate": "用完一把贪婪者的褒奖"
+      "translate": "用完一把贪婪者的褒奖\n奖励：4紫水晶碎片"
     },
     "icon": {
       "count": 1,
@@ -32,6 +32,9 @@
     ]
   ],
   "rewards": {
+    "loot": [
+      "wallwar:stonk_rew"
+    ],
     "function": "wallwar:system/afk/give"
   },
   "sends_telemetry_event": true

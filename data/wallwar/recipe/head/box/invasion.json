@@ -12,8 +12,8 @@
         "components": {
             "minecraft:item_name": {"translate": "侵入礼盒", "italic": false, "color": "red"},
             "minecraft:lore": [
-                {"translate": "开启后随机获得战斗类特殊道具", "italic": false, "color": "gray"},
-                {"translate": "简易长矛、破舰者、锋针、裂网者、腐蚀药水", "italic": false, "color": "gray"}
+                {"translate": "固定获得16根光灵箭，并随机获得一件战斗道具", "italic": false, "color": "gray"},
+                {"translate": "简易长矛、破舰者、锋针、裂网者、腐蚀药水、微缩炸弹、火焰冲击", "italic": false, "color": "gray"}
             ],
             "minecraft:container_loot": {"loot_table": "wallwar:head/box/invasion"}
         }

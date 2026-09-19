@@ -110,7 +110,7 @@
               },
               "max_stack_size": 16
             },
-            "count": 8
+            "count": 4
           },
           "slot": 1
         },
@@ -212,7 +212,7 @@
               },
               "max_stack_size": 64
             },
-            "count": 4
+            "count": 2
           },
           "slot": 4
         },

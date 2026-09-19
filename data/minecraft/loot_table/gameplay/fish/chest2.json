@@ -871,7 +871,7 @@
                 },
                 "minecraft:lore": [
                   {
-                    "translate": "8饱食 12饱和",
+                    "translate": "8饱食 14饱和",
                     "italic": false,
                     "color": "yellow"
                   },
@@ -884,7 +884,7 @@
                 "food": {
                   "can_always_eat": false,
                   "nutrition": 8,
-                  "saturation": 12
+                  "saturation": 14
                 },
                 "consumable": {
                   "animation": "eat",

@@ -4,12 +4,10 @@
   "show_notification": false,
   "key": {
     "1": "minecraft:shelter_pottery_sherd",
-    "2": "minecraft:egg",
     "3": "minecraft:sugar"
   },
   "pattern": [
-    "3 3",
-    "323",
+    "333",
     "111"
   ],
   "result": {
@@ -37,7 +35,7 @@
           "color": "gray"
         },
         {
-          "translate": "*树莓炒蛋",
+          "translate": "*树莓派是树莓的派",
           "italic": false,
           "color": "gray"
         }

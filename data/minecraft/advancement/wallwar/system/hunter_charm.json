@@ -6,13 +6,6 @@
       "conditions": {
         "entity": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type": "#wallwar:hunter_charm"
-            }
-          },
-          {
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:entity_properties",
@@ -28,11 +21,11 @@
   },
   "display": {
     "description": {
-      "translate": "击杀非唤灵怪物"
+      "translate": "击杀非唤灵生物"
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:resin_clump"
+      "id": "minecraft:honeycomb"
     },
     "show_toast": false,
     "announce_to_chat": false,

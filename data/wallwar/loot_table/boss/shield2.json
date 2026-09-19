@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:splash_potion",
+                    "name": "minecraft:potion",
                     "functions": [
                         {
                             "function": "set_count",
@@ -14,7 +14,7 @@
                         },
                         {
                             "function": "set_components",
-                            "components": {"potion_contents": {"potion": "long_night_vision"}}
+                            "components": {"custom_name": {"translate": "行星药水","italic": false,"color": "light_purple","bold": true},"potion_contents": {"custom_color": 9055202,"custom_effects": [{"id": "haste","duration": 9600,"amplifier": 1}]}}
                         }
                     ]
                 }

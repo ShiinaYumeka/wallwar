@@ -6,6 +6,42 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:spectral_arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 16
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "custom_model_data": {
+                  "floats": [
+                    1
+                  ]
+                },
+                "minecraft:item_name": {
+                  "translate": "光灵箭",
+                  "italic": false
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "*使命中的敌人发光",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_spear",
           "functions": [
             {
@@ -232,6 +268,84 @@
                 "custom_data": {
                   "corrode_potion": 1
                 }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "微缩炸弹",
+                  "italic": false,
+                  "color": "red"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "按Q丢出后破坏周围5x5x5区域的方块，被破坏的方块会掉落",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "translate": "-不会破坏基岩、屏障、命令方块等",
+                    "italic": false,
+                    "color": "white"
+                  },
+                  {
+                    "translate": "*微弱的力量也能替你开出一条生路",
+                    "italic": false,
+                    "color": "gray"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "mini_bomb": 1,
+                  "wallwar_item": 1
+                },
+                "max_stack_size": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 16
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "custom_model_data": {
+                  "floats": [
+                    3
+                  ]
+                },
+                "minecraft:item_name": {
+                  "translate": "火焰冲击",
+                  "italic": false,
+                  "color": "aqua"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "召唤一个可以被打出的小火球",
+                    "italic": false,
+                    "color": "red"
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "is_snowball": 1
+                },
+                "max_stack_size": 64
               }
             }
           ]

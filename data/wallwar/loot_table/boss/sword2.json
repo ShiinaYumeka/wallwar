@@ -6,15 +6,23 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "minecraft:potion",
+                    "name": "minecraft:splash_potion",
                     "functions": [
                         {
                             "function": "set_count",
-                            "count": 1
+                            "count": 2
                         },
                         {
                             "function": "set_components",
-                            "components": {"custom_name": {"translate": "火神药水","italic": false,"color": "red","bold": true},"potion_contents": {"potion": "minecraft:fire_resistance","custom_effects": [{"id": "haste","duration": 9600,"amplifier": 1}]}}
+                            "components": {
+                                "custom_name": {"translate": "烈焰药水", "italic": false, "color": "red", "bold": true},
+                                "minecraft:lore": [
+                                    {"translate": "喷溅命中时，其身上的护甲耐久值扣除50点", "italic": false, "color": "white"},
+                                    {"translate": "*余烬仍不肯熄灭", "italic": false, "color": "gray"}
+                                ],
+                                "potion_contents": {"custom_color": 16733440},
+                                "custom_data": {"corrode_potion": 1}
+                            }
                         }
                     ]
                 }
@@ -26,10 +34,14 @@
                         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
-          "weight": 3,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_components","components": {"food": {"can_always_eat": true,"nutrition": 4,"saturation": 6},"consumable": {"animation":"eat","consume_seconds": 1.4,"on_consume_effects":[{"type": "apply_effects","effects":[{"id": "absorption","duration": 2400,"amplifier": 0},{"id": "regeneration","duration": 140,"amplifier": 1}]}]}}
+            },
+            {
+                "function": "set_count",
+                "count": 5
             }
           ]
         }

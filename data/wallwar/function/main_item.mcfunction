@@ -7,6 +7,7 @@ execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{pokemon_mas
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{observer:1b}}}}] run return run function wallwar:observer/use
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{fishing_zombie:1b}}}}] run return run function wallwar:fishing/zombie
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{death_fight_end:1b}}}}] run return run function wallwar:system/end/item
+execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{mini_bomb:1b}}}}] run return run function wallwar:head/bomb/hit
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{soul_bag:1b}}}}] run return run function wallwar:bag/soul
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{exp_bag:1b}}}}] run return run function wallwar:bag/exp
 execute if entity @s[nbt={Item:{components:{"minecraft:custom_data":{fix_bag:1b}}}}] run return run function wallwar:bag/fix
