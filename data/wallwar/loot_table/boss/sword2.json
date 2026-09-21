@@ -20,8 +20,9 @@
                                     {"translate": "喷溅命中时，其身上的护甲耐久值扣除50点", "italic": false, "color": "white"},
                                     {"translate": "*余烬仍不肯熄灭", "italic": false, "color": "gray"}
                                 ],
-                                "potion_contents": {"custom_color": 16733440},
-                                "custom_data": {"corrode_potion": 1}
+                                "potion_contents": {"potion": "minecraft:long_fire_resistance","custom_color": 16733440},
+                                "custom_data": {"corrode_potion": 1},
+                                "max_stack_size": 2
                             }
                         }
                     ]

@@ -132,7 +132,7 @@
               },
               "max_stack_size": 64
             },
-            "count": 12
+            "count": 8
           },
           "slot": 0
         },
@@ -340,7 +340,7 @@
               "max_stack_size": 4
             },
             "id": "minecraft:splash_potion",
-            "count": 4
+            "count": 2
           },
           "slot": 5
         },
@@ -353,7 +353,7 @@
               "max_stack_size": 4
             },
             "id": "minecraft:splash_potion",
-            "count": 4
+            "count": 2
           },
           "slot": 4
         },

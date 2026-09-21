@@ -25,7 +25,8 @@
                                     "custom_effects": [
                                         {"id": "slowness", "duration": 3600, "amplifier": 1}
                                     ]
-                                }
+                                },
+                                "max_stack_size": 2
                             }
                         }
                     ]
