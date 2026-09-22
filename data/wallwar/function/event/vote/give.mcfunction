@@ -12,5 +12,4 @@ schedule clear wallwar:event/vote/fail
 tag @a remove event_vote_p
 
 gamerule send_command_feedback true
-
-scoreboard players set FUN time 0
+data remove storage wallwar:event_run special[{id:"vote"}]

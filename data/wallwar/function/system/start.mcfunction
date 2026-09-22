@@ -71,6 +71,7 @@ function wallwar:recipe
 
 
 schedule function wallwar:death_fight/random 5s
+execute if score #EVENT time matches 1.. run function wallwar:event/main/copy_pool
 execute if score #EVENT time matches 1.. run schedule function wallwar:event/main/start 10s replace
 
 

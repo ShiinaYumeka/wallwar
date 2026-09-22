@@ -11,7 +11,7 @@ tellraw @a ["",{"translate":"【极限追杀】","bold": true,"color": "red"}]
 tellraw @a ["",{"translate":"<开局事件>","color": "gold"}]
 tellraw @a ["",{"translate":"每个队伍随机选择一名玩家传送至敌人的出生点，死亡后掉落一个玩家头颅","color": "white"}]
 tellraw @a ["",{"translate":"这些玩家获得短暂的无敌与爆发性移动速度，并发光15分钟。","color": "white"}]
-tellraw @a ["",{"translate":"若成功存活40分钟，给予其一个命令方块与一个玩家头颅","color": "white"}]
+tellraw @a ["",{"translate":"若成功存活40分钟，给予其一个连锁命令方块与一个玩家头颅","color": "white"}]
 tellraw @a ["",{"translate":"“In this video .. Five of my friend will ... a handred thousand dollar..”","color": "gray"}]
 tellraw @a ["",{"translate":"-----------------------------------------------------","color": "gray"}]
 

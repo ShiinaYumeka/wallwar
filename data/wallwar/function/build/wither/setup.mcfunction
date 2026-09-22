@@ -12,4 +12,4 @@ scoreboard players set @s wither_armor 0
 scoreboard players set @s wither_health 300
 execute if entity @s[tag=building_wither_clock] run scoreboard players set @s wither_health 200
 
-execute if score #EVENT time matches 1.. if score FUN time matches 34..67 run scoreboard players set FUN time 33
+execute if score #EVENT time matches 1.. run data remove storage wallwar:event_run special[{id:"wither_sp"}]

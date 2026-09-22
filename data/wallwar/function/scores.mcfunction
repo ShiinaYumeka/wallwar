@@ -186,3 +186,5 @@ scoreboard objectives setdisplay below_name HP
 
 
 execute store result bossbar minecraft:gauge value run scoreboard players get GAME time
+
+function wallwar:event/main/init

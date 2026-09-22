@@ -1,6 +1,4 @@
 
-execute if score GAME_PRO time matches 2 run return run function wallwar:event/gift/use
-
 title @a title ["",{"translate":"【圣诞节的足球】","color": "red"}]
 title @a subtitle ["",{"translate":"所有玩家获得抗性提升V与虚弱V持续三分钟","color": "gray"}]
 title @a times 10 40 10

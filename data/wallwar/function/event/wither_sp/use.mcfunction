@@ -1,6 +1,8 @@
 
 
 
+data remove storage wallwar:event_run special[{id:"wither_sp"}]
+
 title @a title ["",{"translate":"【凋零议会】","color": "red"}]
 title @a subtitle ["",{"translate":"死亡的玩家立刻加入凋零队伍并复活","color": "gray"}]
 title @a times 10 40 10

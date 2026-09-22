@@ -22,7 +22,7 @@ execute unless score #BOSS_MODE time matches 1.. run function wallwar:system/mar
 
 execute if score #EVENT time matches 1.. run schedule function wallwar:event/main/norm 10s replace
 execute store result score #temp temp if entity @a[team=!sp,gamemode=spectator,tag=!FIGHT]
-execute if score #EVENT time matches 1.. if score FUN time matches 34..67 if score #temp temp matches ..5 run schedule function wallwar:event/wither_sp/use 20s replace
+execute if score #EVENT time matches 1.. if data storage wallwar:event_run special[{id:"wither_sp"}] if score #temp temp matches ..5 run schedule function wallwar:event/wither_sp/use 20s replace
 
 execute unless score GAME_PRO time matches 6.. as @e[type=item_frame,tag=building_battle] at @s if entity @s[y=-64,dy=154] positioned ~ ~-1 ~ run function wallwar:build/battle/use/main
 execute unless score GAME_PRO time matches 6.. as @e[type=item_frame,tag=building_court] at @s if entity @s[y=30,dy=290] run function wallwar:build/court/mark/main

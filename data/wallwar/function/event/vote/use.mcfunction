@@ -24,4 +24,4 @@ execute unless score 0-0-0-0-1 HELP_ME matches 1.. run scoreboard players set 0-
 
 schedule function wallwar:event/vote/fail 60s replace
 gamerule send_command_feedback false
-scoreboard players set FUN time 0
+data remove storage wallwar:event_run special[{id:"vote"}]

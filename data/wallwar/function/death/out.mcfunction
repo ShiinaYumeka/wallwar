@@ -39,4 +39,4 @@ gamemode spectator @s
 scoreboard players add @s respawn 1
 scoreboard players reset @a kill
 
-execute if score #EVENT time matches 1.. if score FUN time matches 1..33 run function wallwar:event/vote/test
+execute if score #EVENT time matches 1.. if data storage wallwar:event_run special[{id:"vote"}] run function wallwar:event/vote/test

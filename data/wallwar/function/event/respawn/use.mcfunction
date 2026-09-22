@@ -1,7 +1,5 @@
 
 
-execute if score GAME_PRO time matches 2 run return run function wallwar:event/gift/use
-
 title @a title ["",{"translate":"【浴火重生】","color": "red"}]
 title @a subtitle ["",{"translate":"所有队伍玩家随机复活玩家并获得瓦尔基里套装","color": "gray"}]
 title @a times 10 40 10
