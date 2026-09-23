@@ -36,12 +36,12 @@ execute if score @s fishing_use matches 1.. run function wallwar:system/afk/main
 execute if score @s weapon_haku matches 1.. run scoreboard players remove @s weapon_haku 1
 execute if score @s weapon_rokan matches 1.. run scoreboard players remove @s weapon_rokan 1
 
-clear @s potion[potion_contents={potion:harming}]
-clear @s potion[potion_contents={potion:strong_harming}]
-clear @s splash_potion[potion_contents={potion:harming}]
-clear @s splash_potion[potion_contents={potion:strong_harming}]
-clear @s lingering_potion[potion_contents={potion:harming}]
-clear @s lingering_potion[potion_contents={potion:strong_harming}]
+#clear @s potion[potion_contents={potion:harming}]
+#clear @s potion[potion_contents={potion:strong_harming}]
+#clear @s splash_potion[potion_contents={potion:harming}]
+#clear @s splash_potion[potion_contents={potion:strong_harming}]
+#clear @s lingering_potion[potion_contents={potion:harming}]
+#clear @s lingering_potion[potion_contents={potion:strong_harming}]
 #记得删除
 
 execute if entity @e[tag=ctp,tag=event_pig] run function wallwar:event/pig/main
