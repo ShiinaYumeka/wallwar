@@ -1,3 +1,4 @@
+execute if score #ww_phase time matches 3 run return run function wallwar:system/random_teamup/terrain/next_player
 
 
 tag @a remove choosing

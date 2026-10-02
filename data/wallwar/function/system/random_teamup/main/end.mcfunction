@@ -1,3 +1,4 @@
+execute if score #ww_phase time matches 3 run return run function wallwar:system/random_teamup/terrain/finish
 
 execute as @a run function wallwar:system/team/change
 execute if entity @a[scores={tid=99}] run return run function wallwar:system/random_teamup/main/add
