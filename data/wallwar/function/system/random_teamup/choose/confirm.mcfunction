@@ -1,3 +1,5 @@
+execute unless entity @s[tag=leader,tag=choosing] run return 0
+execute if score #ww_phase time matches 1..2 run return 0
 
 
 execute unless entity @a[team=waiting] run return run function wallwar:system/random_teamup/main/end

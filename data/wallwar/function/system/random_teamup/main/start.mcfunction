@@ -1,3 +1,5 @@
+execute unless score GAMEMODE time matches 0 run return 0
+execute if score Teams time matches 4 unless score #BOSS_MODE time matches 1 run return run function wallwar:system/random_teamup/terrain/native_start
 
 
 

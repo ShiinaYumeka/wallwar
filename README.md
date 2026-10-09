@@ -12,5 +12,14 @@
 #初始化
 function wallwar:scores 
 #开始队长分队
-function wallwar:system/random_teamup/main/get_leader
+function wallwar:system/random_teamup/main/start
 
+
+```
+
+## 四队地形选择与反向选人
+
+四名队长确认后随机抽取选地顺序，选完地形后按相反顺序选择队员。
+详见 [操作、桥接接口及验证说明](docs/terrain-draft.md)。
+
+更新源码后运行 `python tools/package_datapack.py` 同步重建 `wallwar.zip`。

@@ -1,3 +1,4 @@
+function wallwar:system/random_teamup/terrain/tick
 
 execute unless score #soul_init const matches 1 run function wallwar:soul/init
 
